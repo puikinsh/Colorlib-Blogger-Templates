@@ -1,0 +1,43 @@
+# Colorlib Blogger Collection
+
+Twenty original niche themes, built from one shared Blogger core. **Version 0.1.0 is a development collection, not a production-ready launch.** The [validation report](docs/VALIDATION.md) records completed checks and release gates. The nine existing Colorlib Blogger products remain independent maintained releases.
+
+## Build and review
+
+Python 3.9+ and Node.js 22+ are sufficient; no npm install is needed. Install Chrome/Chromium for browser regressions; set `CHROME_BIN` if automatic detection does not find it. CI requires Chrome rather than skipping those tests.
+
+```sh
+python3 tools/build.py --packages
+python3 tools/check.py
+node --test tests/*.test.cjs
+python3 -m http.server 8765 --directory build
+```
+
+Open `http://localhost:8765/` for the catalog. Each theme has home, article, archive, search, static, empty and error review views, plus `responsive.html` with 320/375/768px review panels; twelve distinct article titles and an original SVG cover set; a self-contained theme XML; a separate demo-content export; an owner-editable post-format example; setup and asset documentation. The static views demonstrate the design and do not emulate Blogger's template engine.
+
+`build/packages/` contains twenty preview ZIPs and `SHA256SUMS`. These are intentionally named preview packages. Do not replace the maintained nine templates' production downloads with them.
+
+The default demo artwork base points to the planned collection repository and preview branch; it is not live yet. Before a Blogger import, publish the original assets at an owned HTTPS location and rebuild with `BLOGGER_ASSET_BASE=https://your-host/assets python3 tools/build.py --packages`. Local previews work without publishing anything.
+
+## Source organization
+
+- `core/`: shared XML structure, native comment includables, CSS and progressive enhancements.
+- `themes/<slug>/`: independent palette/type settings, home composition, CSS, topics, content format and demo text.
+- `assets/<slug>/`: original vector artwork, also copied into local previews and packages.
+- `tools/`: build, content/art generation and validation. Normal builds do not overwrite the theme configuration, welcome HTML or CSS.
+- `tests/`: runtime/structure regressions and browser checks.
+- `docs/`: approved roadmap, owner editing, architecture and validation status.
+
+The catalog spans recipes, travel, education, technology reviews, DIY, fashion/beauty, parenting, pets, books, gaming, podcasts/video, gardening, fitness/wellbeing, finance education, film/TV, community publishing, freelance portfolios, product/company blogs, events and nonprofit publishing. See [the roadmap](docs/ROADMAP.md) for individual briefs and batch order.
+
+## Owner configuration
+
+The header title/description, logo and pages use native Blogger widgets/settings. The homepage introduction and topic links live in a Layout HTML widget; the featured article is Blogger's first rendered post. Color controls are exposed through Theme Designer. Post formats are ordinary HTML that owners can paste into a post or save as a Blogger post template.
+
+Pagination always uses Blogger's crawlable Older/Newer URLs. The base theme does not depend on feed requests, a CSS framework, an icon font or a JavaScript framework. Optional article enhancements use DOM text and native controls. Payment, bookings, donation checkout, podcast hosting and gated learning platforms remain external services chosen by the owner.
+
+## Release gates
+
+Every theme needs XML/JS/schema checks; phone/desktop and keyboard checks; an actual Blogger import; review of native comments and mobile rendering; realistic, owner-ready demo content; and a checksummed package matching its public demo. Original demonstration identities, projects and editorial templates must not be presented as actual reporting, tests, endorsements or professional instructions. Search markup is derived only from supplied content, without invented ratings or results.
+
+Shared fixes belong in `core/`, followed by rebuilding and verifying the full catalog. Individual theme layout changes belong in that theme's source directory. GPL v3 license text is included; original vector illustrations share the package's license.

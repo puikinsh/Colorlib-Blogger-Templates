@@ -1,0 +1,30 @@
+{
+  "name": "Bench",
+  "slug": "bench",
+  "batch": 1,
+  "audience": "Technology and product reviews",
+  "accent": "#b43b22",
+  "paper": "#f5f4ee",
+  "ink": "#222621",
+  "soft": "#e8e7df",
+  "heading_font": "ui-monospace,monospace",
+  "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
+  "promise": "Less hype. Better decisions.",
+  "topics": [
+    "Reviews",
+    "Comparisons",
+    "Guides"
+  ],
+  "feature": "review",
+  "layout": "laboratory",
+  "version": "0.1.0",
+  "stage": "development",
+  "intro": "Considered reviews, transparent methods, and the details that matter when choosing the things you use every day.",
+  "note": "Start with a topic, stay for a story, and make this space your own.",
+  "feed_kicker": "Notes from the test desk",
+  "feed_title": "On the bench",
+  "feed_note": "Read at your own pace.",
+  "read_label": "Read the review",
+  "art_mark": "+",
+  "footer_copy": "Less hype. Better decisions."
+}

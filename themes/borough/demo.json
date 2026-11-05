@@ -1,0 +1,74 @@
+[
+  {
+    "title": "A new chapter for the neighbourhood garden",
+    "label": "Around town",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 1
+  },
+  {
+    "title": "What is happening this weekend",
+    "label": "Events",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 2
+  },
+  {
+    "title": "A conversation at the local workshop",
+    "label": "Community",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 3
+  },
+  {
+    "title": "The community noticeboard, made useful",
+    "label": "Around town",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 4
+  },
+  {
+    "title": "A walking route through familiar streets",
+    "label": "Events",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 5
+  },
+  {
+    "title": "Meet an imaginary local maker",
+    "label": "Community",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 6
+  },
+  {
+    "title": "How we put together an event listing",
+    "label": "Around town",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 7
+  },
+  {
+    "title": "A guide to our community resource page",
+    "label": "Events",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 8
+  },
+  {
+    "title": "The small spaces that bring people together",
+    "label": "Community",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 9
+  },
+  {
+    "title": "Notes from an open afternoon",
+    "label": "Around town",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 10
+  },
+  {
+    "title": "A local story worth following up",
+    "label": "Events",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 11
+  },
+  {
+    "title": "What we heard at the community table",
+    "label": "Community",
+    "intro": "An original demonstration article for the Borough theme. This example shows how to organise a clear, useful event page without unnecessary decoration.",
+    "index": 12
+  }
+]

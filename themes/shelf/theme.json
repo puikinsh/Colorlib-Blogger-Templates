@@ -1,0 +1,30 @@
+{
+  "name": "Shelf",
+  "slug": "shelf",
+  "batch": 3,
+  "audience": "Books, reading and authors",
+  "accent": "#65432f",
+  "paper": "#f6f1e7",
+  "ink": "#2c2923",
+  "soft": "#e7dcc8",
+  "heading_font": "Georgia,serif",
+  "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
+  "promise": "One more chapter.",
+  "topics": [
+    "Reading notes",
+    "Essays",
+    "Reading lists"
+  ],
+  "feature": "book",
+  "layout": "library",
+  "version": "0.1.0",
+  "stage": "development",
+  "intro": "A thoughtful journal for books, reading and authors. Useful stories, considered details, and room to explore what matters to you.",
+  "note": "Start with a topic, stay for a story, and make this space your own.",
+  "feed_kicker": "From the journal",
+  "feed_title": "The latest stories",
+  "feed_note": "Read at your own pace.",
+  "read_label": "Read the story",
+  "art_mark": "S",
+  "footer_copy": "One more chapter."
+}

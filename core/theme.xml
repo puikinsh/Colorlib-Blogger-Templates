@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<!-- @@NAME@@ — Colorlib Blogger Collection
+Version: 0.1.0
+Source: https://github.com/puikinsh/Colorlib-Blogger-Templates
+License: GPL-3.0. Development build; see the validation report before production use.
+-->
+<html b:css='false' b:version='2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset='utf-8'/>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <title><data:blog.pageTitle/></title>
+  <b:include data='blog' name='all-head-content'/>
+  <meta content='summary_large_image' name='twitter:card'/>
+  <meta expr:content='data:blog.pageTitle' name='twitter:title'/>
+  <b:if cond='data:blog.metaDescription'><meta expr:content='data:blog.metaDescription' name='twitter:description'/></b:if>
+  <b:if cond='data:blog.postImageUrl'><meta expr:content='data:blog.postImageUrl' name='twitter:image'/></b:if>
+  <script type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","name":"<data:blog.title.jsonEscaped/>","url":"<data:blog.homepageUrl.canonical.jsonEscaped/>"}</script>
+  <b:skin><![CDATA[
+/* Theme Designer variables
+<Variable name="brand.accent" description="Accent" type="color" default="@@ACCENT@@" value="@@ACCENT@@"/>
+<Variable name="brand.paper" description="Background" type="color" default="@@PAPER@@" value="@@PAPER@@"/>
+<Variable name="brand.ink" description="Text" type="color" default="@@INK@@" value="@@INK@@"/>
+*/
+:root{--accent:$(brand.accent);--paper:$(brand.paper);--ink:$(brand.ink);--soft:@@SOFT@@;--heading:@@HEADING_FONT@@;--body:@@BODY_FONT@@}
+@@CSS@@
+@@THEME_CSS@@
+  ]]></b:skin>
+</head>
+<body class='theme-@@SLUG@@'>
+<a class='cl-skip' href='#main-content'>Skip to content</a>
+<div class='cl-shell'>
+  <header class='cl-header'>
+    <b:section class='cl-brand-section' id='branding' maxwidgets='1' showaddelement='no'>
+      <b:widget id='Header1' locked='true' title='@@NAME@@' type='Header' version='1'>
+        <b:widget-settings><b:widget-setting name='displayUrl'/><b:widget-setting name='displayHeight'>0</b:widget-setting><b:widget-setting name='useImage'>false</b:widget-setting><b:widget-setting name='shrinkToFit'>true</b:widget-setting><b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting><b:widget-setting name='displayWidth'>0</b:widget-setting></b:widget-settings>
+        <b:includable id='main'>
+          <b:if cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;,&quot;error_page&quot;}'>
+            <h1 class='cl-brand'><a expr:href='data:blog.homepageUrl'><b:if cond='data:useImage'><img expr:alt='data:title' expr:src='data:sourceUrl'/><span class='cl-sr-only'><data:title/></span><b:else/><data:title/></b:if></a></h1>
+          <b:else/>
+            <p class='cl-brand'><a expr:href='data:blog.homepageUrl'><b:if cond='data:useImage'><img expr:alt='data:title' expr:src='data:sourceUrl'/><b:else/><data:title/></b:if></a></p>
+          </b:if>
+          <b:if cond='data:description'><p class='cl-brand-description'><data:description/></p></b:if>
+        </b:includable>
+      </b:widget>
+    </b:section>
+    <nav aria-label='Main menu' class='cl-primary-nav'>
+      <b:section id='navigation' maxwidgets='1' showaddelement='no'>
+        <b:widget id='PageList1' locked='true' title='Pages' type='PageList' version='1'>
+          <b:includable id='main'><ul><b:loop values='data:links' var='link'><li><a expr:href='data:link.href'><b:if cond='data:link.isCurrentPage'><b:attr name='aria-current' value='page'/></b:if><data:link.title/></a></li></b:loop></ul></b:includable>
+        </b:widget>
+      </b:section>
+    </nav>
+    <form action='/search' class='cl-search' method='get' role='search'><label class='cl-sr-only' for='cl-search'>Search this blog</label><input id='cl-search' name='q' placeholder='Search stories…' type='search'/><button type='submit'>Search</button></form>
+  </header>
+  <b:if cond='data:blog.url == data:blog.homepageUrl'>
+    <b:section class='cl-welcome-section' id='welcome' maxwidgets='1' name='Homepage introduction' showaddelement='no'>
+      <b:widget id='HTML1' locked='true' title='Homepage introduction' type='HTML' version='1'>
+        <b:widget-settings><b:widget-setting name='content'><![CDATA[@@WELCOME@@]]></b:widget-setting></b:widget-settings>
+        <b:includable id='main'><data:content/></b:includable>
+      </b:widget>
+    </b:section>
+  </b:if>
+  <main id='main-content' tabindex='-1'>
+    <b:section id='main' maxwidgets='1' showaddelement='no'>
+      <b:widget id='Blog1' locked='true' title='Posts' type='Blog' version='1'>
+        <b:widget-settings><b:widget-setting name='showDateHeader'>false</b:widget-setting><b:widget-setting name='showAuthor'>true</b:widget-setting><b:widget-setting name='showCommentLink'>true</b:widget-setting><b:widget-setting name='showInlineAds'>false</b:widget-setting><b:widget-setting name='showReactions'>false</b:widget-setting><b:widget-setting name='showShareButtons'>false</b:widget-setting><b:widget-setting name='showLabels'>true</b:widget-setting><b:widget-setting name='showTimestamp'>true</b:widget-setting></b:widget-settings>
+        <b:includable id='main' var='top'>
+          <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+            <section class='cl-empty'><p class='cl-kicker'>A small detour</p><h1>This page has moved on.</h1><p>Try the search above, or return to the latest stories.</p><a class='cl-button' expr:href='data:blog.homepageUrl'>Back to the journal</a></section>
+          <b:elseif cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'/>
+            <b:loop values='data:posts' var='post'><b:include data='post' name='post'/></b:loop>
+          <b:else/>
+            <b:if cond='data:blog.url == data:blog.homepageUrl'><b:include name='home-hero'/></b:if>
+            <b:if cond='data:navMessage'><p class='cl-status'><data:navMessage/></p></b:if>
+            <section aria-labelledby='feed-heading' class='cl-feed' id='post-feed'>
+              <div class='cl-section-heading'><div><p class='cl-kicker'>@@FEED_KICKER@@</p><h2 id='feed-heading'>@@FEED_TITLE@@</h2></div><span class='cl-small'>@@FEED_NOTE@@</span></div>
+              <div class='cl-post-grid'>
+                <b:loop values='data:posts' var='post'><b:if cond='data:blog.url != data:blog.homepageUrl or !data:post.isFirstPost'><b:include data='post' name='post-card'/></b:if></b:loop>
+              </div>
+              <b:if cond='data:numPosts == 0'><div class='cl-empty'><h3>No stories here yet.</h3><p>Try a different topic or visit the home page.</p><a expr:href='data:blog.homepageUrl'>Browse all stories</a></div></b:if>
+            </section>
+            <b:include name='nextprev'/>
+          </b:if>
+        </b:includable>
+        <b:includable id='home-hero'>
+@@HOME@@
+        </b:includable>
+        <b:includable id='featured-post' var='post'>
+          <article class='cl-featured'>
+            <a class='cl-featured-image' expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><img decoding='async' expr:alt='data:post.title' expr:src='data:post.firstImageUrl' fetchpriority='high' height='720' width='960'/><b:else/><span aria-hidden='true' class='cl-art-fallback'>@@ART_MARK@@</span></b:if></a>
+            <div class='cl-featured-copy'><p class='cl-kicker'>Editor's pick</p><h3><a expr:href='data:post.url'><data:post.title/></a></h3><p><data:post.snippet/></p><a class='cl-text-link' expr:href='data:post.url'>@@READ_LABEL@@ <span aria-hidden='true'>↗</span></a></div>
+          </article>
+        </b:includable>
+        <b:includable id='post-card' var='post'>
+          <article class='cl-card'>
+            <a class='cl-card-image' expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><img decoding='async' expr:alt='data:post.title' expr:src='data:post.firstImageUrl' height='600' loading='lazy' width='800'/><b:else/><span aria-hidden='true' class='cl-art-fallback'>@@ART_MARK@@</span></b:if></a>
+            <div class='cl-card-copy'><b:if cond='data:post.labels'><p class='cl-kicker'><b:loop values='data:post.labels' var='label'><b:if cond='data:label.isFirst'><a expr:href='data:label.url'><data:label.name/></a></b:if></b:loop></p></b:if><h3><a expr:href='data:post.url'><data:post.title/></a></h3><p><data:post.snippet/></p><div class='cl-card-meta'><span><data:post.author/></span><time expr:datetime='data:post.timestampISO8601'><data:post.timestamp/></time></div></div>
+          </article>
+        </b:includable>
+        <b:includable id='post' var='post'>
+          <article class='cl-article' expr:data-author='data:post.author' expr:data-canonical='data:post.url.canonical'>
+            <header class='cl-article-header'><a class='cl-back-link' expr:href='data:blog.homepageUrl'>← All stories</a><div class='cl-tags'><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url'><data:label.name/></a></b:loop></div><h1><data:post.title/></h1><b:if cond='data:blog.pageType == &quot;item&quot;'><p class='cl-byline'>By <span><data:post.author/></span> <span aria-hidden='true'>·</span> <time expr:datetime='data:post.timestampISO8601'><data:post.timestamp/></time></p></b:if></header>
+            <div class='cl-reading-layout'><aside aria-label='On this page' class='cl-toc' hidden='hidden'/><div class='cl-prose post-body'><data:post.body/></div></div>
+            <b:if cond='data:blog.pageType == &quot;item&quot;'><footer class='cl-article-footer'><p>Continue exploring</p><div class='cl-tags'><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url'><data:label.name/></a></b:loop></div></footer><b:include data='post' name='article-schema'/><b:include name='nextprev'/><b:include data='post' name='comment_picker'/></b:if>
+          </article>
+        </b:includable>
+        <b:includable id='article-schema' var='post'>
+          <script type='application/ld+json'>{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"<data:post.url.canonical.jsonEscaped/>"},"headline":"<data:post.title.jsonEscaped/>",<b:if cond='data:post.firstImageUrl'>"image":"<data:post.firstImageUrl.jsonEscaped/>",</b:if>"datePublished":"<data:post.timestampISO8601.jsonEscaped/>",<b:if cond='data:post.lastUpdatedISO8601'>"dateModified":"<data:post.lastUpdatedISO8601.jsonEscaped/>",</b:if>"author":{"@type":"Person","name":"<data:post.author.jsonEscaped/>"},"publisher":{"@type":"Organization","name":"<data:blog.title.jsonEscaped/>"},"url":"<data:post.url.canonical.jsonEscaped/>"}</script>
+        </b:includable>
+        <b:includable id='nextprev'>
+          <nav aria-label='Post navigation' class='cl-pager' id='blog-pager'><b:if cond='data:newerPageUrl'><a class='blog-pager-newer-link' expr:href='data:newerPageUrl'>← <data:newerPageTitle/></a></b:if><a class='cl-pager-home' expr:href='data:blog.homepageUrl'>Home</a><b:if cond='data:olderPageUrl'><a class='blog-pager-older-link' expr:href='data:olderPageUrl'><data:olderPageTitle/> →</a></b:if></nav>
+        </b:includable>
+        <b:includable id='mobile-main' var='top'><b:include data='top' name='main'/></b:includable>
+        <b:includable id='mobile-post' var='post'><b:include data='post' name='post'/></b:includable>
+@@COMMENTS@@
+      </b:widget>
+    </b:section>
+  </main>
+  <section aria-label='Explore more' class='cl-extra-widgets'><b:section id='extras' name='Extra widgets' preferred='yes' showaddelement='yes'/></section>
+  <footer class='cl-footer'><div><a class='cl-footer-brand' expr:href='data:blog.homepageUrl'><data:blog.title/></a><p>@@FOOTER_COPY@@</p></div><p>© <span data-current-year='true'>2026</span> · Theme by <a href='https://colorlib.com/'>Colorlib</a></p></footer>
+</div>
+<script type='text/javascript'>//<![CDATA[
+@@JS@@
+//]]></script>
+</body>
+</html>

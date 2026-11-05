@@ -1,0 +1,30 @@
+{
+  "name": "Kinship",
+  "slug": "kinship",
+  "batch": 2,
+  "audience": "Parenting and family stories",
+  "accent": "#754b30",
+  "paper": "#fffaf2",
+  "ink": "#332d27",
+  "soft": "#f1e4cf",
+  "heading_font": "Georgia,serif",
+  "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
+  "promise": "The little things are the big things.",
+  "topics": [
+    "Everyday",
+    "Activities",
+    "Family stories"
+  ],
+  "feature": "checklist",
+  "layout": "journal",
+  "version": "0.1.0",
+  "stage": "development",
+  "intro": "A thoughtful journal for parenting and family stories. Useful stories, considered details, and room to explore what matters to you.",
+  "note": "Start with a topic, stay for a story, and make this space your own.",
+  "feed_kicker": "From the journal",
+  "feed_title": "The latest stories",
+  "feed_note": "Read at your own pace.",
+  "read_label": "Read the story",
+  "art_mark": "K",
+  "footer_copy": "The little things are the big things."
+}

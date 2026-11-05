@@ -1,0 +1,74 @@
+[
+  {
+    "title": "A product note about a smaller first step",
+    "label": "Product notes",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 1
+  },
+  {
+    "title": "Write a useful getting-started guide",
+    "label": "Tutorials",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 2
+  },
+  {
+    "title": "A release note that explains the change",
+    "label": "Company",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 3
+  },
+  {
+    "title": "The questions we heard in a demo",
+    "label": "Product notes",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 4
+  },
+  {
+    "title": "Build a readable help index",
+    "label": "Tutorials",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 5
+  },
+  {
+    "title": "A company update without the jargon",
+    "label": "Company",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 6
+  },
+  {
+    "title": "From customer question to clear tutorial",
+    "label": "Product notes",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 7
+  },
+  {
+    "title": "How we document a product decision",
+    "label": "Tutorials",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 8
+  },
+  {
+    "title": "A better outline for a feature announcement",
+    "label": "Company",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 9
+  },
+  {
+    "title": "What belongs on a status update",
+    "label": "Product notes",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 10
+  },
+  {
+    "title": "An example workflow, step by step",
+    "label": "Tutorials",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 11
+  },
+  {
+    "title": "Our next iteration starts with a question",
+    "label": "Company",
+    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
+    "index": 12
+  }
+]

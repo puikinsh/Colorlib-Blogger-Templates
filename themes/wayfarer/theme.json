@@ -1,0 +1,30 @@
+{
+  "name": "Wayfarer",
+  "slug": "wayfarer",
+  "batch": 1,
+  "audience": "Destination and travel guides",
+  "accent": "#215747",
+  "paper": "#f7f9f5",
+  "ink": "#18372e",
+  "soft": "#dce9df",
+  "heading_font": "Georgia,serif",
+  "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
+  "promise": "Go a little further.",
+  "topics": [
+    "Lisbon",
+    "Kyoto",
+    "Copenhagen"
+  ],
+  "feature": "itinerary",
+  "layout": "atlas",
+  "version": "0.1.0",
+  "stage": "development",
+  "intro": "Thoughtful destination guides for people who prefer a good walk to a packed schedule. Start with a place, leave room for discovery.",
+  "note": "Start with a topic, stay for a story, and make this space your own.",
+  "feed_kicker": "Places, thoughtfully explored",
+  "feed_title": "Postcards & practical notes",
+  "feed_note": "Read at your own pace.",
+  "read_label": "Open the guide",
+  "art_mark": "↗",
+  "footer_copy": "Go a little further."
+}

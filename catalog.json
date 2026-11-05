@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "saffron",
+    "name": "Saffron",
+    "batch": 1,
+    "audience": "Food and recipes",
+    "feature": "recipe",
+    "stage": "development"
+  },
+  {
+    "slug": "wayfarer",
+    "name": "Wayfarer",
+    "batch": 1,
+    "audience": "Destination and travel guides",
+    "feature": "itinerary",
+    "stage": "development"
+  },
+  {
+    "slug": "lesson",
+    "name": "Lesson",
+    "batch": 1,
+    "audience": "Education and tutorials",
+    "feature": "lesson",
+    "stage": "development"
+  },
+  {
+    "slug": "bench",
+    "name": "Bench",
+    "batch": 1,
+    "audience": "Technology and product reviews",
+    "feature": "review",
+    "stage": "development"
+  },
+  {
+    "slug": "maker",
+    "name": "Maker",
+    "batch": 2,
+    "audience": "DIY and home projects",
+    "feature": "project",
+    "stage": "development"
+  },
+  {
+    "slug": "muse",
+    "name": "Muse",
+    "batch": 2,
+    "audience": "Fashion and beauty",
+    "feature": "lookbook",
+    "stage": "development"
+  },
+  {
+    "slug": "kinship",
+    "name": "Kinship",
+    "batch": 2,
+    "audience": "Parenting and family stories",
+    "feature": "checklist",
+    "stage": "development"
+  },
+  {
+    "slug": "companion",
+    "name": "Companion",
+    "batch": 2,
+    "audience": "Pets and animal enthusiasts",
+    "feature": "care",
+    "stage": "development"
+  },
+  {
+    "slug": "shelf",
+    "name": "Shelf",
+    "batch": 3,
+    "audience": "Books, reading and authors",
+    "feature": "book",
+    "stage": "development"
+  },
+  {
+    "slug": "playbook",
+    "name": "Playbook",
+    "batch": 3,
+    "audience": "Gaming news, reviews and guides",
+    "feature": "game",
+    "stage": "development"
+  },
+  {
+    "slug": "soundboard",
+    "name": "Soundboard",
+    "batch": 3,
+    "audience": "Podcasts and video creators",
+    "feature": "episode",
+    "stage": "development"
+  },
+  {
+    "slug": "verdant",
+    "name": "Verdant",
+    "batch": 3,
+    "audience": "Gardening and plants",
+    "feature": "plant",
+    "stage": "development"
+  },
+  {
+    "slug": "pace",
+    "name": "Pace",
+    "batch": 4,
+    "audience": "Fitness and wellbeing publishing",
+    "feature": "routine",
+    "stage": "development"
+  },
+  {
+    "slug": "ledger",
+    "name": "Ledger",
+    "batch": 4,
+    "audience": "Personal finance education",
+    "feature": "budget",
+    "stage": "development"
+  },
+  {
+    "slug": "screen",
+    "name": "Screen",
+    "batch": 4,
+    "audience": "Film, television and entertainment",
+    "feature": "spoiler",
+    "stage": "development"
+  },
+  {
+    "slug": "borough",
+    "name": "Borough",
+    "batch": 4,
+    "audience": "Local news and community groups",
+    "feature": "event",
+    "stage": "development"
+  },
+  {
+    "slug": "studio",
+    "name": "Studio",
+    "batch": 5,
+    "audience": "Freelancers and creative services",
+    "feature": "case-study",
+    "stage": "development"
+  },
+  {
+    "slug": "launchpad",
+    "name": "Launchpad",
+    "batch": 5,
+    "audience": "Startup, SaaS and consultancy content",
+    "feature": "release",
+    "stage": "development"
+  },
+  {
+    "slug": "ceremony",
+    "name": "Ceremony",
+    "batch": 5,
+    "audience": "Weddings and event professionals",
+    "feature": "event-story",
+    "stage": "development"
+  },
+  {
+    "slug": "cause",
+    "name": "Cause",
+    "batch": 5,
+    "audience": "Nonprofits and volunteer groups",
+    "feature": "impact",
+    "stage": "development"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Start here: a page that explains one idea",
+    "label": "Foundations",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 1
+  },
+  {
+    "title": "Your first semantic HTML document",
+    "label": "Foundations",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 2
+  },
+  {
+    "title": "Links, lists and a useful navigation",
+    "label": "Foundations",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 3
+  },
+  {
+    "title": "Images that make sense without the picture",
+    "label": "Foundations",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 4
+  },
+  {
+    "title": "A form people can actually use",
+    "label": "Foundations",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 5
+  },
+  {
+    "title": "HTML foundations: your first complete page",
+    "label": "Foundations",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 6
+  },
+  {
+    "title": "Start here: the CSS layout path",
+    "label": "Projects",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 7
+  },
+  {
+    "title": "Understand space before adding decoration",
+    "label": "Projects",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 8
+  },
+  {
+    "title": "A responsive grid in a few clear steps",
+    "label": "Projects",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 9
+  },
+  {
+    "title": "Make typography do the hard work",
+    "label": "Projects",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 10
+  },
+  {
+    "title": "A keyboard-first interface check",
+    "label": "Projects",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 11
+  },
+  {
+    "title": "Publish and review your first project",
+    "label": "Projects",
+    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
+    "index": 12
+  }
+]

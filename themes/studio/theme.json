@@ -1,0 +1,30 @@
+{
+  "name": "Studio",
+  "slug": "studio",
+  "batch": 5,
+  "audience": "Freelancers and creative services",
+  "accent": "#4b4b9d",
+  "paper": "#f7f7f2",
+  "ink": "#202129",
+  "soft": "#e8e7f2",
+  "heading_font": "ui-sans-serif,system-ui,sans-serif",
+  "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
+  "promise": "Thoughtful work. Clear stories.",
+  "topics": [
+    "Case studies",
+    "Process",
+    "Notes"
+  ],
+  "feature": "case-study",
+  "layout": "casebook",
+  "version": "0.1.0",
+  "stage": "development",
+  "intro": "A thoughtful journal for freelancers and creative services. Useful stories, considered details, and room to explore what matters to you.",
+  "note": "Start with a topic, stay for a story, and make this space your own.",
+  "feed_kicker": "From the journal",
+  "feed_title": "The latest stories",
+  "feed_note": "Read at your own pace.",
+  "read_label": "Read the story",
+  "art_mark": "S",
+  "footer_copy": "Thoughtful work. Clear stories."
+}

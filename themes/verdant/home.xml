@@ -1,0 +1,1 @@
+<section aria-label='Featured story' class='cl-hero cl-home-botanical'><b:loop values='data:posts' var='post'><b:if cond='data:post.isFirstPost'><b:include data='post' name='featured-post'/></b:if></b:loop></section>

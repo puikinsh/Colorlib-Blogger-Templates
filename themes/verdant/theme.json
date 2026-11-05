@@ -1,0 +1,30 @@
+{
+  "name": "Verdant",
+  "slug": "verdant",
+  "batch": 3,
+  "audience": "Gardening and plants",
+  "accent": "#41613a",
+  "paper": "#f6f7ed",
+  "ink": "#293325",
+  "soft": "#e4e8d2",
+  "heading_font": "Georgia,serif",
+  "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
+  "promise": "A little greener, every day.",
+  "topics": [
+    "Plant notes",
+    "Seasonal",
+    "Garden projects"
+  ],
+  "feature": "plant",
+  "layout": "botanical",
+  "version": "0.1.0",
+  "stage": "development",
+  "intro": "A thoughtful journal for gardening and plants. Useful stories, considered details, and room to explore what matters to you.",
+  "note": "Start with a topic, stay for a story, and make this space your own.",
+  "feed_kicker": "From the journal",
+  "feed_title": "The latest stories",
+  "feed_note": "Read at your own pace.",
+  "read_label": "Read the story",
+  "art_mark": "V",
+  "footer_copy": "A little greener, every day."
+}
