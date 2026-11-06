@@ -16,7 +16,7 @@ Updated November 6, 2026. These packages are prepared for development testing, n
 - **Comment publishing:** Lesson’s reply failed again during the retry; a new-comment attempt under Bench returned the same Blogger failure. Complete Lesson’s reply and publication/reply checks for the other seventeen themes. The cause remains unknown; no CAPTCHA challenge appeared.
 - **Complete demo imports:** the retry accepted all twelve Saffron posts and all twelve Wayfarer posts into the shared lab; titles, labels, timestamps, feature blocks and pinned artwork URLs were verified. Lesson then hit Blogger’s import attempt limit twice. The remaining eighteen exports are unverified. See the [retry matrix](BLOGGER-RETRY.md).
 - **Live performance:** DevTools was unavailable; the owner chose to document the gap. No measured live Core Web Vitals or Lighthouse score is claimed.
-- Physical-device review, third-party player playback/failure checks and coherent per-theme editorial acceptance remain open. Recipe samples have not been kitchen-tested.
+- **Media/editorial:** all twenty local previews passed YouTube playback and shared recovery checks; Vimeo returned a supported-browser error. Native Blogger playback, audible output, physical-device/provider acceptance and final editorial approval remain open. All 240 samples are explicitly editing briefs; recipes remain untested. See the [media/editorial review](MEDIA-EDITORIAL-REVIEW.md).
 
 Blogger's native timestamp cursor can skip a post when identical publication times straddle a pagination boundary. Keep demonstration publication timestamps distinct and verify page-size changes. The theme preserves native navigation URLs.
 

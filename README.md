@@ -52,10 +52,12 @@ Latest platform retry: Saffron/Wayfarer added all 24 demo posts; Blogger then li
 
 ## Release staging
 
-After committing a validated source revision, run `python3 tools/stage_release.py --version 0.1.0-preview.2`. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.
+After committing a validated source revision, choose a new unpublished version, for example `python3 tools/stage_release.py --version 0.1.0-preview.3`. Never reuse the published preview.2 version for changed source. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.
 
 ## Release gates
 
 Every theme needs XML/JS/schema checks; phone/desktop and keyboard checks; an actual Blogger import; review of native comments and mobile rendering; realistic, owner-ready demo content; and a checksummed package matching its public demo. Original demonstration identities, projects and editorial templates must not be presented as actual reporting, tests, endorsements or professional instructions. Search markup is derived only from supplied content, without invented ratings or results.
 
 Shared fixes belong in `core/`, followed by rebuilding and verifying the full catalog. Individual theme layout changes belong in that theme's source directory. GPL v3 license text is included; original vector illustrations share the package's license.
+
+Latest media/editorial pass: all twenty local designs passed YouTube playback and recovery; Vimeo returned a supported-browser error. All 240 samples now have distinct editing briefs. See [the media/editorial results and remaining gates](docs/MEDIA-EDITORIAL-REVIEW.md). These source fixes are newer than the frozen preview.2 downloads.

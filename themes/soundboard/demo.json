@@ -3,72 +3,84 @@
     "title": "A conversation about starting small",
     "label": "Episodes",
     "intro": "A sample conversation page with room for episode notes and a transcript.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Label the opening conversation as a fictional script."
   },
   {
     "title": "What a good question sounds like",
     "label": "Transcripts",
     "intro": "A notebook for questions that leave room for a thoughtful answer.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Explain the purpose of each interview question."
   },
   {
     "title": "Episode notes that people can use",
     "label": "Behind the mic",
     "intro": "Organise the people, ideas, and references mentioned in a conversation.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Match episode notes to a real recording."
   },
   {
     "title": "A transcript is part of the experience",
     "label": "Episodes",
     "intro": "Give readers a clear text version alongside the episode notes.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Check transcript wording against the final audio."
   },
   {
     "title": "Behind the mic: our recording checklist",
     "label": "Transcripts",
     "intro": "A practical checklist for preparing a conversation before recording.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "Record equipment settings without exposing private files."
   },
   {
     "title": "An interview with a local maker",
     "label": "Behind the mic",
     "intro": "An interview-page format for listening to the story behind the work.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Obtain guest consent and confirm names before publishing."
   },
   {
     "title": "How we structure an episode page",
     "label": "Episodes",
     "intro": "Keep the introduction, references, and transcript easy to find.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "Keep player chapters and transcript together."
   },
   {
     "title": "A short field-recording diary",
     "label": "Transcripts",
-    "intro": "An original demonstration article for the Soundboard theme. This example shows how to organise a clear, useful episode page without unnecessary decoration.",
-    "index": 8
+    "intro": "Record location permissions and the recording date. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Record location permissions and the recording date."
   },
   {
     "title": "The useful pause in a conversation",
     "label": "Behind the mic",
-    "intro": "An original demonstration article for the Soundboard theme. This example shows how to organise a clear, useful episode page without unnecessary decoration.",
-    "index": 9
+    "intro": "Mark a deliberate pause without inventing a quotation. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Mark a deliberate pause without inventing a quotation."
   },
   {
     "title": "A listening list for the weekend",
     "label": "Episodes",
-    "intro": "An original demonstration article for the Soundboard theme. This example shows how to organise a clear, useful episode page without unnecessary decoration.",
-    "index": 10
+    "intro": "Credit and link each item on the listening list. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Credit and link each item on the listening list."
   },
   {
     "title": "From rough outline to published episode",
     "label": "Transcripts",
-    "intro": "An original demonstration article for the Soundboard theme. This example shows how to organise a clear, useful episode page without unnecessary decoration.",
-    "index": 11
+    "intro": "Separate recording editing and publication steps. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Separate recording editing and publication steps."
   },
   {
     "title": "What we learned in our first season",
     "label": "Behind the mic",
-    "intro": "An original demonstration article for the Soundboard theme. This example shows how to organise a clear, useful episode page without unnecessary decoration.",
-    "index": 12
+    "intro": "Identify which episodes support a season retrospective. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Identify which episodes support a season retrospective."
   }
 ]

@@ -2,73 +2,85 @@
   {
     "title": "A product note about a smaller first step",
     "label": "Product notes",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 1
+    "intro": "Describe the smaller step and its intended user. A demonstration editing brief; supply your own evidence and details.",
+    "index": 1,
+    "editorial_focus": "Describe the smaller step and its intended user."
   },
   {
     "title": "Write a useful getting-started guide",
     "label": "Tutorials",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 2
+    "intro": "Test each getting-started step against the product. A demonstration editing brief; supply your own evidence and details.",
+    "index": 2,
+    "editorial_focus": "Test each getting-started step against the product."
   },
   {
     "title": "A release note that explains the change",
     "label": "Company",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 3
+    "intro": "Explain changed behaviour and any migration steps. A demonstration editing brief; supply your own evidence and details.",
+    "index": 3,
+    "editorial_focus": "Explain changed behaviour and any migration steps."
   },
   {
     "title": "The questions we heard in a demo",
     "label": "Product notes",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 4
+    "intro": "Anonymise demo questions and confirm permission. A demonstration editing brief; supply your own evidence and details.",
+    "index": 4,
+    "editorial_focus": "Anonymise demo questions and confirm permission."
   },
   {
     "title": "Build a readable help index",
     "label": "Tutorials",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 5
+    "intro": "Group help entries around actual user tasks. A demonstration editing brief; supply your own evidence and details.",
+    "index": 5,
+    "editorial_focus": "Group help entries around actual user tasks."
   },
   {
     "title": "A company update without the jargon",
     "label": "Company",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 6
+    "intro": "State what changed without unsupported business claims. A demonstration editing brief; supply your own evidence and details.",
+    "index": 6,
+    "editorial_focus": "State what changed without unsupported business claims."
   },
   {
     "title": "From customer question to clear tutorial",
     "label": "Product notes",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 7
+    "intro": "Verify the tutorial against a specific product version. A demonstration editing brief; supply your own evidence and details.",
+    "index": 7,
+    "editorial_focus": "Verify the tutorial against a specific product version."
   },
   {
     "title": "How we document a product decision",
     "label": "Tutorials",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 8
+    "intro": "Explain the decision and its known trade-offs. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Explain the decision and its known trade-offs."
   },
   {
     "title": "A better outline for a feature announcement",
     "label": "Company",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 9
+    "intro": "Show a feature’s actual behaviour and availability. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Show a feature’s actual behaviour and availability."
   },
   {
     "title": "What belongs on a status update",
     "label": "Product notes",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 10
+    "intro": "Timestamp status updates and name the affected service. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Timestamp status updates and name the affected service."
   },
   {
     "title": "An example workflow, step by step",
     "label": "Tutorials",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 11
+    "intro": "List workflow prerequisites and the expected result. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "List workflow prerequisites and the expected result."
   },
   {
     "title": "Our next iteration starts with a question",
     "label": "Company",
-    "intro": "An original demonstration article for the Launchpad theme. This example shows how to organise a clear, useful release page without unnecessary decoration.",
-    "index": 12
+    "intro": "Turn an open question into a testable next step. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Turn an open question into a testable next step."
   }
 ]

@@ -3,72 +3,84 @@
     "title": "A notebook for a windowsill garden",
     "label": "Plant notes",
     "intro": "A field notebook for plant observations, light, and small changes over time.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Record light and dates for the actual windowsill."
   },
   {
     "title": "Getting to know one plant",
     "label": "Seasonal",
     "intro": "Build a plant profile from the things you notice and the questions you ask.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Confirm plant identification before offering care notes."
   },
   {
     "title": "Plan a small seasonal growing space",
     "label": "Garden projects",
     "intro": "A garden-planning sheet with room for space, timing, and experiments.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Separate seasonal plans from observed results."
   },
   {
     "title": "A useful plant-profile card",
     "label": "Plant notes",
     "intro": "Keep a plant’s identity, observations, and reference notes together.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Name the plant and cite identification sources."
   },
   {
     "title": "A garden journal through the year",
     "label": "Seasonal",
     "intro": "Record the garden as it changes, one dated observation at a time.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "Date observations throughout the garden journal."
   },
   {
     "title": "How we organise tools and supplies",
     "label": "Garden projects",
     "intro": "A practical inventory for the things that keep a growing space running.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Record tools and storage conditions."
   },
   {
     "title": "An illustrated leaf-shape notebook",
     "label": "Plant notes",
     "intro": "A sketchbook format for noticing the differences between leaves.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "Credit identification references for leaf illustrations."
   },
   {
     "title": "A quiet corner with a little green",
     "label": "Seasonal",
-    "intro": "An original demonstration article for the Verdant theme. This example shows how to organise a clear, useful plant page without unnecessary decoration.",
-    "index": 8
+    "intro": "Describe actual light rather than guessing exposure. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Describe actual light rather than guessing exposure."
   },
   {
     "title": "Document a garden project in stages",
     "label": "Garden projects",
-    "intro": "An original demonstration article for the Verdant theme. This example shows how to organise a clear, useful plant page without unnecessary decoration.",
-    "index": 9
+    "intro": "Photograph each project stage with dates. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Photograph each project stage with dates."
   },
   {
     "title": "The story of a favourite container",
     "label": "Plant notes",
-    "intro": "An original demonstration article for the Verdant theme. This example shows how to organise a clear, useful plant page without unnecessary decoration.",
-    "index": 10
+    "intro": "Record container dimensions and drainage observations. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Record container dimensions and drainage observations."
   },
   {
     "title": "Make a seasonal observation checklist",
     "label": "Seasonal",
-    "intro": "An original demonstration article for the Verdant theme. This example shows how to organise a clear, useful plant page without unnecessary decoration.",
-    "index": 11
+    "intro": "Choose checklist items from local observed conditions. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Choose checklist items from local observed conditions."
   },
   {
     "title": "What changed in the garden this month",
     "label": "Garden projects",
-    "intro": "An original demonstration article for the Verdant theme. This example shows how to organise a clear, useful plant page without unnecessary decoration.",
-    "index": 12
+    "intro": "Compare dated observations without promising growth outcomes. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Compare dated observations without promising growth outcomes."
   }
 ]

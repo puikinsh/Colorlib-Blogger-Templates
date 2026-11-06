@@ -2,73 +2,85 @@
   {
     "title": "The compact keyboard: a sample review",
     "label": "Reviews",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 1
+    "intro": "Record keyboard layout and the tasks actually tried. A demonstration editing brief; supply your own evidence and details.",
+    "index": 1,
+    "editorial_focus": "Record keyboard layout and the tasks actually tried."
   },
   {
     "title": "A quiet desk lamp, examined closely",
     "label": "Comparisons",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 2
+    "intro": "Compare lamp position and controls without invented lux readings. A demonstration editing brief; supply your own evidence and details.",
+    "index": 2,
+    "editorial_focus": "Compare lamp position and controls without invented lux readings."
   },
   {
     "title": "A simple USB hub for everyday work",
     "label": "Guides",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 3
+    "intro": "Check hub ports against actual connected devices. A demonstration editing brief; supply your own evidence and details.",
+    "index": 3,
+    "editorial_focus": "Check hub ports against actual connected devices."
   },
   {
     "title": "Keyboard switches: what we compare",
     "label": "Reviews",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 4
+    "intro": "Describe switch feel separately from measured sound. A demonstration editing brief; supply your own evidence and details.",
+    "index": 4,
+    "editorial_focus": "Describe switch feel separately from measured sound."
   },
   {
     "title": "Desk lighting: three approaches compared",
     "label": "Comparisons",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 5
+    "intro": "Compare lighting approaches under the same conditions. A demonstration editing brief; supply your own evidence and details.",
+    "index": 5,
+    "editorial_focus": "Compare lighting approaches under the same conditions."
   },
   {
     "title": "The small-workspace buying guide",
     "label": "Guides",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 6
+    "intro": "List workspace constraints before selecting equipment. A demonstration editing brief; supply your own evidence and details.",
+    "index": 6,
+    "editorial_focus": "List workspace constraints before selecting equipment."
   },
   {
     "title": "What a useful specification table tells you",
     "label": "Reviews",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 7
+    "intro": "Date each specification and identify its source. A demonstration editing brief; supply your own evidence and details.",
+    "index": 7,
+    "editorial_focus": "Date each specification and identify its source."
   },
   {
     "title": "How we structure a hands-on review",
     "label": "Comparisons",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 8
+    "intro": "Publish the method alongside hands-on observations. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Publish the method alongside hands-on observations."
   },
   {
     "title": "Keeping an equipment shortlist",
     "label": "Guides",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 9
+    "intro": "Keep an equipment shortlist with reasons and dates. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Keep an equipment shortlist with reasons and dates."
   },
   {
     "title": "Repairability belongs in the conversation",
     "label": "Reviews",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 10
+    "intro": "Check repair documentation and parts availability. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Check repair documentation and parts availability."
   },
   {
     "title": "A month later: the follow-up review",
     "label": "Comparisons",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 11
+    "intro": "Distinguish follow-up observations from first impressions. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Distinguish follow-up observations from first impressions."
   },
   {
     "title": "What we mean when we call something good value",
     "label": "Guides",
-    "intro": "An original demonstration article for the Bench theme. This example shows how to organise a clear, useful review page without unnecessary decoration.",
-    "index": 12
+    "intro": "Explain value in terms of use and ownership cost. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Explain value in terms of use and ownership cost."
   }
 ]

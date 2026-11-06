@@ -3,72 +3,84 @@
     "title": "Reading slowly: a notebook for one book",
     "label": "Reading notes",
     "intro": "A commonplace notebook for passages, questions, and a book read at your pace.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Identify the book and edition before adding notes."
   },
   {
     "title": "How we write a useful book review",
     "label": "Essays",
     "intro": "A review format that makes room for context, evidence, and a point of view.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Separate summary from the reviewer’s own judgement."
   },
   {
     "title": "A shelf for short stories",
     "label": "Reading lists",
     "intro": "Reading notes for stories you can finish in a sitting and return to later.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Credit each story and collection accurately."
   },
   {
     "title": "Five ways to organise a reading list",
     "label": "Reading notes",
     "intro": "A few different ways to keep track of the books you hope to read.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Explain reading-list categories with real examples."
   },
   {
     "title": "A conversation with an imaginary author",
     "label": "Essays",
     "intro": "An explicitly fictional interview to demonstrate a literary conversation page.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "Label the interview as fictional rather than reported."
   },
   {
     "title": "The books beside the bed",
     "label": "Reading lists",
     "intro": "A reading-desk inventory of current interests and unfinished chapters.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Identify actual editions in a bedside reading list."
   },
   {
     "title": "A reading journal without the pressure",
     "label": "Reading notes",
     "intro": "Leave the targets aside and make a notebook that suits your reading life.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "Use reading notes without imposing a completion target."
   },
   {
     "title": "When a second reading changes the story",
     "label": "Essays",
-    "intro": "An original demonstration article for the Shelf theme. This example shows how to organise a clear, useful book page without unnecessary decoration.",
-    "index": 8
+    "intro": "Distinguish first impressions from a second reading. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Distinguish first impressions from a second reading."
   },
   {
     "title": "Notes on a beautifully made edition",
     "label": "Reading lists",
-    "intro": "An original demonstration article for the Shelf theme. This example shows how to organise a clear, useful book page without unnecessary decoration.",
-    "index": 9
+    "intro": "Credit binding and design details to their makers. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Credit binding and design details to their makers."
   },
   {
     "title": "The essay as a companion",
     "label": "Reading notes",
-    "intro": "An original demonstration article for the Shelf theme. This example shows how to organise a clear, useful book page without unnecessary decoration.",
-    "index": 10
+    "intro": "Name the essay and edition being discussed. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Name the essay and edition being discussed."
   },
   {
     "title": "What belongs in a book-detail card",
     "label": "Essays",
-    "intro": "An original demonstration article for the Shelf theme. This example shows how to organise a clear, useful book page without unnecessary decoration.",
-    "index": 11
+    "intro": "Record author translator publisher and publication date. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Record author translator publisher and publication date."
   },
   {
     "title": "A year of reading, one page at a time",
     "label": "Reading lists",
-    "intro": "An original demonstration article for the Shelf theme. This example shows how to organise a clear, useful book page without unnecessary decoration.",
-    "index": 12
+    "intro": "Explain the period covered by a reading retrospective. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Explain the period covered by a reading retrospective."
   }
 ]

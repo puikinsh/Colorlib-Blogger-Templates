@@ -3,72 +3,84 @@
     "title": "A spoiler-free evening at the cinema",
     "label": "Reviews",
     "intro": "A criticism notebook that keeps the discoveries for the viewer.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Identify the film and keep the opening spoiler-free."
   },
   {
     "title": "How we separate a review from a recap",
     "label": "Watchlists",
     "intro": "A review format for separating what happened from what you thought of it.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Make the boundary between review and recap explicit."
   },
   {
     "title": "The scene we kept thinking about",
     "label": "Long reads",
     "intro": "Make room for a close reading of one moment on screen.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Keep scene details inside the spoiler section."
   },
   {
     "title": "A viewing notebook for a short series",
     "label": "Reviews",
     "intro": "Keep characters, questions, and observations together as a series unfolds.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Record episode numbers and the viewed edition."
   },
   {
     "title": "Writing about an imaginary film",
     "label": "Watchlists",
     "intro": "A fictional film essay to demonstrate the criticism and spoiler controls.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "Clearly label the film and credits as fictional."
   },
   {
     "title": "A watchlist with a little context",
     "label": "Long reads",
     "intro": "Add a reason, a reference, or a question beside each title.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Explain why each watchlist item is included."
   },
   {
     "title": "The case for a second viewing",
     "label": "Reviews",
     "intro": "A viewing journal for the details that come into focus next time.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "Separate first-viewing notes from later impressions."
   },
   {
     "title": "A conversation about sound and silence",
     "label": "Watchlists",
-    "intro": "An original demonstration article for the Screen theme. This example shows how to organise a clear, useful spoiler page without unnecessary decoration.",
-    "index": 8
+    "intro": "Describe sound with the actual viewing setup. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Describe sound with the actual viewing setup."
   },
   {
     "title": "A recap with clear spoiler boundaries",
     "label": "Long reads",
-    "intro": "An original demonstration article for the Screen theme. This example shows how to organise a clear, useful spoiler page without unnecessary decoration.",
-    "index": 9
+    "intro": "Label episode-specific spoilers before the recap. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Label episode-specific spoilers before the recap."
   },
   {
     "title": "What a useful review summary includes",
     "label": "Reviews",
-    "intro": "An original demonstration article for the Screen theme. This example shows how to organise a clear, useful spoiler page without unnecessary decoration.",
-    "index": 10
+    "intro": "Summarise an opinion without inventing an audience score. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Summarise an opinion without inventing an audience score."
   },
   {
     "title": "A director’s notebook, imagined",
     "label": "Watchlists",
-    "intro": "An original demonstration article for the Screen theme. This example shows how to organise a clear, useful spoiler page without unnecessary decoration.",
-    "index": 11
+    "intro": "Mark imagined director notes as fiction. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Mark imagined director notes as fiction."
   },
   {
     "title": "This month’s viewing notes",
     "label": "Long reads",
-    "intro": "An original demonstration article for the Screen theme. This example shows how to organise a clear, useful spoiler page without unnecessary decoration.",
-    "index": 12
+    "intro": "State the period and titles covered by viewing notes. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "State the period and titles covered by viewing notes."
   }
 ]

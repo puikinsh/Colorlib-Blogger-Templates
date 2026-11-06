@@ -3,72 +3,84 @@
     "title": "A small project with a shared purpose",
     "label": "Our stories",
     "intro": "A community-story format that keeps the purpose, people, and next steps clear.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Label the project account as a demonstration."
   },
   {
     "title": "Meet an imaginary volunteer team",
     "label": "Impact",
     "intro": "A fictional team profile to demonstrate volunteer storytelling.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Identify the volunteer team as imaginary."
   },
   {
     "title": "An impact update with clear context",
     "label": "Get involved",
     "intro": "Put a result beside its timeframe, method, and limitations.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Publish impact figures only with evidence and dates."
   },
   {
     "title": "How we describe a campaign’s next step",
     "label": "Our stories",
     "intro": "A campaign update format with a clear explanation of what happens next.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Explain the next step and who is responsible."
   },
   {
     "title": "A useful volunteer information page",
     "label": "Impact",
     "intro": "Bring the practical details for taking part into one readable page.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "Use actual roles and registration destinations."
   },
   {
     "title": "The story behind a community workshop",
     "label": "Get involved",
     "intro": "A story outline for the people and decisions behind a shared project.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Confirm participant consent before reporting a workshop."
   },
   {
     "title": "What belongs in an impact report",
     "label": "Our stories",
     "intro": "A reporting checklist for context, evidence, and the questions still open.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "State methodology limitations and the reporting period."
   },
   {
     "title": "A month of listening and learning",
     "label": "Impact",
-    "intro": "An original demonstration article for the Cause theme. This example shows how to organise a clear, useful impact page without unnecessary decoration.",
-    "index": 8
+    "intro": "Separate listening notes from attributed quotations. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Separate listening notes from attributed quotations."
   },
   {
     "title": "A resource list for people who want to help",
     "label": "Get involved",
-    "intro": "An original demonstration article for the Cause theme. This example shows how to organise a clear, useful impact page without unnecessary decoration.",
-    "index": 9
+    "intro": "Date each resource and verify the destination. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Date each resource and verify the destination."
   },
   {
     "title": "An example campaign progress note",
     "label": "Our stories",
-    "intro": "An original demonstration article for the Cause theme. This example shows how to organise a clear, useful impact page without unnecessary decoration.",
-    "index": 10
+    "intro": "Show real campaign figures with their source. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Show real campaign figures with their source."
   },
   {
     "title": "Make a donation link easy to understand",
     "label": "Impact",
-    "intro": "An original demonstration article for the Cause theme. This example shows how to organise a clear, useful impact page without unnecessary decoration.",
-    "index": 11
+    "intro": "Identify the recipient and external donation service. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Identify the recipient and external donation service."
   },
   {
     "title": "Looking ahead together",
     "label": "Get involved",
-    "intro": "An original demonstration article for the Cause theme. This example shows how to organise a clear, useful impact page without unnecessary decoration.",
-    "index": 12
+    "intro": "Separate confirmed plans from future aspirations. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Separate confirmed plans from future aspirations."
   }
 ]

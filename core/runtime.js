@@ -44,6 +44,7 @@
     });
   });
   document.querySelectorAll('[data-recipe]').forEach(function (recipe) {
+    if (recipe.hasAttribute('data-recipe-demo')) return;
     var article = recipe.closest('.cl-article');
     var heading = recipe.querySelector('.recipe-name');
     var image = article && article.querySelector('.cl-prose img');
@@ -92,18 +93,59 @@
     form.addEventListener('input', update);
     update();
   });
-  document.querySelectorAll('[data-video-src]').forEach(function (button) {
+  document.querySelectorAll('button[data-video-src]').forEach(function (button) {
+    var player = document.createElement('div');
+    player.className = 'cl-media-player';
+    button.before(player);
+    player.appendChild(button);
+    var status = document.createElement('p');
+    status.className = 'cl-small';
+    status.setAttribute('role', 'status');
+    player.appendChild(status);
+    button.type = 'button';
     button.addEventListener('click', function () {
       var url;
-      try { url = new URL(button.getAttribute('data-video-src')); } catch (_) { return; }
-      if (url.protocol !== 'https:' || url.username || url.password || (url.port && url.port !== '443') || !((url.hostname === 'www.youtube-nocookie.com' && /^\/embed\/[\w-]+$/.test(url.pathname)) || (url.hostname === 'player.vimeo.com' && /^\/video\/\d+$/.test(url.pathname)))) return;
+      try { url = new URL(button.getAttribute('data-video-src')); } catch (_) { url = null; }
+      if (!url || url.protocol !== 'https:' || url.username || url.password || (url.port && url.port !== '443') || !((url.hostname === 'www.youtube-nocookie.com' && /^\/embed\/[\w-]+$/.test(url.pathname)) || (url.hostname === 'player.vimeo.com' && /^\/video\/\d+$/.test(url.pathname)))) {
+        status.textContent = 'This video link is unavailable. Ask the publisher to check its HTTPS embed URL.';
+        return;
+      }
+      // Do not accept autoplay, tracking or provider API parameters from pasted URLs.
+      var hash = url.hostname === 'player.vimeo.com' && url.searchParams.get('h');
+      url.search = '';
+      url.hash = '';
+      if (hash && /^[a-zA-Z0-9]+$/.test(hash)) url.searchParams.set('h', hash);
       var frame = document.createElement('iframe');
       frame.src = url.href;
       frame.title = button.getAttribute('data-video-title') || 'Video player';
       frame.allowFullscreen = true;
+      frame.setAttribute('allow', 'fullscreen; picture-in-picture; encrypted-media');
       frame.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
       frame.tabIndex = 0;
-      button.replaceWith(frame);
+      var fallback = document.createElement('a');
+      var videoId = url.pathname.split('/').pop();
+      fallback.href = url.hostname === 'www.youtube-nocookie.com' ? 'https://www.youtube.com/watch?v=' + videoId : 'https://vimeo.com/' + videoId + (hash && /^[a-zA-Z0-9]+$/.test(hash) ? '/' + hash : '');
+      fallback.target = '_blank';
+      fallback.rel = 'noopener noreferrer';
+      fallback.textContent = 'Open video on provider (new tab)';
+      var stop = document.createElement('button');
+      stop.type = 'button';
+      stop.textContent = 'Stop and close video';
+      var actions = document.createElement('div');
+      actions.className = 'cl-actions';
+      actions.appendChild(fallback);
+      actions.appendChild(stop);
+      button.hidden = true;
+      player.appendChild(frame);
+      player.appendChild(actions);
+      status.textContent = 'Player requested. If playback is unavailable, open the provider link or close and retry.';
+      stop.addEventListener('click', function () {
+        frame.remove();
+        actions.remove();
+        button.hidden = false;
+        status.textContent = 'Video closed. You can load it again.';
+        button.focus();
+      });
       frame.focus();
     });
   });

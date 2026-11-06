@@ -24,14 +24,26 @@ try{
  check(document.querySelectorAll('h1').length===1,'exactly one page heading');
  check(document.documentElement.scrollWidth<=innerWidth,'horizontal overflow '+document.documentElement.scrollWidth+'/'+innerWidth+' '+JSON.stringify(Array.from(document.querySelectorAll('body *')).filter(function(e){return e.getBoundingClientRect().right>innerWidth+.5;}).slice(0,3).map(function(e){return {tag:e.tagName,class:e.className,right:e.getBoundingClientRect().right};})));
  check(Array.from(document.querySelectorAll('#blog-pager a')).map(function(a){return a.getAttribute('href');}).join('|')===nativeBefore,'native page links remain intact');
- if(document.querySelector('.cl-article')){
+ if(document.querySelector('.cl-article')&&!document.title.startsWith('Media validation')){
   var toc=document.querySelector('.cl-toc');check(toc&&!toc.hidden,'article table of contents');
   var ids=Array.from(document.querySelectorAll('[id]')).map(function(e){return e.id;});check(ids.length===new Set(ids).size,'no duplicate generated IDs');
   toc.querySelectorAll('a').forEach(function(a){check(document.getElementById(decodeURIComponent(a.hash.slice(1))),'TOC target exists');});
   var checklist=document.querySelector('.cl-checklist input');
   if(checklist){checklist.click();check(checklist.checked,'native ingredient/checklist checkbox');var reset=document.querySelector('[data-reset-checklist]');if(reset){reset.click();check(!checklist.checked,'reset works');}}
   var recipe=document.querySelector('[data-recipe]');
-  if(recipe){var data=JSON.parse(recipe.querySelector('script[data-recipe-schema]').textContent);check(data['@type']==='Recipe'&&data.recipeIngredient.length===5&&data.recipeInstructions.length===3,'conditional recipe schema');check(!data.aggregateRating&&!data.nutrition,'no invented ratings or nutrition');}
+  if(recipe){check(recipe.hasAttribute('data-recipe-demo'),'untested demos explicitly marked');check(!recipe.querySelector('script[data-recipe-schema]'),'untested demos omit Recipe schema');}
+  var media=document.querySelector('[data-video-src]');
+  media.focus();media.click();var frame=document.querySelector('.cl-media-player iframe');
+  check(frame&&document.activeElement===frame,'media frame receives keyboard focus');
+  check(frame.getBoundingClientRect().width<=innerWidth,'media frame fits viewport');
+  check(frame.getAttribute('src')==='https://player.vimeo.com/video/76979871','autoplay and pasted API parameters removed');
+  var fallback=document.querySelector('.cl-media-player .cl-actions a');check(fallback&&fallback.target==='_blank'&&fallback.rel.includes('noopener'),'blocked-player recovery link');
+  check(document.querySelector('[role=status]').textContent.includes('Player requested'),'no false playing claim');
+  document.querySelector('.cl-media-player .cl-actions button').click();
+  check(!document.querySelector('.cl-media-player iframe')&&!media.hidden&&document.activeElement===media,'close stops media and restores focus');
+  media.click();check(document.querySelectorAll('.cl-media-player iframe').length===1,'retry creates one player');
+  document.querySelector('.cl-media-player .cl-actions button').click();
+
   var budget=document.querySelector('[data-budget]');
   if(budget){var a=budget.querySelector('[name=income]'),b=budget.querySelector('[name=expenses]'),out=budget.querySelector('output');a.value='100';b.value='250';a.dispatchEvent(new Event('input',{bubbles:true}));check(out.textContent.includes('-150'),'negative difference');a.value='';a.dispatchEvent(new Event('input',{bubbles:true}));check(out.textContent.includes('Enter two'),'empty inputs');check(!budget.closest('form'),'calculator cannot submit personal values');}
  }
@@ -40,12 +52,13 @@ try{
 `;
   try{
     let frames=[];
-    for(const width of [320,375,768,1024,1440])for(const page of ['index.html','article.html']){
+    for(const width of [320,375,768,1024,1440])for(const page of ['index.html','article.html','media.html']){
       let html=fs.readFileSync(path.join(folder,page),'utf8')
         .replace('<head>','<head><meta http-equiv="Content-Security-Policy" content="default-src \'none\';style-src \'unsafe-inline\';script-src \'unsafe-inline\';img-src data:">')
         .replace(/<link rel="stylesheet" href="assets\/theme.css(?:\?v=[a-f0-9]+)?">/,'<style>'+css+'\n*{animation:none!important;transition:none!important}</style>')
         .replace(/<script src="assets\/runtime.js(?:\?v=[a-f0-9]+)?" defer><\/script>/,'')
         .replace(/src="assets\/cover-[^"]+"/g,'src="https://example.com/illustration.svg"');
+      if(page==='article.html')html=html.replace('</div></div><footer class="cl-article-footer">','<div class="cl-video"><button data-video-src="https://player.vimeo.com/video/76979871?autoplay=1&amp;api=1" data-video-title="Official Vimeo sample">Load sample video</button></div></div></div><footer class="cl-article-footer">');
       html=html.replace('</body>','<script>var nativeBefore=Array.from(document.querySelectorAll("#blog-pager a")).map(function(a){return a.getAttribute("href");}).join("|");'+runtime+'\n'+checks+'</script></body>');
       frames.push({width,page,html});
     }

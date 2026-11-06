@@ -1,0 +1,14 @@
+[
+  "<main>\n  <h1>One clear idea</h1>\n  <p>Explain what the reader will learn.</p>\n</main>",
+  "<!doctype html>\n<html lang=\"en\">\n<head><meta charset=\"utf-8\"><title>My first page</title></head>\n<body><main><h1>A useful page</h1><p>Start here.</p></main></body>\n</html>",
+  "<nav aria-label=\"Main menu\">\n  <ul>\n    <li><a href=\"/\">Home</a></li>\n    <li><a href=\"/p/about.html\">About</a></li>\n  </ul>\n</nav>",
+  "<!-- Describe the purpose; decorative images use alt=\"\". -->\n<img src=\"desk.jpg\" width=\"800\" height=\"600\"\n     alt=\"Notebook beside a keyboard on a small desk\">",
+  "<!-- Fields only: a real submission needs a working endpoint. -->\n<label for=\"reader-name\">Your name</label>\n<input id=\"reader-name\" name=\"reader-name\" autocomplete=\"name\">",
+  "<main>\n  <h1>My first complete page</h1>\n  <section aria-labelledby=\"next\"><h2 id=\"next\">Next steps</h2>\n    <p><a href=\"/p/about.html\">Read about this project</a></p>\n  </section>\n</main>",
+  ".reading-layout {\n  width: min(100% - 2rem, 44rem);\n  margin-inline: auto;\n}",
+  ".stack > * + * { margin-block-start: 1.5rem; }\n.card { padding: 1.5rem; }",
+  ".cards {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));\n  gap: 1.5rem;\n}",
+  ".prose { max-width: 65ch; font-size: 1.125rem; line-height: 1.7; }\n.prose h2 { line-height: 1.2; }",
+  "a:focus-visible, button:focus-visible {\n  outline: 3px solid currentColor;\n  outline-offset: 4px;\n}\n/* Tab through every control; never remove focus outlines. */",
+  "<!-- Review real URLs, alt text and keyboard access before publishing. -->\n<a href=\"/\">Return to the home page</a>\n<!-- Test at a narrow viewport and with text enlarged. -->"
+]

@@ -3,72 +3,84 @@
     "title": "A quiet weekend in Lisbon",
     "label": "Lisbon",
     "intro": "A walking-itinerary notebook with room for stops, observations, and a detour.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Mark a small Lisbon route on an actual map."
   },
   {
     "title": "Lisbon, one neighbourhood at a time",
     "label": "Lisbon",
     "intro": "Build a day around a neighbourhood, not a list of things to tick off.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Explain what stays within one Lisbon neighbourhood."
   },
   {
     "title": "Three slow mornings in Kyoto",
     "label": "Kyoto",
     "intro": "A three-morning itinerary format for a slower kind of city break.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Plan three separate Kyoto mornings with rest time."
   },
   {
     "title": "A walking day in Kyoto",
     "label": "Kyoto",
     "intro": "Map a walking day and leave space for what you find along the way.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Check walking distances and accessible alternatives in Kyoto."
   },
   {
     "title": "Copenhagen by the water",
     "label": "Copenhagen",
     "intro": "A destination notebook for a day spent following the waterfront.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "Research public access along the Copenhagen waterfront."
   },
   {
     "title": "A first-timer’s Copenhagen itinerary",
     "label": "Copenhagen",
     "intro": "Organise the places, practical notes, and questions for a first visit.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Separate a first visit’s essentials from optional stops."
   },
   {
     "title": "Packing for a short city break",
     "label": "Field notes",
     "intro": "A short-trip packing list you can adapt to your plans and the weather.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "Match a short packing list to baggage limits."
   },
   {
     "title": "Finding the smaller museums",
     "label": "Field notes",
-    "intro": "An original demonstration article for the Wayfarer theme. This example shows how to organise a clear, useful itinerary page without unnecessary decoration.",
-    "index": 8
+    "intro": "Check museum opening days on official websites. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Check museum opening days on official websites."
   },
   {
     "title": "How to build an unhurried itinerary",
     "label": "Field notes",
-    "intro": "An original demonstration article for the Wayfarer theme. This example shows how to organise a clear, useful itinerary page without unnecessary decoration.",
-    "index": 9
+    "intro": "Leave travel time between each planned stop. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Leave travel time between each planned stop."
   },
   {
     "title": "A notebook for your next trip",
     "label": "Field notes",
-    "intro": "An original demonstration article for the Wayfarer theme. This example shows how to organise a clear, useful itinerary page without unnecessary decoration.",
-    "index": 10
+    "intro": "Separate dated bookings from flexible notebook ideas. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Separate dated bookings from flexible notebook ideas."
   },
   {
     "title": "Travelling well with a rainy forecast",
     "label": "Field notes",
-    "intro": "An original demonstration article for the Wayfarer theme. This example shows how to organise a clear, useful itinerary page without unnecessary decoration.",
-    "index": 11
+    "intro": "Prepare an indoor alternative for each rainy day. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Prepare an indoor alternative for each rainy day."
   },
   {
     "title": "Taking the long way home",
     "label": "Field notes",
-    "intro": "An original demonstration article for the Wayfarer theme. This example shows how to organise a clear, useful itinerary page without unnecessary decoration.",
-    "index": 12
+    "intro": "Explain the transport trade-off behind a longer route. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Explain the transport trade-off behind a longer route."
   }
 ]

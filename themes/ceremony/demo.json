@@ -3,72 +3,84 @@
     "title": "An intimate gathering in a garden",
     "label": "Real stories",
     "intro": "An album-style story format for the people, place, and details of a gathering.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Label the garden gathering as an imagined event."
   },
   {
     "title": "The details behind a thoughtful table",
     "label": "Planning",
     "intro": "Collect the choices, references, and credits behind a table setting.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Credit table styling and each visible contribution."
   },
   {
     "title": "A planning notebook with room to breathe",
     "label": "Details",
     "intro": "A planning sheet that leaves space for decisions still taking shape.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Keep planning dates and private contacts separate."
   },
   {
     "title": "A celebration told through small moments",
     "label": "Real stories",
     "intro": "A story structure for the moments between the formal photographs.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Use consent-aware captions for celebration photographs."
   },
   {
     "title": "Credit the people who made it possible",
     "label": "Planning",
     "intro": "Keep collaborators and their contributions visible in the finished story.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "Confirm names and permissions before adding credits."
   },
   {
     "title": "A sample event timeline",
     "label": "Details",
     "intro": "A sample schedule format with space for people, timings, and handovers.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Include timezone buffers and the actual venue schedule."
   },
   {
     "title": "How we write a real-event story",
     "label": "Real stories",
     "intro": "A credited event-story outline for building an honest, coherent narrative.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "Distinguish real reporting from an illustrative event."
   },
   {
     "title": "A palette drawn from a favourite place",
     "label": "Planning",
-    "intro": "An original demonstration article for the Ceremony theme. This example shows how to organise a clear, useful event story page without unnecessary decoration.",
-    "index": 8
+    "intro": "Credit source images in the palette. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Credit source images in the palette."
   },
   {
     "title": "A useful first-inquiry checklist",
     "label": "Details",
-    "intro": "An original demonstration article for the Ceremony theme. This example shows how to organise a clear, useful event story page without unnecessary decoration.",
-    "index": 9
+    "intro": "Link inquiries to the owner’s actual destination. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Link inquiries to the owner’s actual destination."
   },
   {
     "title": "An imagined ceremony by the water",
     "label": "Real stories",
-    "intro": "An original demonstration article for the Ceremony theme. This example shows how to organise a clear, useful event story page without unnecessary decoration.",
-    "index": 10
+    "intro": "Clearly label the waterside ceremony as fictional. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Clearly label the waterside ceremony as fictional."
   },
   {
     "title": "Make a vendor-credit list easy to read",
     "label": "Planning",
-    "intro": "An original demonstration article for the Ceremony theme. This example shows how to organise a clear, useful event story page without unnecessary decoration.",
-    "index": 11
+    "intro": "Name each vendor and the work they supplied. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Name each vendor and the work they supplied."
   },
   {
     "title": "The photographs we would keep",
     "label": "Details",
-    "intro": "An original demonstration article for the Ceremony theme. This example shows how to organise a clear, useful event story page without unnecessary decoration.",
-    "index": 12
+    "intro": "Record photographer permission and image selections. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Record photographer permission and image selections."
   }
 ]

@@ -14,7 +14,7 @@ The first post on the home page supplies the featured story. It is not duplicate
 
 Each theme's `post-template.html` is an editable starting point. Paste it into a post's HTML view or save it in Blogger's post-template setting. Supply your own facts, credits, source links and disclosures. Keep the documented class/data attributes for enhancements you want to use; deleting the complete feature block is also supported.
 
-- Saffron: `.recipe-name`, `.recipe-ingredients label`, `.recipe-instructions li` and an article image supply optional Recipe metadata. ISO duration attributes such as `data-prep-time="PT15M"` are optional. Missing required content omits that metadata. Tested recipes and suitable dish imagery are the author's responsibility.
+- Saffron: `.recipe-name`, `.recipe-ingredients label`, `.recipe-instructions li` and an article image supply optional Recipe metadata. ISO duration attributes such as `data-prep-time="PT15M"` are optional. Missing required content omits that metadata. Demo cards carry `data-recipe-demo`, which suppresses Recipe metadata. Replace and kitchen-test the recipe, update its visible timing/ingredients/method, then remove that attribute to enable metadata. Tested recipes and suitable dish imagery are the author's responsibility.
 - Lesson: objectives, exercises and learning-path links are ordinary HTML. Course indexes and sequence links are owner-maintained; this is not an LMS or access-control service.
 - Bench: review facts, specifications, methodology and affiliate disclosures are entered by the author. No score, offer or aggregate rating is generated automatically.
 - Ledger: the local calculator subtracts expenses from income. It has no storage, submission or remote request. State the currency and assumptions around any real financial example.
@@ -44,3 +44,20 @@ The public lab uses a separate `lab/` design; it is not a twenty-first product t
 ## Waiting for demo imports
 
 Blogger imports run asynchronously. Wait for the published post count and expected titles to appear before treating an import as complete or uploading the file again. The current lab accepted the complete Saffron/Wayfarer exports, then showed an import attempt limit; Blogger did not provide a reset interval. Retry after the service allows imports again. Current acceptance is tracked in the [retry report](BLOGGER-RETRY.md).
+
+## Optional video and editorial acceptance
+
+Use a button inside ordinary article HTML:
+
+```html
+<div class="cl-video">
+  <button type="button"
+    data-video-src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+    data-video-title="Your descriptive recording title">Load video from YouTube</button>
+</div>
+<p><a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch on YouTube</a></p>
+```
+
+Replace both IDs and supply an accurate transcript and captions. The ordinary link also works without JavaScript. Vimeo accepts `https://player.vimeo.com/video/NUMERIC_ID` and an optional unlisted `?h=HASH`. Other hosts and non-HTTPS URLs are rejected with a visible message. Activation contacts the provider; the theme does not autoplay. The provider may require a second Play activation. Close removes the iframe, and the watch-page link provides a separate recovery path. Check rights, embedding permission and privacy requirements for your actual recording.
+
+Generated `media.html` pages are static QA fixtures, not posts imported into Blogger. The [media/editorial report](MEDIA-EDITORIAL-REVIEW.md) distinguishes successful local playback from unrun native/device checks. Demo articles contain editing briefs, not factual publication-ready stories; replace the complete brief and irrelevant feature sections with your own verified content.

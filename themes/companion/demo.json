@@ -3,72 +3,84 @@
     "title": "A notebook for your companion’s routine",
     "label": "Dogs",
     "intro": "Keep everyday routines, preferences, and useful care notes in one place.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Keep individual care instructions separate from generic advice."
   },
   {
     "title": "Make a useful pet-sitter checklist",
     "label": "Cats",
     "intro": "A handover checklist for the person looking after your companion.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Use owner-approved sitter instructions and private contacts."
   },
   {
     "title": "A quiet corner to settle into",
     "label": "Care notes",
     "intro": "Observe what makes a familiar resting place feel comfortable.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Describe the space without promising behavioural results."
   },
   {
     "title": "Organising your companion’s paperwork",
     "label": "Dogs",
     "intro": "An organisational notebook for records, contacts, and things to follow up.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Keep identification and medical records out of public posts."
   },
   {
     "title": "A walking bag that is ready to go",
     "label": "Cats",
     "intro": "A packing checklist for an everyday walk and the essentials to bring.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "List walking supplies for the actual animal and route."
   },
   {
     "title": "How we record questions for the vet",
     "label": "Care notes",
     "intro": "Keep your observations and questions ready for a conversation with your vet.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Prepare questions without suggesting diagnoses or treatments."
   },
   {
     "title": "A photo diary of ordinary days",
     "label": "Dogs",
     "intro": "A small diary for the moments between the big adventures.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "Use dated photographs with consent-aware captions."
   },
   {
     "title": "A travel-planning checklist for pet owners",
     "label": "Cats",
-    "intro": "An original demonstration article for the Companion theme. This example shows how to organise a clear, useful care page without unnecessary decoration.",
-    "index": 8
+    "intro": "Check carrier and destination rules with official services. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Check carrier and destination rules with official services."
   },
   {
     "title": "Make toy storage less complicated",
     "label": "Care notes",
-    "intro": "An original demonstration article for the Companion theme. This example shows how to organise a clear, useful care page without unnecessary decoration.",
-    "index": 9
+    "intro": "Describe storage without claiming toy safety certification. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Describe storage without claiming toy safety certification."
   },
   {
     "title": "What to include on a care information card",
     "label": "Dogs",
-    "intro": "An original demonstration article for the Companion theme. This example shows how to organise a clear, useful care page without unnecessary decoration.",
-    "index": 10
+    "intro": "Keep emergency contacts on a private care card. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Keep emergency contacts on a private care card."
   },
   {
     "title": "An adoption story, thoughtfully told",
     "label": "Cats",
-    "intro": "An original demonstration article for the Companion theme. This example shows how to organise a clear, useful care page without unnecessary decoration.",
-    "index": 11
+    "intro": "Confirm permissions before telling an adoption story. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Confirm permissions before telling an adoption story."
   },
   {
     "title": "The little habits that help us plan",
     "label": "Care notes",
-    "intro": "An original demonstration article for the Companion theme. This example shows how to organise a clear, useful care page without unnecessary decoration.",
-    "index": 12
+    "intro": "Record observed routines without generalising care advice. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Record observed routines without generalising care advice."
   }
 ]

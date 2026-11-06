@@ -3,72 +3,84 @@
     "title": "Lemony chickpea lunch bowls",
     "label": "Weeknight",
     "intro": "Chickpeas, cucumber, lemon, and parsley come together in a simple lunch bowl.",
-    "index": 1
+    "index": 1,
+    "editorial_focus": "Record drained chickpea weight and dressing balance."
   },
   {
     "title": "A pot of slow tomato soup",
     "label": "Seasonal",
     "intro": "A short ingredient list, a gentle simmer, and a pot of tomato soup.",
-    "index": 2
+    "index": 2,
+    "editorial_focus": "Check soup yield after simmering and blending."
   },
   {
     "title": "Roasted carrots with herbed yogurt",
     "label": "Seasonal",
     "intro": "Roasted carrots meet a cool yogurt dressing and a handful of herbs.",
-    "index": 3
+    "index": 3,
+    "editorial_focus": "Record carrot size and tenderness before serving."
   },
   {
     "title": "Creamy mushroom toast",
     "label": "Weeknight",
     "intro": "Mushrooms, a little cream, and the toast waiting underneath.",
-    "index": 4
+    "index": 4,
+    "editorial_focus": "Explain when to take yogurt off the heat."
   },
   {
     "title": "Lentils with crisp cucumber",
     "label": "Weeknight",
     "intro": "A lentil salad with cucumber, lemon, and room for your favourite herbs.",
-    "index": 5
+    "index": 5,
+    "editorial_focus": "Specify cooked lentils rather than dry weight."
   },
   {
     "title": "The simplest lemon pasta",
     "label": "Weeknight",
     "intro": "Keep the pasta water close and let lemon do the talking.",
-    "index": 6
+    "index": 6,
+    "editorial_focus": "Measure reserved pasta water and final texture."
   },
   {
     "title": "Cinnamon overnight oats",
     "label": "Weeknight",
     "intro": "Stir oats, milk, yogurt, and cinnamon; let the fridge do the rest.",
-    "index": 7
+    "index": 7,
+    "editorial_focus": "Record refrigeration time and the texture next morning."
   },
   {
     "title": "Golden tray-baked potatoes",
     "label": "Baking",
-    "intro": "An original demonstration article for the Saffron theme. This example shows how to organise a clear, useful recipe page without unnecessary decoration.",
-    "index": 8
+    "intro": "Record wedge size and turning time. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Record wedge size and turning time."
   },
   {
     "title": "A bright green pea soup",
     "label": "Seasonal",
-    "intro": "An original demonstration article for the Saffron theme. This example shows how to organise a clear, useful recipe page without unnecessary decoration.",
-    "index": 9
+    "intro": "Check pea tenderness before blending. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Check pea tenderness before blending."
   },
   {
     "title": "Apple and oat breakfast crumble",
     "label": "Baking",
-    "intro": "An original demonstration article for the Saffron theme. This example shows how to organise a clear, useful recipe page without unnecessary decoration.",
-    "index": 10
+    "intro": "Test apple variety and topping texture. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Test apple variety and topping texture."
   },
   {
     "title": "White beans with rosemary",
     "label": "Weeknight",
-    "intro": "An original demonstration article for the Saffron theme. This example shows how to organise a clear, useful recipe page without unnecessary decoration.",
-    "index": 11
+    "intro": "Specify cooked beans and gentle warming. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Specify cooked beans and gentle warming."
   },
   {
     "title": "A salad for the end of summer",
     "label": "Seasonal",
-    "intro": "An original demonstration article for the Saffron theme. This example shows how to organise a clear, useful recipe page without unnecessary decoration.",
-    "index": 12
+    "intro": "Record grain preparation and tomato ripeness. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Record grain preparation and tomato ripeness."
   }
 ]

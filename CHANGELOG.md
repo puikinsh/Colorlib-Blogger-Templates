@@ -6,6 +6,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Reviewed all 240 demo articles; added distinct editing briefs, topic-specific lesson examples, travel planning formats and explicit fictional/transcript/recipe disclosures.
+- Added media review pages for all twenty designs; recorded successful local YouTube playback, Vimeo’s browser error and remaining native/device/editorial gates.
+
+
 - Retried the published Saffron/Wayfarer demo exports and verified all 24 imported titles, labels, timestamps, feature blocks and pinned image URLs through the public feed.
 - Recorded Blogger’s repeated import attempt limit and Lesson/Bench publication failures; rechecked comment views/forms and persisted replies using all twenty released templates.
 - Updated the stable-release blocker matrix and hub disclosure without replacing the published preview assets.
@@ -41,6 +45,11 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 - Architecture, editing, contributor and release-validation documentation.
 
 ### Fixed
+
+- Replaced silent invalid-player failures with announced feedback, provider fallback links and stop/close/retry controls with focus recovery.
+- Removed pasted media autoplay/API parameters while retaining Vimeo unlisted hashes; reserved player sizing across themes.
+- Displayed recipe cooking times and suppressed Recipe metadata on untested demonstration cards.
+
 
 - Corrected native comment heading levels, region names, hidden relay links and moderation-frame titles.
 - Restored native hidden states for inactive reply/load-more controls and added responsive threaded-comment spacing.

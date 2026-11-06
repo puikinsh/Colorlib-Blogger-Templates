@@ -2,73 +2,85 @@
   {
     "title": "Start here: a page that explains one idea",
     "label": "Foundations",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 1
+    "intro": "Write one heading and one explanatory paragraph. A demonstration editing brief; supply your own evidence and details.",
+    "index": 1,
+    "editorial_focus": "Write one heading and one explanatory paragraph."
   },
   {
     "title": "Your first semantic HTML document",
     "label": "Foundations",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 2
+    "intro": "Separate page metadata from visible semantic content. A demonstration editing brief; supply your own evidence and details.",
+    "index": 2,
+    "editorial_focus": "Separate page metadata from visible semantic content."
   },
   {
     "title": "Links, lists and a useful navigation",
     "label": "Foundations",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 3
+    "intro": "Give navigation links descriptive text and real destinations. A demonstration editing brief; supply your own evidence and details.",
+    "index": 3,
+    "editorial_focus": "Give navigation links descriptive text and real destinations."
   },
   {
     "title": "Images that make sense without the picture",
     "label": "Foundations",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 4
+    "intro": "Choose alternative text from the image’s purpose. A demonstration editing brief; supply your own evidence and details.",
+    "index": 4,
+    "editorial_focus": "Choose alternative text from the image’s purpose."
   },
   {
     "title": "A form people can actually use",
     "label": "Foundations",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 5
+    "intro": "Connect a visible label to its form control. A demonstration editing brief; supply your own evidence and details.",
+    "index": 5,
+    "editorial_focus": "Connect a visible label to its form control."
   },
   {
     "title": "HTML foundations: your first complete page",
     "label": "Foundations",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 6
+    "intro": "Combine the document shell with a readable main section. A demonstration editing brief; supply your own evidence and details.",
+    "index": 6,
+    "editorial_focus": "Combine the document shell with a readable main section."
   },
   {
     "title": "Start here: the CSS layout path",
     "label": "Projects",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 7
+    "intro": "Start with a readable single-column layout. A demonstration editing brief; supply your own evidence and details.",
+    "index": 7,
+    "editorial_focus": "Start with a readable single-column layout."
   },
   {
     "title": "Understand space before adding decoration",
     "label": "Projects",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 8
+    "intro": "Use consistent spacing before decorative effects. A demonstration editing brief; supply your own evidence and details.",
+    "index": 8,
+    "editorial_focus": "Use consistent spacing before decorative effects."
   },
   {
     "title": "A responsive grid in a few clear steps",
     "label": "Projects",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 9
+    "intro": "Let grid columns collapse at narrow widths. A demonstration editing brief; supply your own evidence and details.",
+    "index": 9,
+    "editorial_focus": "Let grid columns collapse at narrow widths."
   },
   {
     "title": "Make typography do the hard work",
     "label": "Projects",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 10
+    "intro": "Set readable line length and relative text sizes. A demonstration editing brief; supply your own evidence and details.",
+    "index": 10,
+    "editorial_focus": "Set readable line length and relative text sizes."
   },
   {
     "title": "A keyboard-first interface check",
     "label": "Projects",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 11
+    "intro": "Keep keyboard focus visible on every control. A demonstration editing brief; supply your own evidence and details.",
+    "index": 11,
+    "editorial_focus": "Keep keyboard focus visible on every control."
   },
   {
     "title": "Publish and review your first project",
     "label": "Projects",
-    "intro": "An original demonstration article for the Lesson theme. This example shows how to organise a clear, useful lesson page without unnecessary decoration.",
-    "index": 12
+    "intro": "Review links and mobile layout before publishing. A demonstration editing brief; supply your own evidence and details.",
+    "index": 12,
+    "editorial_focus": "Review links and mobile layout before publishing."
   }
 ]

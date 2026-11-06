@@ -14,7 +14,7 @@ Use Python 3.9+ and Node.js 22+. No npm dependencies are required.
 - `python3 tools/check.py`: validate catalog completeness, XML, standalone JavaScript and schema fixtures.
 - `node --test tests/*.test.cjs`: exercise shared runtime and responsive fixtures.
 - `python3 -m http.server 8765 --directory build`: serve local review pages.
-- `python3 tools/stage_release.py --version 0.1.0-preview.2`: stage twenty immutable preview packages from a clean commit, with manifest/checksums and release-status notes.
+- `python3 tools/stage_release.py --version 0.1.0-preview.3`: stage twenty immutable preview packages from a clean commit, with manifest/checksums and release-status notes.
 - `git diff --check`: verify changed-line whitespace.
 
 ## Style and Safety

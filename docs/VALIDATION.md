@@ -51,3 +51,7 @@ Published [v0.1.0-preview.2](https://github.com/puikinsh/Colorlib-Blogger-Templa
 ## Retrying the published imports and publishing flows
 
 The [latest retry matrix](BLOGGER-RETRY.md) uses files extracted from the published preview packages. Saffron/Wayfarer full exports passed merging into the shared lab: all 24 titles, labels, publication dates, feature blocks and pinned artwork URLs verified; four sampled imported article views passed. Lesson's import hit Blogger's attempt limit twice, leaving eighteen export acceptances open. Lesson's reply and Bench's new-comment retry failed. All twenty released comment views/forms and earlier persisted replies passed reinspection; this does not close their remaining publication gates. No additional template defect was reproduced.
+
+## Media and editorial source pass
+
+The [media/editorial review](MEDIA-EDITORIAL-REVIEW.md) records local YouTube playback and recovery under all twenty themes, Vimeo’s supported-browser failure, 240 distinct editorial briefs, topic-specific lesson/travel fixes and the outstanding native/device/factual acceptance gates. These changes are later than the frozen preview.2 packages.
