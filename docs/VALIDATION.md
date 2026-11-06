@@ -37,3 +37,5 @@ Public development assets are available. Prepare coherent per-theme demos, then 
 Native introduction/logo/accent changes and menu persistence passed on all twenty templates. All twenty live skip links show visible focus and reach main content; 40 live homepage/article DOM checks passed the sampled contrast/control-name audit. Local tests now also check rendered contrast and names across the existing 200 viewport cases. The separate hub passes filtering/reset and five-width checks. See [scope, fixes and source-size figures](OWNER-ACCESSIBILITY-REVIEW.md).
 
 The public lab is a dedicated shadcn-inspired catalog, with development previews published through the approved Pages workflow after validation. No production release is implied. Measured live performance, screen-reader/physical-device review, full demo imports and comment publication/replies remain acceptance gates.
+
+All twenty hosted preview pages and ZIP downloads were verified after deployment; downloaded packages match their generated SHA-256 checksums. The installed hub also passes actual Blogger phone/tablet checks at 320/375/768px and native article/search/About routes.

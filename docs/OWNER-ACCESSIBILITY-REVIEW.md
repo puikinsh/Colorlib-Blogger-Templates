@@ -42,7 +42,8 @@ Fixed a missing Theme Designer group that left color variables listed without us
 - The automated Chrome suite audits text-node contrast and control names on home/article fixtures at 320, 375, 768, 1024 and 1440px (200 cases). This is a focused regression check, not axe/Lighthouse or a complete WCAG audit.
 - Generalized focus-visible styling to include textareas, selects and other focusable elements. Added accessible names to image links even when their fallback artwork is decorative.
 - Optional player regression: rejected insecure, lookalike, credential-bearing and nonstandard-port destinations; accepted allowlisted players retain their title and keyboard focus. Network access is blocked in this test, so provider availability/playback is not verified.
-- Hub regression: filtering, combined search, no-result state, reset focus and responsive geometry/contrast at five widths. Cards and links remain available without JavaScript; filtering controls appear only when active.
+- Hub regression: filtering, combined search, no-result state, reset focus and responsive geometry/contrast at five widths. Cards and links remain available without JavaScript; filtering controls appear only when active. The installed public Blogger hub also passes actual 320/375/768px geometry checks, native article/search/About views, keyboard entry and sampled contrast/name checks. Its native search description and matching Open Graph description were saved and verified.
+- All twenty hosted static preview pages and twenty ZIP downloads return HTTP 200. Every downloaded ZIP matches the generated SHA256SUMS. GitHub validation and the approved preview deployment passed.
 
 Still required: an actual screen-reader session, physical-device review, third-party player failure/playback checks and end-to-end Google comment publication/replies. These results do not establish full accessibility conformance.
 
