@@ -6,6 +6,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Retried the published Saffron/Wayfarer demo exports and verified all 24 imported titles, labels, timestamps, feature blocks and pinned image URLs through the public feed.
+- Recorded Blogger’s repeated import attempt limit and Lesson/Bench publication failures; rechecked comment views/forms and persisted replies using all twenty released templates.
+- Updated the stable-release blocker matrix and hub disclosure without replacing the published preview assets.
+
 - Published `v0.1.0-preview.2` as a GitHub prerelease with twenty versioned ZIPs, manifest, checksums and acceptance notes.
 - Pointed Blogger/static hub downloads to the published release and placed the remaining screen-reader, comment, import, performance and final-acceptance checks before the download cards.
 - Added a regression for all twenty versioned hub links and visible test-status disclosure; the hub source suite now has 52 tests.

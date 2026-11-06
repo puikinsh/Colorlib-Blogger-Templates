@@ -9,7 +9,7 @@ All twenty themes were installed sequentially on the dedicated [public Blogger l
 | Saffron | Pass | Pass | Pass / pass | Blocked |
 | Wayfarer | Pass | Pass | Pass / pass | Blocked |
 | Lesson | Pass | Pass | Pass / blocked | Blocked |
-| Bench | Pass | Pass | Not attempted after failure | Blocked |
+| Bench | Pass | Pass | Retry failed / not reached | Blocked |
 | Maker | Pass | Pass | Not attempted after failure | Blocked |
 | Muse | Pass | Pass | Not attempted after failure | Blocked |
 | Kinship | Pass | Pass | Not attempted after failure | Blocked |
@@ -43,7 +43,7 @@ The earlier composer-expansion block was resolved by native click-and-type inter
 - Added the native `.hidden` state omitted when global Blogger CSS is disabled. Empty reply threads and inactive load-more controls no longer appear as unusable controls.
 - Added responsive spacing for author/timestamp lines, actions, avatars and threaded replies, with wrapping for long comment text.
 
-The shared comment CSS was also checked on actual published content at 320/375/768px with no horizontal overflow. Two new regressions check generated comment hooks and forty local comment-layout cases (twenty themes at 320/768px). The full suite has **51 passing tests**; the existing 200 home/article viewport cases remain covered.
+The shared comment CSS was also checked on actual published content at 320/375/768px with no horizontal overflow. Two new regressions check generated comment hooks and forty local comment-layout cases (twenty themes at 320/768px). The initial comment pass had **51 passing tests** (the later hub-link check brings the suite to 52); the existing 200 home/article viewport cases remain covered.
 
 ## Blocked checks
 
@@ -52,3 +52,7 @@ The shared comment CSS was also checked on actual published content at 320/375/7
 **Actual screen reader:** VoiceOver Utility opened with its caption panel already enabled, but native Chrome and Safari app connections timed out; the Codex native app is unavailable to computer-use control. VoiceOver was not enabled, no speech/rotor pass was performed, and no VoiceOver preference was changed. The utility was closed after inspection. Accessibility-tree and keyboard results must not be reported as a VoiceOver pass. This remains blocked for all twenty themes.
 
 When a native browser/screen-reader connection is available, test headings/landmarks rotor navigation, one spoken logo/title, TOC targets, form labels, validation/status announcements and comment/reply entry. When Blogger publishing recovers, finish Lesson's reply and the remaining publication rows. Existing import, measured-performance, physical-device and editorial gates remain listed in [release readiness](RELEASE-READINESS.md).
+
+## Published-package retry
+
+The [latest retry report](BLOGGER-RETRY.md) records another failed Lesson reply and a failed new top-level Bench comment. All twenty released XML files were installed and their visible named comment forms and earlier persisted replies rechecked. Further publishing submissions stopped after those failures. The Saffron/Wayfarer publication passes were rechecked for persistence, not duplicated. No actual screen-reader speech pass is claimed.

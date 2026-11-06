@@ -13,12 +13,16 @@ Updated November 6, 2026. These packages are prepared for development testing, n
 ## Blocked or outstanding acceptance
 
 - **Screen-reader speech:** VoiceOver Utility is available, but native Chrome/Safari connections timed out. Accessibility-tree/keyboard checks are completed; actual VoiceOver speech/rotor verification is blocked for every theme.
-- **Comment publishing:** complete Lesson's reply and independent publication/reply checks for the other seventeen themes in a working Blogger session. The service's failure cause is unknown. No CAPTCHA challenge appeared in the completed attempts.
-- **Complete demo imports:** Blogger refused further imports after four posts; the owner chose to retain the existing lab fixtures. All twenty complete demo exports still need clean import acceptance.
+- **Comment publishing:** Lesson’s reply failed again during the retry; a new-comment attempt under Bench returned the same Blogger failure. Complete Lesson’s reply and publication/reply checks for the other seventeen themes. The cause remains unknown; no CAPTCHA challenge appeared.
+- **Complete demo imports:** the retry accepted all twelve Saffron posts and all twelve Wayfarer posts into the shared lab; titles, labels, timestamps, feature blocks and pinned artwork URLs were verified. Lesson then hit Blogger’s import attempt limit twice. The remaining eighteen exports are unverified. See the [retry matrix](BLOGGER-RETRY.md).
 - **Live performance:** DevTools was unavailable; the owner chose to document the gap. No measured live Core Web Vitals or Lighthouse score is claimed.
 - Physical-device review, third-party player playback/failure checks and coherent per-theme editorial acceptance remain open. Recipe samples have not been kitchen-tested.
 
 Blogger's native timestamp cursor can skip a post when identical publication times straddle a pagination boundary. Keep demonstration publication timestamps distinct and verify page-size changes. The theme preserves native navigation URLs.
+
+## Latest retry
+
+The [published-package retry](BLOGGER-RETRY.md) records 24 accepted demo posts, the repeated import limit, the Lesson/Bench publish failures and current comment-form checks across all twenty released templates. These partial results do not close the stable-release gates above.
 
 ## Published preview
 

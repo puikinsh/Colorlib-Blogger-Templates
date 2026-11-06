@@ -48,6 +48,8 @@ Pagination always uses Blogger's crawlable Older/Newer URLs. The base theme does
 
 The published assets are frozen from source commit `a672d7a1bca99d776f66322deead9d7ececf80c4`. Use a new preview number when staging changed source; do not replace these published assets with a later rebuild.
 
+Latest platform retry: Saffron/Wayfarer added all 24 demo posts; Blogger then limited imports. Lesson/Bench comment retries still fail. See the [current stable-release blockers](docs/BLOGGER-RETRY.md). Published packages remain unchanged.
+
 ## Release staging
 
 After committing a validated source revision, run `python3 tools/stage_release.py --version 0.1.0-preview.2`. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.

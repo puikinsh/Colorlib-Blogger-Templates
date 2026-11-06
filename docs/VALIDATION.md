@@ -47,3 +47,7 @@ All twenty templates passed forty desktop/mobile-route comment rendering and acc
 ## Published preview and hub downloads
 
 Published [v0.1.0-preview.2](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.2) as a prerelease. Its twenty ZIPs remain frozen from commit `a672d7a1bca99d776f66322deead9d7ececf80c4`, whose suite passed 51 tests. The later hub update adds one URL/disclosure regression (52 total) and links both Blogger and static catalogs to those immutable assets. The hub visibly lists incomplete checks before visitors reach the download cards. Existing blocked checks remain open; publication does not imply production acceptance.
+
+## Retrying the published imports and publishing flows
+
+The [latest retry matrix](BLOGGER-RETRY.md) uses files extracted from the published preview packages. Saffron/Wayfarer full exports passed merging into the shared lab: all 24 titles, labels, publication dates, feature blocks and pinned artwork URLs verified; four sampled imported article views passed. Lesson's import hit Blogger's attempt limit twice, leaving eighteen export acceptances open. Lesson's reply and Bench's new-comment retry failed. All twenty released comment views/forms and earlier persisted replies passed reinspection; this does not close their remaining publication gates. No additional template defect was reproduced.

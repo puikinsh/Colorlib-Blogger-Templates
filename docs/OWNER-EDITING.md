@@ -40,3 +40,7 @@ Use distinct publication timestamps for demonstration posts. Blogger's native ti
 ## Shared lab hub
 
 The public lab uses a separate `lab/` design; it is not a twenty-first product template. Rebuild it with `python3 tools/build_lab.py` after the collection build, then install `build/lab/Colorlib-Lab-Blogger-Template.xml`. Catalog text/links come from `catalog.json`, theme configuration and the hub builder. Owner controls for product templates remain independent. Preview publishing runs only after validation on `codex/collection-preview`; it does not create a production release.
+
+## Waiting for demo imports
+
+Blogger imports run asynchronously. Wait for the published post count and expected titles to appear before treating an import as complete or uploading the file again. The current lab accepted the complete Saffron/Wayfarer exports, then showed an import attempt limit; Blogger did not provide a reset interval. Retry after the service allows imports again. Current acceptance is tracked in the [retry report](BLOGGER-RETRY.md).
