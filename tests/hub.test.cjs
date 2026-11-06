@@ -23,7 +23,7 @@ test('both hub formats link every download to the versioned preview and show ope
   assert.ok(html.indexOf('Before you download')<html.indexOf('data-hub-card="true"'),file+' must disclose open testing before downloads');
   for(const text of ['Screen readers','Comment publishing','Complete demo imports','measured live performance','Physical devices'])assert.ok(html.includes(text),file+' missing '+text);
   assert.ok(html.includes(base+'SHA256SUMS'));
-  assert.ok(html.includes('Vimeo remains blocked')&&html.includes('audio checks')&&html.includes('final editorial approval'),file+' must keep media/editorial gates visible');
+  assert.ok(html.includes('Vimeo remains blocked')&&html.includes('audible output')&&html.includes('final editorial approval'),file+' must keep media/editorial gates visible');
   assert.doesNotMatch(html,/being prepared|preview\.2 download/);
   assert.doesNotMatch(html,/packages\/[^"]+\.zip/);
  }

@@ -50,3 +50,7 @@ The Vimeo sample was also activated under each of the twenty installed themes. E
 Preview.3 includes the shared media recovery and editorial fixes from the preceding source pass, this native validation record, bundled offline documentation and protection against overwriting an already staged version. It remains a development prerelease, not a stable release. At package time, preview.3 was prepared as a draft and preview.2 downloads stayed active. Preview.3 is now published as a development prerelease and both hubs link to its new packages; preview.2 assets remain unchanged.
 
 Validation: the XML/source checker and all 56 automated tests passed, including offline documentation links in all twenty ZIPs and refusal to overwrite a staged version.
+
+## Subsequent audio/mobile pass
+
+The [new development-source review](AUDIO-MOBILE.md) records completed MP3/WAV checks at 375px and 320px for all twenty themes, audio-error and player-height fixes, and unresolved narrow-video reliability. It supersedes the earlier unrun audio/narrow checks above; physical-device and audible-output acceptance remains open. Preview.3 assets are unchanged.

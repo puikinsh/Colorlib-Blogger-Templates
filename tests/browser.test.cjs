@@ -32,13 +32,16 @@ try{
   if(checklist){checklist.click();check(checklist.checked,'native ingredient/checklist checkbox');var reset=document.querySelector('[data-reset-checklist]');if(reset){reset.click();check(!checklist.checked,'reset works');}}
   var recipe=document.querySelector('[data-recipe]');
   if(recipe){check(recipe.hasAttribute('data-recipe-demo'),'untested demos explicitly marked');check(!recipe.querySelector('script[data-recipe-schema]'),'untested demos omit Recipe schema');}
+  var audio=document.querySelector('audio');check(audio.getBoundingClientRect().width>0&&audio.getBoundingClientRect().right<=innerWidth,'native audio fits viewport');
+  check(!audio.autoplay&&audio.controls,'native audio requires manual playback and retains controls');
   var media=document.querySelector('[data-video-src]');
   media.focus();media.click();var frame=document.querySelector('.cl-media-player iframe');
   check(frame&&document.activeElement===frame,'media frame receives keyboard focus');
   check(frame.getBoundingClientRect().width<=innerWidth,'media frame fits viewport');
+  check(frame.getBoundingClientRect().height>=200,'embedded player retains minimum control height on narrow screens');
   check(frame.getAttribute('src')==='https://player.vimeo.com/video/76979871','autoplay and pasted API parameters removed');
   var fallback=document.querySelector('.cl-media-player .cl-actions a');check(fallback&&fallback.target==='_blank'&&fallback.rel.includes('noopener'),'blocked-player recovery link');
-  check(document.querySelector('[role=status]').textContent.includes('Player requested'),'no false playing claim');
+  check(document.querySelector('.cl-media-player [role=status]').textContent.includes('Player requested'),'no false playing claim');
   document.querySelector('.cl-media-player .cl-actions button').click();
   check(!document.querySelector('.cl-media-player iframe')&&!media.hidden&&document.activeElement===media,'close stops media and restores focus');
   media.click();check(document.querySelectorAll('.cl-media-player iframe').length===1,'retry creates one player');
@@ -58,7 +61,7 @@ try{
         .replace(/<link rel="stylesheet" href="assets\/theme.css(?:\?v=[a-f0-9]+)?">/,'<style>'+css+'\n*{animation:none!important;transition:none!important}</style>')
         .replace(/<script src="assets\/runtime.js(?:\?v=[a-f0-9]+)?" defer><\/script>/,'')
         .replace(/src="assets\/cover-[^"]+"/g,'src="https://example.com/illustration.svg"');
-      if(page==='article.html')html=html.replace('</div></div><footer class="cl-article-footer">','<div class="cl-video"><button data-video-src="https://player.vimeo.com/video/76979871?autoplay=1&amp;api=1" data-video-title="Official Vimeo sample">Load sample video</button></div></div></div><footer class="cl-article-footer">');
+      if(page==='article.html')html=html.replace('</div></div><footer class="cl-article-footer">','<audio controls preload="none" aria-label="Sample audio"><source src="https://example.invalid/sample.mp3" type="audio/mpeg"></audio><p><a href="https://example.invalid/sample.mp3">Open audio directly</a></p><div class="cl-video"><button data-video-src="https://player.vimeo.com/video/76979871?autoplay=1&amp;api=1" data-video-title="Official Vimeo sample">Load sample video</button></div></div></div><footer class="cl-article-footer">');
       html=html.replace('</body>','<script>var nativeBefore=Array.from(document.querySelectorAll("#blog-pager a")).map(function(a){return a.getAttribute("href");}).join("|");'+runtime+'\n'+checks+'</script></body>');
       frames.push({width,page,html});
     }

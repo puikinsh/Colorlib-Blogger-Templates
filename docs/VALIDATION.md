@@ -63,3 +63,7 @@ All twenty revised XMLs passed native YouTube playback/recovery on both Blogger 
 ## Preview.3 publication
 
 Published the verified preview.3 packages from `adf4ded8b81b79a7275b8d57431fa47dcbb34ff0` as a development prerelease. Both hubs now link all twenty downloads and SHA256SUMS to preview.3 and retain visible speech, comment, import, performance, Vimeo, device/audio and editorial gates. Release assets remain the exact staged bytes; package-time reports are preserved.
+
+## Audio and narrow-viewport source pass
+
+The [audio/mobile matrix](AUDIO-MOBILE.md) records eighty native audio format/route checks and forty final Blogger layout/recovery checks across all twenty themes at verified 375px/320px viewports. Focused retries remain visible in the evidence. Shared failed-audio feedback and the minimum video-player height were fixed. Reliable narrow-video playback remains open after intermittent pauses/stalls; physical-device, audible-output and all earlier service/tool blockers remain. Published preview.3 assets were preserved.

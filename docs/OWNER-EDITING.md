@@ -61,3 +61,21 @@ Use a button inside ordinary article HTML:
 Replace both IDs and supply an accurate transcript and captions. The ordinary link also works without JavaScript. Vimeo accepts `https://player.vimeo.com/video/NUMERIC_ID` and an optional unlisted `?h=HASH`. Other hosts and non-HTTPS URLs are rejected with a visible message. Activation contacts the provider; the theme does not autoplay. The provider may require a second Play activation. Close removes the iframe, and the watch-page link provides a separate recovery path. Check rights, embedding permission and privacy requirements for your actual recording.
 
 Generated `media.html` pages are static QA fixtures, not posts imported into Blogger. The [media/editorial report](MEDIA-EDITORIAL-REVIEW.md) and [native matrix](NATIVE-MEDIA.md) distinguish completed local/Blogger route checks from unrun device/audio checks. Demo articles contain editing briefs, not factual publication-ready stories; replace the complete brief and irrelevant feature sections with your own verified content.
+
+## Native audio
+
+Use browser controls and put a recording link outside the player so it remains available when decoding or loading fails:
+
+```html
+<figure>
+  <figcaption id="episode-title">Your episode title</figcaption>
+  <audio controls preload="none" aria-labelledby="episode-title">
+    <source src="https://example.com/your-episode.mp3" type="audio/mpeg">
+  </audio>
+  <p><a href="https://example.com/your-episode.mp3">Open the recording directly</a></p>
+</figure>
+```
+
+Replace both URLs, use unique caption IDs for multiple players, and supply an accurate transcript. `preload="none"` is a browser hint, not a guarantee of zero network traffic. The newer runtime adds associated visible feedback after a direct-source failure or failure of every alternative source, while retaining the native controls. A working alternative clears failure feedback. Verify the host's HTTPS delivery, actual formats, rights and long recordings yourself.
+
+Optional video frames now retain at least 200px height at narrow widths. This layout fix does not resolve the observed narrow-video buffering. See the [audio/mobile report](AUDIO-MOBILE.md); its later fixes are not included in preview.3.

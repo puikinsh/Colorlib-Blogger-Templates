@@ -93,6 +93,39 @@
     form.addEventListener('input', update);
     update();
   });
+  document.querySelectorAll('.cl-prose audio').forEach(function (audio, index) {
+    var message = document.createElement('p');
+    var base = 'cl-audio-status-' + (index + 1), id = base, suffix = 1;
+    while (document.getElementById(id)) id = base + '-' + suffix++;
+    message.id = id;
+    message.className = 'cl-small cl-audio-status';
+    message.setAttribute('role', 'status');
+    message.hidden = true;
+    audio.after(message);
+    var described = audio.getAttribute('aria-describedby');
+    audio.setAttribute('aria-describedby', (described ? described + ' ' : '') + id);
+    var sources = Array.from(audio.querySelectorAll('source'));
+    var failed = new Set();
+    function unavailable() {
+      message.hidden = false;
+      message.textContent = 'Audio is unavailable. Use the direct recording link, if provided, or try again later.';
+    }
+    audio.addEventListener('error', unavailable);
+    // Source errors do not bubble; wait for all alternatives before reporting failure.
+    sources.forEach(function (source) {
+      source.addEventListener('error', function () {
+        failed.add(source);
+        if (sources.every(function (item) { return failed.has(item); })) unavailable();
+      });
+    });
+    audio.addEventListener('loadstart', function () { failed.clear(); });
+    audio.addEventListener('loadedmetadata', function () {
+      message.textContent = '';
+      message.hidden = true;
+      failed.clear();
+    });
+    if (audio.error) unavailable();
+  });
   document.querySelectorAll('button[data-video-src]').forEach(function (button) {
     var player = document.createElement('div');
     player.className = 'cl-media-player';

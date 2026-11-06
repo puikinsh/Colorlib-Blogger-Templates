@@ -6,6 +6,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Added original WAV/MP3 QA signals and recorded native audio plus 375px/320px layout checks for all twenty templates, with focused retries preserved.
+- Documented unresolved narrow-video playback and retained all device/audio-output, screen-reader, performance, Blogger service and editorial gates. Published preview.3 assets remain frozen.
+
+
 - Published `v0.1.0-preview.3` as a development prerelease and switched both hub formats to its twenty verified versioned downloads and checksums.
 - Retained visible blocked/unrun acceptance checks before the download cards; preserved the frozen preview.2 and preview.3 assets.
 
@@ -53,6 +57,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 - Architecture, editing, contributor and release-validation documentation.
 
 ### Fixed
+
+- Added visible associated audio failure feedback, alternate-source handling and recovery without replacing native controls.
+- Kept optional embedded players at least 200px high on narrow screens to satisfy the documented YouTube minimum.
+
 
 - Bundle offline owner/validation documentation and resolve local release-status links inside each preview ZIP.
 - Refuse to overwrite an already staged preview version.

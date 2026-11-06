@@ -1,0 +1,5691 @@
+{
+  "initial": {
+    "rows": [
+      {
+        "slug": "saffron",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-saffron",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.031804
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.601636
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.610534
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.003336
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.224
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.224
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.357106
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-saffron",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.01167
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.660525
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.660525
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.004423
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.654447
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.66405
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.273043
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "wayfarer",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-wayfarer",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": null,
+                "paused": false,
+                "ready": 0,
+                "time": 0
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.472417
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.477279
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.015827
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.628073
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.633123
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.189193
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-wayfarer",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.009185
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.657467
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.657467
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": null,
+                "paused": false,
+                "ready": 0,
+                "time": 0
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.224
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.224
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": true,
+              "ready": 4,
+              "time": 0.196233
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "lesson",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-lesson",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.022044
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.330905
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.33562
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.014558
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.635983
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.640384
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.311649
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-lesson",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.00078
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.660731
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.665284
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.013595
+              },
+              "playing": {
+                "duration": 12,
+                "paused": true,
+                "ready": 4,
+                "time": 0.013595
+              },
+              "paused": {
+                "paused": false,
+                "time": 0.239863
+              },
+              "seek": {
+                "paused": false,
+                "time": 6.123843
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.128
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "bench",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-bench",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.005963
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.656372
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.656372
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.010792
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.632155
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.636704
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": true,
+              "ready": 4,
+              "time": 0.229827
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-bench",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.007283
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.290028
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.30593
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": true,
+                "ready": 4,
+                "time": 0.009286
+              },
+              "playing": {
+                "duration": 12,
+                "paused": true,
+                "ready": 4,
+                "time": 0.009286
+              },
+              "paused": {
+                "paused": false,
+                "time": 0.044209
+              },
+              "seek": {
+                "paused": false,
+                "time": 6.099005
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.128
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "maker",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-maker",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.005755
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.654417
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.659256
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.003587
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.647247
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.65204
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": true,
+              "ready": 4,
+              "time": 0.128
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-maker",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.00084
+              },
+              "playing": {
+                "duration": 12,
+                "paused": true,
+                "ready": 4,
+                "time": 0.279585
+              },
+              "paused": {
+                "paused": false,
+                "time": 0.522323
+              },
+              "seek": {
+                "paused": false,
+                "time": 6.150177
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.466496
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.471855
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.325822
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "muse",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-muse",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.004816
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.704
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.704
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 1,
+                "time": 0
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.264011
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.277348
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.213333
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-muse",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.008196
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.65683
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.665347
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.274012
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.279835
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": true,
+              "ready": 4,
+              "time": 0.19461
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "kinship",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-kinship",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.014022
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.393594
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.398712
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.006643
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.653838
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.662105
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.413584
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-kinship",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.014563
+              },
+              "playing": {
+                "duration": 12,
+                "paused": true,
+                "ready": 4,
+                "time": 0.19869
+              },
+              "paused": {
+                "paused": false,
+                "time": 0.435862
+              },
+              "seek": {
+                "paused": false,
+                "time": 6.096264
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.604002
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.610936
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.384025
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "shelf",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-shelf",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.020099
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.362359
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.370253
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.018501
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.789285
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.797887
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.478874
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-shelf",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.011975
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.804791
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.804791
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.000333
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.792313
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.800991
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.570075
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "playbook",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-playbook",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.009434
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.803967
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.803967
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.012417
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.782571
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.790106
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.524419
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-playbook",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.005718
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.79943
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.807056
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.008613
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.78127
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.789118
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.52514
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "soundboard",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-soundboard",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.000805
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.794541
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.806884
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.001923
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.79637
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.804397
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.399209
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-soundboard",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.008617
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.80147
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.809411
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.013704
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.786035
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.794175
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.45867
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "verdant",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-verdant",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.019008
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.357207
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.364719
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.011205
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.77592
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.781101
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.472303
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-verdant",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.014504
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.782764
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.787385
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.013025
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.777631
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.7826
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.527378
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "pace",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-pace",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.01861
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.793694
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.801043
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.017074
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.788363
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.796282
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.549161
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-pace",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.017601
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.78587
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.792546
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.005235
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.779877
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.786967
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.543038
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "ledger",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-ledger",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.014018
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.78912
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.79607
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.006316
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.7805
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.787748
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.551841
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-ledger",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.016732
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.789895
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.797681
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.011954
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.782784
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.790607
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.469068
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "screen",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-screen",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.020865
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.361868
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.369949
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.010529
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.779529
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.788048
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.490663
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-screen",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.008374
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.784392
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.792542
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.00768
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.783814
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.792908
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.466822
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "borough",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-borough",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": null,
+                "paused": false,
+                "ready": 0,
+                "time": 0
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.109882
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.115982
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.015099
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.78694
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.794484
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.457739
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-borough",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.009012
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.80152
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.809526
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": null,
+                "paused": false,
+                "ready": 0,
+                "time": 0
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.546904
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.55477
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.523204
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "studio",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-studio",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.00143
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.793364
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.797941
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.014536
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.780681
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.785177
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.472656
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-studio",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.002908
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.796066
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.803546
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.019321
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.792129
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.800665
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.517829
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "launchpad",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-launchpad",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.015318
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.357382
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.365191
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.0032
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.775857
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.78446
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.472542
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-launchpad",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.007784
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.800582
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.807488
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.020171
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.789787
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.79606
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.465605
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "ceremony",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-ceremony",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.000599
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.78935
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.794598
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.007582
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.779101
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.786782
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.465403
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-ceremony",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.01165
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.801161
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.807661
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.019806
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.791515
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.80211
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.530787
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "cause",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-cause",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.01766
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.800359
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.808367
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.01197
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.782561
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.790469
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.458443
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-cause",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.000189
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.806584
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.813264
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.015008
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.782496
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.787783
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.470655
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      },
+      {
+        "slug": "companion",
+        "routes": [
+          {
+            "width": 375,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+            "audioBounds": [
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              },
+              {
+                "right": 355,
+                "width": 335
+              }
+            ],
+            "cls": "theme-companion",
+            "scroll": 375,
+            "viewport": 375,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.00979
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.36133
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.36133
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.00969
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.780895
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.788633
+              },
+              "seek": {
+                "paused": true,
+                "time": 5.98373
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.477268
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 355,
+                "width": 335
+              },
+              "scroll": 375,
+              "viewport": 375
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          },
+          {
+            "width": 320,
+            "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html?m=1",
+            "audioBounds": [
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              },
+              {
+                "right": 300,
+                "width": 280
+              }
+            ],
+            "cls": "theme-companion",
+            "scroll": 320,
+            "viewport": 320,
+            "mp3": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.013578
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.785065
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.792733
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "wav": {
+              "initial": {
+                "autoplay": false,
+                "paused": true,
+                "preload": "none",
+                "time": 0
+              },
+              "first": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.003273
+              },
+              "playing": {
+                "duration": 12,
+                "paused": false,
+                "ready": 4,
+                "time": 0.775504
+              },
+              "paused": {
+                "paused": true,
+                "time": 0.782682
+              },
+              "seek": {
+                "paused": true,
+                "time": 6.088518
+              }
+            },
+            "youtube": {
+              "paused": false,
+              "ready": 4,
+              "time": 0.519438
+            },
+            "activeLayout": {
+              "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+              "feedback": {
+                "hidden": false,
+                "text": "Audio is unavailable. Use the direct recording link, if provided, or try again later."
+              },
+              "frame": {
+                "right": 300,
+                "width": 280
+              },
+              "scroll": 320,
+              "viewport": 320
+            },
+            "closed": {
+              "focus": "Load YouTube sample",
+              "frames": 0
+            }
+          }
+        ]
+      }
+    ],
+    "retries": [
+      {
+        "slug": "companion",
+        "failure": "Error: Error: Playwright selector deadline exceeded\nwaiting on click for selector iframe[title=\"YouTube official iframe example\"] >> internal:control=enter-frame >> internal:role=button[name=\"Play video\"s]\nLocator diagnostics: {\"kind\":\"no_m"
+      }
+    ]
+  },
+  "audio_retries": [
+    {
+      "slug": "lesson",
+      "key": "wav",
+      "width": 320,
+      "check": {
+        "initial": {
+          "paused": true,
+          "time": 0
+        },
+        "first": {
+          "paused": false,
+          "ready": 4,
+          "time": 0.032
+        },
+        "playing": {
+          "duration": 12,
+          "paused": false,
+          "ready": 4,
+          "time": 0.525042
+        },
+        "paused": {
+          "paused": true,
+          "time": 0.53017
+        },
+        "seek": {
+          "paused": true,
+          "time": 6.088518
+        }
+      }
+    },
+    {
+      "slug": "bench",
+      "key": "wav",
+      "width": 320,
+      "check": {
+        "initial": {
+          "paused": true,
+          "time": 0
+        },
+        "first": {
+          "paused": false,
+          "ready": 4,
+          "time": 0.032
+        },
+        "playing": {
+          "duration": 12,
+          "paused": false,
+          "ready": 4,
+          "time": 0.516033
+        },
+        "paused": {
+          "paused": true,
+          "time": 0.520784
+        },
+        "seek": {
+          "paused": true,
+          "time": 6.088518
+        }
+      }
+    },
+    {
+      "slug": "maker",
+      "key": "mp3",
+      "width": 320,
+      "check": {
+        "initial": {
+          "paused": true,
+          "time": 0
+        },
+        "first": {
+          "paused": false,
+          "ready": 0,
+          "time": 0
+        },
+        "playing": {
+          "duration": 12,
+          "paused": false,
+          "ready": 4,
+          "time": 0.33258
+        },
+        "paused": {
+          "paused": true,
+          "time": 0.338041
+        },
+        "seek": {
+          "paused": true,
+          "time": 6.088518
+        }
+      }
+    },
+    {
+      "slug": "kinship",
+      "key": "mp3",
+      "width": 320,
+      "check": {
+        "initial": {
+          "paused": true,
+          "time": 0
+        },
+        "first": {
+          "paused": false,
+          "ready": 4,
+          "time": 0.032
+        },
+        "playing": {
+          "duration": 12,
+          "paused": false,
+          "ready": 4,
+          "time": 0.511403
+        },
+        "paused": {
+          "paused": true,
+          "time": 0.516646
+        },
+        "seek": {
+          "paused": true,
+          "time": 6.088518
+        }
+      }
+    }
+  ],
+  "video_retries": [
+    {
+      "slug": "wayfarer",
+      "width": 320,
+      "viewport": 320,
+      "first": {
+        "paused": false,
+        "ready": 0,
+        "time": 0
+      },
+      "playing": {
+        "paused": false,
+        "ready": 4,
+        "time": 0.273624
+      }
+    },
+    {
+      "slug": "bench",
+      "width": 375,
+      "viewport": 375,
+      "first": {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      },
+      "playing": {
+        "paused": false,
+        "ready": 4,
+        "time": 0.405958
+      }
+    },
+    {
+      "slug": "maker",
+      "width": 375,
+      "viewport": 375,
+      "first": {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      },
+      "playing": {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      }
+    },
+    {
+      "slug": "muse",
+      "width": 320,
+      "viewport": 320,
+      "first": {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      },
+      "playing": {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      }
+    }
+  ],
+  "video_longer_retries": [
+    {
+      "slug": "maker",
+      "width": 375,
+      "first": {
+        "paused": false,
+        "ready": 0,
+        "time": 0
+      },
+      "playing": {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      }
+    },
+    {
+      "slug": "muse",
+      "width": 320,
+      "first": {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      },
+      "playing": {
+        "paused": false,
+        "ready": 4,
+        "time": 0
+      }
+    }
+  ],
+  "final_video_samples": [
+    {
+      "slug": "saffron",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "viewport": {
+            "cls": "theme-saffron",
+            "scroll": 375,
+            "width": 375
+          },
+          "first": {
+            "paused": false,
+            "ready": 4,
+            "time": 0
+          },
+          "playing": {
+            "paused": false,
+            "ready": 4,
+            "time": 0
+          },
+          "layout": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "viewport": {
+            "cls": "theme-saffron",
+            "scroll": 320,
+            "width": 320
+          },
+          "first": {
+            "paused": false,
+            "ready": 4,
+            "time": 0
+          },
+          "playing": {
+            "paused": false,
+            "ready": 4,
+            "time": 0
+          },
+          "layout": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    }
+  ],
+  "final_layouts": [
+    {
+      "slug": "saffron",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-saffron",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-saffron",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "wayfarer",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-wayfarer",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-wayfarer",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "lesson",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-lesson",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-lesson",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "bench",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-bench",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-bench",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "maker",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-maker",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-maker",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "muse",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-muse",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-muse",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "kinship",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-kinship",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-kinship",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "companion",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-companion",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-companion",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "shelf",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-shelf",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-shelf",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "playbook",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-playbook",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-playbook",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "soundboard",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-soundboard",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-soundboard",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "verdant",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-verdant",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-verdant",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pace",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-pace",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-pace",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ledger",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-ledger",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-ledger",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "screen",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-screen",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-screen",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "borough",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-borough",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-borough",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "studio",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-studio",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-studio",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "launchpad",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-launchpad",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-launchpad",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ceremony",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-ceremony",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-ceremony",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    },
+    {
+      "slug": "cause",
+      "routes": [
+        {
+          "requestedWidth": 375,
+          "audioBounds": [
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            },
+            {
+              "right": 355,
+              "width": 335
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-cause",
+          "frame": {
+            "height": 200,
+            "right": 355,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 335
+          },
+          "scroll": 375,
+          "viewport": 375,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        },
+        {
+          "requestedWidth": 320,
+          "audioBounds": [
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            },
+            {
+              "right": 300,
+              "width": 280
+            }
+          ],
+          "audioStatuses": 3,
+          "cls": "theme-cause",
+          "frame": {
+            "height": 200,
+            "right": 300,
+            "src": "https://www.youtube-nocookie.com/embed/M7lc1UVf-VE",
+            "width": 280
+          },
+          "scroll": 320,
+          "viewport": 320,
+          "closed": {
+            "focus": "Load YouTube sample",
+            "frames": 0
+          }
+        }
+      ]
+    }
+  ]
+}
