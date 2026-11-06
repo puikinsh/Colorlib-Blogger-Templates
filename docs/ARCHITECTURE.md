@@ -10,6 +10,8 @@ The runtime adds a TOC with collision-free generated IDs, checklist reset, print
 
 Every theme owns a different home composition, typography, layout overrides and post-format contract. Shared helpers do not dictate that a lesson, product review and recipe share the same information hierarchy. Original SVG covers avoid a dependency on stock-photo hosts and keep demonstration asset provenance explicit.
 
-Four redesigned themes share a `home.html` composition between native XML and static review output through a single featured-post slot; see [design directions](DESIGN-DIRECTIONS.md). Other themes retain their `home.xml` structure.
+All twenty themes share a `home.html` composition between native XML and static review output through a single featured-post slot; see [design directions](DESIGN-DIRECTIONS.md).
 
 The local HTML renderer supplies representative data for visual review. It deliberately does not interpret Blogger expressions or prove platform compatibility. The validation report separates deterministic source/browser checks from actual Blogger import, native commenting and public-demo checks.
+
+`core/print.css` is appended after every theme override in both output types. Static category pages are generated from each configured topic and actual demo label; links preserve their topic instead of all opening the same sample category. `tools/review.py` generates desktop/mobile comparison boards from live preview pages.

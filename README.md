@@ -19,12 +19,12 @@ Open `http://localhost:8765/` for the catalog. Each theme has home, article, arc
 
 The default demo artwork base points to the planned collection repository and preview branch; it is not live yet. Before a Blogger import, publish the original assets at an owned HTTPS location and rebuild with `BLOGGER_ASSET_BASE=https://your-host/assets python3 tools/build.py --packages`. Local previews work without publishing anything.
 
-The [design directions](docs/DESIGN-DIRECTIONS.md) describe the distinct product-journal, documentation, review and portfolio layouts introduced for Launchpad, Lesson, Bench and Studio.
+The [design directions](docs/DESIGN-DIRECTIONS.md) record the individual layouts, typography, artwork and article treatments for all twenty themes. Open the catalog’s design-board link to compare live desktop and mobile layouts in groups of four.
 
 ## Source organization
 
-- `core/`: shared XML structure, native comment includables, CSS and progressive enhancements.
-- `themes/<slug>/`: independent palette/type settings, home composition, CSS, topics, content format and demo text.
+- `core/`: shared XML structure, native comment includables, base/print CSS and progressive enhancements.
+- `themes/<slug>/`: independent palette/type settings, `home.html` featured-post composition, CSS, topics, content format and demo text.
 - `assets/<slug>/`: original vector artwork, also copied into local previews and packages.
 - `tools/`: build, content/art generation and validation. Normal builds do not overwrite the theme configuration, welcome HTML or CSS.
 - `tests/`: runtime/structure regressions and browser checks.

@@ -2,12 +2,13 @@
 """Build self-contained Blogger XML, original demo exports and static review previews."""
 from pathlib import Path
 from html import escape
-from urllib.parse import quote
+from urllib.parse import quote,unquote
 from datetime import datetime,timedelta,timezone
 import argparse,json,re,shutil,hashlib,os,xml.etree.ElementTree as ET
 from zipfile import ZipFile,ZipInfo,ZIP_DEFLATED
 from content import body,feature
 from art import cover
+from review import boards
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'build'
@@ -30,10 +31,16 @@ def post_path(post):
     slug=re.sub('[^a-z0-9]+','-',post['title'].lower()).strip('-')
     return '2026/10/'+slug+'.html'
 
+def label_path(label):
+    return 'label-'+re.sub('[^a-z0-9]+','-',label.lower()).strip('-')+'.html'
+
+def preview_topic_links(markup):
+    return re.sub(r'href="/search/label/([^"]+)"',lambda m:'href="'+label_path(unquote(m[1]))+'"',markup)
+
 def card(c,post):
     image=f'assets/cover-{post["index"]:02d}.svg'
     title=escape(post['title']);url='article.html' if post['index']==1 else f'article-{post["index"]:02d}.html'
-    return f'<article class="cl-card"><a class="cl-card-image" href="{url}"><img src="{image}" width="800" height="600" loading="lazy" alt="{title}"/></a><div class="cl-card-copy"><p class="cl-kicker"><a href="label.html">{escape(post["label"])}</a></p><h3><a href="{url}">{title}</a></h3><p>{escape(post["intro"])}</p><div class="cl-card-meta"><span>Colorlib Demo Editor</span><time datetime="2026-10-25T10:00:00Z">25 October 2026</time></div></div></article>'
+    return f'<article class="cl-card"><a class="cl-card-image" href="{url}"><img src="{image}" width="800" height="600" loading="lazy" alt="{title}"/></a><div class="cl-card-copy"><p class="cl-kicker"><a href="{label_path(post["label"])}">{escape(post["label"])}</a></p><h3><a href="{url}">{title}</a></h3><p>{escape(post["intro"])}</p><div class="cl-card-meta"><span>Colorlib Demo Editor</span><time datetime="2026-10-25T10:00:00Z">25 October 2026</time></div></div></article>'
 
 def featured(c,post):
     title=escape(post['title'])
@@ -58,16 +65,23 @@ def page_html(c,title,content,css,runtime,listing=True,schema=None):
 
     return re.sub(r'(src="assets/cover-[^"]+\.svg)"',lambda m:m[1]+'?v='+asset_version+'"',html)
 
+def compose_home(c,feature_markup):
+    source=(ROOT/'themes'/c['slug']/'home.html').read_text()
+    if source.count('@@FEATURED@@')!=1:
+        raise ValueError(c['slug']+': home.html must contain exactly one featured-post slot')
+    return source.replace('@@FEATURED@@',feature_markup)
+
 def preview(c,posts,dest,css,runtime):
     welcome=(ROOT/'themes'/c['slug']/'welcome.html').read_text()
     # Preview-only links mirror Blogger label pages without needing a Blogger renderer locally.
-    welcome=re.sub(r'href="/search/label/[^"]+"','href="label.html"',welcome)
+    welcome=preview_topic_links(welcome)
     first=posts[0]
-    home_source=ROOT/'themes'/c['slug']/'home.html'
-    home=(home_source.read_text().replace('@@FEATURED@@',featured(c,first)) if home_source.exists() else f'<section class="cl-hero cl-home-{c["layout"]}" aria-label="Featured story">'+featured(c,first)+'</section>')
-    home=re.sub(r'href="/search/label/[^"]+"','href="label.html"',home)
+    home=compose_home(c,featured(c,first))
+    home=preview_topic_links(home)
     homepage=welcome+home+feed(c,posts[1:7])+nav()
     pages={'index.html':('Home',homepage,True),'page-2.html':('More stories',feed(c,posts[7:])+nav(2),True),'label.html':(c['topics'][0],'<p class="cl-status">Stories in '+escape(c['topics'][0])+'</p>'+feed(c,[p for p in posts if p['label']==c['topics'][0]])+nav(),True),'search.html':('Search results','<p class="cl-status">Search results · demonstration view</p>'+feed(c,posts[:3])+nav(),True),'empty.html':('No stories','<section class="cl-empty"><h2>No stories here yet.</h2><p>Choose another topic or return to the home page.</p><a href="index.html">Browse all stories</a></section>',True),'404.html':('Not found','<section class="cl-empty"><p class="cl-kicker">A small detour</p><h1>This page has moved on.</h1><p>Try the search above, or return to the latest stories.</p><a class="cl-button" href="index.html">Back to the journal</a></section>',False)}
+    for topic in dict.fromkeys(c['topics']+[post['label'] for post in posts]):
+        pages[label_path(topic)]=(topic,'<p class="cl-status">Stories in '+escape(topic)+'</p>'+feed(c,[p for p in posts if p['label']==topic])+'<nav aria-label="Post navigation" class="cl-pager" id="blog-pager"><a href="index.html">Home</a></nav>',True)
     for filename,(title,html,listing) in pages.items():(dest/filename).write_text(page_html(c,title,html,css,runtime,listing))
     for p in posts:
         html=body(c,p,f'assets/cover-{p["index"]:02d}.svg')
@@ -141,15 +155,13 @@ def build_one(c):
     posts=json.loads((source/'demo.json').read_text())
     core_css=(ROOT/'core/base.css').read_text();theme_css=(source/'style.css').read_text();runtime=(ROOT/'core/runtime.js').read_text()
     values={k.upper():escape(str(v),quote=True) for k,v in c.items() if isinstance(v,(str,int))}
-    values.update(CSS=core_css,THEME_CSS=theme_css,JS=runtime,HOME=(source/'home.xml').read_text() if (source/'home.xml').exists() else '',WELCOME=(source/'welcome.html').read_text(),COMMENTS=(ROOT/'core/comments.xml').read_text(),HEADING_FONT=c['heading_font'],BODY_FONT=c['body_font'])
-    home_source=source/'home.html'
-    if home_source.exists():
-        native="<b:loop values='data:posts' var='post'><b:if cond='data:post.isFirstPost'><b:include data='post' name='featured-post'/></b:if></b:loop>"
-        values['HOME']=home_source.read_text().replace('@@FEATURED@@',native)
+    values.update(CSS=core_css,THEME_CSS=theme_css,PRINT_CSS=(ROOT/'core/print.css').read_text(),JS=runtime,HOME='',WELCOME=(source/'welcome.html').read_text(),COMMENTS=(ROOT/'core/comments.xml').read_text(),HEADING_FONT=c['heading_font'],BODY_FONT=c['body_font'])
+    native="<b:loop values='data:posts' var='post'><b:if cond='data:post.isFirstPost'><b:include data='post' name='featured-post'/></b:if></b:loop>"
+    values['HOME']=compose_home(c,native)
     xml=substitute((ROOT/'core/theme.xml').read_text(),values)
     ET.fromstring(xml)
     (dest/(c['name']+'-Blogger-Template.xml')).write_text(xml)
-    preview_css=':root{--accent:'+c['accent']+';--paper:'+c['paper']+';--ink:'+c['ink']+';--soft:'+c['soft']+';--heading:'+c['heading_font']+';--body:'+c['body_font']+'}\n'+core_css+'\n'+theme_css
+    preview_css=':root{--accent:'+c['accent']+';--paper:'+c['paper']+';--ink:'+c['ink']+';--soft:'+c['soft']+';--heading:'+c['heading_font']+';--body:'+c['body_font']+'}\n'+core_css+'\n'+theme_css+'\n'+(ROOT/'core/print.css').read_text()
     (assets/'theme.css').write_text(preview_css);(assets/'runtime.js').write_text(runtime)
     for p in posts:
         svg=cover(c,p['index']);(assets/f'cover-{p["index"]:02d}.svg').write_text(svg)
@@ -177,8 +189,9 @@ def main():
         if args.theme and row['slug']!=args.theme:continue
         c=json.loads((ROOT/'themes'/row['slug']/'theme.json').read_text());report.append(build_one(c))
         if args.packages:sums.append(bundle(c))
-        print(c['name']+': XML + 12 articles + 20 review views')
+        print(c['name']+': XML + 12 articles + 23 review views')
     if not report:parser.error('Unknown theme slug')
+    boards(ROOT,OUT,[row for row in catalog if (OUT/row['slug']/'index.html').exists()])
     OUT.mkdir(exist_ok=True)
     if args.theme and (OUT/'build-report.json').exists():
         previous=json.loads((OUT/'build-report.json').read_text())
@@ -193,6 +206,6 @@ def main():
             sums=[current[key] for key in sorted(current)]
         checksum_path.write_text('\n'.join(sorted(sums,key=lambda line:line.split('  ',1)[1]))+'\n')
     cards=''.join('<a class="catalog-card" href="'+r['slug']+'/index.html"><img src="'+r['slug']+'/assets/cover-01.svg" width="400" height="300" loading="lazy" alt="'+r['name']+' illustration"><div><small>Development preview</small><h2>'+r['name']+'</h2><p>'+next(x['audience'] for x in catalog if x['slug']==r['slug'])+'</p></div></a>' for r in report)
-    (OUT/'index.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Colorlib — New Blogger Collection</title><style>*{box-sizing:border-box}body{margin:0;padding:40px;font:16px/1.5 system-ui;background:#f7f5ef;color:#242722}header{max-width:900px;margin-bottom:40px}h1{font-size:clamp(36px,5vw,70px);line-height:1.05;letter-spacing:-.05em}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}a{color:inherit;text-decoration:none;border:1px solid #ccc;background:white}a:focus-visible{outline:3px solid #245e4b;outline-offset:4px}img{width:100%;height:auto}a>div{padding:22px}h2{margin:6px 0}small{font-size:10px;text-transform:uppercase;letter-spacing:.1em}p{margin:0}header p{max-width:70ch}@media(max-width:400px){body{padding:20px}}</style></head><body><header><p>COLORLIB / BLOGGER COLLECTION</p><h1>Twenty different ways<br>to tell a useful story.</h1><p>Original niche templates built on one dependable core. These are development previews; the validation report records the checks still needed before public release.</p></header><main>'+cards+'</main></body></html>')
+    (OUT/'index.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Colorlib — New Blogger Collection</title><style>*{box-sizing:border-box}body{margin:0;padding:40px;font:16px/1.5 system-ui;background:#f7f5ef;color:#242722}header{max-width:900px;margin-bottom:40px}h1{font-size:clamp(36px,5vw,70px);line-height:1.05;letter-spacing:-.05em}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}a{color:inherit;text-decoration:none;border:1px solid #ccc;background:white}a:focus-visible{outline:3px solid #245e4b;outline-offset:4px}img{width:100%;height:auto}a>div{padding:22px}h2{margin:6px 0}small{font-size:10px;text-transform:uppercase;letter-spacing:.1em}p{margin:0}header p{max-width:70ch}@media(max-width:400px){body{padding:20px}}</style></head><body><header><p>COLORLIB / BLOGGER COLLECTION</p><h1>Twenty different ways<br>to tell a useful story.</h1><p>Original niche templates built on one dependable core. These are development previews; the validation report records the checks still needed before public release.</p><p style="margin-top:18px"><a href="design-board-1-desktop.html">Compare desktop and mobile design boards →</a></p></header><main>'+cards+'</main></body></html>')
 
 if __name__=='__main__':main()

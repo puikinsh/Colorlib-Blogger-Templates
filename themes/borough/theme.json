@@ -9,7 +9,7 @@
   "soft": "#ece3cf",
   "heading_font": "Georgia,serif",
   "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
-  "promise": "Know your neighbourhood.",
+  "promise": "The place we call home.",
   "topics": [
     "Around town",
     "Events",
@@ -19,12 +19,13 @@
   "layout": "bulletin",
   "version": "0.1.0",
   "stage": "development",
-  "intro": "A thoughtful journal for local news and community groups. Useful stories, considered details, and room to explore what matters to you.",
+  "intro": "Local stories, useful notices, and the people making a difference on your doorstep.",
   "note": "Start with a topic, stay for a story, and make this space your own.",
-  "feed_kicker": "From the journal",
-  "feed_title": "The latest stories",
-  "feed_note": "Read at your own pace.",
-  "read_label": "Read the story",
+  "feed_kicker": "Neighbourhood newspaper",
+  "feed_title": "Across the neighbourhood",
+  "feed_note": "",
+  "read_label": "Read the local story",
   "art_mark": "B",
-  "footer_copy": "Know your neighbourhood."
+  "footer_copy": "The place we call home.",
+  "design_family": "Neighbourhood newspaper"
 }

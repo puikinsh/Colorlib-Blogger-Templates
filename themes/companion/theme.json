@@ -9,7 +9,7 @@
   "soft": "#dcebee",
   "heading_font": "ui-sans-serif,system-ui,sans-serif",
   "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
-  "promise": "A good life, together.",
+  "promise": "Life is better with a sidekick.",
   "topics": [
     "Dogs",
     "Cats",
@@ -19,12 +19,13 @@
   "layout": "care",
   "version": "0.1.0",
   "stage": "development",
-  "intro": "A thoughtful journal for pets and animal enthusiasts. Useful stories, considered details, and room to explore what matters to you.",
+  "intro": "Useful care notes and everyday adventures for people who share their homes with animals.",
   "note": "Start with a topic, stay for a story, and make this space your own.",
-  "feed_kicker": "From the journal",
-  "feed_title": "The latest stories",
-  "feed_note": "Read at your own pace.",
-  "read_label": "Read the story",
+  "feed_kicker": "Pet care resource hub",
+  "feed_title": "Good things for good companions",
+  "feed_note": "",
+  "read_label": "Read the care note",
   "art_mark": "C",
-  "footer_copy": "A good life, together."
+  "footer_copy": "Life is better with a sidekick.",
+  "design_family": "Pet care resource hub"
 }

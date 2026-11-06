@@ -25,6 +25,7 @@ License: GPL-3.0. Development build; see the validation report before production
 :root{--accent:$(brand.accent);--paper:$(brand.paper);--ink:$(brand.ink);--soft:@@SOFT@@;--heading:@@HEADING_FONT@@;--body:@@BODY_FONT@@}
 @@CSS@@
 @@THEME_CSS@@
+@@PRINT_CSS@@
   ]]></b:skin>
 </head>
 <body class='theme-@@SLUG@@'>

@@ -9,7 +9,7 @@
   "soft": "#efe5d4",
   "heading_font": "Georgia,serif",
   "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
-  "promise": "Good food. Unhurried days.",
+  "promise": "Something good is on the table.",
   "topics": [
     "Weeknight",
     "Seasonal",
@@ -19,12 +19,13 @@
   "layout": "recipe",
   "version": "0.1.0",
   "stage": "development",
-  "intro": "Seasonal recipes, small kitchen rituals, and a generous place at the table. Find something good to make today.",
+  "intro": "Simple suppers, seasonal ingredients, and recipes to return to. Pull up a chair.",
   "note": "Start with a topic, stay for a story, and make this space your own.",
-  "feed_kicker": "The recipe journal",
-  "feed_title": "Something good to make",
-  "feed_note": "Read at your own pace.",
+  "feed_kicker": "Kitchen recipe index",
+  "feed_title": "What shall we cook?",
+  "feed_note": "",
   "read_label": "Make this recipe",
-  "art_mark": "✳",
-  "footer_copy": "Good food. Unhurried days."
+  "art_mark": "\u2733",
+  "footer_copy": "Something good is on the table.",
+  "design_family": "Kitchen recipe index"
 }

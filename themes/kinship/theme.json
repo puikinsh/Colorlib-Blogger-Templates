@@ -9,7 +9,7 @@
   "soft": "#f1e4cf",
   "heading_font": "Georgia,serif",
   "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
-  "promise": "The little things are the big things.",
+  "promise": "For the beautifully ordinary days.",
   "topics": [
     "Everyday",
     "Activities",
@@ -19,12 +19,13 @@
   "layout": "journal",
   "version": "0.1.0",
   "stage": "development",
-  "intro": "A thoughtful journal for parenting and family stories. Useful stories, considered details, and room to explore what matters to you.",
+  "intro": "Small rituals, shared stories, and ideas for family life as it really happens.",
   "note": "Start with a topic, stay for a story, and make this space your own.",
-  "feed_kicker": "From the journal",
-  "feed_title": "The latest stories",
-  "feed_note": "Read at your own pace.",
-  "read_label": "Read the story",
+  "feed_kicker": "Family letter and story circle",
+  "feed_title": "Letters from everyday life",
+  "feed_note": "",
+  "read_label": "Read the letter",
   "art_mark": "K",
-  "footer_copy": "The little things are the big things."
+  "footer_copy": "For the beautifully ordinary days.",
+  "design_family": "Family letter and story circle"
 }

@@ -9,7 +9,7 @@
   "soft": "#e0ebe1",
   "heading_font": "ui-sans-serif,system-ui,sans-serif",
   "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
-  "promise": "Make the numbers make sense.",
+  "promise": "Make sense of the everyday numbers.",
   "topics": [
     "Explainers",
     "Planning",
@@ -19,12 +19,13 @@
   "layout": "ledger",
   "version": "0.1.0",
   "stage": "development",
-  "intro": "A thoughtful journal for personal finance education. Useful stories, considered details, and room to explore what matters to you.",
+  "intro": "Clear explanations, planning exercises, and a notebook for understanding your money.",
   "note": "Start with a topic, stay for a story, and make this space your own.",
-  "feed_kicker": "From the journal",
-  "feed_title": "The latest stories",
-  "feed_note": "Read at your own pace.",
-  "read_label": "Read the story",
+  "feed_kicker": "Finance education reference desk",
+  "feed_title": "Build your understanding",
+  "feed_note": "",
+  "read_label": "Read the explainer",
   "art_mark": "L",
-  "footer_copy": "Make the numbers make sense."
+  "footer_copy": "Make sense of the everyday numbers.",
+  "design_family": "Finance education reference desk"
 }

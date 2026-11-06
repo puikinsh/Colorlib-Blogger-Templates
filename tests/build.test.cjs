@@ -36,7 +36,26 @@ test('single-theme package rebuild preserves the gallery, report and other check
     assert.equal(fs.readFileSync(sumsPath,'utf8'),sums);
     const gallery=fs.readFileSync(path.join(scratch,'build/index.html'),'utf8');
     assert.equal((gallery.match(/class="catalog-card"/g)||[]).length,20);
+    const homePath=path.join(scratch,'themes/saffron/home.html');
+    fs.writeFileSync(homePath,fs.readFileSync(homePath,'utf8').replace('@@FEATURED@@',''));
+    const broken=spawnSync(process.env.PYTHON||'python3',['tools/build.py','--theme','saffron'],{cwd:scratch,encoding:'utf8'});
+    assert.notEqual(broken.status,0,'a missing featured slot must fail instead of silently losing the first post');
+    assert.match(broken.stderr,/exactly one featured-post slot/);
   } finally {
     fs.rmSync(scratch,{recursive:true,force:true});
+  }
+});
+
+test('topic previews contain exactly the articles assigned to each label',()=>{
+  for(const row of catalog){
+    const config=JSON.parse(fs.readFileSync(path.join(root,'themes',row.slug,'theme.json'),'utf8'));
+    const posts=JSON.parse(fs.readFileSync(path.join(root,'themes',row.slug,'demo.json'),'utf8'));
+    for(const label of new Set([...config.topics,...posts.map(p=>p.label)])){
+      const filename='label-'+label.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'.html';
+      const html=fs.readFileSync(path.join(root,'build',row.slug,filename),'utf8');
+      const actual=Array.from(html.matchAll(/<h3><a href="([^"]+)">/g),m=>m[1]).sort();
+      const expected=posts.filter(p=>p.label===label).map(p=>p.index===1?'article.html':'article-'+String(p.index).padStart(2,'0')+'.html').sort();
+      assert.deepEqual(actual,expected,row.slug+' / '+label);
+    }
   }
 });

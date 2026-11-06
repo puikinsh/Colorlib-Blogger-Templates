@@ -6,6 +6,8 @@ Back up an existing blog's full theme and Layout settings before installing a th
 
 Edit the blog title and description in Blogger Settings. The Header widget controls an optional logo; text remains available to assistive technology. PageList provides native page navigation. In Layout, open **Homepage introduction** to change the welcome copy and topic links. Link topics to `/search/label/<encoded-label>` using the labels your own posts actually have. Theme Designer exposes accent/background/text colors; recheck contrast when changing them.
 
+The introduction is editable in Layout; structural rails, notebook frames, topic navigation and other home composition details also live in `themes/<slug>/home.html` for source-level changes. Native topic links must match the labels used on your real posts.
+
 The first post on the home page supplies the featured story. It is not duplicated in the first page's latest grid. Changing the Blogger posts-per-page setting changes the native pagination size without any separate JavaScript setting.
 
 ## Article formats
@@ -19,7 +21,7 @@ Each theme's `post-template.html` is an editable starting point. Paste it into a
 - Soundboard: optional media buttons use `data-video-src` and `data-video-title`; only documented HTTPS YouTube privacy-enhanced or Vimeo embed URLs are accepted. The default demonstration does not load third-party media.
 - Other themes: project checklists, book/plant profiles, event details, credit tables and spoiler disclosures use semantic HTML. Replace irrelevant sections completely rather than retaining fake example data.
 
-The table of contents appears only when at least three non-empty article headings exist. Existing heading IDs are preserved; generated IDs avoid collisions. Print buttons use the browser's print function and hide navigation/comment clutter through the print stylesheet.
+The table of contents appears only when at least three non-empty article headings exist. Existing heading IDs are preserved; generated IDs avoid collisions. Print buttons use the browser's print function and hide navigation/comment clutter through the print stylesheet, applied after the theme styles to keep light and dark designs readable on paper.
 
 ## Images and external services
 

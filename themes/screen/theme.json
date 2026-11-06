@@ -19,12 +19,13 @@
   "layout": "cinema",
   "version": "0.1.0",
   "stage": "development",
-  "intro": "A thoughtful journal for film, television and entertainment. Useful stories, considered details, and room to explore what matters to you.",
+  "intro": "Film, television, and the scenes that linger. Criticism for the conversation after the credits.",
   "note": "Start with a topic, stay for a story, and make this space your own.",
-  "feed_kicker": "From the journal",
-  "feed_title": "The latest stories",
-  "feed_note": "Read at your own pace.",
-  "read_label": "Read the story",
+  "feed_kicker": "Cinema criticism and screening room",
+  "feed_title": "After the credits",
+  "feed_note": "",
+  "read_label": "Read the criticism",
   "art_mark": "S",
-  "footer_copy": "Stay for the conversation."
+  "footer_copy": "Stay for the conversation.",
+  "design_family": "Cinema criticism and screening room"
 }

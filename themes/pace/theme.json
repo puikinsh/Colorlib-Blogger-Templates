@@ -9,7 +9,7 @@
   "soft": "#dcece3",
   "heading_font": "ui-sans-serif,system-ui,sans-serif",
   "body_font": "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif",
-  "promise": "Find a rhythm that fits.",
+  "promise": "Find your own rhythm.",
   "topics": [
     "Movement",
     "Routines",
@@ -19,12 +19,13 @@
   "layout": "training",
   "version": "0.1.0",
   "stage": "development",
-  "intro": "A thoughtful journal for fitness and wellbeing publishing. Useful stories, considered details, and room to explore what matters to you.",
+  "intro": "Movement ideas, everyday routines, and room to pause. A practical journal for a more active day.",
   "note": "Start with a topic, stay for a story, and make this space your own.",
-  "feed_kicker": "From the journal",
-  "feed_title": "The latest stories",
-  "feed_note": "Read at your own pace.",
-  "read_label": "Read the story",
+  "feed_kicker": "Movement training journal",
+  "feed_title": "Keep moving forward",
+  "feed_note": "",
+  "read_label": "Explore the routine",
   "art_mark": "P",
-  "footer_copy": "Find a rhythm that fits."
+  "footer_copy": "Find your own rhythm.",
+  "design_family": "Movement training journal"
 }

@@ -7,14 +7,16 @@ These are development previews. Generated-source checks and local browser result
 ## Completed checks
 
 - All twenty source directories build into self-contained theme XML, separate twelve-post demo exports, original SVG cover sets, editable post-format examples, setup/license/provenance documents and preview ZIPs with SHA256SUMS.
-- The checker validates 280 XML/SVG files, 400 static review pages, forty JSON-LD source blocks with optional fields present/absent, native include references, local preview links, image attributes and unique page IDs. Four distinct standalone JavaScript blocks pass syntax checks.
-- **45 tests pass, zero failures or skips**: twenty-three source checks, two builder regressions and twenty Chrome tests. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
+- The checker validates 280 XML/SVG files, 461 static review pages, forty JSON-LD source blocks with optional fields present/absent, native include references, local preview links, image attributes and unique page IDs. Four distinct standalone JavaScript blocks pass syntax checks.
+- **46 tests pass, zero failures or skips**: twenty-three source checks, three builder regressions and twenty Chrome tests. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
 - Reviewed Saffron, Wayfarer, Lesson and Bench home layouts visually on desktop and in 320/375/768px panels. Checked Saffron's jump-to-recipe and checklist reset, and Ledger arithmetic through the browser UI.
 - Fixed heading overflow at 320px, repeated Blogger IDs across demo exports, and a single-theme rebuild removing other themes from the gallery/checksum index. Builder tests use an isolated temporary checkout to avoid racing browser fixtures.
 
 ## November 6 design review
 
-Launchpad, Lesson, Bench and Studio now have distinct product-journal, documentation, review and portfolio layouts. All 45 regressions pass with their new home/article styles at the five tested widths. Shared `home.html` compositions generate both native and static views; see [design directions](DESIGN-DIRECTIONS.md). Preview assets use content-based versions to prevent stale styles and artwork.
+All twenty themes now have individual home compositions, feeds, article typography and niche reference panels. Reviewed five desktop comparison boards (1100px pages) and five phone boards (375px pages), covering every theme. The first four redesigns remain intact; sixteen further themes gained their own hierarchy, writing and original artwork. All 46 regressions pass, including topic-page membership, 200 responsive home/article cases and non-submitting calculator behavior.
+
+Every `home.html` composition generates native and static views. Dedicated topic previews replace the previous one-category placeholder. The checker validates 461 theme review pages, with ten additional collection comparison boards available from the catalog. Print rules are appended after theme overrides to prevent dark panels obscuring printed article text. See [design directions](DESIGN-DIRECTIONS.md) for the full matrix.
 
 ## Actual Blogger validation pending
 

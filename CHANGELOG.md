@@ -6,6 +6,11 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Redesigned the remaining sixteen themes with individual recipe, atlas, workshop, fashion, family-letter, pet-care, literary, gaming, podcast, botanical, movement, finance, cinema, newspaper, wedding and nonprofit layouts.
+- Added niche-specific original artwork and article-specific homepage teasers; retained the earlier four distinct product, documentation, review and portfolio designs.
+- Added five desktop and five mobile comparison boards, dedicated topic previews and a topic-membership regression; all 46 tests pass.
+- Applied shared print rules after theme overrides to preserve readable dark-theme article printouts.
+
 - Redesigned Launchpad and Lesson with shadcn-inspired product-journal/documentation systems, and Bench and Studio with Tailwind-inspired review/portfolio layouts.
 - Shared each redesigned home composition between Blogger XML and local previews; versioned preview asset URLs to prevent stale designs.
 
