@@ -60,3 +60,5 @@ All twenty revised XMLs subsequently passed native YouTube playback/recovery on 
 - **Editorial acceptance:** owners must replace briefs with coherent original reporting and verify claims, sources, permissions and external destinations. Recipes remain untested. No template is declared production-ready.
 
 Rebuild development packages to test these fixes. Publish a new numbered preview after native checks; never replace the existing release assets under their old version.
+
+Publication follow-up: [preview.3](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.3) now includes these fixes and the subsequent native Blogger evidence. The outstanding gates above remain open.

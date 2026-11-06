@@ -44,7 +44,7 @@ Pagination always uses Blogger's crawlable Older/Newer URLs. The base theme does
 
 ## Published preview
 
-[Download version 0.1.0-preview.2](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.2). The public Blogger hub and static catalog link directly to its twenty versioned packages. They include release-status notes, commit-pinned artwork and SHA-256 checksums. This is a prerelease for testing; the hub displays incomplete acceptance checks before its download cards.
+[Download version 0.1.0-preview.3](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.3). The public Blogger hub and static catalog link directly to its twenty versioned packages. They include release-status notes, commit-pinned artwork and SHA-256 checksums. This is a prerelease for testing; the hub displays incomplete acceptance checks before its download cards.
 
 The published assets are frozen from source commit `a672d7a1bca99d776f66322deead9d7ececf80c4`. Use a new preview number when staging changed source; do not replace these published assets with a later rebuild.
 
@@ -52,7 +52,7 @@ Latest platform retry: Saffron/Wayfarer added all 24 demo posts; Blogger then li
 
 ## Release staging
 
-After committing a validated source revision, choose a new unpublished version, for example `python3 tools/stage_release.py --version 0.1.0-preview.3`. Never reuse the published preview.2 version for changed source. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.
+After committing a validated source revision, choose a new unpublished version, for example `python3 tools/stage_release.py --version 0.1.0-preview.4`. Never reuse a published version for changed source. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.
 
 ## Release gates
 
@@ -60,6 +60,6 @@ Every theme needs XML/JS/schema checks; phone/desktop and keyboard checks; an ac
 
 Shared fixes belong in `core/`, followed by rebuilding and verifying the full catalog. Individual theme layout changes belong in that theme's source directory. GPL v3 license text is included; original vector illustrations share the package's license.
 
-Latest media/editorial pass: all twenty local designs passed YouTube playback and recovery; Vimeo returned a supported-browser error. All 240 samples now have distinct editing briefs. See [the media/editorial results and remaining gates](docs/MEDIA-EDITORIAL-REVIEW.md). These source fixes are newer than the frozen preview.2 downloads.
+Latest media/editorial pass: all twenty local designs passed YouTube playback and recovery; Vimeo returned a supported-browser error. All 240 samples now have distinct editing briefs. See [the media/editorial results and remaining gates](docs/MEDIA-EDITORIAL-REVIEW.md). These fixes are included in the frozen preview.3 downloads.
 
-Native media follow-up: all twenty themes passed Blogger YouTube playback and recovery on ordinary and `?m=1` post routes at a desktop viewport. Vimeo remains blocked. [Review the native matrix](docs/NATIVE-MEDIA.md) and remaining device/audio/editorial gates. Preview.3 is being prepared as a separate draft; current public downloads remain preview.2.
+Native media follow-up: all twenty themes passed Blogger YouTube playback and recovery on ordinary and `?m=1` post routes at a desktop viewport. Vimeo remains blocked. [Review the native matrix](docs/NATIVE-MEDIA.md) and remaining device/audio/editorial gates. Preview.3 is published as a development prerelease; hub downloads point to its twenty packages. Preview.2 remains available unchanged.

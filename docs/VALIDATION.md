@@ -59,3 +59,7 @@ The [media/editorial review](MEDIA-EDITORIAL-REVIEW.md) records local YouTube pl
 ## Native media follow-up
 
 All twenty revised XMLs passed native YouTube playback/recovery on both Blogger URL routes at 1280px; Muse passed after a focused decoding retry. Vimeo failed with the supported-browser message under every theme. The [native matrix](NATIVE-MEDIA.md) includes fixture/evidence files, exact scope and unrun audio/device/provider checks. The lab hub was restored. Preview.3 is prepared as a separate draft; preview.2 stays frozen.
+
+## Preview.3 publication
+
+Published the verified preview.3 packages from `adf4ded8b81b79a7275b8d57431fa47dcbb34ff0` as a development prerelease. Both hubs now link all twenty downloads and SHA256SUMS to preview.3 and retain visible speech, comment, import, performance, Vimeo, device/audio and editorial gates. Release assets remain the exact staged bytes; package-time reports are preserved.

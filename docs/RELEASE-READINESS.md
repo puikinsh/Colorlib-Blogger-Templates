@@ -26,14 +26,12 @@ The [published-package retry](BLOGGER-RETRY.md) records 24 accepted demo posts, 
 
 ## Published preview
 
-[v0.1.0-preview.2](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.2) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `a672d7a1bca99d776f66322deead9d7ececf80c4`. The Blogger/static hub download buttons point to these exact packages and display the incomplete checks before the cards. Publishing the preview does not close any acceptance gate above.
+[v0.1.0-preview.3](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.3) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `adf4ded8b81b79a7275b8d57431fa47dcbb34ff0`. They include media recovery, editorial corrections, offline documentation and the native-media evidence. The Blogger/static hub download buttons point to these exact packages and display the incomplete checks before the cards. Publishing the preview does not close any acceptance gate above.
+
+Preview.2 remains available unchanged from commit `a672d7a1bca99d776f66322deead9d7ececf80c4`. Embedded package status files record their preparation-time state; this page and the release description carry the current publication status.
 
 ## Package integrity and publication
 
-The normal gallery ZIPs are mutable development previews. `tools/stage_release.py --version 0.1.0-preview.3` stages a separate set from a clean source commit, pins demo artwork URLs to that commit and writes SHA256SUMS, a manifest and release notes. Each ZIP includes this status file. Verify with `shasum -a 256 -c SHA256SUMS` (or `sha256sum -c SHA256SUMS` on Linux).
+The normal gallery ZIPs are mutable development previews. `tools/stage_release.py --version 0.1.0-preview.4` stages a separate set from a clean source commit, pins demo artwork URLs to that commit and writes SHA256SUMS, a manifest and release notes. Each ZIP includes this status file. Verify with `shasum -a 256 -c SHA256SUMS` (or `sha256sum -c SHA256SUMS` on Linux).
 
 A published preview is not a production release. Do not mark it production-ready or replace Colorlib production downloads until the outstanding acceptance checks pass. Current reports: [platform validation](https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/codex/collection-preview/docs/PLATFORM-VALIDATION.md) and [comment/screen-reader checks](https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/codex/collection-preview/docs/COMMENTS-SCREEN-READER.md).
-
-## Updated preview draft
-
-Preview.3 is being prepared from the validated native-media source. It incorporates media recovery, editorial corrections and the current blocker matrix. All packages include offline documentation. Published preview.2 assets remain frozen; hub downloads continue to use preview.2 until the new draft is published.

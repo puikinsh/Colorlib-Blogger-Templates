@@ -6,6 +6,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Published `v0.1.0-preview.3` as a development prerelease and switched both hub formats to its twenty verified versioned downloads and checksums.
+- Retained visible blocked/unrun acceptance checks before the download cards; preserved the frozen preview.2 and preview.3 assets.
+
+
 - Completed native Blogger YouTube playback/recovery under all twenty revised templates on ordinary and `?m=1` routes; recorded Muse’s successful retry and Vimeo’s supported-browser failure across all twenty.
 - Added reproducible fixture HTML, sanitized observations and the remaining device/audio/provider gates; prepared a separate preview.3 draft without replacing published preview.2 assets.
 

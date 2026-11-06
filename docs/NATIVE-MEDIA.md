@@ -47,6 +47,6 @@ The Vimeo sample was also activated under each of the twenty installed themes. E
 
 ## Updated preview preparation
 
-Preview.3 includes the shared media recovery and editorial fixes from the preceding source pass, this native validation record, bundled offline documentation and protection against overwriting an already staged version. It remains a development prerelease, not a stable release. Preview.2's published assets and current hub download URLs stay unchanged while preview.3 is prepared as a draft.
+Preview.3 includes the shared media recovery and editorial fixes from the preceding source pass, this native validation record, bundled offline documentation and protection against overwriting an already staged version. It remains a development prerelease, not a stable release. At package time, preview.3 was prepared as a draft and preview.2 downloads stayed active. Preview.3 is now published as a development prerelease and both hubs link to its new packages; preview.2 assets remain unchanged.
 
 Validation: the XML/source checker and all 56 automated tests passed, including offline documentation links in all twenty ZIPs and refusal to overwrite a staged version.
