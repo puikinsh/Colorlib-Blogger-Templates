@@ -55,3 +55,7 @@ The [latest retry matrix](BLOGGER-RETRY.md) uses files extracted from the publis
 ## Media and editorial source pass
 
 The [media/editorial review](MEDIA-EDITORIAL-REVIEW.md) records local YouTube playback and recovery under all twenty themes, Vimeo’s supported-browser failure, 240 distinct editorial briefs, topic-specific lesson/travel fixes and the outstanding native/device/factual acceptance gates. These changes are later than the frozen preview.2 packages.
+
+## Native media follow-up
+
+All twenty revised XMLs passed native YouTube playback/recovery on both Blogger URL routes at 1280px; Muse passed after a focused decoding retry. Vimeo failed with the supported-browser message under every theme. The [native matrix](NATIVE-MEDIA.md) includes fixture/evidence files, exact scope and unrun audio/device/provider checks. The lab hub was restored. Preview.3 is prepared as a separate draft; preview.2 stays frozen.

@@ -61,3 +61,5 @@ Every theme needs XML/JS/schema checks; phone/desktop and keyboard checks; an ac
 Shared fixes belong in `core/`, followed by rebuilding and verifying the full catalog. Individual theme layout changes belong in that theme's source directory. GPL v3 license text is included; original vector illustrations share the package's license.
 
 Latest media/editorial pass: all twenty local designs passed YouTube playback and recovery; Vimeo returned a supported-browser error. All 240 samples now have distinct editing briefs. See [the media/editorial results and remaining gates](docs/MEDIA-EDITORIAL-REVIEW.md). These source fixes are newer than the frozen preview.2 downloads.
+
+Native media follow-up: all twenty themes passed Blogger YouTube playback and recovery on ordinary and `?m=1` post routes at a desktop viewport. Vimeo remains blocked. [Review the native matrix](docs/NATIVE-MEDIA.md) and remaining device/audio/editorial gates. Preview.3 is being prepared as a separate draft; current public downloads remain preview.2.

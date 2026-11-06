@@ -49,10 +49,14 @@ All 240 titles, teasers, generated bodies and niche feature formats were reviewe
 
 The suite covers 300 home/article/media-page cases at 320, 375, 768, 1024 and 1440px, including 100 active-player/failure-recovery article cases. Provider requests are blocked in automated fixtures: those cases establish layout, URL filtering, focus, close/retry and fallback behavior, **not** playback. All 54 tests passed, along with the XML/source checker and whitespace check. Separate tests check all 240 distinct briefs, lesson subject examples, travel format alignment and demo/owner Recipe schema behavior.
 
+## Native Blogger follow-up
+
+All twenty revised XMLs subsequently passed native YouTube playback/recovery on the ordinary post and `?m=1` routes at 1280px. Vimeo reproduced its supported-browser error under every installed theme. See the [native matrix and evidence](NATIVE-MEDIA.md). The earlier local findings above remain a historical record.
+
 ## Outstanding and blocked
 
 - **Blocked:** Vimeo playback in the current browser; actual screen-reader speech/rotor access; measured live performance without DevTools; Blogger import/publishing restrictions recorded in [the retry report](BLOGGER-RETRY.md).
-- **Still to run:** native Blogger playback with these revised XMLs, physical devices/Safari/Firefox, audible output, fullscreen/PiP, captions and transcript accuracy against owner-owned recordings, unavailable/private/region-restricted media and network/consent failures on supported browsers. No all-provider acceptance is claimed.
+- **Still to run:** narrow-viewport native playback, native audio-file/podcast playback, physical devices/Safari/Firefox, audible output, fullscreen/PiP, captions and transcript accuracy against owner-owned recordings, unavailable/private/region-restricted media and network/consent failures on supported browsers. No all-provider acceptance is claimed.
 - **Editorial acceptance:** owners must replace briefs with coherent original reporting and verify claims, sources, permissions and external destinations. Recipes remain untested. No template is declared production-ready.
 
 Rebuild development packages to test these fixes. Publish a new numbered preview after native checks; never replace the existing release assets under their old version.

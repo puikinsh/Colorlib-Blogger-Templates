@@ -6,6 +6,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Completed native Blogger YouTube playback/recovery under all twenty revised templates on ordinary and `?m=1` routes; recorded Muse’s successful retry and Vimeo’s supported-browser failure across all twenty.
+- Added reproducible fixture HTML, sanitized observations and the remaining device/audio/provider gates; prepared a separate preview.3 draft without replacing published preview.2 assets.
+
+
 - Reviewed all 240 demo articles; added distinct editing briefs, topic-specific lesson examples, travel planning formats and explicit fictional/transcript/recipe disclosures.
 - Added media review pages for all twenty designs; recorded successful local YouTube playback, Vimeo’s browser error and remaining native/device/editorial gates.
 
@@ -45,6 +49,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 - Architecture, editing, contributor and release-validation documentation.
 
 ### Fixed
+
+- Bundle offline owner/validation documentation and resolve local release-status links inside each preview ZIP.
+- Refuse to overwrite an already staged preview version.
+
 
 - Replaced silent invalid-player failures with announced feedback, provider fallback links and stop/close/retry controls with focus recovery.
 - Removed pasted media autoplay/API parameters while retaining Vimeo unlisted hashes; reserved player sizing across themes.

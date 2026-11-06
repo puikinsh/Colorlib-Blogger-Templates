@@ -21,7 +21,7 @@ def sha256(data):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', required=True, help='For example 0.1.0-preview.2; production staging is not enabled.')
+    parser.add_argument('--version', required=True, help='For example 0.1.0-preview.3; production staging is not enabled.')
     args = parser.parse_args()
     if not re.fullmatch(r'\d+\.\d+\.\d+-preview\.\d+', args.version):
         parser.error('Use a numbered preview version while release acceptance gates remain open.')
@@ -33,6 +33,8 @@ def main():
     base = 'https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/' + revision + '/assets'
     catalog = json.loads((ROOT / 'catalog.json').read_text())
     target = ROOT / 'build' / 'releases' / args.version
+    if target.exists() and any(target.iterdir()):
+        parser.error('This preview version is already staged. Choose a new version; existing packages must not be overwritten.')
     target.mkdir(parents=True, exist_ok=True)
     records = []
     with tempfile.TemporaryDirectory(prefix='colorlib-release-') as temporary:

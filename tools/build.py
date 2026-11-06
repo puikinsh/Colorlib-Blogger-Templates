@@ -177,13 +177,15 @@ def build_one(c):
 
 def bundle(c):
     dest=OUT/c['slug'];target=OUT/'packages';target.mkdir(exist_ok=True)
-    shutil.copy(ROOT/'docs/RELEASE-READINESS.md',dest/'RELEASE-STATUS.md')
-    files=[dest/'RELEASE-STATUS.md',dest/(c['name']+'-Blogger-Template.xml'),dest/(c['name']+' Demo Content.xml'),dest/'README.md',dest/'LICENSE',dest/'ASSETS.md',dest/'post-template.html']+list((dest/'assets').glob('cover-*.svg'))
+    status=(ROOT/'docs/RELEASE-READINESS.md').read_text()
+    status=re.sub(r'\]\((?!https?://)([^)#]+\.md)(#[^)]*)?\)',lambda m:'](docs/'+m[1]+(m[2] or '')+')',status)
+    (dest/'RELEASE-STATUS.md').write_text(status)
+    files=[dest/'RELEASE-STATUS.md',dest/(c['name']+'-Blogger-Template.xml'),dest/(c['name']+' Demo Content.xml'),dest/'README.md',dest/'LICENSE',dest/'ASSETS.md',dest/'post-template.html']+list((dest/'assets').glob('cover-*.svg'))+[file for file in (ROOT/'docs').rglob('*') if file.is_file()]
     package_version=c['version'] if '-' in c['version'] else c['version']+'-preview'
     zip_path=target/(c['slug']+'-blogger-template-'+package_version+'.zip')
     with ZipFile(zip_path,'w',compression=ZIP_DEFLATED,compresslevel=9) as archive:
         for file in sorted(files):
-            info=ZipInfo(c['name']+'-Blogger-Template/'+file.relative_to(dest).as_posix(),(2026,11,5,0,0,0));info.compress_type=ZIP_DEFLATED;info.external_attr=0o644<<16;archive.writestr(info,file.read_bytes())
+            info=ZipInfo(c['name']+'-Blogger-Template/'+(file.relative_to(dest) if file.is_relative_to(dest) else file.relative_to(ROOT)).as_posix(),(2026,11,5,0,0,0));info.compress_type=ZIP_DEFLATED;info.external_attr=0o644<<16;archive.writestr(info,file.read_bytes())
     return hashlib.sha256(zip_path.read_bytes()).hexdigest()+'  '+zip_path.name
 
 def main():

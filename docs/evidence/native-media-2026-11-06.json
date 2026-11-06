@@ -1,0 +1,644 @@
+[
+  {
+    "slug": "saffron",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.137614,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-saffron",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.121679,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "wayfarer",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.095101,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-wayfarer",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.036185,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "lesson",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.152029,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-lesson",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.133803,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "bench",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.106989,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-bench",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.091581,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "maker",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.019141,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-maker",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.022586,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "muse",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.016437,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-muse",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 0,
+      "time": 0,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "mobileFirstAttempt": {
+      "before": 0,
+      "paused": false,
+      "ready": 0,
+      "time": 0,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "mobileRetry": {
+      "paused": false,
+      "ready": 4,
+      "time": 9.09271
+    },
+    "mobileRetryClosed": {
+      "focus": "Load YouTube sample",
+      "frames": 0
+    }
+  },
+  {
+    "slug": "kinship",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.018522,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-kinship",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.097647,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "companion",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.184814,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-companion",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.140177,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "shelf",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.013416,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-shelf",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.121408,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "playbook",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.017577,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-playbook",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.101096,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "soundboard",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.097262,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-soundboard",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 4.281432,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "verdant",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.120583,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-verdant",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.12698,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "pace",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.116308,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-pace",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.035549,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "ledger",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.017713,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-ledger",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.068988,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "screen",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.153408,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-screen",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.018979,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "borough",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.11757,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-borough",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.090786,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "studio",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.093239,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-studio",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.110127,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "launchpad",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.017407,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-launchpad",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.047858,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "ceremony",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.107356,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-ceremony",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.046079,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  },
+  {
+    "slug": "cause",
+    "desktop": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.117907,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    },
+    "vimeo": "Unable to play video. Please try again in a supported browser.",
+    "mobileClass": "theme-cause",
+    "mobileRoute": {
+      "before": 0,
+      "paused": false,
+      "ready": 4,
+      "time": 0.019728,
+      "fallback": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "invalidFeedback": true,
+      "viewport": 1280,
+      "width": 1280,
+      "focus": "Load YouTube sample",
+      "frames": 0,
+      "retryFrames": 1
+    }
+  }
+]
