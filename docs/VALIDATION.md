@@ -8,7 +8,7 @@ These are development previews. Generated-source checks and local browser result
 
 - All twenty source directories build into self-contained theme XML, separate twelve-post demo exports, original SVG cover sets, editable post-format examples, setup/license/provenance documents and preview ZIPs with SHA256SUMS.
 - The checker validates 280 XML/SVG files, 461 static review pages, forty JSON-LD source blocks with optional fields present/absent, native include references, local preview links, image attributes and unique page IDs. Four distinct standalone JavaScript blocks pass syntax checks.
-- **51 tests pass, zero failures or skips**: the original forty-six checks plus owner-contract, optional-player, hub-browser and two comment regressions. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
+- **52 tests pass, zero failures or skips**: the original forty-six checks plus owner-contract, optional-player, hub-browser, two comment regressions and the published-release hub-link check. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
 - Reviewed Saffron, Wayfarer, Lesson and Bench home layouts visually on desktop and in 320/375/768px panels. Checked Saffron's jump-to-recipe and checklist reset, and Ledger arithmetic through the browser UI.
 - Fixed heading overflow at 320px, repeated Blogger IDs across demo exports, and a single-theme rebuild removing other themes from the gallery/checksum index. Builder tests use an isolated temporary checkout to avoid racing browser fixtures.
 
@@ -43,3 +43,7 @@ All twenty hosted preview pages and ZIP downloads were verified after deployment
 ## Comment and release-package follow-up
 
 All twenty templates passed forty desktop/mobile-route comment rendering and accessibility-tree checks after fixes to headings, region labels, hidden relay links, native visibility states and comment spacing. Actual VoiceOver speech is blocked by native browser connection timeouts. The new release-staging command prepares a separate numbered preview from a clean source commit with pinned artwork, manifest/checksums and explicit release-status notes in every ZIP. These packages remain development previews while acceptance gates are open.
+
+## Published preview and hub downloads
+
+Published [v0.1.0-preview.2](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.2) as a prerelease. Its twenty ZIPs remain frozen from commit `a672d7a1bca99d776f66322deead9d7ececf80c4`, whose suite passed 51 tests. The later hub update adds one URL/disclosure regression (52 total) and links both Blogger and static catalogs to those immutable assets. The hub visibly lists incomplete checks before visitors reach the download cards. Existing blocked checks remain open; publication does not imply production acceptance.

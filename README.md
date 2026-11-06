@@ -42,6 +42,12 @@ The header title/description, logo and pages use native Blogger widgets/settings
 
 Pagination always uses Blogger's crawlable Older/Newer URLs. The base theme does not depend on feed requests, a CSS framework, an icon font or a JavaScript framework. Optional article enhancements use DOM text and native controls. Payment, bookings, donation checkout, podcast hosting and gated learning platforms remain external services chosen by the owner.
 
+## Published preview
+
+[Download version 0.1.0-preview.2](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.2). The public Blogger hub and static catalog link directly to its twenty versioned packages. They include release-status notes, commit-pinned artwork and SHA-256 checksums. This is a prerelease for testing; the hub displays incomplete acceptance checks before its download cards.
+
+The published assets are frozen from source commit `a672d7a1bca99d776f66322deead9d7ececf80c4`. Use a new preview number when staging changed source; do not replace these published assets with a later rebuild.
+
 ## Release staging
 
 After committing a validated source revision, run `python3 tools/stage_release.py --version 0.1.0-preview.2`. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.

@@ -6,6 +6,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Published `v0.1.0-preview.2` as a GitHub prerelease with twenty versioned ZIPs, manifest, checksums and acceptance notes.
+- Pointed Blogger/static hub downloads to the published release and placed the remaining screen-reader, comment, import, performance and final-acceptance checks before the download cards.
+- Added a regression for all twenty versioned hub links and visible test-status disclosure; the hub source suite now has 52 tests.
+
 - Added a dedicated shadcn-inspired lab hub with twenty catalog cards, niche/search filters, accessible reset and static design previews.
 - Added validated development-preview publishing on GitHub Pages, separately from production releases.
 - Completed native owner-control checks and live keyboard/DOM accessibility checks across all twenty themes; expanded the suite to 49 tests.
