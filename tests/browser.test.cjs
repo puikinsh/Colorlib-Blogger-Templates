@@ -39,8 +39,8 @@ try{
     for(const width of [320,375,768,1024,1440])for(const page of ['index.html','article.html']){
       let html=fs.readFileSync(path.join(folder,page),'utf8')
         .replace('<head>','<head><meta http-equiv="Content-Security-Policy" content="default-src \'none\';style-src \'unsafe-inline\';script-src \'unsafe-inline\';img-src data:">')
-        .replace(/<link rel="stylesheet" href="assets\/theme.css">/,'<style>'+css+'\n*{animation:none!important;transition:none!important}</style>')
-        .replace(/<script src="assets\/runtime.js" defer><\/script>/,'')
+        .replace(/<link rel="stylesheet" href="assets\/theme.css(?:\?v=[a-f0-9]+)?">/,'<style>'+css+'\n*{animation:none!important;transition:none!important}</style>')
+        .replace(/<script src="assets\/runtime.js(?:\?v=[a-f0-9]+)?" defer><\/script>/,'')
         .replace(/src="assets\/cover-[^"]+"/g,'src="https://example.com/illustration.svg"');
       html=html.replace('</body>','<script>var nativeBefore=Array.from(document.querySelectorAll("#blog-pager a")).map(function(a){return a.getAttribute("href");}).join("|");'+runtime+'\n'+checks+'</script></body>');
       frames.push({width,page,html});

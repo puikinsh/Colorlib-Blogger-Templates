@@ -1,6 +1,6 @@
 # Development validation status
 
-Version 0.1.0 · November 5, 2026
+Version 0.1.0 · Updated November 6, 2026
 
 These are development previews. Generated-source checks and local browser results do not establish actual Blogger compatibility or production readiness.
 
@@ -11,6 +11,10 @@ These are development previews. Generated-source checks and local browser result
 - **45 tests pass, zero failures or skips**: twenty-three source checks, two builder regressions and twenty Chrome tests. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
 - Reviewed Saffron, Wayfarer, Lesson and Bench home layouts visually on desktop and in 320/375/768px panels. Checked Saffron's jump-to-recipe and checklist reset, and Ledger arithmetic through the browser UI.
 - Fixed heading overflow at 320px, repeated Blogger IDs across demo exports, and a single-theme rebuild removing other themes from the gallery/checksum index. Builder tests use an isolated temporary checkout to avoid racing browser fixtures.
+
+## November 6 design review
+
+Launchpad, Lesson, Bench and Studio now have distinct product-journal, documentation, review and portfolio layouts. All 45 regressions pass with their new home/article styles at the five tested widths. Shared `home.html` compositions generate both native and static views; see [design directions](DESIGN-DIRECTIONS.md). Preview assets use content-based versions to prevent stale styles and artwork.
 
 ## Actual Blogger validation pending
 

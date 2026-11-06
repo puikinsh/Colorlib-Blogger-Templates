@@ -50,17 +50,23 @@ def feed(c,posts):
     return '<section aria-labelledby="feed-heading" class="cl-feed" id="post-feed"><div class="cl-section-heading"><div><p class="cl-kicker">'+escape(c['feed_kicker'])+'</p><h2 id="feed-heading">'+escape(c['feed_title'])+'</h2></div><span class="cl-small">'+escape(c['feed_note'])+'</span></div><div class="cl-post-grid">'+''.join(card(c,p) for p in posts)+'</div></section>'
 
 def page_html(c,title,content,css,runtime,listing=True,schema=None):
+    asset_version=hashlib.sha256((css+runtime+(ROOT/'tools/art.py').read_text()).encode()).hexdigest()[:12]
     web={'@context':'https://schema.org','@type':'WebSite','name':c['name'],'url':'https://example.com/'}
     jsonld='<script type="application/ld+json">'+json.dumps(web).replace('<','\\u003c')+'</script>'
     if schema:jsonld+='<script type="application/ld+json">'+json.dumps(schema).replace('<','\\u003c')+'</script>'
-    return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+' — '+c['name']+'</title><meta name="description" content="'+escape(c['intro'],quote=True)+'"><link rel="stylesheet" href="assets/theme.css">'+jsonld+'</head><body class="theme-'+c['slug']+'"><a class="cl-skip" href="#main-content">Skip to content</a><div class="cl-shell">'+header(c,listing)+'<main id="main-content" tabindex="-1">'+content+'</main><footer class="cl-footer"><div><a class="cl-footer-brand" href="index.html">'+c['name']+'</a><p>'+escape(c['footer_copy'])+'</p></div><p>© <span data-current-year>2026</span> · Theme by <a href="https://colorlib.com/">Colorlib</a></p></footer></div><script src="assets/runtime.js" defer></script></body></html>'
+    html='<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escape(title)+' — '+c['name']+'</title><meta name="description" content="'+escape(c['intro'],quote=True)+'"><link rel="stylesheet" href="assets/theme.css?v='+asset_version+'">'+jsonld+'</head><body class="theme-'+c['slug']+'"><a class="cl-skip" href="#main-content">Skip to content</a><div class="cl-shell">'+header(c,listing)+'<main id="main-content" tabindex="-1">'+content+'</main><footer class="cl-footer"><div><a class="cl-footer-brand" href="index.html">'+c['name']+'</a><p>'+escape(c['footer_copy'])+'</p></div><p>© <span data-current-year>2026</span> · Theme by <a href="https://colorlib.com/">Colorlib</a></p></footer></div><script src="assets/runtime.js?v='+asset_version+'" defer></script></body></html>'
+
+    return re.sub(r'(src="assets/cover-[^"]+\.svg)"',lambda m:m[1]+'?v='+asset_version+'"',html)
 
 def preview(c,posts,dest,css,runtime):
     welcome=(ROOT/'themes'/c['slug']/'welcome.html').read_text()
     # Preview-only links mirror Blogger label pages without needing a Blogger renderer locally.
     welcome=re.sub(r'href="/search/label/[^"]+"','href="label.html"',welcome)
     first=posts[0]
-    homepage=welcome+f'<section class="cl-hero cl-home-{c["layout"]}" aria-label="Featured story">'+featured(c,first)+'</section>'+feed(c,posts[1:7])+nav()
+    home_source=ROOT/'themes'/c['slug']/'home.html'
+    home=(home_source.read_text().replace('@@FEATURED@@',featured(c,first)) if home_source.exists() else f'<section class="cl-hero cl-home-{c["layout"]}" aria-label="Featured story">'+featured(c,first)+'</section>')
+    home=re.sub(r'href="/search/label/[^"]+"','href="label.html"',home)
+    homepage=welcome+home+feed(c,posts[1:7])+nav()
     pages={'index.html':('Home',homepage,True),'page-2.html':('More stories',feed(c,posts[7:])+nav(2),True),'label.html':(c['topics'][0],'<p class="cl-status">Stories in '+escape(c['topics'][0])+'</p>'+feed(c,[p for p in posts if p['label']==c['topics'][0]])+nav(),True),'search.html':('Search results','<p class="cl-status">Search results · demonstration view</p>'+feed(c,posts[:3])+nav(),True),'empty.html':('No stories','<section class="cl-empty"><h2>No stories here yet.</h2><p>Choose another topic or return to the home page.</p><a href="index.html">Browse all stories</a></section>',True),'404.html':('Not found','<section class="cl-empty"><p class="cl-kicker">A small detour</p><h1>This page has moved on.</h1><p>Try the search above, or return to the latest stories.</p><a class="cl-button" href="index.html">Back to the journal</a></section>',False)}
     for filename,(title,html,listing) in pages.items():(dest/filename).write_text(page_html(c,title,html,css,runtime,listing))
     for p in posts:
@@ -135,7 +141,11 @@ def build_one(c):
     posts=json.loads((source/'demo.json').read_text())
     core_css=(ROOT/'core/base.css').read_text();theme_css=(source/'style.css').read_text();runtime=(ROOT/'core/runtime.js').read_text()
     values={k.upper():escape(str(v),quote=True) for k,v in c.items() if isinstance(v,(str,int))}
-    values.update(CSS=core_css,THEME_CSS=theme_css,JS=runtime,HOME=(source/'home.xml').read_text(),WELCOME=(source/'welcome.html').read_text(),COMMENTS=(ROOT/'core/comments.xml').read_text(),HEADING_FONT=c['heading_font'],BODY_FONT=c['body_font'])
+    values.update(CSS=core_css,THEME_CSS=theme_css,JS=runtime,HOME=(source/'home.xml').read_text() if (source/'home.xml').exists() else '',WELCOME=(source/'welcome.html').read_text(),COMMENTS=(ROOT/'core/comments.xml').read_text(),HEADING_FONT=c['heading_font'],BODY_FONT=c['body_font'])
+    home_source=source/'home.html'
+    if home_source.exists():
+        native="<b:loop values='data:posts' var='post'><b:if cond='data:post.isFirstPost'><b:include data='post' name='featured-post'/></b:if></b:loop>"
+        values['HOME']=home_source.read_text().replace('@@FEATURED@@',native)
     xml=substitute((ROOT/'core/theme.xml').read_text(),values)
     ET.fromstring(xml)
     (dest/(c['name']+'-Blogger-Template.xml')).write_text(xml)

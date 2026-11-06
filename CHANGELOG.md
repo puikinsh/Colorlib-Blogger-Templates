@@ -4,6 +4,11 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ## [Unreleased] — 0.1.0 development collection
 
+### Changed
+
+- Redesigned Launchpad and Lesson with shadcn-inspired product-journal/documentation systems, and Bench and Studio with Tailwind-inspired review/portfolio layouts.
+- Shared each redesigned home composition between Blogger XML and local previews; versioned preview asset URLs to prevent stale designs.
+
 ### Added
 
 - Twenty independent niche themes with shared Blogger widgets, native pagination, comments, metadata and responsive foundations.
