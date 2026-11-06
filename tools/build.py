@@ -175,8 +175,10 @@ def build_one(c):
 
 def bundle(c):
     dest=OUT/c['slug'];target=OUT/'packages';target.mkdir(exist_ok=True)
-    files=[dest/(c['name']+'-Blogger-Template.xml'),dest/(c['name']+' Demo Content.xml'),dest/'README.md',dest/'LICENSE',dest/'ASSETS.md',dest/'post-template.html']+list((dest/'assets').glob('cover-*.svg'))
-    zip_path=target/(c['slug']+'-blogger-template-0.1.0-preview.zip')
+    shutil.copy(ROOT/'docs/RELEASE-READINESS.md',dest/'RELEASE-STATUS.md')
+    files=[dest/'RELEASE-STATUS.md',dest/(c['name']+'-Blogger-Template.xml'),dest/(c['name']+' Demo Content.xml'),dest/'README.md',dest/'LICENSE',dest/'ASSETS.md',dest/'post-template.html']+list((dest/'assets').glob('cover-*.svg'))
+    package_version=c['version'] if '-' in c['version'] else c['version']+'-preview'
+    zip_path=target/(c['slug']+'-blogger-template-'+package_version+'.zip')
     with ZipFile(zip_path,'w',compression=ZIP_DEFLATED,compresslevel=9) as archive:
         for file in sorted(files):
             info=ZipInfo(c['name']+'-Blogger-Template/'+file.relative_to(dest).as_posix(),(2026,11,5,0,0,0));info.compress_type=ZIP_DEFLATED;info.external_attr=0o644<<16;archive.writestr(info,file.read_bytes())

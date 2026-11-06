@@ -49,7 +49,7 @@ Four published posts and one static page supply the fixtures. One article contai
 
 - **Complete demo imports:** Blogger imported four posts, then refused further imports with “You are not allowed to import content to this blog. Please contact the blog admin.” The owner chose to continue with these fixtures. All twenty full twelve-post packaged exports still need successful clean imports; the service's exact refusal cause is unknown. Corrected source format alone does not establish import acceptance.
 - **Native timestamp cursor:** at one post per page, posts sharing an identical publication timestamp can be skipped across a page boundary. The same native behavior was observed independently of theme navigation. Two posts per page keeps the tied pair together and passes the fixture round trip. Future lab exports stagger timestamps; no guessed feed-cursor workaround was added.
-- **Comments:** native frames render with accessible names and accept text. Publish controls did not expand in this browser session under either the collection or the original Contempo theme. No comment was submitted; publication, replies and moderation remain unverified.
+- **Comments:** native input now expands the composer. Saffron and Wayfarer publication/replies passed; Lesson’s top-level post passed, but its reply failed twice in Blogger. Further publication checks were stopped; moderation remains unverified. All twenty themes passed comment rendering on desktop/mobile routes. See the [follow-up matrix](COMMENTS-SCREEN-READER.md).
 - **Owner controls:** the native edit pass is now complete for all twenty templates; scope and representative shared-control checks are in the [owner/accessibility review](OWNER-ACCESSIBILITY-REVIEW.md).
 - **Production acceptance:** finish coherent per-theme demo editing, keyboard/screen-reader review, physical-device checks, measured live performance and optional media failure checks. Recipe samples have not been kitchen-tested. This report is not rich-result eligibility certification.
 
@@ -57,7 +57,7 @@ The four-post lab and public source support further testing without replacing an
 
 ## References and reproduction
 
-Run `python3 tools/build.py --packages`, `python3 tools/check.py` and `node --test tests/*.test.cjs`. The automated suite has 49 passing tests, including 200 local home/article viewport cases; these are separate from the 260 native view checks above. `tools/lab_fixture.py` prepares a separate, ignored lab archive after a build; do not import it into a production blog.
+Run `python3 tools/build.py --packages`, `python3 tools/check.py` and `node --test tests/*.test.cjs`. The automated suite has 51 passing tests, including 200 local home/article viewport cases; these are separate from the 260 native view checks above. `tools/lab_fixture.py` prepares a separate, ignored lab archive after a build; do not import it into a production blog.
 
 Blogger documents [backup/import workflows and daily limits](https://support.google.com/blogger/answer/41387?hl=en) and [custom mobile templates](https://blogger.googleblog.com/2011/11/introducing-custom-mobile-templates.html). Google's [mobile indexing guidance](https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing) informs mobile metadata parity checks. Platform observations above are our own results, not guarantees from those documents.
 

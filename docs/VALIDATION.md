@@ -8,7 +8,7 @@ These are development previews. Generated-source checks and local browser result
 
 - All twenty source directories build into self-contained theme XML, separate twelve-post demo exports, original SVG cover sets, editable post-format examples, setup/license/provenance documents and preview ZIPs with SHA256SUMS.
 - The checker validates 280 XML/SVG files, 461 static review pages, forty JSON-LD source blocks with optional fields present/absent, native include references, local preview links, image attributes and unique page IDs. Four distinct standalone JavaScript blocks pass syntax checks.
-- **49 tests pass, zero failures or skips**: the original forty-six checks plus owner-contract, optional-player and hub-browser regressions. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
+- **51 tests pass, zero failures or skips**: the original forty-six checks plus owner-contract, optional-player, hub-browser and two comment regressions. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
 - Reviewed Saffron, Wayfarer, Lesson and Bench home layouts visually on desktop and in 320/375/768px panels. Checked Saffron's jump-to-recipe and checklist reset, and Ledger arithmetic through the browser UI.
 - Fixed heading overflow at 320px, repeated Blogger IDs across demo exports, and a single-theme rebuild removing other themes from the gallery/checksum index. Builder tests use an isolated temporary checkout to avoid racing browser fixtures.
 
@@ -24,7 +24,7 @@ All twenty generated theme XML files were saved through Blogger's theme editor o
 
 Fixed platform mobile routing, empty/single-post home states, missing Open Graph type, comment-frame accessible names, long contents navigation and demo-export semantics. Public artwork loads from the approved development repository. See [the platform matrix and limitations](PLATFORM-VALIDATION.md).
 
-Blogger refused further content imports after four posts; the owner chose to continue with existing fixtures. Consequently, all twenty complete twelve-post demo imports remain unverified. Native comment text entry works, but publish controls did not expand in this session, including under the original Contempo theme. Comment publication/replies remain unverified. Native pagination also skips posts tied at an exact timestamp when that timestamp straddles a one-post page boundary; the two-post fixture round trip passes.
+Blogger refused further content imports after four posts; the owner chose to continue with existing fixtures. Consequently, all twenty complete twelve-post demo imports remain unverified. Native input resolved the composer expansion problem. Saffron/Wayfarer publication and replies passed; Lesson’s top-level comment passed, but its reply failed twice with Blogger’s generic publish error. Remaining publication checks are blocked; see the [comment/screen-reader matrix](COMMENTS-SCREEN-READER.md). Native pagination also skips posts tied at an exact timestamp when that timestamp straddles a one-post page boundary; the two-post fixture round trip passes.
 
 ## Production release gates
 
@@ -39,3 +39,7 @@ Native introduction/logo/accent changes and menu persistence passed on all twent
 The public lab is a dedicated shadcn-inspired catalog, with development previews published through the approved Pages workflow after validation. No production release is implied. Measured live performance, screen-reader/physical-device review, full demo imports and comment publication/replies remain acceptance gates.
 
 All twenty hosted preview pages and ZIP downloads were verified after deployment; downloaded packages match their generated SHA-256 checksums. The installed hub also passes actual Blogger phone/tablet checks at 320/375/768px and native article/search/About routes.
+
+## Comment and release-package follow-up
+
+All twenty templates passed forty desktop/mobile-route comment rendering and accessibility-tree checks after fixes to headings, region labels, hidden relay links, native visibility states and comment spacing. Actual VoiceOver speech is blocked by native browser connection timeouts. The new release-staging command prepares a separate numbered preview from a clean source commit with pinned artwork, manifest/checksums and explicit release-status notes in every ZIP. These packages remain development previews while acceptance gates are open.

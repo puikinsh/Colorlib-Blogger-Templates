@@ -45,7 +45,7 @@ Fixed a missing Theme Designer group that left color variables listed without us
 - Hub regression: filtering, combined search, no-result state, reset focus and responsive geometry/contrast at five widths. Cards and links remain available without JavaScript; filtering controls appear only when active. The installed public Blogger hub also passes actual 320/375/768px geometry checks, native article/search/About views, keyboard entry and sampled contrast/name checks. Its native search description and matching Open Graph description were saved and verified.
 - All twenty hosted static preview pages and twenty ZIP downloads return HTTP 200. Every downloaded ZIP matches the generated SHA256SUMS. GitHub validation and the approved preview deployment passed.
 
-Still required: an actual screen-reader session, physical-device review, third-party player failure/playback checks and end-to-end Google comment publication/replies. These results do not establish full accessibility conformance.
+The [follow-up comment/screen-reader report](COMMENTS-SCREEN-READER.md) records forty additional live comment views, successful Saffron/Wayfarer publication/replies, Lesson’s partial success and the repeated Blogger publication failure. Actual VoiceOver speech remains blocked by unavailable native browser connections. Physical-device and third-party playback checks remain open; these results do not establish full accessibility conformance.
 
 ## Performance scope
 

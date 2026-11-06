@@ -20,6 +20,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Added
 
+- Forty live comment-view checks across all twenty themes, with separately recorded publication/reply and actual screen-reader blockers.
+- Reproducible numbered preview staging with commit-pinned artwork, manifest/checksums and release-status notes in every package.
+- Two comment regressions covering generated hooks and forty local comment-layout cases; the suite now has 51 passing tests.
+
 - Public development repository and Blogger lab; documented all twenty installed themes across 260 native view checks.
 
 - Twenty independent niche themes with shared Blogger widgets, native pagination, comments, metadata and responsive foundations.
@@ -29,6 +33,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 - Architecture, editing, contributor and release-validation documentation.
 
 ### Fixed
+
+- Corrected native comment heading levels, region names, hidden relay links and moderation-frame titles.
+- Restored native hidden states for inactive reply/load-more controls and added responsive threaded-comment spacing.
+- Replaced invalid paragraph wrappers around comment forms.
 
 - Grouped Theme Designer variables so native color editing controls appear and save.
 - Honored header image placement, description and shrink-to-fit settings; removed duplicate logo announcements and hidden owner descriptions.

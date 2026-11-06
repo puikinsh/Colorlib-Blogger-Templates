@@ -42,6 +42,10 @@ The header title/description, logo and pages use native Blogger widgets/settings
 
 Pagination always uses Blogger's crawlable Older/Newer URLs. The base theme does not depend on feed requests, a CSS framework, an icon font or a JavaScript framework. Optional article enhancements use DOM text and native controls. Payment, bookings, donation checkout, podcast hosting and gated learning platforms remain external services chosen by the owner.
 
+## Release staging
+
+After committing a validated source revision, run `python3 tools/stage_release.py --version 0.1.0-preview.2`. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.
+
 ## Release gates
 
 Every theme needs XML/JS/schema checks; phone/desktop and keyboard checks; an actual Blogger import; review of native comments and mobile rendering; realistic, owner-ready demo content; and a checksummed package matching its public demo. Original demonstration identities, projects and editorial templates must not be presented as actual reporting, tests, endorsements or professional instructions. Search markup is derived only from supplied content, without invented ratings or results.
