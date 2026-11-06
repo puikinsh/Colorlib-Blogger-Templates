@@ -5,12 +5,13 @@ Version: 0.1.0
 Source: https://github.com/puikinsh/Colorlib-Blogger-Templates
 License: GPL-3.0. Development build; see the validation report before production use.
 -->
-<html b:css='false' b:version='2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<html b:css='false' b:responsive='true' b:version='2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
   <meta charset='utf-8'/>
   <meta content='width=device-width, initial-scale=1' name='viewport'/>
   <title><data:blog.pageTitle/></title>
   <b:include data='blog' name='all-head-content'/>
+  <b:if cond='data:blog.pageType == &quot;item&quot;'><meta content='article' property='og:type'/><b:else/><meta content='website' property='og:type'/></b:if>
   <meta content='summary_large_image' name='twitter:card'/>
   <meta expr:content='data:blog.pageTitle' name='twitter:title'/>
   <b:if cond='data:blog.metaDescription'><meta expr:content='data:blog.metaDescription' name='twitter:description'/></b:if>
@@ -72,8 +73,9 @@ License: GPL-3.0. Development build; see the validation report before production
           <b:elseif cond='data:blog.pageType in {&quot;item&quot;,&quot;static_page&quot;}'/>
             <b:loop values='data:posts' var='post'><b:include data='post' name='post'/></b:loop>
           <b:else/>
-            <b:if cond='data:blog.url == data:blog.homepageUrl'><b:include name='home-hero'/></b:if>
-            <b:if cond='data:navMessage'><p class='cl-status'><data:navMessage/></p></b:if>
+            <b:if cond='data:blog.url == data:blog.homepageUrl and data:numPosts &gt; 0'><b:include name='home-hero'/></b:if>
+            <b:if cond='data:navMessage and data:numPosts != 0'><p class='cl-status'><data:navMessage/></p></b:if>
+            <b:if cond='data:blog.url != data:blog.homepageUrl or data:numPosts != 1'>
             <section aria-labelledby='feed-heading' class='cl-feed' id='post-feed'>
               <div class='cl-section-heading'><div><p class='cl-kicker'>@@FEED_KICKER@@</p><h2 id='feed-heading'>@@FEED_TITLE@@</h2></div><span class='cl-small'>@@FEED_NOTE@@</span></div>
               <div class='cl-post-grid'>
@@ -81,6 +83,7 @@ License: GPL-3.0. Development build; see the validation report before production
               </div>
               <b:if cond='data:numPosts == 0'><div class='cl-empty'><h3>No stories here yet.</h3><p>Try a different topic or visit the home page.</p><a expr:href='data:blog.homepageUrl'>Browse all stories</a></div></b:if>
             </section>
+            </b:if>
             <b:include name='nextprev'/>
           </b:if>
         </b:includable>
@@ -103,7 +106,7 @@ License: GPL-3.0. Development build; see the validation report before production
           <article class='cl-article' expr:data-author='data:post.author' expr:data-canonical='data:post.url.canonical'>
             <header class='cl-article-header'><a class='cl-back-link' expr:href='data:blog.homepageUrl'>← All stories</a><div class='cl-tags'><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url'><data:label.name/></a></b:loop></div><h1><data:post.title/></h1><b:if cond='data:blog.pageType == &quot;item&quot;'><p class='cl-byline'>By <span><data:post.author/></span> <span aria-hidden='true'>·</span> <time expr:datetime='data:post.timestampISO8601'><data:post.timestamp/></time></p></b:if></header>
             <div class='cl-reading-layout'><aside aria-label='On this page' class='cl-toc' hidden='hidden'/><div class='cl-prose post-body'><data:post.body/></div></div>
-            <b:if cond='data:blog.pageType == &quot;item&quot;'><footer class='cl-article-footer'><p>Continue exploring</p><div class='cl-tags'><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url'><data:label.name/></a></b:loop></div></footer><b:include data='post' name='article-schema'/><b:include name='nextprev'/><b:include data='post' name='comment_picker'/></b:if>
+            <b:if cond='data:blog.pageType == &quot;item&quot;'><b:if cond='data:post.labels'><footer class='cl-article-footer'><p>Continue exploring</p><div class='cl-tags'><b:loop values='data:post.labels' var='label'><a expr:href='data:label.url'><data:label.name/></a></b:loop></div></footer></b:if><b:include data='post' name='article-schema'/><b:include name='nextprev'/><b:include data='post' name='comment_picker'/></b:if>
           </article>
         </b:includable>
         <b:includable id='article-schema' var='post'>

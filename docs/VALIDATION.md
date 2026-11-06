@@ -18,14 +18,16 @@ All twenty themes now have individual home compositions, feeds, article typograp
 
 Every `home.html` composition generates native and static views. Dedicated topic previews replace the previous one-category placeholder. The checker validates 461 theme review pages, with ten additional collection comparison boards available from the catalog. Print rules are appended after theme overrides to prevent dark panels obscuring printed article text. See [design directions](DESIGN-DIRECTIONS.md) for the full matrix.
 
-## Actual Blogger validation pending
+## Actual Blogger validation
 
-Creating a dedicated public test blog requires the requested account owner's approval. No existing live demo has been replaced with these development themes. Theme saves, content imports, native pagination under Blogger, comments, platform mobile routing and Theme Designer changes have not been verified.
+All twenty generated theme XML files were saved through Blogger's theme editor on the [public lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/). Each passed nine desktop and four narrow-screen checks: **180 desktop + 80 narrow views**. Four published posts and one static page supplied native pagination, labels/search, missing-image/label cases, Unicode titles, long TOCs and all twenty niche article formats. The phone checks load actual Blogger pages, including `?m=1`, at 320/375px.
 
-The demo exports contain posts only; owners must create/configure their own static pages and menu links. Public artwork URLs currently target a planned source repository; publish owned assets and configure `BLOGGER_ASSET_BASE` before platform testing. Local review pages use bundled images.
+Fixed platform mobile routing, empty/single-post home states, missing Open Graph type, comment-frame accessible names, long contents navigation and demo-export semantics. Public artwork loads from the approved development repository. See [the platform matrix and limitations](PLATFORM-VALIDATION.md).
+
+Blogger refused further content imports after four posts; the owner chose to continue with existing fixtures. Consequently, all twenty complete twelve-post demo imports remain unverified. Native comment text entry works, but publish controls did not expand in this session, including under the original Contempo theme. Comment publication/replies remain unverified. Native pagination also skips posts tied at an exact timestamp when that timestamp straddles a one-post page boundary; the two-post fixture round trip passes.
 
 ## Production release gates
 
-For every theme, record a successful real import and check home, subsequent pages, label/search, empty/error, posts, static pages, images absent/present, comments and mobile routes. Review keyboard/screen-reader behavior and measure performance on the actual demo. Complete niche-specific demo writing and editing; Saffron's original sample recipes are illustrative and have not been kitchen-tested. Check all optional integrations disabled and failing.
+Complete clean imports of every packaged demo export and verify native comment publication/replies in a working session. The installed-theme view matrix is complete; retain it when changing shared behavior. Review keyboard/screen-reader behavior and measure performance on the actual demo. Complete niche-specific demo writing and editing; Saffron's original sample recipes are illustrative and have not been kitchen-tested. Check all optional integrations disabled and failing.
 
-Publish assets and coherent demos, then create a versioned, checksummed release matching the installed XML. Only then add production Colorlib listings. The nine maintained existing templates retain their separate releases and download links.
+Public development assets are available. Prepare coherent per-theme demos, then create a versioned, checksummed release matching the installed XML. Only then add production Colorlib listings. The nine maintained existing templates retain their separate releases and download links.

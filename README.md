@@ -17,7 +17,9 @@ Open `http://localhost:8765/` for the catalog. Each theme has home, article, arc
 
 `build/packages/` contains twenty preview ZIPs and `SHA256SUMS`. These are intentionally named preview packages. Do not replace the maintained nine templates' production downloads with them.
 
-The default demo artwork base points to the planned collection repository and preview branch; it is not live yet. Before a Blogger import, publish the original assets at an owned HTTPS location and rebuild with `BLOGGER_ASSET_BASE=https://your-host/assets python3 tools/build.py --packages`. Local previews work without publishing anything.
+The [public development repository](https://github.com/puikinsh/Colorlib-Blogger-Templates) now hosts the original artwork on `codex/collection-preview`; default demo image URLs are live. To use another owned HTTPS host, rebuild with `BLOGGER_ASSET_BASE=https://your-host/assets python3 tools/build.py --packages`. Local previews use bundled assets.
+
+All twenty themes have been installed and checked on the [public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/), which currently displays Ceremony. The [platform report](docs/PLATFORM-VALIDATION.md) records 260 live view checks, fixes and outstanding import/comment checks. The lab is a shared development fixture, not twenty finished production demos.
 
 The [design directions](docs/DESIGN-DIRECTIONS.md) record the individual layouts, typography, artwork and article treatments for all twenty themes. Open the catalog’s design-board link to compare live desktop and mobile layouts in groups of four.
 

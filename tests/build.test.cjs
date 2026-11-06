@@ -13,6 +13,7 @@ test('demo imports have unique stable identities across all twenty themes',()=>{
     const xml=fs.readFileSync(path.join(root,'build',c.slug,c.name+' Demo Content.xml'),'utf8');
     const themeIds=Array.from(xml.matchAll(/<id>([^<]+)<\/id>/g),m=>m[1]);
     assert.equal(themeIds.length,13,c.slug);
+    for(const id of themeIds.slice(1)){const value=BigInt(id.split('.post-')[1]);assert.ok(value>0n&&value<=9223372036854775807n,c.slug+' post IDs must fit Blogger’s signed 64-bit field');}
     ids.push(...themeIds);
   }
   assert.equal(new Set(ids).size,260,'imports must not reuse another theme’s Blogger IDs');

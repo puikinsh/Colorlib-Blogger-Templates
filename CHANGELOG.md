@@ -16,6 +16,8 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Added
 
+- Public development repository and Blogger lab; documented all twenty installed themes across 260 native view checks.
+
 - Twenty independent niche themes with shared Blogger widgets, native pagination, comments, metadata and responsive foundations.
 - Twenty niche article formats, owner-editable homepage introductions, twelve sample posts and original vector cover sets per theme.
 - Conditional recipe markup, article contents navigation, print/checklist controls, local budget arithmetic and optional click-to-load video.
@@ -24,6 +26,12 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Fixed
 
+- Enabled Blogger responsive mobile routing so `?m=1` renders the installed theme.
+- Removed duplicate empty-state messages, orphaned single-post feed headings and empty article topic panels.
+- Added page-appropriate Open Graph type and accessible titles to native comment frames.
+- Bounded long article contents lists on desktop and phones.
+- Corrected Blogger export post-kind/label schemes, archive feed IDs and post IDs to fit signed 64-bit values.
+
 - Long headings overflowing the narrowest layout.
 - Demo import identifiers colliding across different themes.
 - Single-theme rebuilds removing other gallery entries and package checksums.
@@ -31,5 +39,6 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Pending
 
-- Dedicated Blogger lab approval, platform imports and public asset/demo hosting.
+- Complete demo-content imports and native comment publication/replies; Blogger refused further imports after four posts.
+- Production demos and release packaging matching accepted content.
 - Per-theme editorial, accessibility and performance acceptance before a production release.

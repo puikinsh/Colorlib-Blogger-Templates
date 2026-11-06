@@ -49,6 +49,8 @@ def main():
             config=json.loads((ROOT/'themes'/row['slug']/'theme.json').read_text());folder=ROOT/'build'/row['slug']
             source=(folder/(config['name']+'-Blogger-Template.xml')).read_text();assert '@@' not in source
             tree=ET.fromstring(source);xml_count+=1
+            assert tree.get(B+'responsive')=='true',(row['slug'],'responsive routing flag')
+            assert all(frame.get('title') for frame in tree.iter(HTML+'iframe') if frame.get('id')=='comment-editor'),(row['slug'],'comment iframe title')
             widgets=list(tree.iter(B+'widget'));assert len({w.get('id') for w in widgets})==len(widgets)
             assert {w.get('type') for w in widgets}=={'Header','PageList','HTML','Blog'}
             blog=next(w for w in widgets if w.get('id')=='Blog1')
@@ -57,7 +59,7 @@ def main():
                 assert x.get('name') in includes,(row['slug'],x.get('name'))
             assert len([x for x in includes['post'].iter(B+'include') if x.get('name')=='article-schema'])==1
             assert any(x.get('name')=='post' for x in includes['mobile-post'].iter(B+'include'))
-            assert not any(x.get('property','').startswith('og:') for x in tree.iter(HTML+'meta'))
+            assert all(x.get('property')=='og:type' for x in tree.iter(HTML+'meta') if x.get('property','').startswith('og:'))
             for index,script in enumerate(tree.iter(HTML+'script')):
                 if script.get('type')=='application/ld+json':
                     for present in [False,True]:
@@ -70,6 +72,12 @@ def main():
                     file=Path(temp)/'runtime.js';file.write_text(js);subprocess.run([node,'--check',str(file)],check=True,capture_output=True);checked_scripts.add(js)
             export=ET.parse(folder/(config['name']+' Demo Content.xml'));xml_count+=1
             entries=list(export.iter('{http://www.w3.org/2005/Atom}entry'));assert len(entries)==12
+            for entry in entries:
+                identifier=entry.find('{http://www.w3.org/2005/Atom}id').text
+                assert 0<int(identifier.split('.post-')[1])<=9223372036854775807,(row['slug'],'64-bit post ID')
+                categories=[c.attrib for c in entry.findall('{http://www.w3.org/2005/Atom}category')]
+                assert {'scheme':'http://schemas.google.com/g/2005#kind','term':'http://schemas.google.com/blogger/2008/kind#post'} in categories,(row['slug'],'Blogger post kind')
+                assert any(c.get('scheme')=='http://www.blogger.com/atom/ns#' and c.get('term') for c in categories),(row['slug'],'Blogger label namespace')
             for asset in (folder/'assets').glob('*.svg'):
                 art=ET.parse(asset);assert not list(art.iter('{http://www.w3.org/2000/svg}script'));xml_count+=1
             for page_path in folder.glob('*.html'):

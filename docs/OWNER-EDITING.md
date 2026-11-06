@@ -28,3 +28,11 @@ The table of contents appears only when at least three non-empty article heading
 The included cover set is original illustration, not photography or evidence of actual product testing. Upload or link your own properly licensed media for a real publication. Give images meaningful alt text. Payments, bookings, donation checkout, podcast hosting, restricted course access and email subscriptions use the owner's chosen external services; the theme does not create accounts or backends for them.
 
 Check native comments, search, labels, mobile layout and a later pagination page after installation. To roll back, restore the saved theme and recorded widget settings; published posts need not change.
+
+## Platform checks and metadata
+
+Keep the root `b:responsive='true'` flag: it makes Blogger serve this responsive theme on `?m=1` instead of substituting its built-in mobile layout. Check both URLs on a phone after installation. Long contents lists scroll within their panel.
+
+Enable **Settings → Meta tags → Enable search description**, then supply accurate blog and post descriptions. Check the rendered canonical URL, Open Graph fields and JSON-LD after changing metadata. Text-only posts omit image metadata; static pages omit BlogPosting markup.
+
+Use distinct publication timestamps for demonstration posts. Blogger's native timestamp cursor can skip a post when identical timestamps straddle a pagination boundary. Verify an Older/Newer round trip after changing posts per page; this theme preserves Blogger's URLs rather than inventing feed cursors.

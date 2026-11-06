@@ -99,17 +99,17 @@ def demo_export(c,posts,dest):
     # Stable, distinct identities prevent cross-theme imports being deduplicated.
     blog_id=str(int(hashlib.sha256(c['slug'].encode()).hexdigest()[:15],16))
     feed_id='tag:blogger.com,1999:blog-'+blog_id
-    ET.SubElement(feed,'{'+ATOM+'}id').text=feed_id
+    ET.SubElement(feed,'{'+ATOM+'}id').text=feed_id+'.archive'
     ET.SubElement(feed,'{'+ATOM+'}title').text=c['name']+' demonstration content'
     ET.SubElement(feed,'{'+ATOM+'}updated').text='2026-11-05T10:00:00Z'
     for p in posts:
         entry=ET.SubElement(feed,'{'+ATOM+'}entry')
-        ET.SubElement(entry,'{'+ATOM+'}id').text=feed_id+'.post-'+str(int(blog_id)*100+p['index'])
+        ET.SubElement(entry,'{'+ATOM+'}id').text=feed_id+'.post-'+str(int(hashlib.sha256((c['slug']+'-'+str(p['index'])).encode()).hexdigest()[:15],16))
         stamp=(datetime(2026,10,25,10,tzinfo=timezone.utc)-timedelta(days=p['index']-1)).isoformat()
         ET.SubElement(entry,'{'+ATOM+'}published').text=stamp
         ET.SubElement(entry,'{'+ATOM+'}updated').text=stamp
-        ET.SubElement(entry,'{'+ATOM+'}category',{'scheme':'http://schemas.google.com/g/2005#kind','term':BLOGGER+'#post'})
-        ET.SubElement(entry,'{'+ATOM+'}category',{'scheme':BLOGGER,'term':p['label']})
+        ET.SubElement(entry,'{'+ATOM+'}category',{'scheme':'http://schemas.google.com/g/2005#kind','term':BLOGGER+'/kind#post'})
+        ET.SubElement(entry,'{'+ATOM+'}category',{'scheme':'http://www.blogger.com/atom/ns#','term':p['label']})
         ET.SubElement(entry,'{'+ATOM+'}title',{'type':'text'}).text=p['title']
         ET.SubElement(entry,'{'+ATOM+'}content',{'type':'html'}).text=body(c,p,ASSET_BASE+'/'+c['slug']+f'/cover-{p["index"]:02d}.svg')
         author=ET.SubElement(entry,'{'+ATOM+'}author');ET.SubElement(author,'{'+ATOM+'}name').text='Colorlib Demo Editor'
