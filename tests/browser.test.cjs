@@ -8,6 +8,7 @@ const {pathToFileURL}=require('node:url');
 const root=path.resolve(__dirname,'..');
 const catalog=JSON.parse(fs.readFileSync(path.join(root,'catalog.json'),'utf8'));
 const chrome=process.env.CHROME_BIN||['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome','/usr/bin/google-chrome','/usr/bin/chromium','/usr/bin/chromium-browser'].find(fs.existsSync);
+const collectionAudit=require('./helpers/accessibility.cjs');
 const runtime=fs.readFileSync(path.join(root,'core/runtime.js'),'utf8');
 
 function runTheme(theme){
@@ -17,6 +18,9 @@ function runTheme(theme){
   const checks=`
 function check(ok,message){if(!ok)throw Error(message);}
 try{
+ var accessibility=(${collectionAudit.toString()})();
+ check(accessibility.unnamed.length===0,'unnamed controls '+JSON.stringify(accessibility.unnamed));
+ check(accessibility.contrast.length===0,'text contrast '+JSON.stringify(accessibility.contrast));
  check(document.querySelectorAll('h1').length===1,'exactly one page heading');
  check(document.documentElement.scrollWidth<=innerWidth,'horizontal overflow '+document.documentElement.scrollWidth+'/'+innerWidth+' '+JSON.stringify(Array.from(document.querySelectorAll('body *')).filter(function(e){return e.getBoundingClientRect().right>innerWidth+.5;}).slice(0,3).map(function(e){return {tag:e.tagName,class:e.className,right:e.getBoundingClientRect().right};})));
  check(Array.from(document.querySelectorAll('#blog-pager a')).map(function(a){return a.getAttribute('href');}).join('|')===nativeBefore,'native page links remain intact');

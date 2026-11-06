@@ -6,6 +6,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Added a dedicated shadcn-inspired lab hub with twenty catalog cards, niche/search filters, accessible reset and static design previews.
+- Added validated development-preview publishing on GitHub Pages, separately from production releases.
+- Completed native owner-control checks and live keyboard/DOM accessibility checks across all twenty themes; expanded the suite to 49 tests.
+
 - Redesigned the remaining sixteen themes with individual recipe, atlas, workshop, fashion, family-letter, pet-care, literary, gaming, podcast, botanical, movement, finance, cinema, newspaper, wedding and nonprofit layouts.
 - Added niche-specific original artwork and article-specific homepage teasers; retained the earlier four distinct product, documentation, review and portfolio designs.
 - Added five desktop and five mobile comparison boards, dedicated topic previews and a topic-membership regression; all 46 tests pass.
@@ -26,6 +30,11 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Fixed
 
+- Grouped Theme Designer variables so native color editing controls appear and save.
+- Honored header image placement, description and shrink-to-fit settings; removed duplicate logo announcements and hidden owner descriptions.
+- Named image-only fallback links and extended focus-visible styling to all focusable controls.
+- Kept keyboard focus on optional video players and rejected credential-bearing/nonstandard-port embed URLs.
+
 - Enabled Blogger responsive mobile routing so `?m=1` renders the installed theme.
 - Removed duplicate empty-state messages, orphaned single-post feed headings and empty article topic panels.
 - Added page-appropriate Open Graph type and accessible titles to native comment frames.
@@ -41,4 +50,4 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 - Complete demo-content imports and native comment publication/replies; Blogger refused further imports after four posts.
 - Production demos and release packaging matching accepted content.
-- Per-theme editorial, accessibility and performance acceptance before a production release.
+- Per-theme editorial, screen-reader/physical-device and measured live performance acceptance before a production release.

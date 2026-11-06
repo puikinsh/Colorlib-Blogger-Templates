@@ -14,8 +14,30 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 tools/build.py --packages
+      - run: python3 tools/build_lab.py
       - run: python3 tools/check.py
       - run: node --test tests/*.test.cjs
         env:
           CHROME_BIN: /usr/bin/google-chrome
       - run: git diff --check
+      - uses: actions/upload-pages-artifact@v5.0.0
+        if: github.event_name == 'push' && github.ref == 'refs/heads/codex/collection-preview'
+        with:
+          path: build
+  deploy-preview:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/codex/collection-preview'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: development-pages
+      cancel-in-progress: false
+    steps:
+      - name: Publish validated development previews
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1

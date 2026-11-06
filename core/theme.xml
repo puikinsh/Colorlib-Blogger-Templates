@@ -19,9 +19,11 @@ License: GPL-3.0. Development build; see the validation report before production
   <script type='application/ld+json'>{"@context":"https://schema.org","@type":"WebSite","name":"<data:blog.title.jsonEscaped/>","url":"<data:blog.homepageUrl.canonical.jsonEscaped/>"}</script>
   <b:skin><![CDATA[
 /* Theme Designer variables
+<Group description="Theme colors" selector="body">
 <Variable name="brand.accent" description="Accent" type="color" default="@@ACCENT@@" value="@@ACCENT@@"/>
 <Variable name="brand.paper" description="Background" type="color" default="@@PAPER@@" value="@@PAPER@@"/>
 <Variable name="brand.ink" description="Text" type="color" default="@@INK@@" value="@@INK@@"/>
+</Group>
 */
 :root{--accent:$(brand.accent);--paper:$(brand.paper);--ink:$(brand.ink);--soft:@@SOFT@@;--heading:@@HEADING_FONT@@;--body:@@BODY_FONT@@}
 @@CSS@@
@@ -38,11 +40,21 @@ License: GPL-3.0. Development build; see the validation report before production
         <b:widget-settings><b:widget-setting name='displayUrl'/><b:widget-setting name='displayHeight'>0</b:widget-setting><b:widget-setting name='useImage'>false</b:widget-setting><b:widget-setting name='shrinkToFit'>true</b:widget-setting><b:widget-setting name='imagePlacement'>REPLACE</b:widget-setting><b:widget-setting name='displayWidth'>0</b:widget-setting></b:widget-settings>
         <b:includable id='main'>
           <b:if cond='data:blog.pageType not in {&quot;item&quot;,&quot;static_page&quot;,&quot;error_page&quot;}'>
-            <h1 class='cl-brand'><a expr:href='data:blog.homepageUrl'><b:if cond='data:useImage'><img expr:alt='data:title' expr:src='data:sourceUrl'/><span class='cl-sr-only'><data:title/></span><b:else/><data:title/></b:if></a></h1>
+            <h1 class='cl-brand'><b:include name='brand-content'/></h1>
           <b:else/>
-            <p class='cl-brand'><a expr:href='data:blog.homepageUrl'><b:if cond='data:useImage'><img expr:alt='data:title' expr:src='data:sourceUrl'/><b:else/><data:title/></b:if></a></p>
+            <p class='cl-brand'><b:include name='brand-content'/></p>
           </b:if>
-          <b:if cond='data:description'><p class='cl-brand-description'><data:description/></p></b:if>
+          <b:if cond='data:description and (!data:useImage or data:imagePlacement != &quot;REPLACE&quot;)'><p class='cl-brand-description'><data:description/></p></b:if>
+        </b:includable>
+        <b:includable id='brand-content'>
+          <a class='cl-brand-link' expr:href='data:blog.homepageUrl'>
+            <b:class cond='data:shrinkToFit' name='cl-brand-shrink'/>
+            <b:class cond='data:useImage and data:imagePlacement == &quot;BEHIND&quot;' name='cl-brand-overlay'/>
+            <b:if cond='data:useImage'>
+              <img expr:alt='data:imagePlacement == &quot;BEHIND&quot; ? &quot;&quot; : data:title' expr:src='data:sourceUrl'/>
+              <b:if cond='data:imagePlacement == &quot;BEHIND&quot;'><span><data:title/></span></b:if>
+            <b:else/><data:title/></b:if>
+          </a>
         </b:includable>
       </b:widget>
     </b:section>
@@ -92,13 +104,13 @@ License: GPL-3.0. Development build; see the validation report before production
         </b:includable>
         <b:includable id='featured-post' var='post'>
           <article class='cl-featured'>
-            <a class='cl-featured-image' expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><img decoding='async' expr:alt='data:post.title' expr:src='data:post.firstImageUrl' fetchpriority='high' height='720' width='960'/><b:else/><span aria-hidden='true' class='cl-art-fallback'>@@ART_MARK@@</span></b:if></a>
+            <a class='cl-featured-image' expr:aria-label='data:post.title' expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><img decoding='async' expr:alt='data:post.title' expr:src='data:post.firstImageUrl' fetchpriority='high' height='720' width='960'/><b:else/><span aria-hidden='true' class='cl-art-fallback'>@@ART_MARK@@</span></b:if></a>
             <div class='cl-featured-copy'><p class='cl-kicker'>Editor's pick</p><h3><a expr:href='data:post.url'><data:post.title/></a></h3><p><data:post.snippet/></p><a class='cl-text-link' expr:href='data:post.url'>@@READ_LABEL@@ <span aria-hidden='true'>↗</span></a></div>
           </article>
         </b:includable>
         <b:includable id='post-card' var='post'>
           <article class='cl-card'>
-            <a class='cl-card-image' expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><img decoding='async' expr:alt='data:post.title' expr:src='data:post.firstImageUrl' height='600' loading='lazy' width='800'/><b:else/><span aria-hidden='true' class='cl-art-fallback'>@@ART_MARK@@</span></b:if></a>
+            <a class='cl-card-image' expr:aria-label='data:post.title' expr:href='data:post.url'><b:if cond='data:post.firstImageUrl'><img decoding='async' expr:alt='data:post.title' expr:src='data:post.firstImageUrl' height='600' loading='lazy' width='800'/><b:else/><span aria-hidden='true' class='cl-art-fallback'>@@ART_MARK@@</span></b:if></a>
             <div class='cl-card-copy'><b:if cond='data:post.labels'><p class='cl-kicker'><b:loop values='data:post.labels' var='label'><b:if cond='data:label.isFirst'><a expr:href='data:label.url'><data:label.name/></a></b:if></b:loop></p></b:if><h3><a expr:href='data:post.url'><data:post.title/></a></h3><p><data:post.snippet/></p><div class='cl-card-meta'><span><data:post.author/></span><time expr:datetime='data:post.timestampISO8601'><data:post.timestamp/></time></div></div>
           </article>
         </b:includable>

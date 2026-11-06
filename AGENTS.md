@@ -10,6 +10,7 @@ Use Python 3.9+ and Node.js 22+. No npm dependencies are required.
 
 - `python3 tools/build.py --packages`: generate all theme XML, demo exports, review pages and preview ZIPs.
 - `python3 tools/build.py --theme saffron`: build one theme for iteration.
+- `python3 tools/build_lab.py`: generate the separate Blogger lab hub and catalog preview after building the collection.
 - `python3 tools/check.py`: validate catalog completeness, XML, standalone JavaScript and schema fixtures.
 - `node --test tests/*.test.cjs`: exercise shared runtime and responsive fixtures.
 - `python3 -m http.server 8765 --directory build`: serve local review pages.

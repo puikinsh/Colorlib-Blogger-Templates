@@ -127,8 +127,8 @@ Version {c['version']} · Development preview · GPL v3
 
 1. Back up your existing Blogger theme and widget settings. Use a test blog for this development build.
 2. Open **Theme → Edit HTML** and replace the complete source with `{c['name']}-Blogger-Template.xml`.
-3. Choose **Desktop** in Blogger's mobile-theme settings. The same theme is responsive.
-4. Set your title/description in Blogger Settings. Edit the header logo and pages in Layout, and the colors in Theme Designer.
+3. Check the published page on desktop and with `?m=1` on a phone. Keep the root `b:responsive='true'` flag so Blogger serves this theme on mobile.
+4. Set your title/description in Blogger Settings. Edit the header logo and pages in Layout, and the colors in **Theme Designer → Advanced → Theme colors**.
 5. In **Layout → Homepage introduction**, edit the welcome copy and topic links. The default topics are {', '.join(c['topics'])}; use labels matching your actual posts.
 6. Native Older/Newer links provide pagination. Featured content is the first post on the home page and is rendered by Blogger rather than fetched after load.
 
@@ -140,7 +140,7 @@ All article content remains readable without JavaScript. The optional table of c
 
 ## Demo and assets
 
-`{c['name']} Demo Content.xml` is a separate post-content import, not a theme. It contains twelve original illustrative articles and uses the collection's original vector artwork. Public artwork URLs require the source repository to be published; local previews include local copies. Demo identities and projects are illustrative. Do not publish the sample as factual reporting.
+`{c['name']} Demo Content.xml` is a separate post-content import, not a theme. It contains twelve original illustrative articles and uses the collection's original vector artwork. Default public artwork URLs use the live development repository; local previews include local copies. Demo identities and projects are illustrative. Do not publish the sample as factual reporting.
 
 ## Preview and validation
 

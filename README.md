@@ -8,6 +8,7 @@ Python 3.9+ and Node.js 22+ are sufficient; no npm install is needed. Install Ch
 
 ```sh
 python3 tools/build.py --packages
+python3 tools/build_lab.py
 python3 tools/check.py
 node --test tests/*.test.cjs
 python3 -m http.server 8765 --directory build
@@ -19,12 +20,13 @@ Open `http://localhost:8765/` for the catalog. Each theme has home, article, arc
 
 The [public development repository](https://github.com/puikinsh/Colorlib-Blogger-Templates) now hosts the original artwork on `codex/collection-preview`; default demo image URLs are live. To use another owned HTTPS host, rebuild with `BLOGGER_ASSET_BASE=https://your-host/assets python3 tools/build.py --packages`. Local previews use bundled assets.
 
-All twenty themes have been installed and checked on the [public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/), which currently displays Ceremony. The [platform report](docs/PLATFORM-VALIDATION.md) records 260 live view checks, fixes and outstanding import/comment checks. The lab is a shared development fixture, not twenty finished production demos.
+All twenty themes have been installed and checked on the [public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/), which now serves a dedicated shadcn-inspired collection hub. The [platform report](docs/PLATFORM-VALIDATION.md) records 260 live view checks, fixes and outstanding import/comment checks. The lab is a shared development fixture, not twenty finished production demos. [Static design previews](https://puikinsh.github.io/Colorlib-Blogger-Templates/lab/) and preview ZIPs are published after successful validation on the development branch. See the [owner/accessibility review](docs/OWNER-ACCESSIBILITY-REVIEW.md) for the completed control checks and the explicitly unmeasured performance gate.
 
 The [design directions](docs/DESIGN-DIRECTIONS.md) record the individual layouts, typography, artwork and article treatments for all twenty themes. Open the catalog’s design-board link to compare live desktop and mobile layouts in groups of four.
 
 ## Source organization
 
+- `lab/`: the lab-only catalog design and filtering runtime; `tools/build_lab.py` creates its Blogger XML and static preview.
 - `core/`: shared XML structure, native comment includables, base/print CSS and progressive enhancements.
 - `themes/<slug>/`: independent palette/type settings, `home.html` featured-post composition, CSS, topics, content format and demo text.
 - `assets/<slug>/`: original vector artwork, also copied into local previews and packages.

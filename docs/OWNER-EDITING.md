@@ -4,7 +4,7 @@ Back up an existing blog's full theme and Layout settings before installing a th
 
 ## Identity and homepage
 
-Edit the blog title and description in Blogger Settings. The Header widget controls an optional logo; text remains available to assistive technology. PageList provides native page navigation. In Layout, open **Homepage introduction** to change the welcome copy and topic links. Link topics to `/search/label/<encoded-label>` using the labels your own posts actually have. Theme Designer exposes accent/background/text colors; recheck contrast when changing them.
+Edit the blog title and description in Blogger Settings. The Header widget controls an optional logo. Native placement options support an image behind the title, a logo replacing the title, or a description after the logo. Replacement logos use the blog title as alt text; decorative backgrounds leave the visible title as the accessible name. Shrink to fit caps the image at 150px. PageList provides native page navigation. In Layout, open **Homepage introduction** to change the welcome copy and topic links. Link topics to `/search/label/<encoded-label>` using the labels your own posts actually have. Theme Designer exposes accent/background/text colors in **Advanced → Theme colors**; recheck contrast when changing them.
 
 The introduction is editable in Layout; structural rails, notebook frames, topic navigation and other home composition details also live in `themes/<slug>/home.html` for source-level changes. Native topic links must match the labels used on your real posts.
 
@@ -36,3 +36,7 @@ Keep the root `b:responsive='true'` flag: it makes Blogger serve this responsive
 Enable **Settings → Meta tags → Enable search description**, then supply accurate blog and post descriptions. Check the rendered canonical URL, Open Graph fields and JSON-LD after changing metadata. Text-only posts omit image metadata; static pages omit BlogPosting markup.
 
 Use distinct publication timestamps for demonstration posts. Blogger's native timestamp cursor can skip a post when identical timestamps straddle a pagination boundary. Verify an Older/Newer round trip after changing posts per page; this theme preserves Blogger's URLs rather than inventing feed cursors.
+
+## Shared lab hub
+
+The public lab uses a separate `lab/` design; it is not a twenty-first product template. Rebuild it with `python3 tools/build_lab.py` after the collection build, then install `build/lab/Colorlib-Lab-Blogger-Template.xml`. Catalog text/links come from `catalog.json`, theme configuration and the hub builder. Owner controls for product templates remain independent. Preview publishing runs only after validation on `codex/collection-preview`; it does not create a production release.

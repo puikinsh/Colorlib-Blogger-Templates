@@ -8,7 +8,7 @@ These are development previews. Generated-source checks and local browser result
 
 - All twenty source directories build into self-contained theme XML, separate twelve-post demo exports, original SVG cover sets, editable post-format examples, setup/license/provenance documents and preview ZIPs with SHA256SUMS.
 - The checker validates 280 XML/SVG files, 461 static review pages, forty JSON-LD source blocks with optional fields present/absent, native include references, local preview links, image attributes and unique page IDs. Four distinct standalone JavaScript blocks pass syntax checks.
-- **46 tests pass, zero failures or skips**: twenty-three source checks, three builder regressions and twenty Chrome tests. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
+- **49 tests pass, zero failures or skips**: the original forty-six checks plus owner-contract, optional-player and hub-browser regressions. Browser tests exercise home/article pages at 320, 375, 768, 1024 and 1440px: 200 viewport cases, including TOC targets, native pagination preservation, recipe markup, checklists and calculator behavior.
 - Reviewed Saffron, Wayfarer, Lesson and Bench home layouts visually on desktop and in 320/375/768px panels. Checked Saffron's jump-to-recipe and checklist reset, and Ledger arithmetic through the browser UI.
 - Fixed heading overflow at 320px, repeated Blogger IDs across demo exports, and a single-theme rebuild removing other themes from the gallery/checksum index. Builder tests use an isolated temporary checkout to avoid racing browser fixtures.
 
@@ -31,3 +31,9 @@ Blogger refused further content imports after four posts; the owner chose to con
 Complete clean imports of every packaged demo export and verify native comment publication/replies in a working session. The installed-theme view matrix is complete; retain it when changing shared behavior. Review keyboard/screen-reader behavior and measure performance on the actual demo. Complete niche-specific demo writing and editing; Saffron's original sample recipes are illustrative and have not been kitchen-tested. Check all optional integrations disabled and failing.
 
 Public development assets are available. Prepare coherent per-theme demos, then create a versioned, checksummed release matching the installed XML. Only then add production Colorlib listings. The nine maintained existing templates retain their separate releases and download links.
+
+## Owner controls and accessibility follow-up
+
+Native introduction/logo/accent changes and menu persistence passed on all twenty templates. All twenty live skip links show visible focus and reach main content; 40 live homepage/article DOM checks passed the sampled contrast/control-name audit. Local tests now also check rendered contrast and names across the existing 200 viewport cases. The separate hub passes filtering/reset and five-width checks. See [scope, fixes and source-size figures](OWNER-ACCESSIBILITY-REVIEW.md).
+
+The public lab is a dedicated shadcn-inspired catalog, with development previews published through the approved Pages workflow after validation. No production release is implied. Measured live performance, screen-reader/physical-device review, full demo imports and comment publication/replies remain acceptance gates.

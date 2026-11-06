@@ -96,13 +96,15 @@
     button.addEventListener('click', function () {
       var url;
       try { url = new URL(button.getAttribute('data-video-src')); } catch (_) { return; }
-      if (url.protocol !== 'https:' || !((url.hostname === 'www.youtube-nocookie.com' && /^\/embed\/[\w-]+$/.test(url.pathname)) || (url.hostname === 'player.vimeo.com' && /^\/video\/\d+$/.test(url.pathname)))) return;
+      if (url.protocol !== 'https:' || url.username || url.password || (url.port && url.port !== '443') || !((url.hostname === 'www.youtube-nocookie.com' && /^\/embed\/[\w-]+$/.test(url.pathname)) || (url.hostname === 'player.vimeo.com' && /^\/video\/\d+$/.test(url.pathname)))) return;
       var frame = document.createElement('iframe');
       frame.src = url.href;
       frame.title = button.getAttribute('data-video-title') || 'Video player';
       frame.allowFullscreen = true;
       frame.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+      frame.tabIndex = 0;
       button.replaceWith(frame);
+      frame.focus();
     });
   });
 })();
