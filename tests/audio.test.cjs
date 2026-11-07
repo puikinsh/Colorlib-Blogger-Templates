@@ -12,8 +12,11 @@ test('native audio reports failures, respects alternative sources and clears rec
 var valid=${JSON.stringify(good)};
 function check(ok,message){if(!ok)throw Error(message);}
 function fail(e){document.body.dataset.result='failed';document.body.dataset.failure=e.message;}
-setTimeout(function(){try{
+var phase='initial';
+var poll=setInterval(function(){try{
  var direct=document.getElementById('direct'),fallback=document.getElementById('alternatives'),failed=document.getElementById('failed');
+ if(phase!=='initial'||direct.nextElementSibling.hidden||failed.nextElementSibling.hidden||fallback.readyState<1)return;
+ phase='recovery';clearInterval(poll);
  check(!direct.nextElementSibling.hidden&&direct.nextElementSibling.textContent.includes('Audio is unavailable'),'direct source failure needs visible feedback');
  check(!failed.nextElementSibling.hidden,'all failed alternatives need visible feedback');
  check(fallback.readyState>=1&&fallback.nextElementSibling.hidden,'a working alternative must not produce a false failure');
@@ -21,11 +24,12 @@ setTimeout(function(){try{
  check(document.getElementById(direct.getAttribute('aria-describedby').split(' ').pop())===direct.nextElementSibling,'associate feedback with affected player');
  var ids=Array.from(document.querySelectorAll('[id]')).map(e=>e.id);check(new Set(ids).size===ids.length,'avoid identifier collisions');
  direct.addEventListener('loadedmetadata',function(){try{check(direct.nextElementSibling.hidden,'clear stale failure after recovery');document.body.dataset.result='passed';}catch(e){fail(e);}});
- direct.src=valid;direct.load();
- }catch(e){fail(e);}},700);
+ direct.src=valid;
+ }catch(e){clearInterval(poll);fail(e);}},50);
+setTimeout(function(){if(!document.body.dataset.result)fail(Error('Audio fixture did not complete '+phase+' before deadline'));},9000);
 </script></body></html>`;
   fs.writeFileSync(path.join(scratch,'index.html'),html);
-  const result=spawnSync(chrome,['--headless','--disable-gpu','--no-first-run','--disable-background-networking','--user-data-dir='+path.join(scratch,'profile'),'--virtual-time-budget=2500','--dump-dom',pathToFileURL(path.join(scratch,'index.html')).href],{encoding:'utf8',timeout:30000,maxBuffer:4*1024*1024});
-  assert.equal(result.status,0,result.stderr);assert.match(result.stdout,/<body[^>]*data-result="passed"/,result.stdout.match(/<body[^>]*>/)?.[0]);
+  const result=spawnSync(chrome,['--headless','--disable-gpu','--no-first-run','--disable-background-networking','--user-data-dir='+path.join(scratch,'profile'),'--virtual-time-budget=10000','--dump-dom',pathToFileURL(path.join(scratch,'index.html')).href],{encoding:'utf8',timeout:30000,maxBuffer:4*1024*1024});
+  assert.equal(result.status,0,result.stderr);assert.ok(/<body[^>]*data-result="passed"/.test(result.stdout),result.stdout.match(/<body[^>]*>/)?.[0]||'Audio fixture did not return a result');
  }finally{fs.rmSync(scratch,{recursive:true,force:true});}
 });

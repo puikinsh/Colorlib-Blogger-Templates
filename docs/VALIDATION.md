@@ -71,3 +71,5 @@ The [audio/mobile matrix](AUDIO-MOBILE.md) records eighty native audio format/ro
 ## Preview.4 publication
 
 Preview.4 packages the verified audio/mobile candidate from `e3af8d5c6745c624d452d347e98447e921e7c0e1`. Version-normalized XML hashes match the native-tested candidate for every theme. The generated/static hubs point all twenty downloads and checksums to preview.4 and retain the full blocker notice. Live Blogger synchronization is pending restoration of browser control. Older release assets are unchanged.
+
+The preview.4 hub deployment initially stopped when the asynchronous audio regression exited before its recovery event. The fixture now waits for the expected source states and metadata event with a bounded deadline, instead of a fixed initial delay and redundant reload. The published template assets are unchanged by this test-only correction.
