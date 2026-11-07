@@ -44,3 +44,18 @@ with tempfile.TemporaryDirectory() as temporary:
  assert marker.read_bytes()==b'original release'
  `);
 });
+
+test('standalone release notes pin report links to the source commit',()=>{
+ python(`import importlib.util,tempfile
+from pathlib import Path
+spec=importlib.util.spec_from_file_location('stage','tools/stage_release.py');stage=importlib.util.module_from_spec(spec);spec.loader.exec_module(stage)
+with tempfile.TemporaryDirectory() as temporary:
+ stage.ROOT=Path(temporary);(stage.ROOT/'docs').mkdir()
+ (stage.ROOT/'docs/RELEASE-READINESS.md').write_text('[Report](AUDIO-MOBILE.md#remaining) [External](https://example.com/report.md) [Section](#scope)')
+ notes=stage.release_notes('0.1.0-preview.4','a'*40)
+ assert '[Report](https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/'+('a'*40)+'/docs/AUDIO-MOBILE.md#remaining)' in notes
+ assert '[External](https://example.com/report.md)' in notes
+ assert '[Section](#scope)' in notes
+ assert 'Source commit: '+chr(96)+('a'*40)+chr(96) in notes
+ `);
+});

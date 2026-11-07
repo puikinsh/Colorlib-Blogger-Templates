@@ -19,9 +19,17 @@ def sha256(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def release_notes(version, revision):
+    status = (ROOT / 'docs/RELEASE-READINESS.md').read_text()
+    base = 'https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/' + revision + '/docs/'
+    status = re.sub(r'\]\((?!https?://)([^)#]+\.md)(#[^)]*)?\)',
+                    lambda match: '](' + base + match[1] + (match[2] or '') + ')', status)
+    return '# Colorlib Blogger ' + version + '\n\nSource commit: `' + revision + '`\n\n' + status
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--version', required=True, help='For example 0.1.0-preview.3; production staging is not enabled.')
+    parser.add_argument('--version', required=True, help='For example 0.1.0-preview.4; production staging is not enabled.')
     args = parser.parse_args()
     if not re.fullmatch(r'\d+\.\d+\.\d+-preview\.\d+', args.version):
         parser.error('Use a numbered preview version while release acceptance gates remain open.')
@@ -69,7 +77,7 @@ def main():
                 assert folder + 'LICENSE' in members
                 assert len([name for name in members if '/assets/cover-' in name]) == 12
             records.append({'theme': row['slug'], 'filename': filename, 'bytes': len(data), 'sha256': sha256(data), 'template_sha256': sha256(xml)})
-    notes = '# Colorlib Blogger ' + args.version + '\n\nSource commit: `' + revision + '`\n\n' + (ROOT / 'docs/RELEASE-READINESS.md').read_text()
+    notes = release_notes(args.version, revision)
     (target / 'RELEASE-NOTES.md').write_text(notes)
     manifest = {'version': args.version, 'prerelease': True, 'production_ready': False, 'source_commit': revision, 'asset_base': base, 'packages': records}
     (target / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')

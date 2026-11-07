@@ -1,6 +1,10 @@
 # Development preview release status
 
-Updated November 6, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
+Updated November 7, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
+
+## Preview.4 candidate
+
+Preview.4 packages the audio-error feedback and minimum player-height fixes, native audio/mobile evidence, offline documentation and original QA signals in the source repository. The twenty theme XMLs retain the validated behavior; only their release version label changes during staging. Publication does not close the unresolved narrow-video, Vimeo or other gates below. Preview.3 stays frozen.
 
 ## Included and verified
 
