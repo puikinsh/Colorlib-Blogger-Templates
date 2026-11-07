@@ -78,4 +78,4 @@ Use browser controls and put a recording link outside the player so it remains a
 
 Replace both URLs, use unique caption IDs for multiple players, and supply an accurate transcript. `preload="none"` is a browser hint, not a guarantee of zero network traffic. The newer runtime adds associated visible feedback after a direct-source failure or failure of every alternative source, while retaining the native controls. A working alternative clears failure feedback. Verify the host's HTTPS delivery, actual formats, rights and long recordings yourself.
 
-Optional video frames now retain at least 200px height at narrow widths. This layout fix does not resolve the observed narrow-video buffering. See the [audio/mobile report](AUDIO-MOBILE.md); its later fixes are not included in preview.3.
+Optional video frames now retain at least 200px height at narrow widths. This layout fix does not resolve the observed narrow-video buffering. See the [audio/mobile report](AUDIO-MOBILE.md); its fixes are included in preview.4; preview.3 remains unchanged.

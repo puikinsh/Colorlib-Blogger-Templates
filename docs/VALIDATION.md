@@ -67,3 +67,7 @@ Published the verified preview.3 packages from `adf4ded8b81b79a7275b8d57431fa47d
 ## Audio and narrow-viewport source pass
 
 The [audio/mobile matrix](AUDIO-MOBILE.md) records eighty native audio format/route checks and forty final Blogger layout/recovery checks across all twenty themes at verified 375px/320px viewports. Focused retries remain visible in the evidence. Shared failed-audio feedback and the minimum video-player height were fixed. Reliable narrow-video playback remains open after intermittent pauses/stalls; physical-device, audible-output and all earlier service/tool blockers remain. Published preview.3 assets were preserved.
+
+## Preview.4 publication
+
+Preview.4 packages the verified audio/mobile candidate from `e3af8d5c6745c624d452d347e98447e921e7c0e1`. Version-normalized XML hashes match the native-tested candidate for every theme. The generated/static hubs point all twenty downloads and checksums to preview.4 and retain the full blocker notice. Live Blogger synchronization is pending restoration of browser control. Older release assets are unchanged.

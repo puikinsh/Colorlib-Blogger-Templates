@@ -54,3 +54,5 @@ Validation: the XML/source checker and all 56 automated tests passed, including 
 ## Subsequent audio/mobile pass
 
 The [new development-source review](AUDIO-MOBILE.md) records completed MP3/WAV checks at 375px and 320px for all twenty themes, audio-error and player-height fixes, and unresolved narrow-video reliability. It supersedes the earlier unrun audio/narrow checks above; physical-device and audible-output acceptance remains open. Preview.3 assets are unchanged.
+
+Publication follow-up: preview.4 now includes the audio-error and minimum-player-height fixes and the audio/mobile evidence. The unresolved gates in that follow-up remain open.

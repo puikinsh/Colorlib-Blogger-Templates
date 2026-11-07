@@ -1,6 +1,6 @@
 # Native audio and mobile media review
 
-Tested November 6, 2026 on the public Blogger lab. These are **new development-source results**, not a replacement for the frozen preview.3 package-time reports. The audio-error feedback and minimum-player-height fixes below are **not included in preview.3 downloads**.
+Tested November 6, 2026 on the public Blogger lab. These are the audio/mobile results included in **preview.4**. The audio-error feedback and minimum-player-height fixes below are included in preview.4; the older preview.3 assets remain unchanged.
 
 ## Scope and method
 
@@ -58,6 +58,6 @@ Initial narrow-video runs demonstrated playback on many routes, but several samp
 - **Blocked/unresolved:** reliable narrow-width YouTube playback after pauses/stalls; Vimeo's previously reproduced supported-browser error; actual screen-reader speech/rotor connection; measured live performance without DevTools; Blogger imports/comment publication listed in [the retry report](BLOGGER-RETRY.md).
 - **Still unrun:** physical phones/tablets, touch gestures, Safari/Firefox and other codecs/streaming formats; actual audible output and audio routing; long owner podcast episodes, background/lock-screen playback, fullscreen/PiP, captions/transcript accuracy for owner recordings, private/deleted/region-restricted media and network/consent failures on supported devices.
 - **Editorial:** samples remain editing briefs; owners must verify facts, permissions, credits and destinations. Recipes remain untested.
-- **Preview.3 stays frozen:** public downloads retain their exact published bytes. These later fixes and reports are in development source/static previews and the lab hub. A future numbered preview is needed to distribute them as release packages. No stable-release claim is made.
+- **Preview.4 publication:** these fixes and reports are now included in preview.4 release packages. Earlier preview.2/preview.3 assets retain their exact published bytes. Publication does not close any gate above, and no stable-release claim is made.
 
 Validation: XML/source checks, whitespace checks and all 57 automated tests passed. This includes native audio decode/fallback/recovery behavior, all twenty responsive designs, and offline package documentation links.

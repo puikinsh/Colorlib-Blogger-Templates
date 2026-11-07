@@ -2,9 +2,9 @@
 
 Updated November 7, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
 
-## Preview.4 candidate
+## Preview.4 scope
 
-Preview.4 packages the audio-error feedback and minimum player-height fixes, native audio/mobile evidence, offline documentation and original QA signals in the source repository. The twenty theme XMLs retain the validated behavior; only their release version label changes during staging. Publication does not close the unresolved narrow-video, Vimeo or other gates below. Preview.3 stays frozen.
+Preview.4 includes the audio-error feedback and minimum player-height fixes, native audio/mobile evidence, offline documentation and original QA signals in the source repository. The twenty theme XMLs retain the validated behavior; only their release version label changes during staging. Publication does not close the unresolved narrow-video, Vimeo or other gates below. Preview.3 stays frozen.
 
 ## Included and verified
 
@@ -30,16 +30,16 @@ The [published-package retry](BLOGGER-RETRY.md) records 24 accepted demo posts, 
 
 ## Published preview
 
-[v0.1.0-preview.3](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.3) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `adf4ded8b81b79a7275b8d57431fa47dcbb34ff0`. They include media recovery, editorial corrections, offline documentation and the native-media evidence. The Blogger/static hub download buttons point to these exact packages and display the incomplete checks before the cards. Publishing the preview does not close any acceptance gate above.
+[v0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `e3af8d5c6745c624d452d347e98447e921e7c0e1`. They include audio failure feedback, the minimum mobile player height, media/editorial fixes, offline documentation and native test evidence. The static catalog and generated Blogger hub XML point to these exact packages. Live Blogger synchronization is pending restoration of browser control. The incomplete checks remain visible before the cards; publication does not close them.
 
-Preview.2 remains available unchanged from commit `a672d7a1bca99d776f66322deead9d7ececf80c4`. Embedded package status files record their preparation-time state; this page and the release description carry the current publication status.
+Preview.2 and preview.3 remain available unchanged. Embedded package status files record their preparation-time state; this page and the release description carry the current publication status.
 
 ## Package integrity and publication
 
-The normal gallery ZIPs are mutable development previews. `tools/stage_release.py --version 0.1.0-preview.4` stages a separate set from a clean source commit, pins demo artwork URLs to that commit and writes SHA256SUMS, a manifest and release notes. Each ZIP includes this status file. Verify with `shasum -a 256 -c SHA256SUMS` (or `sha256sum -c SHA256SUMS` on Linux).
+The normal gallery ZIPs are mutable development previews. `tools/stage_release.py --version 0.1.0-preview.5` stages a separate set from a clean source commit, pins demo artwork URLs to that commit and writes SHA256SUMS, a manifest and release notes. Each ZIP includes this status file. Verify with `shasum -a 256 -c SHA256SUMS` (or `sha256sum -c SHA256SUMS` on Linux).
 
 A published preview is not a production release. Do not mark it production-ready or replace Colorlib production downloads until the outstanding acceptance checks pass. Current reports: [platform validation](https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/codex/collection-preview/docs/PLATFORM-VALIDATION.md) and [comment/screen-reader checks](https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/codex/collection-preview/docs/COMMENTS-SCREEN-READER.md).
 
-## Later development-source audio/mobile checks
+## Audio/mobile checks included in preview.4
 
-All twenty candidates passed native MP3/WAV playback, pause and seek checks at 375px and 320px, with focused retries retained in the evidence. Audio failure feedback and a 200px minimum player height were fixed; final narrow layouts/recovery passed all forty native cases. Reliable narrow-width YouTube playback remains unresolved after pauses/stalls. These later fixes are not in the frozen preview.3 ZIPs. See the [audio/mobile matrix](AUDIO-MOBILE.md) for exact scope, retries and remaining gates.
+All twenty candidates passed native MP3/WAV playback, pause and seek checks at 375px and 320px, with focused retries retained in the evidence. Audio failure feedback and a 200px minimum player height were fixed; final narrow layouts/recovery passed all forty native cases. Reliable narrow-width YouTube playback remains unresolved after pauses/stalls. These fixes and evidence are included in preview.4; preview.3 ZIPs remain unchanged. See the [audio/mobile matrix](AUDIO-MOBILE.md) for exact scope, retries and remaining gates.

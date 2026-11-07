@@ -6,6 +6,10 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Published `v0.1.0-preview.4` with the native audio-feedback and narrow-player-height fixes, offline reports and recorded test evidence.
+- Updated generated/static hub links and retained the unresolved narrow-video, Vimeo, device/audio, speech, performance, Blogger service and editorial gates. Live Blogger synchronization remains pending browser control.
+
+
 - Added original WAV/MP3 QA signals and recorded native audio plus 375px/320px layout checks for all twenty templates, with focused retries preserved.
 - Documented unresolved narrow-video playback and retained all device/audio-output, screen-reader, performance, Blogger service and editorial gates. Published preview.3 assets remain frozen.
 
