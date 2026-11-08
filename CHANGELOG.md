@@ -6,6 +6,8 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Recorded November 8 native provider checks across all twenty templates: forty successful narrow-width YouTube startups, longer Maker/Muse observations and Vimeo failures reproduced outside Blogger. Added owner troubleshooting and retained the unresolved reliability/browser/device gates; published preview.4 assets remain frozen.
+
 - Published `v0.1.0-preview.4` with the native audio-feedback and narrow-player-height fixes, offline reports and recorded test evidence.
 - Updated generated/static hub links and retained the unresolved narrow-video, Vimeo, device/audio, speech, performance, Blogger service and editorial gates. Live Blogger synchronization completed November 8, 2026; all twenty download links and the checksum link were verified.
 

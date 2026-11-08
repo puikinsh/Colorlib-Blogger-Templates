@@ -81,3 +81,7 @@ On November 8, 2026, the restored computer-use controls opened the signed-in Blo
 All twenty download URLs exactly matched the catalog's versioned preview.4 filenames. The checksum URL also used preview.4. Browser downloads of every linked ZIP and SHA256SUMS matched the frozen files; the [verification record](evidence/preview4-live-hub-2026-11-08.json) records canonical URLs and hashes.
 
 The notice remained visible before the download cards, retaining speech/rotor, comment, import, measured-performance, narrow-video, Vimeo, physical-device, audible-output and editorial gates. Browser control and hub synchronization are resolved; none of those acceptance gates is marked passed by this update. Release assets were not replaced.
+
+## November 8 provider isolation and retry
+
+Installed all twenty full XMLs through Blogger; verified theme classes and actual 375px/320px widths. All forty YouTube startup cases advanced while unpaused with final readyState 4; close/focus recovery and overflow checks passed. Maker/Muse longer runs reached 24.93s/22.62s. Vimeo failed under all twenty, including two focused message-wait retries, and outside Blogger on its standalone player page. Independent Chrome control timed out. No new runtime change was justified; intermittent reliability and all existing acceptance gates remain open. The hub was restored with twenty preview.4 links. See [the provider report](PROVIDER-RELIABILITY.md) and its retained observations.

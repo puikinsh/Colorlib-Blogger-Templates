@@ -1,0 +1,1241 @@
+{
+  "date": "2026-11-08",
+  "source_commit": "ff2d5b9e1a1409409c01c5d41b5ec7b5e3da5db5",
+  "method": "Full XML installed through native Blogger Theme editor; served theme class and actual viewport verified. Manual provider Play controls, two read-only video state samples separated by 1200ms; close and focus recovery. No API, autoplay or security override. Desktop IAB narrow viewports, not physical phones.",
+  "fixture": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html",
+  "routes": [
+    {
+      "theme": "theme-saffron",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 0,
+        "time": 0
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.112504
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-saffron",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.024481
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.235879
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-wayfarer",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.002273
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.170171
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-wayfarer",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.01622
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.205859
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-lesson",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.064259
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.332355
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-lesson",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.033619
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.249395
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-bench",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.005874
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.155521
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-bench",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.020813
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.214689
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-maker",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.019944
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.229262
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-maker",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.1076
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.323037
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-muse",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.02099
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.235828
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-muse",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.00419
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.217184
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-kinship",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.021246
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.226516
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-kinship",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.012501
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.179421
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-companion",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.049974
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.265802
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-companion",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.068498
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.282302
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-shelf",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.058941
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.27837
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": false,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-shelf",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.015983
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.203929
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-playbook",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.010112
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.17909
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-playbook",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.011375
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.200052
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-soundboard",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.022467
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.238155
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-soundboard",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.01747
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.226663
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-verdant",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.010303
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.177084
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-verdant",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.01146
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.18225
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-pace",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.000299
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.193234
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-pace",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.020158
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.238417
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-ledger",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.031726
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.249192
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-ledger",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.032061
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.2475
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-screen",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.03075
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.242529
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-screen",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.01939
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.213548
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-borough",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 0,
+        "time": 0
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.113016
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-borough",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.005477
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.19332
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-studio",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 1,
+        "time": 0
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.142585
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-studio",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.020529
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.179404
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-launchpad",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.054942
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.267125
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": false,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-launchpad",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.065969
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.280417
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-ceremony",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.007719
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.157339
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-ceremony",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.024303
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.236828
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    },
+    {
+      "theme": "theme-cause",
+      "route": "ordinary",
+      "overflow": false,
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.00705
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.17701
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": {
+        "supportedBrowserError": true,
+        "state": {
+          "error": null,
+          "paused": true,
+          "ready": 0,
+          "time": 0
+        }
+      }
+    },
+    {
+      "theme": "theme-cause",
+      "route": "?m=1",
+      "overflow": false,
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.008351
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 1.202991
+      },
+      "advancing": true,
+      "recovered": {
+        "focus": "Load YouTube sample",
+        "frames": 0
+      },
+      "vimeo": null
+    }
+  ],
+  "vimeo_focused_retries": [
+    {
+      "theme": "Shelf",
+      "width": 375,
+      "body": "theme-shelf",
+      "supportedBrowserError": true,
+      "state": {
+        "error": null,
+        "paused": true,
+        "ready": 0,
+        "time": 0
+      }
+    },
+    {
+      "theme": "Launchpad",
+      "width": 375,
+      "body": "theme-launchpad",
+      "supportedBrowserError": true,
+      "state": {
+        "error": null,
+        "paused": true,
+        "ready": 0,
+        "time": 0
+      }
+    }
+  ],
+  "longer_youtube_observations": [
+    {
+      "theme": "Maker",
+      "width": 375,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.009884
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 14.393486
+      },
+      "final": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 24.932061
+      }
+    },
+    {
+      "theme": "Muse",
+      "width": 320,
+      "first": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 0.051313
+      },
+      "second": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 12.090737
+      },
+      "final": {
+        "error": null,
+        "paused": false,
+        "ready": 4,
+        "time": 22.617546
+      }
+    }
+  ],
+  "standalone_vimeo": {
+    "url": "https://player.vimeo.com/video/76979871",
+    "visibleError": true,
+    "state": {
+      "error": null,
+      "paused": false,
+      "ready": 0,
+      "time": 0
+    },
+    "chromeComparison": "Native Google Chrome connection timed out; no playback comparison obtained."
+  },
+  "candidate_sha256": {
+    "core/runtime.js": "9b8d86aa35601fb12255fe6c923c526ad7d946dd01d641cbefb01be2b8538f15",
+    "core/base.css": "e5941a3442a9310129a34a7904693bd178ea262bc7f6fd4eda3f210e07ac933e",
+    "build/bench/Bench-Blogger-Template.xml": "76f5b9d049dd236aa9e81c6593d03a194344670d34037fc71de05f739e27539d",
+    "build/borough/Borough-Blogger-Template.xml": "3650efcfb8b03b4c21f7d4ba82683eb9f234a0b81058616ddb8110bb421f325d",
+    "build/cause/Cause-Blogger-Template.xml": "790bd63b57f9e4735dda3b7a3365f1763db876116d605d6b2302cde94be8a20d",
+    "build/ceremony/Ceremony-Blogger-Template.xml": "9c711d791db9780d373da6b85d60566be59279ba2d538384afcd6a9e1ea037c4",
+    "build/companion/Companion-Blogger-Template.xml": "0aa4d9895b7d12bed2ab0ac9429df3f059b4c5e4605dbf9c5b2e817e00b3a217",
+    "build/kinship/Kinship-Blogger-Template.xml": "021f0a1606c12b8f9aeae1b95f00b66e0440555a98167dc613e5bde2615b24da",
+    "build/launchpad/Launchpad-Blogger-Template.xml": "66068db4188dd8f360e578ae874172d45a8fcacbf994ba1ce37b27cf2b60f7c6",
+    "build/ledger/Ledger-Blogger-Template.xml": "efde41a310fb4692aee6649f2556dfd86cfe732ba342ef7eb27dcdd5d59ab6dc",
+    "build/lesson/Lesson-Blogger-Template.xml": "eaa9a8ff7c5cb7a5ea3c2144e0e15fefa06ea381e3e43306a3bda2e49eb383f1",
+    "build/maker/Maker-Blogger-Template.xml": "baf2eec101da6d616ad3af32378cb23a7c9293bf1245f3539e1450f0e56926aa",
+    "build/muse/Muse-Blogger-Template.xml": "5235aab4e3b1bd325537d7c06429cc33651f9ad674697880b12b442495d61d51",
+    "build/pace/Pace-Blogger-Template.xml": "10c81688dcbf4a4c1519ed634721a55c89eb513c71de8dab5022a4bf258ec2c7",
+    "build/playbook/Playbook-Blogger-Template.xml": "72adb00d3068fad95c3d7092e787c344d06ae3a7235fada8e237a16140472d72",
+    "build/saffron/Saffron-Blogger-Template.xml": "ddad011da5c07e50d9c488f717cdc1a29438f439f33b2e94a833625ef21bc80a",
+    "build/screen/Screen-Blogger-Template.xml": "cb9368526ffcd829327bc3afde14c1010abb7ab076883b4b08006f5d625a2224",
+    "build/shelf/Shelf-Blogger-Template.xml": "cb3ceba77ee0414af0e1ef5409abd9d7947cf55013802086ec4f943bde6c4b5c",
+    "build/soundboard/Soundboard-Blogger-Template.xml": "f6e092e3a56a8cc4806f4fa74d40ff310085aa5ebcaf98464309ab1d28f971fd",
+    "build/studio/Studio-Blogger-Template.xml": "60a1e479e95c3f1ea58731b0921e373b7edd972cd37f5ced7cafb6bc960fd394",
+    "build/verdant/Verdant-Blogger-Template.xml": "a12794e46e78d5026782cd43a8e59426e0718fcd7e0e2d801c96ac7853cbd660",
+    "build/wayfarer/Wayfarer-Blogger-Template.xml": "930048b7068a758e8b033d48860cd4d6aba7f5b0c89af616e68957cea3e39de4"
+  },
+  "hub_restoration": {
+    "confirmed_body_class": "theme-lab lab-home",
+    "preview4_zip_links": 20,
+    "remaining_gates_visible": true
+  },
+  "conclusion": "YouTube startup advanced in 40/40 cases today; previous stalls retained as unresolved intermittent reliability. Vimeo supported-browser error in all 20, with two focused retries, and standalone player. No new runtime defect confirmed; root cause not established."
+}

@@ -61,3 +61,7 @@ Initial narrow-video runs demonstrated playback on many routes, but several samp
 - **Preview.4 publication:** these fixes and reports are now included in preview.4 release packages. Earlier preview.2/preview.3 assets retain their exact published bytes. Publication does not close any gate above, and no stable-release claim is made.
 
 Validation: XML/source checks, whitespace checks and all 57 automated tests passed. This includes native audio decode/fallback/recovery behavior, all twenty responsive designs, and offline package documentation links.
+
+## November 8 provider follow-up
+
+All twenty installed templates passed forty new narrow-width YouTube startup checks; Maker/Muse also advanced beyond 22 seconds. Vimeo still failed under all twenty and on its standalone player page. Earlier stalls remain unresolved as an intermittent reliability gate. See [the follow-up method, evidence and owner troubleshooting](PROVIDER-RELIABILITY.md). These newer observations are not bundled in frozen preview.4 ZIPs.

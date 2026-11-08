@@ -43,3 +43,7 @@ A published preview is not a production release. Do not mark it production-ready
 ## Audio/mobile checks included in preview.4
 
 All twenty candidates passed native MP3/WAV playback, pause and seek checks at 375px and 320px, with focused retries retained in the evidence. Audio failure feedback and a 200px minimum player height were fixed; final narrow layouts/recovery passed all forty native cases. Reliable narrow-width YouTube playback remains unresolved after pauses/stalls. These fixes and evidence are included in preview.4; preview.3 ZIPs remain unchanged. See the [audio/mobile matrix](AUDIO-MOBILE.md) for exact scope, retries and remaining gates.
+
+## November 8 provider reliability follow-up
+
+All twenty XMLs passed forty new native YouTube startup checks at 375px/320px; Maker/Muse also advanced beyond 22 seconds. Vimeo reproduced its supported-browser failure under all twenty and on its standalone player page. No new runtime defect or permanent stall fix was established. Keep repeated-session reliability and Vimeo acceptance open. [Method, evidence and troubleshooting](PROVIDER-RELIABILITY.md) are newer than the frozen preview.4 packages.
