@@ -44,7 +44,7 @@ Pagination always uses Blogger's crawlable Older/Newer URLs. The base theme does
 
 ## Published preview
 
-[Download version 0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4). The static catalog and generated Blogger hub XML point to its twenty versioned packages. The live Blogger hub update is pending restoration of browser control. They include release-status notes, commit-pinned artwork and SHA-256 checksums. This is a prerelease for testing; the hub displays incomplete acceptance checks before its download cards.
+[Download version 0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4). The live Blogger hub and static catalog point to its twenty versioned packages. All twenty Blogger download links and the checksum link were verified November 8, 2026. They include release-status notes, commit-pinned artwork and SHA-256 checksums. This is a prerelease for testing; the hub displays incomplete acceptance checks before its download cards.
 
 The published assets are frozen from source commit `a672d7a1bca99d776f66322deead9d7ececf80c4`. Use a new preview number when staging changed source; do not replace these published assets with a later rebuild.
 

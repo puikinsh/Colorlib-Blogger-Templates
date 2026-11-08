@@ -1,0 +1,167 @@
+{
+  "verified_on": "2026-11-08",
+  "hub_url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/",
+  "release": "v0.1.0-preview.4",
+  "package_source_commit": "e3af8d5c6745c624d452d347e98447e921e7c0e1",
+  "verification": "Rendered links matched the complete catalog; all 20 ZIPs and SHA256SUMS were downloaded through the browser and matched frozen hashes. The blocker notice preceded cards. Direct command-line download retries timed out, so the supported browser download path was used.",
+  "retained_gates": [
+    "screen-reader speech/rotor",
+    "Blogger comment publishing",
+    "complete Blogger imports",
+    "measured live performance",
+    "reliable video playback at narrow widths",
+    "Vimeo playback",
+    "physical devices",
+    "audible output",
+    "final editorial approval"
+  ],
+  "links": [
+    {
+      "name": "SHA256SUMS",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/SHA256SUMS",
+      "label": "SHA-256 checksums",
+      "bytes": 2375,
+      "sha256": "e6027979edc6c8eb834985e657cbfd8e9964bb7934e072a86f67e7a9a32a8099"
+    },
+    {
+      "name": "bench-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/bench-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Bench 0.1.0-preview.4",
+      "bytes": 96400,
+      "sha256": "d051187518f6566f924f5dd7f843e24f3729d0a3032d375a1791acb9c94c7408"
+    },
+    {
+      "name": "borough-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/borough-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Borough 0.1.0-preview.4",
+      "bytes": 95674,
+      "sha256": "433699f15dc836cad416ffa8c4e33417bd028d50408aea9fb39e37fea327d41d"
+    },
+    {
+      "name": "cause-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/cause-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Cause 0.1.0-preview.4",
+      "bytes": 93578,
+      "sha256": "9bea00b504ded43d074c7088a415336a765228aa43fe3d7e10135d086f3ab4b2"
+    },
+    {
+      "name": "ceremony-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/ceremony-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Ceremony 0.1.0-preview.4",
+      "bytes": 95169,
+      "sha256": "7a7661d3be1d5992611c09560c2544439460e8f89ca85186b5e69b5a2e15eafa"
+    },
+    {
+      "name": "companion-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/companion-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Companion 0.1.0-preview.4",
+      "bytes": 94183,
+      "sha256": "aa53b70b4d2084baabf44b2f2afe17ed94f4fcace52dc6db5ef301a0041fb754"
+    },
+    {
+      "name": "kinship-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/kinship-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Kinship 0.1.0-preview.4",
+      "bytes": 93896,
+      "sha256": "0c88f58a43b14eaebf943e1cab673445fc8058ebb84ae897e8df833029b9eee0"
+    },
+    {
+      "name": "launchpad-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/launchpad-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Launchpad 0.1.0-preview.4",
+      "bytes": 93113,
+      "sha256": "90878b7083ab492a7cef3db71983d42c42b2577f1229fa891453e516cfe29d85"
+    },
+    {
+      "name": "ledger-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/ledger-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Ledger 0.1.0-preview.4",
+      "bytes": 94501,
+      "sha256": "8e795adca19793a2c910307a7b3895cb1495ccbdc10eaf830bda6551b948f0b4"
+    },
+    {
+      "name": "lesson-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/lesson-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Lesson 0.1.0-preview.4",
+      "bytes": 95646,
+      "sha256": "9b4fd6c9a281d7087140470887c90d9c73abbe24452f48acbe122738f7e62f29"
+    },
+    {
+      "name": "maker-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/maker-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Maker 0.1.0-preview.4",
+      "bytes": 99565,
+      "sha256": "c2ef88fbc0a92427e76e8ea1b31c53d75980419857a16d00a47e4f88eccc27a5"
+    },
+    {
+      "name": "muse-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/muse-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Muse 0.1.0-preview.4",
+      "bytes": 93618,
+      "sha256": "d04ea631cabdfdb21dc7875f2da8aebb4d0e48faa2119d109ddfef6946bf37f3"
+    },
+    {
+      "name": "pace-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/pace-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Pace 0.1.0-preview.4",
+      "bytes": 93742,
+      "sha256": "9f90f5b4ba9c6f46f1a8d6f03bb40165ef54bb868c13594227270ef01a0704ae"
+    },
+    {
+      "name": "playbook-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/playbook-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Playbook 0.1.0-preview.4",
+      "bytes": 94239,
+      "sha256": "fbf446820763d1901d405cd957c78c2901bda50e446ef84762aa880fa6b3a6c9"
+    },
+    {
+      "name": "saffron-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/saffron-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Saffron 0.1.0-preview.4",
+      "bytes": 99622,
+      "sha256": "32dd20ee0bd0b0cdfbf22af2d98e6c35ac10508ab56ca14f87a84eccdcc2ade0"
+    },
+    {
+      "name": "screen-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/screen-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Screen 0.1.0-preview.4",
+      "bytes": 94228,
+      "sha256": "6ec0b634552d865aa604ce439ad619b85ce9b2b246127e102e5a7c3bc7275cfc"
+    },
+    {
+      "name": "shelf-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/shelf-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Shelf 0.1.0-preview.4",
+      "bytes": 92633,
+      "sha256": "c1a3807c871206cc45440808dbfdf1ec69bc9b9f4cce616697d93a4df949f8d8"
+    },
+    {
+      "name": "soundboard-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/soundboard-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Soundboard 0.1.0-preview.4",
+      "bytes": 94914,
+      "sha256": "c71870621f7e5f12b1071b67620afdf7d58b7f4fe933769384b1f8fd10e547a5"
+    },
+    {
+      "name": "studio-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/studio-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Studio 0.1.0-preview.4",
+      "bytes": 93305,
+      "sha256": "edaeeda923405c54f2ac502143d98efd72ed9778aa75bfe833d60567fa0bf2ce"
+    },
+    {
+      "name": "verdant-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/verdant-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Verdant 0.1.0-preview.4",
+      "bytes": 93614,
+      "sha256": "86c6eaf0bdb4fd37fe1e4bb7df41e0ab2c8d296ad8c5da1d70278b4f4233b7a2"
+    },
+    {
+      "name": "wayfarer-blogger-template-0.1.0-preview.4.zip",
+      "url": "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/wayfarer-blogger-template-0.1.0-preview.4.zip",
+      "label": "Download preview Wayfarer 0.1.0-preview.4",
+      "bytes": 96871,
+      "sha256": "db37c511d0799c90a8f61318eee526426d7bce2822c63d21b23277ed75079d5d"
+    }
+  ]
+}

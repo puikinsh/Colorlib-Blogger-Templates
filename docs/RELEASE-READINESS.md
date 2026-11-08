@@ -1,6 +1,6 @@
 # Development preview release status
 
-Updated November 7, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
+Updated November 8, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
 
 ## Preview.4 scope
 
@@ -30,7 +30,7 @@ The [published-package retry](BLOGGER-RETRY.md) records 24 accepted demo posts, 
 
 ## Published preview
 
-[v0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `e3af8d5c6745c624d452d347e98447e921e7c0e1`. They include audio failure feedback, the minimum mobile player height, media/editorial fixes, offline documentation and native test evidence. The static catalog and generated Blogger hub XML point to these exact packages. Live Blogger synchronization is pending restoration of browser control. The incomplete checks remain visible before the cards; publication does not close them.
+[v0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `e3af8d5c6745c624d452d347e98447e921e7c0e1`. They include audio failure feedback, the minimum mobile player height, media/editorial fixes, offline documentation and native test evidence. The live Blogger hub and static catalog point to these exact packages. All twenty rendered Blogger download links and the checksum link were verified November 8, 2026. The incomplete checks remain visible before the cards; publication does not close them.
 
 Preview.2 and preview.3 remain available unchanged. Embedded package status files record their preparation-time state; this page and the release description carry the current publication status.
 
