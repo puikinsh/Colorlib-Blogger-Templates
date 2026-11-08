@@ -1,5 +1,7 @@
 # Native audio and mobile media review
 
+**Later supported-browser results:** [Safari follow-up](PROVIDER-SAFARI.md) records positive playback under all twenty after retries, plus retained interruptions and a later standalone Vimeo pause. Earlier observations below remain historical evidence; reliability is still open.
+
 Tested November 6, 2026 on the public Blogger lab. These are the audio/mobile results included in **preview.4**. The audio-error feedback and minimum-player-height fixes below are included in preview.4; the older preview.3 assets remain unchanged.
 
 ## Scope and method

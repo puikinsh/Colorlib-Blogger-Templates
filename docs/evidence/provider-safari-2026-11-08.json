@@ -1,0 +1,1665 @@
+{
+  "date": "2026-11-08",
+  "phase": "Supported-browser follow-up after the earlier IAB retry",
+  "source_commit": "4534b3d2d51fba74b975874d37cbf2f01ba9cd3c",
+  "browser": "Safari 27.2 (22625.2.8.11.9), verified through About Safari",
+  "viewport": "Existing native desktop Safari window; not an iOS simulator or verified narrow-width case",
+  "method": "Full XML installed through Blogger editor, served body class checked in IAB, then native Safari fixture reloaded. Native provider Play controls; accessibility elapsed time and Pause state sampled immediately and about five seconds later. Close/load focus checked. Safari window explicitly raised for Screen onward and focused retries; no security, codec or autoplay settings changed.",
+  "scope": "20 themes, 40 initial YouTube load cycles, 20 initial Vimeo checks, 3 full focused theme retries (6 additional YouTube cycles and 3 Vimeo checks).",
+  "rows": [
+    {
+      "theme": "Saffron",
+      "servedClass": "theme-saffron",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Play video",
+              "text Time elapsed 0 seconds Time duration 22 minutes, 23 seconds"
+            ]
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Pause video",
+              "text Time elapsed 5 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Play video",
+              "text Time elapsed 0 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Pause video",
+              "text Time elapsed 5 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false,
+          "controls": [
+            "button Pause",
+            "slider (settable, float) Progress Bar, Value: 0, Details: 00:00 of 01:02"
+          ]
+        },
+        "second": {
+          "elapsed": "00:04",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false,
+          "controls": [
+            "button Pause",
+            "slider (settable, float) Progress Bar, Value: 4, Details: 00:04 of 01:02"
+          ]
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        },
+        "controlWaitRetry": true
+      }
+    },
+    {
+      "theme": "Wayfarer",
+      "servedClass": "theme-wayfarer",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Play video",
+              "text Time elapsed 0 seconds Time duration 22 minutes, 23 seconds"
+            ]
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Pause video",
+              "text Time elapsed 5 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Play video",
+              "text Time elapsed 0 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Pause video",
+              "text Time elapsed 5 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false,
+          "controls": [
+            "button Pause",
+            "slider (settable, float) Progress Bar, Value: 0, Details: 00:00 of 01:02"
+          ]
+        },
+        "second": {
+          "elapsed": "00:05",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false,
+          "controls": [
+            "button Pause",
+            "slider (settable, float) Progress Bar, Value: 5, Details: 00:05 of 01:02"
+          ]
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Lesson",
+      "servedClass": "theme-lesson",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Play video",
+              "text Time elapsed 0 seconds Time duration 22 minutes, 23 seconds"
+            ]
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Pause video",
+              "text Time elapsed 4 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Play video",
+              "text Time elapsed 0 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false,
+            "controls": [
+              "button Playback settings",
+              "button Pause video",
+              "text Time elapsed 5 seconds Time duration 22 minutes, 24 seconds"
+            ]
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:02",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false,
+          "controls": [
+            "button Pause",
+            "slider (settable, float) Progress Bar, Value: 2, Details: 00:02 of 01:02"
+          ]
+        },
+        "second": {
+          "elapsed": "00:07",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false,
+          "controls": [
+            "button Pause",
+            "slider (settable, float) Progress Bar, Value: 7, Details: 00:07 of 01:02"
+          ]
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Bench",
+      "servedClass": "theme-bench",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "second": {
+          "elapsed": "00:35",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "note": "Recovered native accessibility observations at 00:14 and 00:35 after control-session timeout; pre-timeout samples are not claimed.",
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        },
+        "first": {
+          "elapsed": "00:14",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        }
+      }
+    },
+    {
+      "theme": "Maker",
+      "servedClass": "theme-maker",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:03",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Muse",
+      "servedClass": "theme-muse",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:04",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Kinship",
+      "servedClass": "theme-kinship",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:04",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Companion",
+      "servedClass": "theme-companion",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Shelf",
+      "servedClass": "theme-shelf",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "1 second",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "1 second",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": false,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:01",
+          "pauseVisible": false,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Playbook",
+      "servedClass": "theme-playbook",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "1 second",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "2 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:07",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Soundboard",
+      "servedClass": "theme-soundboard",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:04",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Verdant",
+      "servedClass": "theme-verdant",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:06",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Pace",
+      "servedClass": "theme-pace",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:07",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Ledger",
+      "servedClass": "theme-ledger",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:06",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Screen",
+      "servedClass": "theme-screen",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:06",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Borough",
+      "servedClass": "theme-borough",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:07",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Studio",
+      "servedClass": "theme-studio",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:02",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:07",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Launchpad",
+      "servedClass": "theme-launchpad",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:06",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Ceremony",
+      "servedClass": "theme-ceremony",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:02",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:07",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Cause",
+      "servedClass": "theme-cause",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:07",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      }
+    },
+    {
+      "theme": "Companion",
+      "servedClass": "theme-companion",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:07",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      },
+      "focusedRetry": true
+    },
+    {
+      "theme": "Shelf",
+      "servedClass": "theme-shelf",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:00",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:03",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      },
+      "focusedRetry": true
+    },
+    {
+      "theme": "Playbook",
+      "servedClass": "theme-playbook",
+      "browser": "Safari 27.2",
+      "route": "ordinary",
+      "youtube": [
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "4 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        },
+        {
+          "first": {
+            "elapsed": "0 seconds",
+            "pauseVisible": false,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "second": {
+            "elapsed": "5 seconds",
+            "pauseVisible": true,
+            "unsupported": false,
+            "unavailable": false
+          },
+          "recovery": {
+            "closed": true,
+            "loadFocus": "Load YouTube sample"
+          }
+        }
+      ],
+      "vimeo": {
+        "first": {
+          "elapsed": "00:01",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "second": {
+          "elapsed": "00:06",
+          "pauseVisible": true,
+          "unsupported": false,
+          "unavailable": false
+        },
+        "recovery": {
+          "closed": true,
+          "loadFocus": "Load Vimeo sample"
+        }
+      },
+      "focusedRetry": true
+    }
+  ],
+  "additional_retries": {
+    "safari-companion-vimeo-retry": {
+      "theme": "Companion",
+      "first": {
+        "elapsed": "00:01",
+        "pauseVisible": true,
+        "unsupported": false,
+        "unavailable": false
+      },
+      "second": {
+        "elapsed": "00:02",
+        "pauseVisible": false,
+        "unsupported": false,
+        "unavailable": false
+      },
+      "third": {
+        "elapsed": "00:02",
+        "pauseVisible": false,
+        "unsupported": false,
+        "unavailable": false
+      },
+      "recovery": {
+        "closed": true,
+        "loadFocus": "Load Vimeo sample"
+      }
+    },
+    "safari-companion-vimeo-resume": {
+      "theme": "Companion",
+      "method": "Visible provider Play control, resumed existing player",
+      "first": {
+        "elapsed": "00:01",
+        "pauseVisible": true,
+        "unsupported": false,
+        "unavailable": false
+      },
+      "second": {
+        "elapsed": "00:01",
+        "pauseVisible": false,
+        "unsupported": false,
+        "unavailable": false
+      },
+      "recovery": {
+        "closed": true,
+        "loadFocus": "Load Vimeo sample"
+      }
+    },
+    "safari-direct-later": {
+      "url": "https://player.vimeo.com/video/76979871",
+      "first": [
+        "8 button Pause",
+        "9 slider (settable, float) Progress Bar, Value: 0, Details: 00:00 of 01:02",
+        "The focused UI element is 8 button Pause"
+      ],
+      "second": [
+        "8 button Play",
+        "9 slider (settable, float) Progress Bar, Value: 1, Details: 00:01 of 01:02",
+        "The focused UI element is 8 button Play"
+      ]
+    }
+  },
+  "standalone_initial": {
+    "url": "https://player.vimeo.com/video/76979871",
+    "observed_timeline": [
+      "00:00",
+      "00:01",
+      "00:05",
+      "00:26",
+      "00:29"
+    ],
+    "pause_control_visible_while_advancing": true,
+    "last_sample_paused_manually": true
+  },
+  "automation_interruptions": [
+    "Offscreen/native element targeting errors before playback were resolved using fresh UI state, Find or screenshot coordinates.",
+    "A sixty-second control batch timed out after Lesson completed and while Bench was playing. Lesson persisted; Bench was recovered at 00:14 and 00:35; its YouTube cycles were repeated. No lost samples are claimed."
+  ],
+  "candidate_sha256": {
+    "core/runtime.js": "9b8d86aa35601fb12255fe6c923c526ad7d946dd01d641cbefb01be2b8538f15",
+    "core/base.css": "e5941a3442a9310129a34a7904693bd178ea262bc7f6fd4eda3f210e07ac933e",
+    "build/bench/Bench-Blogger-Template.xml": "76f5b9d049dd236aa9e81c6593d03a194344670d34037fc71de05f739e27539d",
+    "build/borough/Borough-Blogger-Template.xml": "3650efcfb8b03b4c21f7d4ba82683eb9f234a0b81058616ddb8110bb421f325d",
+    "build/cause/Cause-Blogger-Template.xml": "790bd63b57f9e4735dda3b7a3365f1763db876116d605d6b2302cde94be8a20d",
+    "build/ceremony/Ceremony-Blogger-Template.xml": "9c711d791db9780d373da6b85d60566be59279ba2d538384afcd6a9e1ea037c4",
+    "build/companion/Companion-Blogger-Template.xml": "0aa4d9895b7d12bed2ab0ac9429df3f059b4c5e4605dbf9c5b2e817e00b3a217",
+    "build/kinship/Kinship-Blogger-Template.xml": "021f0a1606c12b8f9aeae1b95f00b66e0440555a98167dc613e5bde2615b24da",
+    "build/launchpad/Launchpad-Blogger-Template.xml": "66068db4188dd8f360e578ae874172d45a8fcacbf994ba1ce37b27cf2b60f7c6",
+    "build/ledger/Ledger-Blogger-Template.xml": "efde41a310fb4692aee6649f2556dfd86cfe732ba342ef7eb27dcdd5d59ab6dc",
+    "build/lesson/Lesson-Blogger-Template.xml": "eaa9a8ff7c5cb7a5ea3c2144e0e15fefa06ea381e3e43306a3bda2e49eb383f1",
+    "build/maker/Maker-Blogger-Template.xml": "baf2eec101da6d616ad3af32378cb23a7c9293bf1245f3539e1450f0e56926aa",
+    "build/muse/Muse-Blogger-Template.xml": "5235aab4e3b1bd325537d7c06429cc33651f9ad674697880b12b442495d61d51",
+    "build/pace/Pace-Blogger-Template.xml": "10c81688dcbf4a4c1519ed634721a55c89eb513c71de8dab5022a4bf258ec2c7",
+    "build/playbook/Playbook-Blogger-Template.xml": "72adb00d3068fad95c3d7092e787c344d06ae3a7235fada8e237a16140472d72",
+    "build/saffron/Saffron-Blogger-Template.xml": "ddad011da5c07e50d9c488f717cdc1a29438f439f33b2e94a833625ef21bc80a",
+    "build/screen/Screen-Blogger-Template.xml": "cb9368526ffcd829327bc3afde14c1010abb7ab076883b4b08006f5d625a2224",
+    "build/shelf/Shelf-Blogger-Template.xml": "cb3ceba77ee0414af0e1ef5409abd9d7947cf55013802086ec4f943bde6c4b5c",
+    "build/soundboard/Soundboard-Blogger-Template.xml": "f6e092e3a56a8cc4806f4fa74d40ff310085aa5ebcaf98464309ab1d28f971fd",
+    "build/studio/Studio-Blogger-Template.xml": "60a1e479e95c3f1ea58731b0921e373b7edd972cd37f5ced7cafb6bc960fd394",
+    "build/verdant/Verdant-Blogger-Template.xml": "a12794e46e78d5026782cd43a8e59426e0718fcd7e0e2d801c96ac7853cbd660",
+    "build/wayfarer/Wayfarer-Blogger-Template.xml": "930048b7068a758e8b033d48860cd4d6aba7f5b0c89af616e68957cea3e39de4"
+  },
+  "conclusion": "All 20 eventually had advancing playback observations for both providers in Safari. Initial pauses/incomplete observations remain and stable reliability is not established. Standalone Vimeo also later paused near one second. No template-specific cause or runtime fix confirmed. Chrome native control timed out.",
+  "live_hub_verification": {
+    "body": "theme-lab lab-home",
+    "downloads": [
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/saffron-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/wayfarer-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/lesson-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/bench-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/maker-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/muse-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/kinship-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/companion-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/shelf-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/playbook-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/soundboard-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/verdant-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/pace-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/ledger-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/screen-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/borough-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/studio-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/launchpad-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/ceremony-blogger-template-0.1.0-preview.4.zip",
+      "https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.4/cause-blogger-template-0.1.0-preview.4.zip"
+    ],
+    "latestReport": {
+      "href": "https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/codex/collection-preview/docs/PROVIDER-SAFARI.md",
+      "text": "Latest Safari playback results"
+    },
+    "notice": "Before you download\nDevelopment preview\n\nVersion 0.1.0-preview.4 is for testing. These checks remain incomplete:\n\nScreen readers\nActual speech and rotor testing is blocked.\nComment publishing\nSaffron and Wayfarer passed. Lesson\u2019s reply and Bench\u2019s new-comment retry failed in Blogger; remaining publishing checks are incomplete.\nBlogger imports and performance\nComplete demo imports: Saffron and Wayfarer\u2019s 12-post exports passed in the shared lab; 18 remain unverified after Blogger\u2019s import limit; measured live performance remains unverified.\nFinal acceptance\nAll 20 designs passed native MP3/WAV and 320px/375px layout checks, including recorded retries. Reliable video playback at narrow widths remains unresolved after stalls. Vimeo remains blocked in the in-app browser. Safari playback was observed across all 20 templates after recorded retries, but intermittent pauses remain unresolved. Physical devices, audible output and final editorial approval remain open.\n\nPreview.4 includes audio-error feedback, the 200px minimum player height and the package-time test reports. Newer Safari findings are linked below. This is a development prerelease; the remaining gates above are not passed.\n\nRelease notes and full test status\n\u2197\nImport/comment results\nDesktop media results\nAudio/mobile results\nLatest Safari playback results\nSHA-256 checksums"
+  },
+  "validation": {
+    "automated_tests": 58,
+    "failed": 0,
+    "skipped": 0,
+    "source_xml_links": "passed",
+    "development_packages_with_report": 20,
+    "whitespace": "passed"
+  }
+}

@@ -1,5 +1,7 @@
 # YouTube and Vimeo reliability follow-up
 
+**Later supported-browser results:** [Safari follow-up](PROVIDER-SAFARI.md) records positive playback under all twenty after retries, plus retained interruptions and a later standalone Vimeo pause. Earlier observations below remain historical evidence; reliability is still open.
+
 Tested November 8, 2026 against source `ff2d5b9e1a1409409c01c5d41b5ec7b5e3da5db5`. [Sanitized observations and candidate hashes](evidence/provider-retry-2026-11-08.json) retain initial results, focused retries and the standalone-provider comparison. No runtime or stylesheet change was made in this pass. Published preview.4 assets remain unchanged; this follow-up is newer than their bundled reports.
 
 ## Native Blogger results

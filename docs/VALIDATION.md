@@ -85,3 +85,7 @@ The notice remained visible before the download cards, retaining speech/rotor, c
 ## November 8 provider isolation and retry
 
 Installed all twenty full XMLs through Blogger; verified theme classes and actual 375px/320px widths. All forty YouTube startup cases advanced while unpaused with final readyState 4; close/focus recovery and overflow checks passed. Maker/Muse longer runs reached 24.93s/22.62s. Vimeo failed under all twenty, including two focused message-wait retries, and outside Blogger on its standalone player page. Independent Chrome control timed out. No new runtime change was justified; intermittent reliability and all existing acceptance gates remain open. The hub was restored with twenty preview.4 links. See [the provider report](PROVIDER-RELIABILITY.md) and its retained observations.
+
+## Supported-browser follow-up, November 8
+
+All twenty templates now have positive native Safari 27.2 YouTube/Vimeo observations after retained retries. Initial YouTube cycles advanced in 36/40 cases; Vimeo advanced in 18/20 initial checks. Companion, Shelf and Playbook's focused retries passed. Standalone Vimeo also later paused near one second. This closes the absence of a supported-browser comparison, not reliable playback acceptance: intermittent pauses, IAB Vimeo, independent instrumented browsers, long sessions and narrow/physical-device checks remain open. No new runtime defect or parameter fix was confirmed. See [the exact matrix, evidence and remaining gates](PROVIDER-SAFARI.md). Published preview.4 packages remain unchanged.

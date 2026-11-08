@@ -47,3 +47,7 @@ All twenty candidates passed native MP3/WAV playback, pause and seek checks at 3
 ## November 8 provider reliability follow-up
 
 All twenty XMLs passed forty new native YouTube startup checks at 375px/320px; Maker/Muse also advanced beyond 22 seconds. Vimeo reproduced its supported-browser failure under all twenty and on its standalone player page. No new runtime defect or permanent stall fix was established. Keep repeated-session reliability and Vimeo acceptance open. [Method, evidence and troubleshooting](PROVIDER-RELIABILITY.md) are newer than the frozen preview.4 packages.
+
+## Supported-browser follow-up, November 8
+
+All twenty templates now have positive native Safari 27.2 YouTube/Vimeo observations after retained retries. Initial YouTube cycles advanced in 36/40 cases; Vimeo advanced in 18/20 initial checks. Companion, Shelf and Playbook's focused retries passed. Standalone Vimeo also later paused near one second. This closes the absence of a supported-browser comparison, not reliable playback acceptance: intermittent pauses, IAB Vimeo, independent instrumented browsers, long sessions and narrow/physical-device checks remain open. No new runtime defect or parameter fix was confirmed. See [the exact matrix, evidence and remaining gates](PROVIDER-SAFARI.md). Published preview.4 packages remain unchanged.

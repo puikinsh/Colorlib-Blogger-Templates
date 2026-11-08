@@ -1,5 +1,7 @@
 # Native Blogger media validation
 
+**Later supported-browser results:** [Safari follow-up](PROVIDER-SAFARI.md) records positive playback under all twenty after retries, plus retained interruptions and a later standalone Vimeo pause. Earlier observations below remain historical evidence; reliability is still open.
+
 Tested November 6, 2026 using the development XMLs from `e1579c78bbe8f1648cc16b72f49d3dd4f23ec628`. A dedicated [public media fixture post](https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/11/native-media-playback-validation.html) was published through Blogger's native HTML editor. Its [HTML](fixtures/native-media-post.html) and [sanitized observations](evidence/native-media-2026-11-06.json) are included for reproduction.
 
 ## Method and results

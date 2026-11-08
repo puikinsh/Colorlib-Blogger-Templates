@@ -6,6 +6,8 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Added native Safari 27.2 provider checks for all twenty templates, retained initial pauses and successful focused retries, and updated the hub disclosure to distinguish supported-browser progress from unresolved reliability. No shared-player behavior or published release asset changed.
+
 - Recorded November 8 native provider checks across all twenty templates: forty successful narrow-width YouTube startups, longer Maker/Muse observations and Vimeo failures reproduced outside Blogger. Added owner troubleshooting and retained the unresolved reliability/browser/device gates; published preview.4 assets remain frozen.
 
 - Published `v0.1.0-preview.4` with the native audio-feedback and narrow-player-height fixes, offline reports and recorded test evidence.
