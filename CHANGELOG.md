@@ -6,7 +6,7 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
-- Recorded 60 fresh native accessibility views and eighteen persisted comment/reply checks. Completed Lesson’s reply and eight paired theme publishing checks, retained Verdant/legacy Bench failures and eight unverified rows, and refreshed VoiceOver/performance blockers with a current source inventory. Frozen packages remain unchanged.
+- Recorded 60 fresh native accessibility views and nineteen persisted comment/reply checks. Completed Lesson’s reply and nine paired theme publishing checks (including Verdant’s spaced recovery), retained Pace/legacy Bench failures and eight unverified rows, and refreshed VoiceOver/performance blockers with a current source inventory. Frozen packages remain unchanged.
 
 - Retried Shelf’s preview.5 import; Blogger repeated its import-frequency refusal and accepted no new posts. Recorded 84 verified public photo variants and 56 fresh local narrow-layout cases for the fourteen pending exports; retained their native acceptance gap and all stable-release blockers.
 

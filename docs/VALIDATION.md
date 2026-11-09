@@ -8,7 +8,7 @@ A subsequent 11:32 UTC Shelf retry was refused by the same import limit; counts 
 
 ## Accessibility and publishing follow-up — November 9
 
-Sixty fresh native 375px keyboard/DOM cases passed across all twenty released templates. Eighteen new QA comments/replies persisted: Lesson’s reply, eight root/reply pairs and Verdant’s root. Eleven themes have positive paired observations across sessions, but Verdant’s reply and Bench’s legacy root failed; eight further publication rows remain unverified. VoiceOver output and live performance remain unverified. [Current matrix and evidence](ACCESSIBILITY-COMMENTS-FOLLOWUP.md).
+Sixty fresh native 375px keyboard/DOM cases passed across all twenty released templates. Nineteen new QA comments/replies persisted: Lesson’s reply and nine root/reply pairs, including Verdant’s spaced reply retry. Twelve themes have positive paired observations across sessions. Pace’s root and Bench’s legacy root failed; eight complete publication rows remain unverified. VoiceOver output and live performance remain unverified. [Current matrix and evidence](ACCESSIBILITY-COMMENTS-FOLLOWUP.md).
 
 ## Historical validation log — November 6–8
 

@@ -1268,9 +1268,9 @@
     ]
   },
   "comments": {
-    "newPersistedComments": 18,
+    "newPersistedComments": 19,
     "legacyFixtureComments": 8,
-    "photoFixtureComments": 17,
+    "photoFixtureComments": 18,
     "observations": [
       {
         "slug": "lesson",
@@ -1411,7 +1411,29 @@
         "\t\t\t\t\t\t\t\t\t288 text Failed to publish comment. Please try again later."
       ]
     },
-    "stoppedAfterVerdantReplyFailure": true
+    "stoppedAfterVerdantReplyFailure": false,
+    "stoppedAfterPaceRootFailure": true,
+    "verdantFocusedRetry": {
+      "slug": "verdant",
+      "root": {
+        "id": "c3205165718297020009",
+        "persisted": true
+      },
+      "reply": {
+        "id": "c2385865062375179131",
+        "persisted": true,
+        "thread": "c3205165718297020009-ra"
+      },
+      "earlierReplyFailed": true
+    },
+    "paceFailure": {
+      "body": "theme-pace",
+      "photoFixtureComments": 18,
+      "rootPersisted": false,
+      "message": "Failed to publish comment. Please try again later.",
+      "replyAttempted": false
+    },
+    "nativeAccessibilityCountsScope": "The sixty earlier accessibility views observed 17 photo-fixture comments, before the successful focused Verdant reply raised this to 18. Legacy fixture remains at 8."
   },
   "screenReader": {
     "nativeSafariAvailable": true,
