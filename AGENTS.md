@@ -2,7 +2,7 @@
 
 ## Project Structure
 
-`core/` is the shared Blogger XML/CSS/JavaScript source. Each `themes/<slug>/` directory owns its configuration, layout, styles and demo articles. `assets/` contains original SVG illustrations. `tools/` builds and validates; `tests/` covers regressions; `docs/` records editing instructions, architecture and release status. `build/` is generated and ignored. Every theme’s `home.html` contains one `@@FEATURED@@` slot shared by native XML and static review output.
+`core/` is the shared Blogger XML/CSS/JavaScript source. Each `themes/<slug>/` directory owns its configuration, layout, styles and demo articles. `assets/` contains original SVG illustrations and credited WebP photos; `assets/photography.json` records the separate photo licenses. `tools/` builds and validates; `tests/` covers regressions; `docs/` records editing instructions, architecture and release status. `build/` is generated and ignored. Every theme’s `home.html` contains one `@@FEATURED@@` slot shared by native XML and static review output.
 
 ## Development Commands
 

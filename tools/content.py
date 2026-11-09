@@ -2,6 +2,7 @@
 from html import escape
 from pathlib import Path
 import json
+from visuals import photo_tag, credit, article_visuals
 
 def checklist(items, class_name=''):
     return '<ul class="cl-checklist '+class_name+'">'+''.join('<li><label><input type="checkbox"/><span>'+escape(x)+'</span></label></li>' for x in items)+'</ul>'
@@ -60,9 +61,9 @@ def body(c,post,image_url):
       'bench':[('Begin with the actual task','State who the product is for and which tasks were checked. Record the version, device or setting that affects the result. Avoid turning manufacturer claims into first-hand observations.'),('Separate facts from judgement','Specification tables should identify their source and date. Opinions should explain the evidence behind them. A comparison becomes useful when the reader can understand both the benefit and the compromise.'),('Explain the limits','End with the circumstances in which the product makes sense and the questions your review does not answer. Update the record when new evidence changes a conclusion.')],
     }.get(c['slug'],[('Begin with the context','Explain who this story is for and the question it answers. Include the details a new reader needs, and distinguish your own observations from material supplied by another source.'),('Make the useful part easy to find','The reference section below is deliberately structured for scanning, keyboard use and printing. Edit the labels and details to fit the real story rather than retaining irrelevant example fields.'),('Leave the reader with a next step','Link to a relevant topic, a dated source or a related story. Give collaborators proper credit and keep private or unverified information out of a public demonstration.')])
     jump='<p><a class="cl-button" href="#recipe">Jump to recipe</a></p>' if c['slug']=='saffron' else ''
-    picture='<figure><img src="'+escape(image_url,quote=True)+'" alt="Original '+escape(c['audience'].lower(),quote=True)+' illustration for '+title+'" width="1200" height="900"/><figcaption class="cl-small">Original Colorlib illustration · demonstration content</figcaption></figure>'
+    picture='<figure>'+photo_tag(c,post['index'],image_url.rsplit('/',1)[0],priority=True)+'<figcaption class="cl-small">Photography for visual inspiration · '+credit(c,post['index'])+'</figcaption></figure>'
     result='<aside class="cl-disclosure">Demonstration editing brief, not a reported article. Replace illustrative content and verify facts, credits and permissions before publication.</aside><p>'+escape(intro)+'</p>'+jump+picture+'<h2>Editorial focus</h2><p>'+escape(post['editorial_focus'])+'</p>'
     for index,(heading,text) in enumerate(sections):
         result+='<h2>'+escape(heading)+'</h2><p>'+escape(text)+'</p>'
         if index==0:result+=feature_html
-    return result
+    return result+article_visuals(c,post,image_url)

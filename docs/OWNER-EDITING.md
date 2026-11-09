@@ -79,3 +79,11 @@ Use browser controls and put a recording link outside the player so it remains a
 Replace both URLs, use unique caption IDs for multiple players, and supply an accurate transcript. `preload="none"` is a browser hint, not a guarantee of zero network traffic. The newer runtime adds associated visible feedback after a direct-source failure or failure of every alternative source, while retaining the native controls. A working alternative clears failure feedback. Verify the host's HTTPS delivery, actual formats, rights and long recordings yourself.
 
 Optional video frames now retain at least 200px height at narrow widths. This layout fix does not resolve the observed narrow-video buffering. See the [audio/mobile report](AUDIO-MOBILE.md); its fixes are included in preview.4; preview.3 remains unchanged.
+
+## Homepage visual notebook and photographs
+
+The newer development source includes **Layout → Homepage visual notebook**, a separate HTML gadget below the native post list. Edit its heading, introduction, image URLs, alt text and captions, or remove the gadget. Keep the `cl-visual-*` layout class to retain its responsive composition. The introduction, featured post and native pagination keep their existing controls.
+
+Demo imports contain three credited photographs per theme, reused across twelve illustrative articles, plus photo-pair notebooks. Replace the images and writing together when creating real content. Each package’s `ASSETS.md` and `assets/photo-credits.json` identify the photo sources and their separate Unsplash License; original SVG illustrations remain GPL v3. The photographs do not document the fictional recipes, projects, events or people in the demo stories.
+
+Photos have 1200×900 and 480×360 WebP variants. Preserve image dimensions, `srcset`, descriptive `alt` text and captions when replacing them. Match each smaller variant to the same photograph. Gallery images load lazily; the lead article/featured photo loads eagerly. No slider or third-party player is required.

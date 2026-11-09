@@ -132,6 +132,14 @@ License: GPL-3.0. Development build; see the validation report before production
 @@COMMENTS@@
       </b:widget>
     </b:section>
+    <b:if cond='data:blog.url == data:blog.homepageUrl'>
+      <b:section class='cl-visual-section' id='visual-notebook' maxwidgets='1' name='Homepage visual notebook' showaddelement='no'>
+        <b:widget id='HTML2' locked='false' title='Homepage visual notebook' type='HTML' version='1'>
+          <b:widget-settings><b:widget-setting name='content'><![CDATA[@@VISUALS@@]]></b:widget-setting></b:widget-settings>
+          <b:includable id='main'><data:content/></b:includable>
+        </b:widget>
+      </b:section>
+    </b:if>
   </main>
   <section aria-label='Explore more' class='cl-extra-widgets'><b:section id='extras' name='Extra widgets' preferred='yes' showaddelement='yes'/></section>
   <footer class='cl-footer'><div><a class='cl-footer-brand' expr:href='data:blog.homepageUrl'><data:blog.title/></a><p>@@FOOTER_COPY@@</p></div><p>© <span data-current-year='true'>2026</span> · Theme by <a href='https://colorlib.com/'>Colorlib</a></p></footer>

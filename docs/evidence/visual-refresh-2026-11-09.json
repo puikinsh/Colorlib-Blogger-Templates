@@ -1,0 +1,1290 @@
+{
+  "date": "2026-11-09",
+  "scope": "Local actual-image rendering; native Blogger checks pending this source commit",
+  "home": [
+    {
+      "slug": "saffron",
+      "heading": "Good things, in season.",
+      "height": 3147,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "wayfarer",
+      "heading": "Take the slower street.",
+      "height": 4215,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "lesson",
+      "heading": "Make room for a new idea.",
+      "height": 2593,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/lesson/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/lesson/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/lesson/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "bench",
+      "heading": "The details make the difference.",
+      "height": 3039,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/bench/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/bench/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/bench/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "maker",
+      "heading": "A little sawdust. A good idea.",
+      "height": 3909,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/maker/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/maker/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/maker/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "muse",
+      "heading": "Shape. Texture. Everyday style.",
+      "height": 6160,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/muse/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/muse/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/muse/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "kinship",
+      "heading": "Leave a little room for together.",
+      "height": 3250,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/kinship/assets/photo-01-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/kinship/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/kinship/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "companion",
+      "heading": "Good company, every day.",
+      "height": 2590,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/companion/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/companion/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/companion/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "shelf",
+      "heading": "There is always another chapter.",
+      "height": 3629,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/shelf/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/shelf/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/shelf/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "playbook",
+      "heading": "Your next session starts here.",
+      "height": 3339,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/playbook/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "soundboard",
+      "heading": "Every good story starts somewhere.",
+      "height": 3414,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/soundboard/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "verdant",
+      "heading": "Follow the light. Watch things grow.",
+      "height": 3844,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/verdant/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "pace",
+      "heading": "Find a little more open space.",
+      "height": 3674,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/pace/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/pace/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/pace/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "ledger",
+      "heading": "Make space for a clearer picture.",
+      "height": 2431,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ledger/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ledger/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ledger/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "screen",
+      "heading": "Look at the story differently.",
+      "height": 3421,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/screen/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "borough",
+      "heading": "A neighbourhood is a thousand stories.",
+      "height": 3515,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/borough/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "studio",
+      "heading": "The work behind the work.",
+      "height": 5096,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/studio/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "launchpad",
+      "heading": "Good work is a team effort.",
+      "height": 3057,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/launchpad/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "ceremony",
+      "heading": "The moments between the big moments.",
+      "height": 4558,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ceremony/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "cause",
+      "heading": "Small actions. Shared spaces.",
+      "height": 3344,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/cause/assets/photo-01.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp",
+          "width": 422
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp",
+          "width": 422
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "slug": "saffron",
+      "heading": "Good things, in season.",
+      "height": 3955,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "wayfarer",
+      "heading": "Take the slower street.",
+      "height": 4440,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "lesson",
+      "heading": "Make room for a new idea.",
+      "height": 4259,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/lesson/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/lesson/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/lesson/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "bench",
+      "heading": "The details make the difference.",
+      "height": 5906,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/bench/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/bench/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/bench/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "maker",
+      "heading": "A little sawdust. A good idea.",
+      "height": 5860,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/maker/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/maker/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/maker/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "muse",
+      "heading": "Shape. Texture. Everyday style.",
+      "height": 4438,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/muse/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/muse/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/muse/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "kinship",
+      "heading": "Leave a little room for together.",
+      "height": 4070,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/kinship/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/kinship/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/kinship/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "companion",
+      "heading": "Good company, every day.",
+      "height": 4124,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/companion/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/companion/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/companion/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "shelf",
+      "heading": "There is always another chapter.",
+      "height": 4227,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/shelf/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/shelf/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/shelf/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "playbook",
+      "heading": "Your next session starts here.",
+      "height": 5411,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "soundboard",
+      "heading": "Every good story starts somewhere.",
+      "height": 3882,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "verdant",
+      "heading": "Follow the light. Watch things grow.",
+      "height": 4321,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "pace",
+      "heading": "Find a little more open space.",
+      "height": 4202,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/pace/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/pace/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/pace/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "ledger",
+      "heading": "Make space for a clearer picture.",
+      "height": 4098,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ledger/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ledger/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ledger/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "screen",
+      "heading": "Look at the story differently.",
+      "height": 3728,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "borough",
+      "heading": "A neighbourhood is a thousand stories.",
+      "height": 6204,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "studio",
+      "heading": "The work behind the work.",
+      "height": 5945,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "launchpad",
+      "heading": "Good work is a team effort.",
+      "height": 3629,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "ceremony",
+      "heading": "The moments between the big moments.",
+      "height": 4515,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    },
+    {
+      "slug": "cause",
+      "heading": "Small actions. Shared spaces.",
+      "height": 6223,
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp",
+          "width": 375
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp",
+          "width": 375
+        }
+      ],
+      "width": 375
+    }
+  ],
+  "articles": [
+    {
+      "slug": "saffron",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 8,
+      "width": 375
+    },
+    {
+      "slug": "wayfarer",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/lesson/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/lesson/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 7,
+      "width": 375
+    },
+    {
+      "slug": "bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/bench/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/bench/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 8,
+      "width": 375
+    },
+    {
+      "slug": "maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/maker/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/maker/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/muse/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/muse/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/kinship/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/kinship/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/companion/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/companion/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "shelf",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/shelf/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/shelf/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 7,
+      "width": 375
+    },
+    {
+      "slug": "playbook",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "soundboard",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 7,
+      "width": 375
+    },
+    {
+      "slug": "verdant",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "pace",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/pace/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/pace/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "ledger",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ledger/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ledger/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "screen",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "borough",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 7,
+      "width": 375
+    },
+    {
+      "slug": "studio",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 8,
+      "width": 375
+    },
+    {
+      "slug": "launchpad",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 7,
+      "width": 375
+    },
+    {
+      "slug": "ceremony",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    },
+    {
+      "slug": "cause",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "source": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        }
+      ],
+      "toc": 6,
+      "width": 375
+    }
+  ],
+  "runtime_changed": false,
+  "acceptance": "Existing media/service/speech/performance/device/editorial gates retained."
+}

@@ -14,7 +14,7 @@ node --test tests/*.test.cjs
 python3 -m http.server 8765 --directory build
 ```
 
-Open `http://localhost:8765/` for the catalog. Each theme has home, article, archive, search, static, empty and error review views, plus `responsive.html` with 320/375/768px review panels; twelve distinct article titles and an original SVG cover set; a self-contained theme XML; a separate demo-content export; an owner-editable post-format example; setup and asset documentation. The static views demonstrate the design and do not emulate Blogger's template engine.
+Open `http://localhost:8765/` for the catalog. Each theme has home, article, archive, search, static, empty and error review views, plus `responsive.html` with 320/375/768px review panels; twelve distinct article titles original SVG covers and credited photography; a self-contained theme XML; a separate demo-content export; an owner-editable post-format example; setup and asset documentation. The static views demonstrate the design and do not emulate Blogger's template engine.
 
 `build/packages/` contains twenty preview ZIPs and `SHA256SUMS`. These are intentionally named preview packages. Do not replace the maintained nine templates' production downloads with them.
 
@@ -29,7 +29,7 @@ The [design directions](docs/DESIGN-DIRECTIONS.md) record the individual layouts
 - `lab/`: the lab-only catalog design and filtering runtime; `tools/build_lab.py` creates its Blogger XML and static preview.
 - `core/`: shared XML structure, native comment includables, base/print CSS and progressive enhancements.
 - `themes/<slug>/`: independent palette/type settings, `home.html` featured-post composition, CSS, topics, content format and demo text.
-- `assets/<slug>/`: original vector artwork, also copied into local previews and packages.
+- `assets/<slug>/`: original vector artwork and optimized photographs, also copied into local previews and packages. `assets/photography.json` records photo sources and their separate Unsplash License.
 - `tools/`: build, content/art generation and validation. Normal builds do not overwrite the theme configuration, welcome HTML or CSS.
 - `tests/`: runtime/structure regressions and browser checks.
 - `docs/`: approved roadmap, owner editing, architecture and validation status.
@@ -58,7 +58,7 @@ After committing a validated source revision, choose a new unpublished version, 
 
 Every theme needs XML/JS/schema checks; phone/desktop and keyboard checks; an actual Blogger import; review of native comments and mobile rendering; realistic, owner-ready demo content; and a checksummed package matching its public demo. Original demonstration identities, projects and editorial templates must not be presented as actual reporting, tests, endorsements or professional instructions. Search markup is derived only from supplied content, without invented ratings or results.
 
-Shared fixes belong in `core/`, followed by rebuilding and verifying the full catalog. Individual theme layout changes belong in that theme's source directory. GPL v3 license text is included; original vector illustrations share the package's license.
+Shared fixes belong in `core/`, followed by rebuilding and verifying the full catalog. Individual theme layout changes belong in that theme's source directory. GPL v3 license text is included; original vector illustrations share the package's license. Photography retains its separate Unsplash License; see each package’s `ASSETS.md`.
 
 Latest media/editorial pass: all twenty local designs passed YouTube playback and recovery; Vimeo returned a supported-browser error. All 240 samples now have distinct editing briefs. See [the media/editorial results and remaining gates](docs/MEDIA-EDITORIAL-REVIEW.md). These fixes are included in the frozen preview.4 downloads.
 
@@ -69,3 +69,5 @@ Later development-source pass: all twenty templates passed native MP3/WAV contro
 Latest provider investigation (November 8): all twenty templates passed forty native narrow-width YouTube startup checks. Earlier intermittent stalls remain open; Vimeo fails both in the templates and on its standalone player page. See [the findings, evidence and troubleshooting steps](docs/PROVIDER-RELIABILITY.md). These documentation updates are newer than the unchanged preview.4 ZIPs.
 
 Supported-browser follow-up: all twenty templates showed YouTube and Vimeo advancement in Safari 27.2 after recorded retries. Initial interruptions and a later standalone Vimeo pause keep reliability acceptance open. [Review the Safari matrix and remaining blockers](docs/PROVIDER-SAFARI.md). Preview.4 downloads remain frozen.
+
+Visual refresh in development: richer image-led previews, sixty credited photos and editable homepage galleries are described in [the visual refresh report](docs/VISUAL-REFRESH.md). Published preview.4 packages remain unchanged while the next preview is validated.

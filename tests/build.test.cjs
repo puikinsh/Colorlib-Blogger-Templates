@@ -22,7 +22,7 @@ test('demo imports have unique stable identities across all twenty themes',()=>{
 test('single-theme package rebuild preserves the gallery, report and other checksums',()=>{
   const scratch=fs.mkdtempSync(path.join(os.tmpdir(),'cl-builder-'));
   try {
-    for(const name of ['catalog.json','LICENSE','core','tools','themes','docs'])fs.cpSync(path.join(root,name),path.join(scratch,name),{recursive:true});
+    for(const name of ['catalog.json','LICENSE','core','tools','themes','docs','assets'])fs.cpSync(path.join(root,name),path.join(scratch,name),{recursive:true});
     const build=(args)=>{
       const run=spawnSync(process.env.PYTHON||'python3',['tools/build.py',...args],{cwd:scratch,encoding:'utf8'});
       assert.equal(run.status,0,run.stderr);

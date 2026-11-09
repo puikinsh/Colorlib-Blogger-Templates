@@ -8,7 +8,7 @@ Articles use one renderer for desktop and the legacy mobile entry point. Native 
 
 The runtime adds a TOC with collision-free generated IDs, checklist reset, print controls, conditional Recipe metadata, an explicitly local arithmetic example and opt-in media embeds. Most niche formats rely on semantic HTML, tables, checklists and native `details`. Calculators are not forms: their inputs cannot be submitted to Blogger when JavaScript is disabled. Media URLs are restricted to HTTPS embed URLs on the supported providers.
 
-Every theme owns a different home composition, typography, layout overrides and post-format contract. Shared helpers do not dictate that a lesson, product review and recipe share the same information hierarchy. Original SVG covers avoid a dependency on stock-photo hosts and keep demonstration asset provenance explicit.
+Every theme owns a different home composition, typography, layout overrides and post-format contract. Shared helpers do not dictate that a lesson, product review and recipe share the same information hierarchy. Original SVG covers remain available alongside curated photographic demonstrations. Optimized WebP photos and small variants are served from our repository, bundled offline, and credited through `assets/photography.json` and package `ASSETS.md` files. `tools/visuals.py` composes the niche-specific galleries for both native XML and static previews.
 
 All twenty themes share a `home.html` composition between native XML and static review output through a single featured-post slot; see [design directions](DESIGN-DIRECTIONS.md).
 
