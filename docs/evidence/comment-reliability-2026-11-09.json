@@ -1,0 +1,2426 @@
+{
+  "completedAt": "2026-11-09T13:11:06Z",
+  "release": "v0.1.0-preview.5",
+  "releaseSourceCommit": "e3e83b8b0ca5440a9e957b191ca6c6ab08056861",
+  "scope": {
+    "iab": "Fresh tabs and newly loaded composers under the existing authenticated IAB login; not new authentication sessions.",
+    "safari": "Independent native macOS Safari session, owner sign-in and Blogger site-specific cookie/storage prompts completed. Current theme checked through unique footer text and served body class in the verifying browser.",
+    "identity": "Same lab account; no independent-account acceptance claimed.",
+    "chrome": "Native app connection timed out; publication untested.",
+    "comparability": "Sequential observations, not a randomized or statistically representative reliability benchmark."
+  },
+  "iab": {
+    "firstPass": [
+      {
+        "slug": "saffron",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c8333328972681169927",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "reply": {
+          "id": "c7400235763489961980",
+          "persisted": true,
+          "thread": "c8333328972681169927-ra",
+          "submitted": true,
+          "prepRetries": 0
+        },
+        "parent": "c8333328972681169927",
+        "replyUsesControlRoot": false
+      },
+      {
+        "slug": "wayfarer",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true
+      },
+      {
+        "slug": "lesson",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c5554393069497641311",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c5554393069497641311",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "bench",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c4680293476685166908",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "maker",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c8730917960331424484",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c8730917960331424484",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "id": "c897952543559747255",
+          "persisted": true,
+          "thread": "c8730917960331424484-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "muse",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c1078978543219662582",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "kinship",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c8708765602184394275",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c8708765602184394275",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "id": "c3410579650548625003",
+          "persisted": true,
+          "thread": "c8708765602184394275-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "companion",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c1316997511774200415",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "shelf",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c4802663068878571753",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c4802663068878571753",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "id": "c5517219568828104502",
+          "persisted": true,
+          "thread": "c4802663068878571753-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "playbook",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "soundboard",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c8108738569261368303",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "verdant",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": false,
+          "prepRetries": 2,
+          "error": "Composer value changed"
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "pace",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c4015702515430330784",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "ledger",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c8650123793781013291",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c8650123793781013291",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "screen",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c8830758936685071494",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "borough",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c7216198147057663323",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 0
+        },
+        "parent": "c7216198147057663323",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "studio",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c3930932123267191592",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c3930932123267191592",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "launchpad",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "ceremony",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c3341918209282740783",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 0
+        },
+        "parent": "c3341918209282740783",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "id": "c7144562832834923534",
+          "persisted": true,
+          "thread": "c3341918209282740783-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "cause",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c8129705155776309623",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      }
+    ],
+    "originallyUnsentRootFollowup": {
+      "slug": "verdant",
+      "kind": "root",
+      "persisted": false,
+      "submitted": true,
+      "prepRetries": 0,
+      "error": "Failed to publish comment. Please try again later."
+    },
+    "effectiveResults": [
+      {
+        "slug": "saffron",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c8333328972681169927",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "reply": {
+          "id": "c7400235763489961980",
+          "persisted": true,
+          "thread": "c8333328972681169927-ra",
+          "submitted": true,
+          "prepRetries": 0
+        },
+        "parent": "c8333328972681169927",
+        "replyUsesControlRoot": false
+      },
+      {
+        "slug": "wayfarer",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true
+      },
+      {
+        "slug": "lesson",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c5554393069497641311",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c5554393069497641311",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "bench",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c4680293476685166908",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "maker",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c8730917960331424484",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c8730917960331424484",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "id": "c897952543559747255",
+          "persisted": true,
+          "thread": "c8730917960331424484-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "muse",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c1078978543219662582",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "kinship",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c8708765602184394275",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c8708765602184394275",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "id": "c3410579650548625003",
+          "persisted": true,
+          "thread": "c8708765602184394275-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "companion",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c1316997511774200415",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "shelf",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c4802663068878571753",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c4802663068878571753",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "id": "c5517219568828104502",
+          "persisted": true,
+          "thread": "c4802663068878571753-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "playbook",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "soundboard",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c8108738569261368303",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "verdant",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "slug": "verdant",
+          "kind": "root",
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "pace",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c4015702515430330784",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "ledger",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c8650123793781013291",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c8650123793781013291",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "screen",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c8830758936685071494",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "borough",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c7216198147057663323",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 0
+        },
+        "parent": "c7216198147057663323",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "studio",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c3930932123267191592",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 1
+        },
+        "parent": "c3930932123267191592",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "launchpad",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 0,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "ceremony",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "id": "c3341918209282740783",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "prepRetries": 0
+        },
+        "parent": "c3341918209282740783",
+        "replyUsesControlRoot": false,
+        "reply": {
+          "id": "c7144562832834923534",
+          "persisted": true,
+          "thread": "c3341918209282740783-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      },
+      {
+        "slug": "cause",
+        "freshTab": true,
+        "authenticatedSession": "existing IAB login",
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "prepRetries": 1,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "parent": "c4286656660805024900",
+        "replyUsesControlRoot": true,
+        "reply": {
+          "id": "c8129705155776309623",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "prepRetries": 0
+        }
+      }
+    ],
+    "counts": {
+      "themes": 20,
+      "submitted": 40,
+      "persisted": 21,
+      "genericPublishErrors": 19,
+      "rootsPersisted": 9,
+      "repliesPersisted": 12,
+      "pairsPersisted": 5
+    },
+    "interruptedLessonVisit": {
+      "slug": "lesson",
+      "kind": "browser-control interruption",
+      "result": "Unrecorded; not counted as a Blogger publication failure",
+      "rootMarkerPresent": 0,
+      "replyMarkerPresent": 0
+    }
+  },
+  "safari": {
+    "initialPreparations": [
+      {
+        "slug": "saffron",
+        "root": {
+          "id": "c4453888399229992046",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "reply": {
+          "persisted": false,
+          "submitted": false,
+          "error": "No signed-in composer"
+        },
+        "themeVerifiedByFooter": true,
+        "replyUsesControlRoot": false
+      },
+      {
+        "slug": "wayfarer",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": false,
+          "error": "No signed-in composer"
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "persisted": false,
+          "submitted": false,
+          "error": "No signed-in composer"
+        }
+      },
+      {
+        "slug": "lesson",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": false,
+          "error": "No signed-in composer"
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "persisted": false,
+          "submitted": false,
+          "error": "No signed-in composer"
+        }
+      }
+    ],
+    "firstPass": [
+      {
+        "slug": "saffron",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c4453888399229992046",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true,
+          "reusedVerifiedRoot": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c4453888399229992046",
+        "reply": {
+          "id": "c8433730926282908496",
+          "persisted": true,
+          "thread": "c4453888399229992046-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "wayfarer",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c8230124151202307387",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c8230124151202307387",
+        "reply": {
+          "id": "c333849494075061259",
+          "persisted": true,
+          "thread": "c8230124151202307387-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "lesson",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c4502858311793016903",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c4502858311793016903",
+        "reply": {
+          "id": "c354310108212530611",
+          "persisted": true,
+          "thread": "c4502858311793016903-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "bench",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c970096712673509098",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c970096712673509098",
+        "reply": {
+          "id": "c4881873099145119292",
+          "persisted": true,
+          "thread": "c970096712673509098-ra",
+          "submitted": true,
+          "observedInSafari": false
+        }
+      },
+      {
+        "slug": "maker",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c1790039306542936589",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c1790039306542936589",
+        "reply": {
+          "id": "c6711019414790824102",
+          "persisted": true,
+          "thread": "c1790039306542936589-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "muse",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c472359678770035710",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c472359678770035710",
+        "reply": {
+          "id": "c7077621865978529502",
+          "persisted": true,
+          "thread": "c472359678770035710-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "kinship",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c7543111767159003460",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c7543111767159003460",
+        "reply": {
+          "id": "c2670119567482791042",
+          "persisted": true,
+          "thread": "c7543111767159003460-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "companion",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c4848718383617328890",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": false
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c4848718383617328890",
+        "reply": {
+          "id": "c1369121315421882903",
+          "persisted": true,
+          "thread": "c4848718383617328890-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "shelf",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c7781992217427441384",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c7781992217427441384",
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "playbook",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c4485403393331689934",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c4485403393331689934",
+        "reply": {
+          "id": "c2077856638745654501",
+          "persisted": true,
+          "thread": "c4485403393331689934-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "soundboard",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c1926926769383135758",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c1926926769383135758",
+        "reply": {
+          "id": "c6806997536853768244",
+          "persisted": true,
+          "thread": "c1926926769383135758-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "verdant",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c8122092555602118371",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c8122092555602118371",
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "pace",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "persisted": false,
+          "submitted": false,
+          "error": "Composer value missing after native entry"
+        }
+      },
+      {
+        "slug": "ledger",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c7633495772299253363",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": false
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c7633495772299253363",
+        "reply": {
+          "id": "c9199437490757940198",
+          "persisted": true,
+          "thread": "c7633495772299253363-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "screen",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c1151733316592371630",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c1151733316592371630",
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "borough",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c242964870105187295",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c242964870105187295",
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "studio",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c6655737158037047749",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c6655737158037047749",
+        "reply": {
+          "id": "c7771058816701240441",
+          "persisted": true,
+          "thread": "c6655737158037047749-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "launchpad",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "persisted": false,
+          "submitted": false,
+          "error": "Composer value missing after native entry"
+        }
+      },
+      {
+        "slug": "ceremony",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "persisted": false,
+          "submitted": false,
+          "error": "Composer value missing after native entry"
+        }
+      },
+      {
+        "slug": "cause",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "persisted": false,
+          "submitted": false,
+          "error": "Composer value missing after native entry"
+        }
+      }
+    ],
+    "originallyUnsentReplyFollowups": [
+      {
+        "slug": "pace",
+        "kind": "reply",
+        "controlParent": "c4286656660805024900",
+        "persisted": false,
+        "submitted": true,
+        "error": "Failed to publish comment. Please try again later."
+      },
+      {
+        "slug": "launchpad",
+        "kind": "reply",
+        "controlParent": "c4286656660805024900",
+        "id": "c8342355236627006653",
+        "persisted": true,
+        "thread": "c4286656660805024900-ra",
+        "submitted": true,
+        "observedInSafari": true
+      },
+      {
+        "slug": "ceremony",
+        "kind": "reply",
+        "controlParent": "c4286656660805024900",
+        "persisted": false,
+        "submitted": true,
+        "error": "Failed to publish comment. Please try again later."
+      },
+      {
+        "slug": "cause",
+        "kind": "reply",
+        "controlParent": "c4286656660805024900",
+        "persisted": false,
+        "submitted": true,
+        "error": "Failed to publish comment. Please try again later."
+      }
+    ],
+    "effectiveResults": [
+      {
+        "slug": "saffron",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c4453888399229992046",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true,
+          "reusedVerifiedRoot": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c4453888399229992046",
+        "reply": {
+          "id": "c8433730926282908496",
+          "persisted": true,
+          "thread": "c4453888399229992046-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "wayfarer",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c8230124151202307387",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c8230124151202307387",
+        "reply": {
+          "id": "c333849494075061259",
+          "persisted": true,
+          "thread": "c8230124151202307387-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "lesson",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c4502858311793016903",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c4502858311793016903",
+        "reply": {
+          "id": "c354310108212530611",
+          "persisted": true,
+          "thread": "c4502858311793016903-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "bench",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c970096712673509098",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c970096712673509098",
+        "reply": {
+          "id": "c4881873099145119292",
+          "persisted": true,
+          "thread": "c970096712673509098-ra",
+          "submitted": true,
+          "observedInSafari": false
+        }
+      },
+      {
+        "slug": "maker",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c1790039306542936589",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c1790039306542936589",
+        "reply": {
+          "id": "c6711019414790824102",
+          "persisted": true,
+          "thread": "c1790039306542936589-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "muse",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c472359678770035710",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c472359678770035710",
+        "reply": {
+          "id": "c7077621865978529502",
+          "persisted": true,
+          "thread": "c472359678770035710-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "kinship",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c7543111767159003460",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c7543111767159003460",
+        "reply": {
+          "id": "c2670119567482791042",
+          "persisted": true,
+          "thread": "c7543111767159003460-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "companion",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c4848718383617328890",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": false
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c4848718383617328890",
+        "reply": {
+          "id": "c1369121315421882903",
+          "persisted": true,
+          "thread": "c4848718383617328890-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "shelf",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c7781992217427441384",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c7781992217427441384",
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "playbook",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c4485403393331689934",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c4485403393331689934",
+        "reply": {
+          "id": "c2077856638745654501",
+          "persisted": true,
+          "thread": "c4485403393331689934-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "soundboard",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c1926926769383135758",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c1926926769383135758",
+        "reply": {
+          "id": "c6806997536853768244",
+          "persisted": true,
+          "thread": "c1926926769383135758-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "verdant",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c8122092555602118371",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c8122092555602118371",
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "pace",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "slug": "pace",
+          "kind": "reply",
+          "controlParent": "c4286656660805024900",
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "ledger",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c7633495772299253363",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": false
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c7633495772299253363",
+        "reply": {
+          "id": "c9199437490757940198",
+          "persisted": true,
+          "thread": "c7633495772299253363-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "screen",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c1151733316592371630",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c1151733316592371630",
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "borough",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c242964870105187295",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c242964870105187295",
+        "reply": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "studio",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "id": "c6655737158037047749",
+          "persisted": true,
+          "thread": "top-ra",
+          "submitted": true,
+          "observedInSafari": true
+        },
+        "replyUsesControlRoot": false,
+        "parent": "c6655737158037047749",
+        "reply": {
+          "id": "c7771058816701240441",
+          "persisted": true,
+          "thread": "c6655737158037047749-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "launchpad",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "slug": "launchpad",
+          "kind": "reply",
+          "controlParent": "c4286656660805024900",
+          "id": "c8342355236627006653",
+          "persisted": true,
+          "thread": "c4286656660805024900-ra",
+          "submitted": true,
+          "observedInSafari": true
+        }
+      },
+      {
+        "slug": "ceremony",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "slug": "ceremony",
+          "kind": "reply",
+          "controlParent": "c4286656660805024900",
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      },
+      {
+        "slug": "cause",
+        "themeVerifiedByFooter": true,
+        "root": {
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        },
+        "replyUsesControlRoot": true,
+        "parent": "c4286656660805024900",
+        "reply": {
+          "slug": "cause",
+          "kind": "reply",
+          "controlParent": "c4286656660805024900",
+          "persisted": false,
+          "submitted": true,
+          "error": "Failed to publish comment. Please try again later."
+        }
+      }
+    ],
+    "counts": {
+      "themes": 20,
+      "submitted": 40,
+      "persisted": 29,
+      "genericPublishErrors": 11,
+      "rootsPersisted": 16,
+      "repliesPersisted": 13,
+      "pairsPersisted": 12
+    },
+    "prerequisites": [
+      {
+        "kind": "embedded Blogger Allow cookies",
+        "accepted": true
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      },
+      {
+        "kind": "native Sign in with Google re-entry",
+        "credentialsEntered": false
+      }
+    ]
+  },
+  "stockBloggerControl": {
+    "theme": "Blogger Simple Bold",
+    "root": {
+      "id": "c5605011732071268033",
+      "persisted": true,
+      "thread": "top-ra",
+      "submitted": true,
+      "prepRetries": 0
+    },
+    "reply": {
+      "persisted": false,
+      "submitted": true,
+      "prepRetries": 0,
+      "error": "Failed to publish comment. Please try again later."
+    },
+    "parent": "c5605011732071268033"
+  },
+  "publicFixture": {
+    "before": 34,
+    "after": 85,
+    "newPersisted": 51,
+    "breakdown": {
+      "iabMatrix": 21,
+      "safariMatrix": 29,
+      "stockControl": 1
+    },
+    "snapshot": {
+      "comments": [
+        {
+          "id": "c4286656660805024900",
+          "text": "[Maker] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7592739660759927323",
+          "text": "[Maker] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c4680293476685166908",
+          "text": "[Bench] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c1078978543219662582",
+          "text": "[Muse] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c1316997511774200415",
+          "text": "[Companion] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c8108738569261368303",
+          "text": "[Soundboard] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c4015702515430330784",
+          "text": "[Pace] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c8830758936685071494",
+          "text": "[Screen] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c8129705155776309623",
+          "text": "[Cause] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c8342355236627006653",
+          "text": "[Launchpad] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c4286656660805024900-ra"
+        },
+        {
+          "id": "c6089338000058490409",
+          "text": "[Bench] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c6036955218447568451",
+          "text": "[Bench] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c6089338000058490409-ra"
+        },
+        {
+          "id": "c3439408129905731884",
+          "text": "[Muse] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c3470036236598432806",
+          "text": "[Muse] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c3439408129905731884-ra"
+        },
+        {
+          "id": "c7905707925728400341",
+          "text": "[Kinship] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c5041691300319161218",
+          "text": "[Kinship] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c7905707925728400341-ra"
+        },
+        {
+          "id": "c2019682185963824763",
+          "text": "[Companion] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c486981325685004050",
+          "text": "[Companion] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c2019682185963824763-ra"
+        },
+        {
+          "id": "c1127284674602237645",
+          "text": "[Shelf] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c405056101855946837",
+          "text": "[Shelf] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c1127284674602237645-ra"
+        },
+        {
+          "id": "c2186614075935419932",
+          "text": "[Playbook] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c8368022122841868798",
+          "text": "[Playbook] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c2186614075935419932-ra"
+        },
+        {
+          "id": "c2656311812495544620",
+          "text": "[Soundboard] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c5203277796923715760",
+          "text": "[Soundboard] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c2656311812495544620-ra"
+        },
+        {
+          "id": "c3205165718297020009",
+          "text": "[Verdant] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c2385865062375179131",
+          "text": "[Verdant] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+          "thread": "c3205165718297020009-ra"
+        },
+        {
+          "id": "c337357803918490064",
+          "text": "[Pace] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7249550168782462451",
+          "text": "[Pace] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+          "thread": "c337357803918490064-ra"
+        },
+        {
+          "id": "c6740341152563057667",
+          "text": "[Borough] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c77956992554627113",
+          "text": "[Borough] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+          "thread": "c6740341152563057667-ra"
+        },
+        {
+          "id": "c3077413457479789170",
+          "text": "[Studio] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7683523177130138092",
+          "text": "[Studio] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+          "thread": "c3077413457479789170-ra"
+        },
+        {
+          "id": "c8718585881724820323",
+          "text": "[Launchpad] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7441163003131765945",
+          "text": "[Launchpad] Release QA final-three retry: threaded reply, 2026-11-09.",
+          "thread": "c8718585881724820323-ra"
+        },
+        {
+          "id": "c7378001654494333343",
+          "text": "[Ceremony] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c4967808623304184556",
+          "text": "[Ceremony] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+          "thread": "c7378001654494333343-ra"
+        },
+        {
+          "id": "c8183997637222125244",
+          "text": "[Cause] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c3095459222530580129",
+          "text": "[Cause] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+          "thread": "c8183997637222125244-ra"
+        },
+        {
+          "id": "c6761729645083767455",
+          "text": "[Ledger] Release QA final-three retry: top-level comment, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c2567243900021096568",
+          "text": "[Ledger] Release QA final-three retry: threaded reply, 2026-11-09.",
+          "thread": "c6761729645083767455-ra"
+        },
+        {
+          "id": "c1818980036782338663",
+          "text": "[Screen] Release QA final-three retry: top-level comment, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c4198802034693274363",
+          "text": "[Screen] Release QA final-three retry: threaded reply, 2026-11-09.",
+          "thread": "c1818980036782338663-ra"
+        },
+        {
+          "id": "c8333328972681169927",
+          "text": "[Saffron] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7400235763489961980",
+          "text": "[Saffron] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c8333328972681169927-ra"
+        },
+        {
+          "id": "c5554393069497641311",
+          "text": "[Lesson] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c8730917960331424484",
+          "text": "[Maker] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c897952543559747255",
+          "text": "[Maker] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c8730917960331424484-ra"
+        },
+        {
+          "id": "c8708765602184394275",
+          "text": "[Kinship] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c3410579650548625003",
+          "text": "[Kinship] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c8708765602184394275-ra"
+        },
+        {
+          "id": "c4802663068878571753",
+          "text": "[Shelf] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c5517219568828104502",
+          "text": "[Shelf] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c4802663068878571753-ra"
+        },
+        {
+          "id": "c8650123793781013291",
+          "text": "[Ledger] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7216198147057663323",
+          "text": "[Borough] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c3930932123267191592",
+          "text": "[Studio] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c3341918209282740783",
+          "text": "[Ceremony] Repeat-visit QA IAB: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7144562832834923534",
+          "text": "[Ceremony] Repeat-visit QA IAB: reply, 2026-11-09.",
+          "thread": "c3341918209282740783-ra"
+        },
+        {
+          "id": "c5605011732071268033",
+          "text": "[Stock Simple Bold] Publishing control: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c4453888399229992046",
+          "text": "[Saffron] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c8433730926282908496",
+          "text": "[Saffron] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c4453888399229992046-ra"
+        },
+        {
+          "id": "c8230124151202307387",
+          "text": "[Wayfarer] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c333849494075061259",
+          "text": "[Wayfarer] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c8230124151202307387-ra"
+        },
+        {
+          "id": "c4502858311793016903",
+          "text": "[Lesson] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c354310108212530611",
+          "text": "[Lesson] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c4502858311793016903-ra"
+        },
+        {
+          "id": "c970096712673509098",
+          "text": "[Bench] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c4881873099145119292",
+          "text": "[Bench] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c970096712673509098-ra"
+        },
+        {
+          "id": "c1790039306542936589",
+          "text": "[Maker] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c6711019414790824102",
+          "text": "[Maker] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c1790039306542936589-ra"
+        },
+        {
+          "id": "c472359678770035710",
+          "text": "[Muse] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7077621865978529502",
+          "text": "[Muse] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c472359678770035710-ra"
+        },
+        {
+          "id": "c7543111767159003460",
+          "text": "[Kinship] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c2670119567482791042",
+          "text": "[Kinship] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c7543111767159003460-ra"
+        },
+        {
+          "id": "c4848718383617328890",
+          "text": "[Companion] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c1369121315421882903",
+          "text": "[Companion] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c4848718383617328890-ra"
+        },
+        {
+          "id": "c7781992217427441384",
+          "text": "[Shelf] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c4485403393331689934",
+          "text": "[Playbook] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c2077856638745654501",
+          "text": "[Playbook] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c4485403393331689934-ra"
+        },
+        {
+          "id": "c1926926769383135758",
+          "text": "[Soundboard] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c6806997536853768244",
+          "text": "[Soundboard] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c1926926769383135758-ra"
+        },
+        {
+          "id": "c8122092555602118371",
+          "text": "[Verdant] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7633495772299253363",
+          "text": "[Ledger] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c9199437490757940198",
+          "text": "[Ledger] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c7633495772299253363-ra"
+        },
+        {
+          "id": "c1151733316592371630",
+          "text": "[Screen] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c242964870105187295",
+          "text": "[Borough] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c6655737158037047749",
+          "text": "[Studio] Cross-browser QA Safari: root, 2026-11-09.",
+          "thread": "top-ra"
+        },
+        {
+          "id": "c7771058816701240441",
+          "text": "[Studio] Cross-browser QA Safari: reply, 2026-11-09.",
+          "thread": "c6655737158037047749-ra"
+        }
+      ],
+      "count": 85,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html"
+    }
+  },
+  "conclusion": "The explicit generic failure also occurred on stock Blogger Simple Bold and in both tested browsers. No collection-specific defect or permanent fix was established; quotas, account causes and service causes remain unproven.",
+  "captchaChallengeEncountered": false,
+  "globalBrowserPrivacyProtectionChanged": false,
+  "hubRestored": true,
+  "themeRuntimeChanged": false,
+  "publishedAssetsChanged": false
+}

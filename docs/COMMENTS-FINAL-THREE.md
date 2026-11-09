@@ -1,5 +1,10 @@
 # Final-three comment publishing follow-up
 
+## Latest reliability follow-up — November 9, 13:11 UTC
+
+All twenty themes received fresh-tab in-app and authenticated Safari comparisons. Recorded submissions persisted in 21/40 in-app cases and 29/40 Safari cases; the stock Blogger Simple Bold control also failed on a reply. Basic positive observations remain, but publishing reliability is still a release gate. Native Chrome control was unavailable. [Current matrix and evidence](COMMENT-RELIABILITY.md). Earlier sections retain their original scope and counts.
+
+
 November 9, 2026, completed 12:37 UTC · [Public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/) · Frozen preview.5 XMLs from `e3e83b8b0ca5440a9e957b191ca6c6ab08056861`.
 
 ## Current result

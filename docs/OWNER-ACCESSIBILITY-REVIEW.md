@@ -1,8 +1,8 @@
 # Owner controls and accessibility review
 
-## Latest final-three follow-up — November 9, 12:37 UTC
+## Latest reliability follow-up — November 9, 13:11 UTC
 
-Ledger and Screen’s root/reply pairs and Launchpad’s reply persisted, including a recorded Screen failure and successful spaced retry. All twenty themes now have positive paired observations across sessions; no basic publication row remains incomplete. Intermittent publishing reliability and all other stable-release gates remain open. [Current report and retained evidence](COMMENTS-FINAL-THREE.md). Earlier sections retain their original scope and counts.
+All twenty themes received fresh-tab in-app and authenticated Safari comparisons. Recorded submissions persisted in 21/40 in-app cases and 29/40 Safari cases; the stock Blogger Simple Bold control also failed on a reply. Basic positive observations remain, but publishing reliability is still a release gate. Native Chrome control was unavailable. [Current matrix and evidence](COMMENT-RELIABILITY.md). Earlier sections retain their original scope and counts.
 
 ## Earlier November 9 follow-up
 

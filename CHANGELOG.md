@@ -6,6 +6,8 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Recorded all-twenty fresh-tab in-app and authenticated Safari publishing comparisons (21/40 and 29/40 persisted submissions), plus a stock Blogger control that reproduced the generic reply failure. Added sign-in/cookie/composer troubleshooting, retained unsent preparations and transport interruption separately, and kept reliability and other stable-release gates open. No theme runtime or frozen asset changed.
+
 - Completed the remaining Ledger/Screen root-and-reply and Launchpad reply observations, including a retained Screen reply failure and successful spaced retry. All twenty basic publication rows now have positive observations across sessions; intermittent publishing reliability and other stable-release gates remain open. No frozen package or theme runtime changed.
 
 - Attempted all eight remaining comment-publishing rows, completed five additional pairs and recovered Bench’s older-post root/reply without permission changes. Recorded thirteen persisted submissions, retained failed Ledger/Screen roots and Launchpad replies, and updated public status to seventeen positive paired observations. Frozen packages remain unchanged.

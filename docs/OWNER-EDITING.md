@@ -25,7 +25,7 @@ The table of contents appears only when at least three non-empty article heading
 
 ## Images and external services
 
-The included cover set is original illustration, not photography or evidence of actual product testing. Upload or link your own properly licensed media for a real publication. Give images meaningful alt text. Payments, bookings, donation checkout, podcast hosting, restricted course access and email subscriptions use the owner's chosen external services; the theme does not create accounts or backends for them.
+Bundled SVG covers are original illustrations. Credited demo photographs keep their separate licenses; neither artwork set is evidence of actual product testing. Upload or link your own properly licensed media for a real publication. Give images meaningful alt text. Payments, bookings, donation checkout, podcast hosting, restricted course access and email subscriptions use the owner's chosen external services; the theme does not create accounts or backends for them.
 
 Check native comments, search, labels, mobile layout and a later pagination page after installation. To roll back, restore the saved theme and recorded widget settings; published posts need not change.
 
@@ -43,7 +43,7 @@ The public lab uses a separate `lab/` design; it is not a twenty-first product t
 
 ## Waiting for demo imports
 
-Blogger imports run asynchronously. Wait for the published post count and expected titles to appear before treating an import as complete or uploading the file again. The current lab accepted the complete Saffron/Wayfarer exports, then showed an import attempt limit; Blogger did not provide a reset interval. Retry after the service allows imports again. Current acceptance is tracked in the [retry report](BLOGGER-RETRY.md).
+Blogger imports run asynchronously. Wait for the published post count and expected titles to appear before treating an import as complete or uploading the file again. The latest photo-rich retry accepted six complete exports (72 posts), then Blogger limited further imports; fourteen updated exports remain unverified. Earlier Saffron/Wayfarer imports cover older content. Blogger did not provide a reset interval. Current acceptance is tracked in the [photo-import report](PHOTO-IMPORTS.md).
 
 ## Optional video and editorial acceptance
 
@@ -87,3 +87,11 @@ The newer development source includes **Layout → Homepage visual notebook**, a
 Demo imports contain three credited photographs per theme, reused across twelve illustrative articles, plus photo-pair notebooks. Replace the images and writing together when creating real content. Each package’s `ASSETS.md` and `assets/photo-credits.json` identify the photo sources and their separate Unsplash License; original SVG illustrations remain GPL v3. The photographs do not document the fictional recipes, projects, events or people in the demo stories.
 
 Photos have 1200×900 and 480×360 WebP variants. Preserve image dimensions, `srcset`, descriptive `alt` text and captions when replacing them. Match each smaller variant to the same photograph. Gallery images load lazily; the lead article/featured photo loads eagerly. No slider or third-party player is required.
+
+## Native comment sign-in and failed submissions
+
+Wait for Blogger’s composer to show the intended signed-in profile. In Safari, complete **Sign in with Google** and Blogger’s **Allow cookies**/site-specific storage prompt when shown. The native sign-in button may re-establish an existing login after navigation.
+
+Click the comment field and let its expanded controls appear before typing. Blogger may replace its initial textarea; confirm the text is still present before Publish. If publication returns an error, reload and check for the comment before retrying, so a delayed success is not duplicated. Keep the browser, post URL and exact visible error when reporting a problem; omit frame RPC URLs and tokens.
+
+The generic publish error reproduced in both tested browsers and a stock Blogger theme. No permanent fix is established. See the [current reliability matrix](COMMENT-RELIABILITY.md). Preserve failed attempts and successful retries separately; a visible form alone is not publication acceptance.
