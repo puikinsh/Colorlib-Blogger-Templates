@@ -89,3 +89,7 @@ Installed all twenty full XMLs through Blogger; verified theme classes and actua
 ## Supported-browser follow-up, November 8
 
 All twenty templates now have positive native Safari 27.2 YouTube/Vimeo observations after retained retries. Initial YouTube cycles advanced in 36/40 cases; Vimeo advanced in 18/20 initial checks. Companion, Shelf and Playbook's focused retries passed. Standalone Vimeo also later paused near one second. This closes the absence of a supported-browser comparison, not reliable playback acceptance: intermittent pauses, IAB Vimeo, independent instrumented browsers, long sessions and narrow/physical-device checks remain open. No new runtime defect or parameter fix was confirmed. See [the exact matrix, evidence and remaining gates](PROVIDER-SAFARI.md). Published preview.4 packages remain unchanged.
+
+## November 9 visual refresh
+
+Added sixty credited photographs, responsive image variants, twenty visual compositions and photo notebooks in 240 demo articles. Forty actual-image homepage checks at 1280px/375px and twenty article checks at 375px passed without overflow. All twenty complete XMLs then passed native 375px gallery rendering, theme/widget identity and sixty decoded photo checks; native Older Posts URLs remained intact. All 60 automated regressions passed. Updated demo exports were not re-imported; provider reliability, service, speech, performance, device and editorial gates remain. See [the visual report and evidence](VISUAL-REFRESH.md).

@@ -2,6 +2,12 @@
 
 Updated November 8, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
 
+## Preview.5 visual refresh
+
+Preview.5 includes sixty credited photographs, responsive WebP variants, twenty distinct visual notebooks, richer article galleries and a Layout-editable homepage gallery gadget. All twenty new gallery widgets and their sixty photos were checked natively at 375px; forty local homepage and twenty article image-rendering cases passed, along with all 60 automated tests. See [visual refresh](VISUAL-REFRESH.md).
+
+The updated photo-rich demo exports have not been re-imported. Older import/playback evidence remains historical, and all speech, measured-performance, media reliability, service-limit, physical-device and editorial gates below remain open. Previous preview.4 packages remain unchanged.
+
 ## Preview.4 scope
 
 Preview.4 includes the audio-error feedback and minimum player-height fixes, native audio/mobile evidence, offline documentation and original QA signals in the source repository. The twenty theme XMLs retain the validated behavior; only their release version label changes during staging. Publication does not close the unresolved narrow-video, Vimeo or other gates below. Preview.3 stays frozen.

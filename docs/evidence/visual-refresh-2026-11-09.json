@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "scope": "Local actual-image rendering; native Blogger checks pending this source commit",
+  "scope": "Local actual-image rendering and native Blogger homepage gallery rendering",
   "home": [
     {
       "slug": "saffron",
@@ -1286,5 +1286,494 @@
     }
   ],
   "runtime_changed": false,
-  "acceptance": "Existing media/service/speech/performance/device/editorial gates retained."
+  "acceptance": "Existing media/service/speech/performance/device/editorial gates retained.",
+  "native_source_commit": "4d5fd6cec2aae35d3d57c536dff59a93ddd9d4b5",
+  "native_homepages": [
+    {
+      "slug": "saffron",
+      "body": "theme-saffron",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/saffron/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/saffron/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/saffron/photo-03-small.webp"
+        }
+      ],
+      "title": "Good things, in season.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "wayfarer",
+      "body": "theme-wayfarer",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/wayfarer/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/wayfarer/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/wayfarer/photo-03-small.webp"
+        }
+      ],
+      "title": "Take the slower street.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "lesson",
+      "body": "theme-lesson",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/lesson/photo-03-small.webp"
+        }
+      ],
+      "title": "Make room for a new idea.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "bench",
+      "body": "theme-bench",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/bench/photo-03-small.webp"
+        }
+      ],
+      "title": "The details make the difference.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "maker",
+      "body": "theme-maker",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/maker/photo-03-small.webp"
+        }
+      ],
+      "title": "A little sawdust. A good idea.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "muse",
+      "body": "theme-muse",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/muse/photo-03-small.webp"
+        }
+      ],
+      "title": "Shape. Texture. Everyday style.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "kinship",
+      "body": "theme-kinship",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/kinship/photo-03-small.webp"
+        }
+      ],
+      "title": "Leave a little room for together.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "companion",
+      "body": "theme-companion",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/companion/photo-03-small.webp"
+        }
+      ],
+      "title": "Good company, every day.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "shelf",
+      "body": "theme-shelf",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/shelf/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/shelf/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/shelf/photo-03-small.webp"
+        }
+      ],
+      "title": "There is always another chapter.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "playbook",
+      "body": "theme-playbook",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/playbook/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/playbook/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/playbook/photo-03-small.webp"
+        }
+      ],
+      "title": "Your next session starts here.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "soundboard",
+      "body": "theme-soundboard",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/soundboard/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/soundboard/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/soundboard/photo-03-small.webp"
+        }
+      ],
+      "title": "Every good story starts somewhere.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "verdant",
+      "body": "theme-verdant",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/verdant/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/verdant/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/verdant/photo-03-small.webp"
+        }
+      ],
+      "title": "Follow the light. Watch things grow.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "pace",
+      "body": "theme-pace",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/pace/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/pace/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/pace/photo-03-small.webp"
+        }
+      ],
+      "title": "Find a little more open space.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "ledger",
+      "body": "theme-ledger",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/ledger/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/ledger/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/ledger/photo-03-small.webp"
+        }
+      ],
+      "title": "Make space for a clearer picture.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "screen",
+      "body": "theme-screen",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/screen/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/screen/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/screen/photo-03-small.webp"
+        }
+      ],
+      "title": "Look at the story differently.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "borough",
+      "body": "theme-borough",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/borough/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/borough/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/borough/photo-03-small.webp"
+        }
+      ],
+      "title": "A neighbourhood is a thousand stories.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "studio",
+      "body": "theme-studio",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/studio/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/studio/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/studio/photo-03-small.webp"
+        }
+      ],
+      "title": "The work behind the work.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "launchpad",
+      "body": "theme-launchpad",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/launchpad/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/launchpad/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/launchpad/photo-03-small.webp"
+        }
+      ],
+      "title": "Good work is a team effort.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "ceremony",
+      "body": "theme-ceremony",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/ceremony/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/ceremony/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/ceremony/photo-03-small.webp"
+        }
+      ],
+      "title": "The moments between the big moments.",
+      "widget": true,
+      "width": 375
+    },
+    {
+      "slug": "cause",
+      "body": "theme-cause",
+      "overflow": false,
+      "pager": "https://colorlib-blogger-theme-lab-2026.blogspot.com/search?updated-max=2026-10-25T03:00:00-07:00&max-results=2",
+      "photos": [
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/cause/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/cause/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/codex/collection-preview/assets/cause/photo-03-small.webp"
+        }
+      ],
+      "title": "Small actions. Shared spaces.",
+      "widget": true,
+      "width": 375
+    }
+  ],
+  "native_method": "Complete XML saved in native Theme editor; served theme class, distinct gallery title, HTML2 widget, actual 375px viewport, decoded photographs, overflow and native Older Posts URL checked. No updated demo export imported in this pass.",
+  "candidate_sha256": {
+    "core/base.css": "8dc65e5a849c8f0a1d28846ab7b62368f1e68006a1b66ede32b3cf3a29468e63",
+    "core/runtime.js": "9b8d86aa35601fb12255fe6c923c526ad7d946dd01d641cbefb01be2b8538f15",
+    "build/bench/Bench-Blogger-Template.xml": "cc7a961f033a34781fefe3fa8ad39a74dbe4010b186999dfabb985f1076e1e9b",
+    "build/borough/Borough-Blogger-Template.xml": "6277f0bf52c3757d1d12d7676575a935db09c74e3d28376f23cc517236269192",
+    "build/cause/Cause-Blogger-Template.xml": "30a191414245f8abca9ec6963592ea71451fe60592f82aa51684e19ea42e50c3",
+    "build/ceremony/Ceremony-Blogger-Template.xml": "85001a5fc5d986ad3cfabaf8c6bf7d7d98142a5829672017a7385cf6473028d1",
+    "build/companion/Companion-Blogger-Template.xml": "dd596ff6f3b22f2f5c4680f1287f699fb86daaad9def2ebb9d516850d2f59c52",
+    "build/kinship/Kinship-Blogger-Template.xml": "fd18c971c3c4668b516584f3b386a25e2f52e4524e00b689983329fca4f6dcbc",
+    "build/launchpad/Launchpad-Blogger-Template.xml": "2871825d0e6447d66b4eab53b03fe63b0452484ac049d670ad7d80881a240421",
+    "build/ledger/Ledger-Blogger-Template.xml": "855570479fc811fed0186e625c11a7379f6946293fa4c7480e9d10af914b5e84",
+    "build/lesson/Lesson-Blogger-Template.xml": "aa216ba2936b4d07ea9adb233d52a57b4495b053d5aa900c52653b15a47fa726",
+    "build/maker/Maker-Blogger-Template.xml": "8dd65c71daed989e4a5ba7bd15e93bec730519ee7a3f3be013c1a9eb6204f88e",
+    "build/muse/Muse-Blogger-Template.xml": "494ba96ec25eb9b87c29b7bf07183fc531ef79ca471e33445a8d8617ef7946c2",
+    "build/pace/Pace-Blogger-Template.xml": "c27a298a441be5e4863dcaa56e7269ab1cf7b6b2fb4b67536dc07ce67b026709",
+    "build/playbook/Playbook-Blogger-Template.xml": "6030d64f361699829b0ec66543796bb4c9baff379b83271b16fcf9ea2ade3fb1",
+    "build/saffron/Saffron-Blogger-Template.xml": "4148ca060e03eb687e16390a5ae4a2879caffa50e6ae669a12aa1784c46b4ce5",
+    "build/screen/Screen-Blogger-Template.xml": "6c0c85206758b0448b7d3552b4fed0c99d3e72537aaf6fd1dafd8db5a5fcaa0a",
+    "build/shelf/Shelf-Blogger-Template.xml": "4d05e3f1d877bc898cc34c00b8d5762e9582f6cbe17779c55eb97febdb20896c",
+    "build/soundboard/Soundboard-Blogger-Template.xml": "c1e5ebde2b6676a3d3057b121cb238ccda709e20782123728d4e736cbb0da284",
+    "build/studio/Studio-Blogger-Template.xml": "f84653b1d6dd781f9748eb288ea49c8130f44bfd101a48d57fb9746a1a5d9650",
+    "build/verdant/Verdant-Blogger-Template.xml": "be93b1209f8c24bbf1e2ed108d7ea4c3e5087fa1b9730aa571f4c85597d1bf21",
+    "build/wayfarer/Wayfarer-Blogger-Template.xml": "112f03b3cd89dc2b529012bc08e67427224cf7eef4233d508e4913e462323d3c"
+  },
+  "automated_tests": 60
 }
