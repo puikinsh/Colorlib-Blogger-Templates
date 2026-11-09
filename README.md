@@ -71,3 +71,7 @@ Latest provider investigation (November 8): all twenty templates passed forty na
 Supported-browser follow-up: all twenty templates showed YouTube and Vimeo advancement in Safari 27.2 after recorded retries. Initial interruptions and a later standalone Vimeo pause keep reliability acceptance open. [Review the Safari matrix and remaining blockers](docs/PROVIDER-SAFARI.md). Preview.4 downloads remain frozen.
 
 The richer visual demos are now available in [v0.1.0-preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5): sixty credited photographs, responsive galleries and editable homepage notebooks across all twenty themes. See [the visual refresh report](docs/VISUAL-REFRESH.md). Earlier preview.4 assets remain unchanged; all remaining release gates still apply.
+
+### Photo-rich imports and actual previews
+
+Both Theme Labs show actual desktop/mobile screenshots of all twenty static demos. Six preview.5 imports passed (72 posts); fourteen updated exports remain blocked by Blogger’s import-frequency limit. All twenty native themes passed photo rendering at 375px; the 72 accepted stories passed at 320px. See [the current matrix and release blockers](docs/PHOTO-IMPORTS.md).

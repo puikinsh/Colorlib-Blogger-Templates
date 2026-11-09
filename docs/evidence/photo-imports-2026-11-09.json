@@ -1,0 +1,3744 @@
+{
+  "date": "2026-11-09",
+  "release": "v0.1.0-preview.5",
+  "sourceCommit": "e3e83b8b0ca5440a9e957b191ca6c6ab08056861",
+  "publicBlog": "https://colorlib-blogger-theme-lab-2026.blogspot.com/",
+  "imports": {
+    "totalPublicPosts": 101,
+    "photoRichPosts": 72,
+    "matrix": [
+      {
+        "slug": "bench",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "The compact keyboard: a sample review",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-compact-keyboard-a-sample-review.html"
+            ]
+          },
+          {
+            "title": "A quiet desk lamp, examined closely",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-quiet-desk-lamp-examined-closely.html"
+            ]
+          },
+          {
+            "title": "A simple USB hub for everyday work",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-simple-usb-hub-for-everyday-work.html"
+            ]
+          },
+          {
+            "title": "Keyboard switches: what we compare",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keyboard-switches-what-we-compare.html"
+            ]
+          },
+          {
+            "title": "Desk lighting: three approaches compared",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/desk-lighting-three-approaches-compared.html"
+            ]
+          },
+          {
+            "title": "The small-workspace buying guide",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-small-workspace-buying-guide.html"
+            ]
+          },
+          {
+            "title": "What a useful specification table tells you",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-a-useful-specification-table-tells-you.html"
+            ]
+          },
+          {
+            "title": "How we structure a hands-on review",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/how-we-structure-a-hands-on-review.html"
+            ]
+          },
+          {
+            "title": "Keeping an equipment shortlist",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keeping-an-equipment-shortlist.html"
+            ]
+          },
+          {
+            "title": "Repairability belongs in the conversation",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/repairability-belongs-in-the-conversation.html"
+            ]
+          },
+          {
+            "title": "A month later: the follow-up review",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-month-later-the-follow-up-review.html"
+            ]
+          },
+          {
+            "title": "What we mean when we call something good value",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-we-mean-when-we-call-something-good-value.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "borough",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A new chapter for the neighbourhood garden",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What is happening this weekend",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A conversation at the local workshop",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The community noticeboard, made useful",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A walking route through familiar streets",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Meet an imaginary local maker",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we put together an event listing",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A guide to our community resource page",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The small spaces that bring people together",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Notes from an open afternoon",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A local story worth following up",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What we heard at the community table",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "cause",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A small project with a shared purpose",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Meet an imaginary volunteer team",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An impact update with clear context",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we describe a campaign\u2019s next step",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A useful volunteer information page",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The story behind a community workshop",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What belongs in an impact report",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A month of listening and learning",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A resource list for people who want to help",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An example campaign progress note",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a donation link easy to understand",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Looking ahead together",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "ceremony",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "An intimate gathering in a garden",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The details behind a thoughtful table",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A planning notebook with room to breathe",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A celebration told through small moments",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Credit the people who made it possible",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A sample event timeline",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we write a real-event story",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A palette drawn from a favourite place",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A useful first-inquiry checklist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An imagined ceremony by the water",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a vendor-credit list easy to read",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The photographs we would keep",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "companion",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "A notebook for your companion\u2019s routine",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-notebook-for-your-companion-s-routine.html"
+            ]
+          },
+          {
+            "title": "Make a useful pet-sitter checklist",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-a-useful-pet-sitter-checklist.html"
+            ]
+          },
+          {
+            "title": "A quiet corner to settle into",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-quiet-corner-to-settle-into.html"
+            ]
+          },
+          {
+            "title": "Organising your companion\u2019s paperwork",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/organising-your-companion-s-paperwork.html"
+            ]
+          },
+          {
+            "title": "A walking bag that is ready to go",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-walking-bag-that-is-ready-to-go.html"
+            ]
+          },
+          {
+            "title": "How we record questions for the vet",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/how-we-record-questions-for-the-vet.html"
+            ]
+          },
+          {
+            "title": "A photo diary of ordinary days",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-photo-diary-of-ordinary-days.html"
+            ]
+          },
+          {
+            "title": "A travel-planning checklist for pet owners",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-travel-planning-checklist-for-pet-owners.html"
+            ]
+          },
+          {
+            "title": "Make toy storage less complicated",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-toy-storage-less-complicated.html"
+            ]
+          },
+          {
+            "title": "What to include on a care information card",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-to-include-on-a-care-information-card.html"
+            ]
+          },
+          {
+            "title": "An adoption story, thoughtfully told",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/an-adoption-story-thoughtfully-told.html"
+            ]
+          },
+          {
+            "title": "The little habits that help us plan",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-little-habits-that-help-us-plan.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "kinship",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "A little ritual for the end of the day",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-little-ritual-for-the-end-of-the-day.html"
+            ]
+          },
+          {
+            "title": "A rainy afternoon activity box",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-rainy-afternoon-activity-box.html"
+            ]
+          },
+          {
+            "title": "Keeping a family story notebook",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keeping-a-family-story-notebook.html"
+            ]
+          },
+          {
+            "title": "Make room for a slower weekend",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-room-for-a-slower-weekend.html"
+            ]
+          },
+          {
+            "title": "A simple outing checklist",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-simple-outing-checklist.html"
+            ]
+          },
+          {
+            "title": "The ordinary moments we want to remember",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-ordinary-moments-we-want-to-remember.html"
+            ]
+          },
+          {
+            "title": "A shared calendar that stays useful",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-shared-calendar-that-stays-useful.html"
+            ]
+          },
+          {
+            "title": "A reading corner for all ages",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-reading-corner-for-all-ages.html"
+            ]
+          },
+          {
+            "title": "A kitchen-table craft session",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-kitchen-table-craft-session.html"
+            ]
+          },
+          {
+            "title": "Plan a small celebration together",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/plan-a-small-celebration-together.html"
+            ]
+          },
+          {
+            "title": "Notes from a car-free afternoon",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/notes-from-a-car-free-afternoon.html"
+            ]
+          },
+          {
+            "title": "What made this week feel good",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-made-this-week-feel-good.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "launchpad",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A product note about a smaller first step",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Write a useful getting-started guide",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A release note that explains the change",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The questions we heard in a demo",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Build a readable help index",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A company update without the jargon",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "From customer question to clear tutorial",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we document a product decision",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A better outline for a feature announcement",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What belongs on a status update",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An example workflow, step by step",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Our next iteration starts with a question",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "ledger",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "Build an example monthly budget",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What belongs in an expense notebook",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Understand the difference between a price and a cost",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A simple comparison-table method",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Organise a year of recurring bills",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The arithmetic behind a savings example",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Write down the assumptions first",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A monthly money-review checklist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make an example plan easy to update",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Why dates and sources belong on comparisons",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A small glossary of everyday terms",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Review a budget without rewriting everything",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "lesson",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "Start here: a page that explains one idea",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-a-page-that-explains-one-idea.html"
+            ]
+          },
+          {
+            "title": "Your first semantic HTML document",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/your-first-semantic-html-document.html"
+            ]
+          },
+          {
+            "title": "Links, lists and a useful navigation",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/links-lists-and-a-useful-navigation.html"
+            ]
+          },
+          {
+            "title": "Images that make sense without the picture",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/images-that-make-sense-without-the-picture.html"
+            ]
+          },
+          {
+            "title": "A form people can actually use",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-form-people-can-actually-use.html"
+            ]
+          },
+          {
+            "title": "HTML foundations: your first complete page",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/html-foundations-your-first-complete-page.html"
+            ]
+          },
+          {
+            "title": "Start here: the CSS layout path",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-the-css-layout-path.html"
+            ]
+          },
+          {
+            "title": "Understand space before adding decoration",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/understand-space-before-adding-decoration.html"
+            ]
+          },
+          {
+            "title": "A responsive grid in a few clear steps",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-responsive-grid-in-a-few-clear-steps.html"
+            ]
+          },
+          {
+            "title": "Make typography do the hard work",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-typography-do-the-hard-work.html"
+            ]
+          },
+          {
+            "title": "A keyboard-first interface check",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-keyboard-first-interface-check.html"
+            ]
+          },
+          {
+            "title": "Publish and review your first project",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/publish-and-review-your-first-project.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "maker",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "Build a useful entryway shelf",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html"
+            ]
+          },
+          {
+            "title": "A small desk, made personal",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-small-desk-made-personal.html"
+            ]
+          },
+          {
+            "title": "Repair the drawer you keep avoiding",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/repair-the-drawer-you-keep-avoiding.html"
+            ]
+          },
+          {
+            "title": "A weekend paint-planning checklist",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-weekend-paint-planning-checklist.html"
+            ]
+          },
+          {
+            "title": "Choose the right place for your tools",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/choose-the-right-place-for-your-tools.html"
+            ]
+          },
+          {
+            "title": "The story of a second-hand chair",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-story-of-a-second-hand-chair.html"
+            ]
+          },
+          {
+            "title": "Make a simple materials list",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-a-simple-materials-list.html"
+            ]
+          },
+          {
+            "title": "A calmer corner for everyday work",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-calmer-corner-for-everyday-work.html"
+            ]
+          },
+          {
+            "title": "Measure twice: a project notebook",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/measure-twice-a-project-notebook.html"
+            ]
+          },
+          {
+            "title": "Three ways to reuse a wooden crate",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/three-ways-to-reuse-a-wooden-crate.html"
+            ]
+          },
+          {
+            "title": "A before-and-after worth documenting",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-before-and-after-worth-documenting.html"
+            ]
+          },
+          {
+            "title": "What we learned from a tiny room",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-we-learned-from-a-tiny-room.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "muse",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "The everyday linen edit",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-everyday-linen-edit.html"
+            ]
+          },
+          {
+            "title": "A small wardrobe for changing weather",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-small-wardrobe-for-changing-weather.html"
+            ]
+          },
+          {
+            "title": "Three ways to wear one favourite piece",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/three-ways-to-wear-one-favourite-piece.html"
+            ]
+          },
+          {
+            "title": "A beauty routine, written down",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-beauty-routine-written-down.html"
+            ]
+          },
+          {
+            "title": "The story behind a second-hand find",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-story-behind-a-second-hand-find.html"
+            ]
+          },
+          {
+            "title": "An outfit notebook for ordinary days",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/an-outfit-notebook-for-ordinary-days.html"
+            ]
+          },
+          {
+            "title": "Texture before colour",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/texture-before-colour.html"
+            ]
+          },
+          {
+            "title": "Our guide to useful product credits",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/our-guide-to-useful-product-credits.html"
+            ]
+          },
+          {
+            "title": "A weekend bag with a little less in it",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-weekend-bag-with-a-little-less-in-it.html"
+            ]
+          },
+          {
+            "title": "A closer look at the finishing details",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-closer-look-at-the-finishing-details.html"
+            ]
+          },
+          {
+            "title": "Building a seasonal moodboard",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/building-a-seasonal-moodboard.html"
+            ]
+          },
+          {
+            "title": "The pieces we return to",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-pieces-we-return-to.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "pace",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A routine you can write down",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a useful movement journal",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A quieter start to the day",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The value of a flexible plan",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A walk, noticed carefully",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A personal reflection template",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Record a session without chasing numbers",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Plan a week with room to adjust",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A checklist for your activity bag",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A short pause between busy things",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What helped us keep a rhythm",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Looking back at an ordinary month",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "playbook",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "The small game that stayed with us",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A spoiler-free review structure",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a useful beginner\u2019s guide",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An evening with an imaginary indie game",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Accessibility belongs in the settings menu",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A guide to writing about game feel",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Keep a patch-notes reading list",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What we look for in a co-op session",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A platform comparison without the noise",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The joy of a well-made tutorial",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A closer look at sound and atmosphere",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Our next-play shortlist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "saffron",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "Lemony chickpea lunch bowls",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A pot of slow tomato soup",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Roasted carrots with herbed yogurt",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Creamy mushroom toast",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Lentils with crisp cucumber",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The simplest lemon pasta",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Cinnamon overnight oats",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Golden tray-baked potatoes",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A bright green pea soup",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Apple and oat breakfast crumble",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "White beans with rosemary",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A salad for the end of summer",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "screen",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A spoiler-free evening at the cinema",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we separate a review from a recap",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The scene we kept thinking about",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A viewing notebook for a short series",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Writing about an imaginary film",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A watchlist with a little context",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The case for a second viewing",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A conversation about sound and silence",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A recap with clear spoiler boundaries",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What a useful review summary includes",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A director\u2019s notebook, imagined",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "This month\u2019s viewing notes",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "shelf",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "Reading slowly: a notebook for one book",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we write a useful book review",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A shelf for short stories",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Five ways to organise a reading list",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A conversation with an imaginary author",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The books beside the bed",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A reading journal without the pressure",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "When a second reading changes the story",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Notes on a beautifully made edition",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The essay as a companion",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What belongs in a book-detail card",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A year of reading, one page at a time",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "soundboard",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A conversation about starting small",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What a good question sounds like",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Episode notes that people can use",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A transcript is part of the experience",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Behind the mic: our recording checklist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An interview with a local maker",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we structure an episode page",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A short field-recording diary",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The useful pause in a conversation",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A listening list for the weekend",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "From rough outline to published episode",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What we learned in our first season",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "studio",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A clearer website for a small creative practice",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "From a rough brief to a useful direction",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An identity system built around everyday use",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What we include in a project case study",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A workshop before the first wireframe",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The work behind a quiet interface",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Document the decisions, not just the result",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A small collection of visual experiments",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we structure a service page",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An inquiry form that asks the right questions",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Looking back at an imagined project",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Notes on work we want to make next",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "verdant",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A notebook for a windowsill garden",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Getting to know one plant",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Plan a small seasonal growing space",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A useful plant-profile card",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A garden journal through the year",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we organise tools and supplies",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An illustrated leaf-shape notebook",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A quiet corner with a little green",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Document a garden project in stages",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The story of a favourite container",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a seasonal observation checklist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What changed in the garden this month",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "wayfarer",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A quiet weekend in Lisbon",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Lisbon, one neighbourhood at a time",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Three slow mornings in Kyoto",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A walking day in Kyoto",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Copenhagen by the water",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A first-timer\u2019s Copenhagen itinerary",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Packing for a short city break",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Finding the smaller museums",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How to build an unhurried itinerary",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A notebook for your next trip",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Travelling well with a rainy forecast",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Taking the long way home",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      }
+    ],
+    "blockedAttempt": {
+      "date": "2026-11-09",
+      "slug": "shelf",
+      "message": [
+        "\t\t\t\t255 text Import content",
+        "\t\t\t256 container Import content",
+        "\t\t\t\t257 heading Import content, Value: 1, ID: dwrFZd6",
+        "\t\t\t\t\t258 text Import content",
+        "\t\t\t\t259 text Import posts and comments from a Blogger export file or Google Takeout. Imported posts will be merged with any current posts, sorted by date.",
+        "\t\t\t\t261 text Automatically publish all imported posts and pages.",
+        "\t\t\t\t262 checkbox Description: Automatically publish all imported posts and pages., Value: 1",
+        "\t\t\t\t267 text Seems like you tried to import too many times. Please try again later."
+      ]
+    },
+    "stoppedAfterLimit": true
+  },
+  "nativeThemeCases375": [
+    {
+      "slug": "saffron",
+      "ownImportedFixture": false,
+      "fixtureTheme": "bench",
+      "body": "theme-saffron",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-compact-keyboard-a-sample-review.html",
+      "width": 375
+    },
+    {
+      "slug": "wayfarer",
+      "ownImportedFixture": false,
+      "fixtureTheme": "companion",
+      "body": "theme-wayfarer",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-notebook-for-your-companion-s-routine.html",
+      "width": 375
+    },
+    {
+      "slug": "lesson",
+      "ownImportedFixture": true,
+      "fixtureTheme": "lesson",
+      "body": "theme-lesson",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-a-page-that-explains-one-idea.html",
+      "width": 375
+    },
+    {
+      "slug": "bench",
+      "ownImportedFixture": true,
+      "fixtureTheme": "bench",
+      "body": "theme-bench",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-compact-keyboard-a-sample-review.html",
+      "width": 375
+    },
+    {
+      "slug": "maker",
+      "ownImportedFixture": true,
+      "fixtureTheme": "maker",
+      "body": "theme-maker",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html",
+      "width": 375
+    },
+    {
+      "slug": "muse",
+      "ownImportedFixture": true,
+      "fixtureTheme": "muse",
+      "body": "theme-muse",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-everyday-linen-edit.html",
+      "width": 375
+    },
+    {
+      "slug": "kinship",
+      "ownImportedFixture": true,
+      "fixtureTheme": "kinship",
+      "body": "theme-kinship",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-little-ritual-for-the-end-of-the-day.html",
+      "width": 375
+    },
+    {
+      "slug": "companion",
+      "ownImportedFixture": true,
+      "fixtureTheme": "companion",
+      "body": "theme-companion",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-notebook-for-your-companion-s-routine.html",
+      "width": 375
+    },
+    {
+      "slug": "shelf",
+      "ownImportedFixture": false,
+      "fixtureTheme": "kinship",
+      "body": "theme-shelf",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-little-ritual-for-the-end-of-the-day.html",
+      "width": 375
+    },
+    {
+      "slug": "playbook",
+      "ownImportedFixture": false,
+      "fixtureTheme": "lesson",
+      "body": "theme-playbook",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-a-page-that-explains-one-idea.html",
+      "width": 375
+    },
+    {
+      "slug": "soundboard",
+      "ownImportedFixture": false,
+      "fixtureTheme": "maker",
+      "body": "theme-soundboard",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html",
+      "width": 375
+    },
+    {
+      "slug": "verdant",
+      "ownImportedFixture": false,
+      "fixtureTheme": "muse",
+      "body": "theme-verdant",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-everyday-linen-edit.html",
+      "width": 375
+    },
+    {
+      "slug": "pace",
+      "ownImportedFixture": false,
+      "fixtureTheme": "bench",
+      "body": "theme-pace",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-compact-keyboard-a-sample-review.html",
+      "width": 375
+    },
+    {
+      "slug": "ledger",
+      "ownImportedFixture": false,
+      "fixtureTheme": "companion",
+      "body": "theme-ledger",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-notebook-for-your-companion-s-routine.html",
+      "width": 375
+    },
+    {
+      "slug": "screen",
+      "ownImportedFixture": false,
+      "fixtureTheme": "kinship",
+      "body": "theme-screen",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-little-ritual-for-the-end-of-the-day.html",
+      "width": 375
+    },
+    {
+      "slug": "borough",
+      "ownImportedFixture": false,
+      "fixtureTheme": "lesson",
+      "body": "theme-borough",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-a-page-that-explains-one-idea.html",
+      "width": 375
+    },
+    {
+      "slug": "studio",
+      "ownImportedFixture": false,
+      "fixtureTheme": "maker",
+      "body": "theme-studio",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html",
+      "width": 375
+    },
+    {
+      "slug": "launchpad",
+      "ownImportedFixture": false,
+      "fixtureTheme": "muse",
+      "body": "theme-launchpad",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-everyday-linen-edit.html",
+      "width": 375
+    },
+    {
+      "slug": "ceremony",
+      "ownImportedFixture": false,
+      "fixtureTheme": "bench",
+      "body": "theme-ceremony",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-compact-keyboard-a-sample-review.html",
+      "width": 375
+    },
+    {
+      "slug": "cause",
+      "ownImportedFixture": false,
+      "fixtureTheme": "companion",
+      "body": "theme-cause",
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp",
+          "width": 335
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp",
+          "width": 160.5
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp",
+          "width": 160.5
+        }
+      ],
+      "overflow": false,
+      "pairCount": 1,
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-notebook-for-your-companion-s-routine.html",
+      "width": 375
+    }
+  ],
+  "acceptedArticleCases320": [
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-compact-keyboard-a-sample-review.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-quiet-desk-lamp-examined-closely.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-simple-usb-hub-for-everyday-work.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keyboard-switches-what-we-compare.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/desk-lighting-three-approaches-compared.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-small-workspace-buying-guide.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-a-useful-specification-table-tells-you.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/how-we-structure-a-hands-on-review.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keeping-an-equipment-shortlist.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/repairability-belongs-in-the-conversation.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-month-later-the-follow-up-review.html",
+      "width": 320
+    },
+    {
+      "body": "theme-bench",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/bench/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-we-mean-when-we-call-something-good-value.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-notebook-for-your-companion-s-routine.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-a-useful-pet-sitter-checklist.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-quiet-corner-to-settle-into.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/organising-your-companion-s-paperwork.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-walking-bag-that-is-ready-to-go.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/how-we-record-questions-for-the-vet.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-photo-diary-of-ordinary-days.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-travel-planning-checklist-for-pet-owners.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-toy-storage-less-complicated.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-to-include-on-a-care-information-card.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/an-adoption-story-thoughtfully-told.html",
+      "width": 320
+    },
+    {
+      "body": "theme-companion",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/companion/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-little-habits-that-help-us-plan.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-little-ritual-for-the-end-of-the-day.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-rainy-afternoon-activity-box.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keeping-a-family-story-notebook.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-room-for-a-slower-weekend.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-simple-outing-checklist.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-ordinary-moments-we-want-to-remember.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-shared-calendar-that-stays-useful.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-reading-corner-for-all-ages.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-kitchen-table-craft-session.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/plan-a-small-celebration-together.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/notes-from-a-car-free-afternoon.html",
+      "width": 320
+    },
+    {
+      "body": "theme-kinship",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/kinship/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-made-this-week-feel-good.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-a-page-that-explains-one-idea.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/your-first-semantic-html-document.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/links-lists-and-a-useful-navigation.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/images-that-make-sense-without-the-picture.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-form-people-can-actually-use.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/html-foundations-your-first-complete-page.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-the-css-layout-path.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/understand-space-before-adding-decoration.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-responsive-grid-in-a-few-clear-steps.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-typography-do-the-hard-work.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-keyboard-first-interface-check.html",
+      "width": 320
+    },
+    {
+      "body": "theme-lesson",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/lesson/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/publish-and-review-your-first-project.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-small-desk-made-personal.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/repair-the-drawer-you-keep-avoiding.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-weekend-paint-planning-checklist.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/choose-the-right-place-for-your-tools.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-story-of-a-second-hand-chair.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-a-simple-materials-list.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-calmer-corner-for-everyday-work.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/measure-twice-a-project-notebook.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/three-ways-to-reuse-a-wooden-crate.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-before-and-after-worth-documenting.html",
+      "width": 320
+    },
+    {
+      "body": "theme-maker",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/maker/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-we-learned-from-a-tiny-room.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-everyday-linen-edit.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-small-wardrobe-for-changing-weather.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/three-ways-to-wear-one-favourite-piece.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-beauty-routine-written-down.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-story-behind-a-second-hand-find.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/an-outfit-notebook-for-ordinary-days.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/texture-before-colour.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/our-guide-to-useful-product-credits.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-weekend-bag-with-a-little-less-in-it.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-closer-look-at-the-finishing-details.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/building-a-seasonal-moodboard.html",
+      "width": 320
+    },
+    {
+      "body": "theme-muse",
+      "overflow": false,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/muse/photo-02-small.webp"
+        }
+      ],
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-pieces-we-return-to.html",
+      "width": 320
+    }
+  ],
+  "staticScreenshotManifest": "../../assets/previews/manifest.json",
+  "remainingGates": [
+    "14 updated exports await import acceptance",
+    "comment publication/replies as previously recorded",
+    "actual screen-reader speech/rotor",
+    "measured live performance",
+    "intermittent YouTube/Vimeo reliability; Vimeo unsupported in IAB",
+    "physical devices, audible output, long sessions, final editorial approval"
+  ]
+}

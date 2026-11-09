@@ -1,12 +1,12 @@
 # Development preview release status
 
-Updated November 8, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
+Updated November 9, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
 
 ## Published preview.5 visual refresh
 
 [Preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5) is published as a development prerelease from `e3e83b8b0ca5440a9e957b191ca6c6ab08056861`. It includes sixty credited photographs, responsive WebP variants, twenty distinct visual notebooks, richer article galleries and a Layout-editable homepage gallery gadget. All twenty new gallery widgets and their sixty photos were checked natively at 375px; forty local homepage and twenty article image-rendering cases passed, along with all 60 automated tests. See [visual refresh](VISUAL-REFRESH.md).
 
-The updated photo-rich demo exports have not been re-imported. Older import/playback evidence remains historical, and all speech, measured-performance, media reliability, service-limit, physical-device and editorial gates below remain open. Previous preview.4 packages remain unchanged.
+Six updated photo-rich exports now passed (72 posts); fourteen await acceptance after Blogger’s import-frequency limit. All twenty installed themes passed photo-rich story rendering at 375px; all 72 accepted stories passed at 320px. Both Labs show actual desktop/mobile template screenshots. See [current import and screenshot results](PHOTO-IMPORTS.md). Older import/playback evidence remains historical, and all speech, measured-performance, media reliability, service-limit, physical-device and editorial gates below remain open. Previous preview.4 packages remain unchanged.
 
 ## Preview.4 scope
 
@@ -24,19 +24,19 @@ Preview.4 includes the audio-error feedback and minimum player-height fixes, nat
 
 - **Screen-reader speech:** Accessibility-tree/keyboard checks are completed. Native Safari control became available for the provider follow-up, but actual VoiceOver speech/rotor verification has not been completed for any theme.
 - **Comment publishing:** Lesson’s reply failed again during the retry; a new-comment attempt under Bench returned the same Blogger failure. Complete Lesson’s reply and publication/reply checks for the other seventeen themes. The cause remains unknown; no CAPTCHA challenge appeared.
-- **Complete demo imports:** the retry accepted all twelve Saffron posts and all twelve Wayfarer posts into the shared lab; titles, labels, timestamps, feature blocks and pinned artwork URLs were verified. Lesson then hit Blogger’s import attempt limit twice. The remaining eighteen exports are unverified. See the [retry matrix](BLOGGER-RETRY.md).
+- **Complete demo imports:** six preview.5 exports accepted (Lesson, Bench, Maker, Muse, Kinship, Companion; 72 posts). Shelf hit Blogger’s import-frequency limit and the queue stopped. Fourteen updated exports remain unverified. Earlier Saffron/Wayfarer acceptances cover older content only. See the [current matrix](PHOTO-IMPORTS.md).
 - **Live performance:** DevTools was unavailable; the owner chose to document the gap. No measured live Core Web Vitals or Lighthouse score is claimed.
 - **Media/editorial:** all twenty local previews passed YouTube playback and shared recovery checks; Vimeo returned a supported-browser error. All twenty revised XMLs also passed native Blogger YouTube playback/recovery on the ordinary and `?m=1` routes at 1280px; see the [native media matrix](NATIVE-MEDIA.md). Vimeo, reliable narrow-video playback, audible output, physical-device/provider acceptance and final editorial approval remain open. All 240 samples are explicitly editing briefs; recipes remain untested. See the [media/editorial review](MEDIA-EDITORIAL-REVIEW.md).
 
 Blogger's native timestamp cursor can skip a post when identical publication times straddle a pagination boundary. Keep demonstration publication timestamps distinct and verify page-size changes. The theme preserves native navigation URLs.
 
-## Latest retry
+## Historical November 6 retry
 
 The [published-package retry](BLOGGER-RETRY.md) records 24 accepted demo posts, the repeated import limit, the Lesson/Bench publish failures and current comment-form checks across all twenty released templates. These partial results do not close the stable-release gates above.
 
 ## Earlier published preview.4
 
-[v0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `e3af8d5c6745c624d452d347e98447e921e7c0e1`. They include audio failure feedback, the minimum mobile player height, media/editorial fixes, offline documentation and native test evidence. The live Blogger hub and static catalog point to these exact packages. All twenty rendered Blogger download links and the checksum link were verified November 8, 2026. The incomplete checks remain visible before the cards; publication does not close them.
+[v0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `e3af8d5c6745c624d452d347e98447e921e7c0e1`. They include audio failure feedback, the minimum mobile player height, media/editorial fixes, offline documentation and native test evidence. The hubs now point to preview.5; this paragraph records the earlier preview.4 publication. All twenty rendered Blogger download links and the checksum link were verified November 8, 2026. The incomplete checks remain visible before the cards; publication does not close them.
 
 Preview.2 and preview.3 remain available unchanged. Embedded package status files record their preparation-time state; this page and the release description carry the current publication status.
 

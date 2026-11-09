@@ -53,3 +53,22 @@ test('lab filters, reset and responsive accessibility at five widths',{skip:!chr
   assert.equal(run.status,0,run.stderr);assert.match(run.stdout,/<body[^>]*data-result="passed"/,run.stdout.match(/<body[^>]*>/)?.[0]);
  }finally{fs.rmSync(scratch,{recursive:true,force:true});}
 });
+
+test('both Labs show actual layout screenshots with direct mobile alternatives',()=>{
+ const catalog=JSON.parse(fs.readFileSync(path.join(root,'catalog.json'),'utf8'));
+ const manifest=JSON.parse(fs.readFileSync(path.join(root,'assets/previews/manifest.json'),'utf8'));
+ assert.equal(manifest.captures.length,40);
+ for(const file of ['index.html','Colorlib-Lab-Blogger-Template.xml']){
+  const html=fs.readFileSync(path.join(root,'build/lab',file),'utf8');
+  for(const c of catalog){
+   assert.ok(html.includes(c.slug+'-desktop.webp'),file+' desktop '+c.slug);
+   assert.ok(html.includes(c.slug+'-mobile.webp'),file+' mobile '+c.slug);
+  }
+  assert.doesNotMatch(html,/photo-01-small.webp/);
+ }
+ for(const c of manifest.captures){
+  const bytes=fs.readFileSync(path.join(root,'assets/previews',c.file));
+  assert.equal(require('node:crypto').createHash('sha256').update(bytes).digest('hex'),c.sha256);
+  assert.ok(fs.existsSync(path.join(root,'build/lab/previews',c.file)));
+ }
+});

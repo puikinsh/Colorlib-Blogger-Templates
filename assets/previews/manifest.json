@@ -1,0 +1,607 @@
+{
+  "captured": "2026-11-09",
+  "sourceCommit": "abf99748289dcf22b1346e836867819e6bf53112",
+  "description": "Actual static template renders in the in-app browser; desktop full-page at 1440px, mobile viewport at 375px. Not screenshots of native Blogger.",
+  "captures": [
+    {
+      "slug": "saffron",
+      "mode": "desktop",
+      "file": "saffron-desktop.webp",
+      "captureSize": [
+        1440,
+        3132
+      ],
+      "size": [
+        960,
+        2088
+      ],
+      "bytes": 133242,
+      "sha256": "94a456450ceeceb79bb0cc396a9bc550f03d2af801f2d5f4367c6c3a594549dd"
+    },
+    {
+      "slug": "saffron",
+      "mode": "mobile",
+      "file": "saffron-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 34178,
+      "sha256": "8b933320beacd3df9583c9808b60581b6c07883de261013e55f9f4b78b3aed0b"
+    },
+    {
+      "slug": "wayfarer",
+      "mode": "desktop",
+      "file": "wayfarer-desktop.webp",
+      "captureSize": [
+        1440,
+        4414
+      ],
+      "size": [
+        960,
+        2943
+      ],
+      "bytes": 336290,
+      "sha256": "6fba4c156d5788cd77d6920f4539708713e63b37598c0693d56b68075b0ce76a"
+    },
+    {
+      "slug": "wayfarer",
+      "mode": "mobile",
+      "file": "wayfarer-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 38500,
+      "sha256": "461d1b50c43c50ba4fa45f0e5099a8a6dc06808075daa8fc2b47e8ee694bafa6"
+    },
+    {
+      "slug": "lesson",
+      "mode": "desktop",
+      "file": "lesson-desktop.webp",
+      "captureSize": [
+        1440,
+        2612
+      ],
+      "size": [
+        960,
+        1741
+      ],
+      "bytes": 80892,
+      "sha256": "569ad0aca22e9be8dc6b7339f62f1714ce4be4faa08910523960be3018023246"
+    },
+    {
+      "slug": "lesson",
+      "mode": "mobile",
+      "file": "lesson-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 25098,
+      "sha256": "ca9789953160bcef124df3617cb1602d575c7763df960438858e7a6d8e0ea6ff"
+    },
+    {
+      "slug": "bench",
+      "mode": "desktop",
+      "file": "bench-desktop.webp",
+      "captureSize": [
+        1440,
+        3069
+      ],
+      "size": [
+        960,
+        2046
+      ],
+      "bytes": 123264,
+      "sha256": "2e8fd3de8150275c8c07f9b2d602ee4fa59764597ef96f6f6e665e5dee937300"
+    },
+    {
+      "slug": "bench",
+      "mode": "mobile",
+      "file": "bench-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 25688,
+      "sha256": "75665450d63c81612a1457d1090b03aac1e75f8631eb275935ae8e7c58c2fe0a"
+    },
+    {
+      "slug": "maker",
+      "mode": "desktop",
+      "file": "maker-desktop.webp",
+      "captureSize": [
+        1440,
+        3958
+      ],
+      "size": [
+        960,
+        2639
+      ],
+      "bytes": 127778,
+      "sha256": "8822ca25b384fe47df73ce2284f1a5aa378e24141198871559285a051d48c859"
+    },
+    {
+      "slug": "maker",
+      "mode": "mobile",
+      "file": "maker-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 23700,
+      "sha256": "c849e85e9e024da3e40e41451a0b02ac870485364410bc25000450fbb882e8cd"
+    },
+    {
+      "slug": "muse",
+      "mode": "desktop",
+      "file": "muse-desktop.webp",
+      "captureSize": [
+        1440,
+        6554
+      ],
+      "size": [
+        960,
+        4369
+      ],
+      "bytes": 133570,
+      "sha256": "b265dd13c3d99ea311178b5543efa9bc3300b8b96c4c80b6fe9453c226b5a1d8"
+    },
+    {
+      "slug": "muse",
+      "mode": "mobile",
+      "file": "muse-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 17608,
+      "sha256": "4000b682a6b0472d07aa8a3a9a1102dccaeb3fd7b4b10c5b7363db26a8902e75"
+    },
+    {
+      "slug": "kinship",
+      "mode": "desktop",
+      "file": "kinship-desktop.webp",
+      "captureSize": [
+        1440,
+        3249
+      ],
+      "size": [
+        960,
+        2166
+      ],
+      "bytes": 88556,
+      "sha256": "575f46451c59b9469db3646619af3a8b455f7323c9c01dc6d123706a0111985c"
+    },
+    {
+      "slug": "kinship",
+      "mode": "mobile",
+      "file": "kinship-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 24248,
+      "sha256": "0339e25f8593cfc1e316969a090d59aecd475ae361bbd0c0aca7409ca02b52f2"
+    },
+    {
+      "slug": "companion",
+      "mode": "desktop",
+      "file": "companion-desktop.webp",
+      "captureSize": [
+        1440,
+        2583
+      ],
+      "size": [
+        960,
+        1722
+      ],
+      "bytes": 90184,
+      "sha256": "d0c5e521cf4cdff6f8844b3c39180c72711104fc1f5ea18e803e712cc0cf6e77"
+    },
+    {
+      "slug": "companion",
+      "mode": "mobile",
+      "file": "companion-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 22758,
+      "sha256": "5b6dd40d6249c0e116701cf9a8cc5e4383e63ac8ea6f24c18db09f465e7f86b1"
+    },
+    {
+      "slug": "shelf",
+      "mode": "desktop",
+      "file": "shelf-desktop.webp",
+      "captureSize": [
+        1440,
+        3621
+      ],
+      "size": [
+        960,
+        2414
+      ],
+      "bytes": 125870,
+      "sha256": "16c8917587b8a3ee725e06609de5ca8af0928515bb1379043aab5fdc2e685971"
+    },
+    {
+      "slug": "shelf",
+      "mode": "mobile",
+      "file": "shelf-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 31892,
+      "sha256": "49e98f47504e6f2cab4ccae91d7bfb6eef09805d1716f96c0172b080ac9423ae"
+    },
+    {
+      "slug": "playbook",
+      "mode": "desktop",
+      "file": "playbook-desktop.webp",
+      "captureSize": [
+        1440,
+        3474
+      ],
+      "size": [
+        960,
+        2316
+      ],
+      "bytes": 146960,
+      "sha256": "f1fc5c40232bd8e395be271bb163466ac894b6f130ee3f254fd631fd54e251f8"
+    },
+    {
+      "slug": "playbook",
+      "mode": "mobile",
+      "file": "playbook-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 31932,
+      "sha256": "c9ef7257c5fc203219c074b5830910b230df24463414513842bd4c6d3ba1af2d"
+    },
+    {
+      "slug": "soundboard",
+      "mode": "desktop",
+      "file": "soundboard-desktop.webp",
+      "captureSize": [
+        1440,
+        3402
+      ],
+      "size": [
+        960,
+        2268
+      ],
+      "bytes": 99896,
+      "sha256": "3758d72d3c30f00b27ac2b333252714d71591b3fb150511393f469ff6044ae15"
+    },
+    {
+      "slug": "soundboard",
+      "mode": "mobile",
+      "file": "soundboard-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 28116,
+      "sha256": "bc8c0b3b798a2586e702db3e82bf9b5bdf3e1018206b55235d0c1e22ede2bbb7"
+    },
+    {
+      "slug": "verdant",
+      "mode": "desktop",
+      "file": "verdant-desktop.webp",
+      "captureSize": [
+        1440,
+        3821
+      ],
+      "size": [
+        960,
+        2547
+      ],
+      "bytes": 171510,
+      "sha256": "05469bcb8af78248b18d28820071dd105cadba9852860acd9c0295fc3738b444"
+    },
+    {
+      "slug": "verdant",
+      "mode": "mobile",
+      "file": "verdant-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 35008,
+      "sha256": "561d2a0435a597b09bbc02422fc2de2d1dbc718b98cedbc5296f0be6e9fdc8f1"
+    },
+    {
+      "slug": "pace",
+      "mode": "desktop",
+      "file": "pace-desktop.webp",
+      "captureSize": [
+        1440,
+        3756
+      ],
+      "size": [
+        960,
+        2504
+      ],
+      "bytes": 124948,
+      "sha256": "15d12031c7f8dd2edf056cdd632143112f470b9fccc39985373a312509b6f43a"
+    },
+    {
+      "slug": "pace",
+      "mode": "mobile",
+      "file": "pace-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 25646,
+      "sha256": "cde7fee01a4078f44278f5936ddaf6eff02691a9b253d3c399a7f430f81e3884"
+    },
+    {
+      "slug": "ledger",
+      "mode": "desktop",
+      "file": "ledger-desktop.webp",
+      "captureSize": [
+        1440,
+        2445
+      ],
+      "size": [
+        960,
+        1630
+      ],
+      "bytes": 60292,
+      "sha256": "969b1512b42502d881e0aec02cb510303f87c84bed53f10a0ff2af404aa2ed68"
+    },
+    {
+      "slug": "ledger",
+      "mode": "mobile",
+      "file": "ledger-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 23322,
+      "sha256": "3eb340671a2e0f2c1b0883e89d7b7be9a8ef38a50b6261bd2927940c20121156"
+    },
+    {
+      "slug": "screen",
+      "mode": "desktop",
+      "file": "screen-desktop.webp",
+      "captureSize": [
+        1440,
+        3465
+      ],
+      "size": [
+        960,
+        2310
+      ],
+      "bytes": 107366,
+      "sha256": "08e0f1ec398aff81a0bcd0d7261aa1a1f2b94ac9d68171c65f8735caaca5feee"
+    },
+    {
+      "slug": "screen",
+      "mode": "mobile",
+      "file": "screen-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 28814,
+      "sha256": "4cd3b1557422f78727df131511c48f169f190687081acd7372f56092c58d5823"
+    },
+    {
+      "slug": "borough",
+      "mode": "desktop",
+      "file": "borough-desktop.webp",
+      "captureSize": [
+        1440,
+        3588
+      ],
+      "size": [
+        960,
+        2392
+      ],
+      "bytes": 169532,
+      "sha256": "38854c306db4d75614a72860c04fd9f576dacceca00f3847c01c05038c2480d4"
+    },
+    {
+      "slug": "borough",
+      "mode": "mobile",
+      "file": "borough-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 33384,
+      "sha256": "2dedee180d21e761a67c3fd30c779304db7df0ddcdb1e72b8cfab0439cd88d3d"
+    },
+    {
+      "slug": "studio",
+      "mode": "desktop",
+      "file": "studio-desktop.webp",
+      "captureSize": [
+        1440,
+        5455
+      ],
+      "size": [
+        960,
+        3637
+      ],
+      "bytes": 246798,
+      "sha256": "51c282190feca831e9f558742f7a4239a3b52a737d80cff0989550a5a8eaa235"
+    },
+    {
+      "slug": "studio",
+      "mode": "mobile",
+      "file": "studio-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 29582,
+      "sha256": "5e00ed497a80c936f7eab2c24574964b8d753ec5f25f2003cff46ff8416eaf8f"
+    },
+    {
+      "slug": "launchpad",
+      "mode": "desktop",
+      "file": "launchpad-desktop.webp",
+      "captureSize": [
+        1440,
+        3048
+      ],
+      "size": [
+        960,
+        2032
+      ],
+      "bytes": 85790,
+      "sha256": "c18242ea316ed33cc1db8b4477ef232df0c2804019b8270960498e465865e2f0"
+    },
+    {
+      "slug": "launchpad",
+      "mode": "mobile",
+      "file": "launchpad-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 27882,
+      "sha256": "d03ad0d762b099c887707d67d20eff06d03cf67abc9bc50579cf34304d3449ef"
+    },
+    {
+      "slug": "ceremony",
+      "mode": "desktop",
+      "file": "ceremony-desktop.webp",
+      "captureSize": [
+        1440,
+        4538
+      ],
+      "size": [
+        960,
+        3025
+      ],
+      "bytes": 198606,
+      "sha256": "3db3de23fe469720d50fcbc6ac6ee296ac9e3bebfd51af9d4d55bcec43e24eec"
+    },
+    {
+      "slug": "ceremony",
+      "mode": "mobile",
+      "file": "ceremony-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 24038,
+      "sha256": "81eaea9198b20eb1e2c418070e4df6bda073d3cacdf18fa9683226c6c953c7e4"
+    },
+    {
+      "slug": "cause",
+      "mode": "desktop",
+      "file": "cause-desktop.webp",
+      "captureSize": [
+        1440,
+        3380
+      ],
+      "size": [
+        960,
+        2253
+      ],
+      "bytes": 168768,
+      "sha256": "ebb6867b5f0775cdf02ca4573fcf7f3c5ca18ac3b8ec38ee7e59deb1c4c83898"
+    },
+    {
+      "slug": "cause",
+      "mode": "mobile",
+      "file": "cause-mobile.webp",
+      "captureSize": [
+        375,
+        900
+      ],
+      "size": [
+        375,
+        900
+      ],
+      "bytes": 31136,
+      "sha256": "0f20ac65ec0f69e365034ddf28f75e0e444d5cc5f6a96cf6f43ff8b8191c9a04"
+    }
+  ]
+}

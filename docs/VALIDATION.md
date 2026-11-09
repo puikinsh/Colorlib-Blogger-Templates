@@ -1,5 +1,9 @@
 # Development validation status
 
+## Latest photo-rich follow-up — November 9
+
+Six updated exports passed (72 posts); Blogger then limited Shelf and the queue stopped, leaving fourteen updated exports unverified. All twenty native themes passed photo rendering at 375px, and all 72 accepted stories passed at 320px. Both Labs now use forty actual static-demo desktop/mobile screenshots. No theme image/mobile defect was reproduced. [Exact matrix, scope and remaining gates](PHOTO-IMPORTS.md). Historical entries below retain their original test dates and scope.
+
 Version 0.1.0 · Updated November 6, 2026
 
 These are development previews. Generated-source checks and local browser results do not establish actual Blogger compatibility or production readiness.
