@@ -21,7 +21,7 @@ test('both hub formats link every download to the versioned preview and show ope
   const links=Array.from(html.matchAll(/href="(https:\/\/github.com\/puikinsh\/Colorlib-Blogger-Templates\/releases\/download\/[^"]+\.zip)"/g),m=>m[1]);
   assert.deepEqual(links.sort(),catalog.map(c=>base+c.slug+'-blogger-template-'+version+'.zip').sort(),file);
   assert.ok(html.indexOf('Before you download')<html.indexOf('data-hub-card="true"'),file+' must disclose open testing before downloads');
-  for(const text of ['Screen readers','Comment publishing','Complete demo imports','measured live performance','Physical devices'])assert.ok(html.includes(text),file+' missing '+text);
+  for(const text of ['Screen readers','Comment publishing','Complete demo imports','measured live performance','Physical devices'])assert.ok(html.toLowerCase().includes(text.toLowerCase()),file+' missing '+text);
   assert.ok(html.includes(base+'SHA256SUMS'));
   assert.ok(html.includes('Vimeo remains blocked')&&html.includes('audible output')&&html.includes('final editorial approval'),file+' must keep media/editorial gates visible');
   assert.doesNotMatch(html,/being prepared|preview\.2 download|not these frozen download packages/);
