@@ -6,6 +6,8 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Retried Shelf’s preview.5 import; Blogger repeated its import-frequency refusal and accepted no new posts. Recorded 84 verified public photo variants and 56 fresh local narrow-layout cases for the fourteen pending exports; retained their native acceptance gap and all stable-release blockers.
+
 - Replaced both Lab catalogs’ generic photo thumbnails with forty actual desktop/mobile template captures and larger cards. Recorded six accepted preview.5 photo-rich imports, all-twenty native rendering checks and 72 narrow article checks; retained the import-frequency limit and all other release gates. Frozen theme packages remain unchanged.
 
 - Published preview.5 with the photo-rich demonstrations and retained testing disclosures; twenty immutable packages include responsive photographs, credits and current validation reports. Earlier releases remain unchanged.

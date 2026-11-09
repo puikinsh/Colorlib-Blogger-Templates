@@ -1,0 +1,4225 @@
+{
+  "checkedAt": "2026-11-09T11:32:03Z",
+  "release": "v0.1.0-preview.5",
+  "sourceCommit": "e3e83b8b0ca5440a9e957b191ca6c6ab08056861",
+  "retry": {
+    "checkedAt": "2026-11-09T11:32:03Z",
+    "slug": "shelf",
+    "message": [
+      "253 text Seems like you tried to import too many times. Please try again later."
+    ],
+    "stoppedAfterLimit": true
+  },
+  "publicFeed": {
+    "beforePosts": 101,
+    "afterPosts": 101,
+    "beforePhotoRichPosts": 72,
+    "afterPhotoRichPosts": 72,
+    "newPostsAccepted": 0,
+    "matrix": [
+      {
+        "slug": "bench",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "The compact keyboard: a sample review",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-compact-keyboard-a-sample-review.html"
+            ]
+          },
+          {
+            "title": "A quiet desk lamp, examined closely",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-quiet-desk-lamp-examined-closely.html"
+            ]
+          },
+          {
+            "title": "A simple USB hub for everyday work",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-simple-usb-hub-for-everyday-work.html"
+            ]
+          },
+          {
+            "title": "Keyboard switches: what we compare",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keyboard-switches-what-we-compare.html"
+            ]
+          },
+          {
+            "title": "Desk lighting: three approaches compared",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/desk-lighting-three-approaches-compared.html"
+            ]
+          },
+          {
+            "title": "The small-workspace buying guide",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-small-workspace-buying-guide.html"
+            ]
+          },
+          {
+            "title": "What a useful specification table tells you",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-a-useful-specification-table-tells-you.html"
+            ]
+          },
+          {
+            "title": "How we structure a hands-on review",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/how-we-structure-a-hands-on-review.html"
+            ]
+          },
+          {
+            "title": "Keeping an equipment shortlist",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keeping-an-equipment-shortlist.html"
+            ]
+          },
+          {
+            "title": "Repairability belongs in the conversation",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/repairability-belongs-in-the-conversation.html"
+            ]
+          },
+          {
+            "title": "A month later: the follow-up review",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-month-later-the-follow-up-review.html"
+            ]
+          },
+          {
+            "title": "What we mean when we call something good value",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-we-mean-when-we-call-something-good-value.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "borough",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A new chapter for the neighbourhood garden",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What is happening this weekend",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A conversation at the local workshop",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The community noticeboard, made useful",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A walking route through familiar streets",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Meet an imaginary local maker",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we put together an event listing",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A guide to our community resource page",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The small spaces that bring people together",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Notes from an open afternoon",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A local story worth following up",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What we heard at the community table",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "cause",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A small project with a shared purpose",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Meet an imaginary volunteer team",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An impact update with clear context",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we describe a campaign\u2019s next step",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A useful volunteer information page",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The story behind a community workshop",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What belongs in an impact report",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A month of listening and learning",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A resource list for people who want to help",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An example campaign progress note",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a donation link easy to understand",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Looking ahead together",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "ceremony",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "An intimate gathering in a garden",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The details behind a thoughtful table",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A planning notebook with room to breathe",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A celebration told through small moments",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Credit the people who made it possible",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A sample event timeline",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we write a real-event story",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A palette drawn from a favourite place",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A useful first-inquiry checklist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An imagined ceremony by the water",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a vendor-credit list easy to read",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The photographs we would keep",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "companion",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "A notebook for your companion\u2019s routine",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-notebook-for-your-companion-s-routine.html"
+            ]
+          },
+          {
+            "title": "Make a useful pet-sitter checklist",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-a-useful-pet-sitter-checklist.html"
+            ]
+          },
+          {
+            "title": "A quiet corner to settle into",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-quiet-corner-to-settle-into.html"
+            ]
+          },
+          {
+            "title": "Organising your companion\u2019s paperwork",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/organising-your-companion-s-paperwork.html"
+            ]
+          },
+          {
+            "title": "A walking bag that is ready to go",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-walking-bag-that-is-ready-to-go.html"
+            ]
+          },
+          {
+            "title": "How we record questions for the vet",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/how-we-record-questions-for-the-vet.html"
+            ]
+          },
+          {
+            "title": "A photo diary of ordinary days",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-photo-diary-of-ordinary-days.html"
+            ]
+          },
+          {
+            "title": "A travel-planning checklist for pet owners",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-travel-planning-checklist-for-pet-owners.html"
+            ]
+          },
+          {
+            "title": "Make toy storage less complicated",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-toy-storage-less-complicated.html"
+            ]
+          },
+          {
+            "title": "What to include on a care information card",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-to-include-on-a-care-information-card.html"
+            ]
+          },
+          {
+            "title": "An adoption story, thoughtfully told",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/an-adoption-story-thoughtfully-told.html"
+            ]
+          },
+          {
+            "title": "The little habits that help us plan",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-little-habits-that-help-us-plan.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "kinship",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "A little ritual for the end of the day",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-little-ritual-for-the-end-of-the-day.html"
+            ]
+          },
+          {
+            "title": "A rainy afternoon activity box",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-rainy-afternoon-activity-box.html"
+            ]
+          },
+          {
+            "title": "Keeping a family story notebook",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/keeping-a-family-story-notebook.html"
+            ]
+          },
+          {
+            "title": "Make room for a slower weekend",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-room-for-a-slower-weekend.html"
+            ]
+          },
+          {
+            "title": "A simple outing checklist",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-simple-outing-checklist.html"
+            ]
+          },
+          {
+            "title": "The ordinary moments we want to remember",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-ordinary-moments-we-want-to-remember.html"
+            ]
+          },
+          {
+            "title": "A shared calendar that stays useful",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-shared-calendar-that-stays-useful.html"
+            ]
+          },
+          {
+            "title": "A reading corner for all ages",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-reading-corner-for-all-ages.html"
+            ]
+          },
+          {
+            "title": "A kitchen-table craft session",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-kitchen-table-craft-session.html"
+            ]
+          },
+          {
+            "title": "Plan a small celebration together",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/plan-a-small-celebration-together.html"
+            ]
+          },
+          {
+            "title": "Notes from a car-free afternoon",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/notes-from-a-car-free-afternoon.html"
+            ]
+          },
+          {
+            "title": "What made this week feel good",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-made-this-week-feel-good.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "launchpad",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A product note about a smaller first step",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Write a useful getting-started guide",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A release note that explains the change",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The questions we heard in a demo",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Build a readable help index",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A company update without the jargon",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "From customer question to clear tutorial",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we document a product decision",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A better outline for a feature announcement",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What belongs on a status update",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An example workflow, step by step",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Our next iteration starts with a question",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "ledger",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "Build an example monthly budget",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What belongs in an expense notebook",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Understand the difference between a price and a cost",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A simple comparison-table method",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Organise a year of recurring bills",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The arithmetic behind a savings example",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Write down the assumptions first",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A monthly money-review checklist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make an example plan easy to update",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Why dates and sources belong on comparisons",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A small glossary of everyday terms",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Review a budget without rewriting everything",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "lesson",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "Start here: a page that explains one idea",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-a-page-that-explains-one-idea.html"
+            ]
+          },
+          {
+            "title": "Your first semantic HTML document",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/your-first-semantic-html-document.html"
+            ]
+          },
+          {
+            "title": "Links, lists and a useful navigation",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/links-lists-and-a-useful-navigation.html"
+            ]
+          },
+          {
+            "title": "Images that make sense without the picture",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/images-that-make-sense-without-the-picture.html"
+            ]
+          },
+          {
+            "title": "A form people can actually use",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-form-people-can-actually-use.html"
+            ]
+          },
+          {
+            "title": "HTML foundations: your first complete page",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/html-foundations-your-first-complete-page.html"
+            ]
+          },
+          {
+            "title": "Start here: the CSS layout path",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/start-here-the-css-layout-path.html"
+            ]
+          },
+          {
+            "title": "Understand space before adding decoration",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/understand-space-before-adding-decoration.html"
+            ]
+          },
+          {
+            "title": "A responsive grid in a few clear steps",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-responsive-grid-in-a-few-clear-steps.html"
+            ]
+          },
+          {
+            "title": "Make typography do the hard work",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-typography-do-the-hard-work.html"
+            ]
+          },
+          {
+            "title": "A keyboard-first interface check",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-keyboard-first-interface-check.html"
+            ]
+          },
+          {
+            "title": "Publish and review your first project",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/publish-and-review-your-first-project.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "maker",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "Build a useful entryway shelf",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html"
+            ]
+          },
+          {
+            "title": "A small desk, made personal",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-small-desk-made-personal.html"
+            ]
+          },
+          {
+            "title": "Repair the drawer you keep avoiding",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/repair-the-drawer-you-keep-avoiding.html"
+            ]
+          },
+          {
+            "title": "A weekend paint-planning checklist",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-weekend-paint-planning-checklist.html"
+            ]
+          },
+          {
+            "title": "Choose the right place for your tools",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/choose-the-right-place-for-your-tools.html"
+            ]
+          },
+          {
+            "title": "The story of a second-hand chair",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-story-of-a-second-hand-chair.html"
+            ]
+          },
+          {
+            "title": "Make a simple materials list",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/make-a-simple-materials-list.html"
+            ]
+          },
+          {
+            "title": "A calmer corner for everyday work",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-calmer-corner-for-everyday-work.html"
+            ]
+          },
+          {
+            "title": "Measure twice: a project notebook",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/measure-twice-a-project-notebook.html"
+            ]
+          },
+          {
+            "title": "Three ways to reuse a wooden crate",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/three-ways-to-reuse-a-wooden-crate.html"
+            ]
+          },
+          {
+            "title": "A before-and-after worth documenting",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-before-and-after-worth-documenting.html"
+            ]
+          },
+          {
+            "title": "What we learned from a tiny room",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/what-we-learned-from-a-tiny-room.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "muse",
+        "expected": 12,
+        "photo_rich_posts": 12,
+        "posts": [
+          {
+            "title": "The everyday linen edit",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-everyday-linen-edit.html"
+            ]
+          },
+          {
+            "title": "A small wardrobe for changing weather",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-small-wardrobe-for-changing-weather.html"
+            ]
+          },
+          {
+            "title": "Three ways to wear one favourite piece",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/three-ways-to-wear-one-favourite-piece.html"
+            ]
+          },
+          {
+            "title": "A beauty routine, written down",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-beauty-routine-written-down.html"
+            ]
+          },
+          {
+            "title": "The story behind a second-hand find",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-story-behind-a-second-hand-find.html"
+            ]
+          },
+          {
+            "title": "An outfit notebook for ordinary days",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/an-outfit-notebook-for-ordinary-days.html"
+            ]
+          },
+          {
+            "title": "Texture before colour",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/texture-before-colour.html"
+            ]
+          },
+          {
+            "title": "Our guide to useful product credits",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/our-guide-to-useful-product-credits.html"
+            ]
+          },
+          {
+            "title": "A weekend bag with a little less in it",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-weekend-bag-with-a-little-less-in-it.html"
+            ]
+          },
+          {
+            "title": "A closer look at the finishing details",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/a-closer-look-at-the-finishing-details.html"
+            ]
+          },
+          {
+            "title": "Building a seasonal moodboard",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/building-a-seasonal-moodboard.html"
+            ]
+          },
+          {
+            "title": "The pieces we return to",
+            "matches": 1,
+            "photo_rich_match": true,
+            "urls": [
+              "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/the-pieces-we-return-to.html"
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "pace",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A routine you can write down",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a useful movement journal",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A quieter start to the day",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The value of a flexible plan",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A walk, noticed carefully",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A personal reflection template",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Record a session without chasing numbers",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Plan a week with room to adjust",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A checklist for your activity bag",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A short pause between busy things",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What helped us keep a rhythm",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Looking back at an ordinary month",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "playbook",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "The small game that stayed with us",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A spoiler-free review structure",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a useful beginner\u2019s guide",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An evening with an imaginary indie game",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Accessibility belongs in the settings menu",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A guide to writing about game feel",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Keep a patch-notes reading list",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What we look for in a co-op session",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A platform comparison without the noise",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The joy of a well-made tutorial",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A closer look at sound and atmosphere",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Our next-play shortlist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "saffron",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "Lemony chickpea lunch bowls",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A pot of slow tomato soup",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Roasted carrots with herbed yogurt",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Creamy mushroom toast",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Lentils with crisp cucumber",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The simplest lemon pasta",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Cinnamon overnight oats",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Golden tray-baked potatoes",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A bright green pea soup",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Apple and oat breakfast crumble",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "White beans with rosemary",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A salad for the end of summer",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "screen",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A spoiler-free evening at the cinema",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we separate a review from a recap",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The scene we kept thinking about",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A viewing notebook for a short series",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Writing about an imaginary film",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A watchlist with a little context",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The case for a second viewing",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A conversation about sound and silence",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A recap with clear spoiler boundaries",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What a useful review summary includes",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A director\u2019s notebook, imagined",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "This month\u2019s viewing notes",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "shelf",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "Reading slowly: a notebook for one book",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we write a useful book review",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A shelf for short stories",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Five ways to organise a reading list",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A conversation with an imaginary author",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The books beside the bed",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A reading journal without the pressure",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "When a second reading changes the story",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Notes on a beautifully made edition",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The essay as a companion",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What belongs in a book-detail card",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A year of reading, one page at a time",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "soundboard",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A conversation about starting small",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What a good question sounds like",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Episode notes that people can use",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A transcript is part of the experience",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Behind the mic: our recording checklist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An interview with a local maker",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we structure an episode page",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A short field-recording diary",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The useful pause in a conversation",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A listening list for the weekend",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "From rough outline to published episode",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What we learned in our first season",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "studio",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A clearer website for a small creative practice",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "From a rough brief to a useful direction",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An identity system built around everyday use",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What we include in a project case study",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A workshop before the first wireframe",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The work behind a quiet interface",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Document the decisions, not just the result",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A small collection of visual experiments",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we structure a service page",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An inquiry form that asks the right questions",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Looking back at an imagined project",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Notes on work we want to make next",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "verdant",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A notebook for a windowsill garden",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Getting to know one plant",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Plan a small seasonal growing space",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A useful plant-profile card",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A garden journal through the year",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How we organise tools and supplies",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "An illustrated leaf-shape notebook",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A quiet corner with a little green",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Document a garden project in stages",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "The story of a favourite container",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Make a seasonal observation checklist",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "What changed in the garden this month",
+            "matches": 0,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      },
+      {
+        "slug": "wayfarer",
+        "expected": 12,
+        "photo_rich_posts": 0,
+        "posts": [
+          {
+            "title": "A quiet weekend in Lisbon",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Lisbon, one neighbourhood at a time",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Three slow mornings in Kyoto",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A walking day in Kyoto",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Copenhagen by the water",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A first-timer\u2019s Copenhagen itinerary",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Packing for a short city break",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Finding the smaller museums",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "How to build an unhurried itinerary",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "A notebook for your next trip",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Travelling well with a rainy forecast",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          },
+          {
+            "title": "Taking the long way home",
+            "matches": 1,
+            "photo_rich_match": false,
+            "urls": []
+          }
+        ]
+      }
+    ]
+  },
+  "publicAssets": {
+    "checkedAt": "2026-11-09T11:32:03Z",
+    "exports": [
+      "borough",
+      "cause",
+      "ceremony",
+      "launchpad",
+      "ledger",
+      "pace",
+      "playbook",
+      "saffron",
+      "screen",
+      "shelf",
+      "soundboard",
+      "studio",
+      "verdant",
+      "wayfarer"
+    ],
+    "posts": 168,
+    "assets": [
+      {
+        "slug": "borough",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/borough/photo-01.webp",
+        "bytes": 214082,
+        "sha256": "48cfde51fc0850b7327293da80318a08ed10a855a93e82bd5c72f183e8ee12a3",
+        "matchedSource": true
+      },
+      {
+        "slug": "borough",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/borough/photo-02-small.webp",
+        "bytes": 75918,
+        "sha256": "892600b43645c653d6c5c1716b726460bb02a28a8df0dba18bf93f7f7de62436",
+        "matchedSource": true
+      },
+      {
+        "slug": "borough",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/borough/photo-02.webp",
+        "bytes": 411804,
+        "sha256": "b3be7e13c3ed049e5f4df2a235724ae75e9128cc04b2c34fc9d45d211f08c446",
+        "matchedSource": true
+      },
+      {
+        "slug": "borough",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/borough/photo-03-small.webp",
+        "bytes": 37866,
+        "sha256": "bf09773ef432d3edd33cec56a93da1233d9b958789f6ee18c2de8ee02071aa95",
+        "matchedSource": true
+      },
+      {
+        "slug": "borough",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/borough/photo-01-small.webp",
+        "bytes": 45768,
+        "sha256": "de085cb97c1e680e02344c7955865ceff8cbe01ba9ce3ed3064746a153468fd3",
+        "matchedSource": true
+      },
+      {
+        "slug": "borough",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/borough/photo-03.webp",
+        "bytes": 164322,
+        "sha256": "3af44261920217032634fc9f0dfa4b5f49c64dcbcf29cb358db3cb458b5e7da0",
+        "matchedSource": true
+      },
+      {
+        "slug": "cause",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/cause/photo-01.webp",
+        "bytes": 325584,
+        "sha256": "773674b4f269533982abc01912fef07c117024cc6fa956faf786bb54ee01056e",
+        "matchedSource": true
+      },
+      {
+        "slug": "cause",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/cause/photo-02.webp",
+        "bytes": 244448,
+        "sha256": "6b079557304f9dfff4a7b4ca1457a1218b67405ab3719ea21f8a5e928b0d8c81",
+        "matchedSource": true
+      },
+      {
+        "slug": "cause",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/cause/photo-03.webp",
+        "bytes": 158586,
+        "sha256": "c0e00351d064bf15c2aa9d16dda263664dcc348a3e0fb78dbd49cfd4a32f160e",
+        "matchedSource": true
+      },
+      {
+        "slug": "cause",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/cause/photo-03-small.webp",
+        "bytes": 55378,
+        "sha256": "f758043f926338a6e8dc5f4af2eb952761d3d1afe47cbe0afc24d68f66fd76ef",
+        "matchedSource": true
+      },
+      {
+        "slug": "cause",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/cause/photo-02-small.webp",
+        "bytes": 55478,
+        "sha256": "7c0b4bdd8aff64aecaccd3dd592c2f538a3eba82df0cb7851eaff6302e6c5951",
+        "matchedSource": true
+      },
+      {
+        "slug": "cause",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/cause/photo-01-small.webp",
+        "bytes": 71922,
+        "sha256": "6e363c49678942974553c0247869d567404b5596fbace6d6a11445b6a8b350f3",
+        "matchedSource": true
+      },
+      {
+        "slug": "ceremony",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ceremony/photo-02.webp",
+        "bytes": 195958,
+        "sha256": "a9a39c13bdaf3daff0b67ad78127d8c1a25ede54fc10b49c6a21b3facb5794fe",
+        "matchedSource": true
+      },
+      {
+        "slug": "ceremony",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ceremony/photo-03.webp",
+        "bytes": 334642,
+        "sha256": "436385738fb78eab89a39239df12d9d8f8c31846146be4e2024ecb9f752019e2",
+        "matchedSource": true
+      },
+      {
+        "slug": "ceremony",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ceremony/photo-03-small.webp",
+        "bytes": 58030,
+        "sha256": "fa7c199a338a0e5088f70be6ef45bc9dc62cc1b6f452b0c96b637cde76f60460",
+        "matchedSource": true
+      },
+      {
+        "slug": "ceremony",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ceremony/photo-01.webp",
+        "bytes": 225934,
+        "sha256": "e52348599be0c7d0899135d36b32b1b45c9ee56b5f084ccf458e74c12166ffda",
+        "matchedSource": true
+      },
+      {
+        "slug": "ceremony",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ceremony/photo-01-small.webp",
+        "bytes": 61652,
+        "sha256": "ed5fbcc82f86c3d392597e45dc000819ecce522dcf2093dd679a8d34175786f9",
+        "matchedSource": true
+      },
+      {
+        "slug": "ceremony",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ceremony/photo-02-small.webp",
+        "bytes": 54256,
+        "sha256": "c2976fb7ceda5ee68240f7469f49b09fcf4ace670679cc8ca4b8e71067f3931d",
+        "matchedSource": true
+      },
+      {
+        "slug": "launchpad",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/launchpad/photo-03.webp",
+        "bytes": 118004,
+        "sha256": "4766477d4d7f4efff7393acbd05d39d41fb8a2625c2642c1168990e67ae92eb4",
+        "matchedSource": true
+      },
+      {
+        "slug": "launchpad",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/launchpad/photo-02.webp",
+        "bytes": 113422,
+        "sha256": "7d9b658e7478137b36898a4289b96e57d9e5ebe849bedff4b1885cd282b10026",
+        "matchedSource": true
+      },
+      {
+        "slug": "launchpad",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/launchpad/photo-03-small.webp",
+        "bytes": 37846,
+        "sha256": "e6bca3f255b841be446c70d6e03c04cc99e95d9ed03706441dd0713b81599c61",
+        "matchedSource": true
+      },
+      {
+        "slug": "launchpad",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/launchpad/photo-01-small.webp",
+        "bytes": 34876,
+        "sha256": "f2dda26ab6eb90b7bd75a6dc2afaf0b6bd0786004c996f123efc77108b2ddc14",
+        "matchedSource": true
+      },
+      {
+        "slug": "launchpad",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/launchpad/photo-02-small.webp",
+        "bytes": 37316,
+        "sha256": "815b2928b4dc22d865273b0fd8b6ea50b9cf10e26343febca0fb7f68e5846c2b",
+        "matchedSource": true
+      },
+      {
+        "slug": "launchpad",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/launchpad/photo-01.webp",
+        "bytes": 115466,
+        "sha256": "5e2fc3d9ac6a358ce1e9cbd4fbf6992eacabf7e7bd1ebcc7013ead0084f5758a",
+        "matchedSource": true
+      },
+      {
+        "slug": "ledger",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ledger/photo-03.webp",
+        "bytes": 115766,
+        "sha256": "1afca3da67ac4e4443d2e7c4f1d28a355f5ee5a06bb24cf3e742638cf251b9d3",
+        "matchedSource": true
+      },
+      {
+        "slug": "ledger",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ledger/photo-01.webp",
+        "bytes": 62862,
+        "sha256": "1000ca99f7ec474b5f4ab4662fdd463fbe3aa4e7d2b5d950b55aef3ef49663f8",
+        "matchedSource": true
+      },
+      {
+        "slug": "ledger",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ledger/photo-01-small.webp",
+        "bytes": 20152,
+        "sha256": "50e7d0a3cbea05ba8b5c2d2145e4417cbb11b7bc7893c9607476d25b945a3ae6",
+        "matchedSource": true
+      },
+      {
+        "slug": "ledger",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ledger/photo-02-small.webp",
+        "bytes": 12358,
+        "sha256": "84d88b2856eca7c25d894748dd9db6d8561a189597fa74bf73835d3eb955c7b3",
+        "matchedSource": true
+      },
+      {
+        "slug": "ledger",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ledger/photo-03-small.webp",
+        "bytes": 31020,
+        "sha256": "45f90f2f0dfb65d455171632eab45f6347cea54a197c66ed2bb79e402d1ba63a",
+        "matchedSource": true
+      },
+      {
+        "slug": "ledger",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/ledger/photo-02.webp",
+        "bytes": 40092,
+        "sha256": "c9818d97e73984c79ba6f6bd16d36d38b0c2f13cebf705fcfad085f8c186a29f",
+        "matchedSource": true
+      },
+      {
+        "slug": "pace",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/pace/photo-02-small.webp",
+        "bytes": 39610,
+        "sha256": "7f720850a506bf4fc28cc5f3c7cb5206878ed87dfa4071d0a9f374f674cf699b",
+        "matchedSource": true
+      },
+      {
+        "slug": "pace",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/pace/photo-02.webp",
+        "bytes": 135240,
+        "sha256": "fefb9e8112f1540ae34b3ebd60e5968445ea1471ad4798a5040b71151cf8d7b2",
+        "matchedSource": true
+      },
+      {
+        "slug": "pace",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/pace/photo-03.webp",
+        "bytes": 230862,
+        "sha256": "4a9dfccbd6a18323175e65e1511df9f9369224d307cb3685737c5c06c347651f",
+        "matchedSource": true
+      },
+      {
+        "slug": "pace",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/pace/photo-03-small.webp",
+        "bytes": 61112,
+        "sha256": "d91de93f21d9456a044b3a150abae4df800ff1136c60b9ca0af81889f49489cc",
+        "matchedSource": true
+      },
+      {
+        "slug": "pace",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/pace/photo-01-small.webp",
+        "bytes": 57254,
+        "sha256": "ae08eae2dbce6bbc64288730488b878795b03758e65b2baf5bcc28a9953466db",
+        "matchedSource": true
+      },
+      {
+        "slug": "pace",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/pace/photo-01.webp",
+        "bytes": 198804,
+        "sha256": "a6af74ed47ea548edf91e189e56446b7fd84b982566714f5dba147be46ff6c2b",
+        "matchedSource": true
+      },
+      {
+        "slug": "playbook",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/playbook/photo-02.webp",
+        "bytes": 92248,
+        "sha256": "11a37047fad882f2d64f2f6322624993e6051a14eb1e8cd387a89d5c25b35ea8",
+        "matchedSource": true
+      },
+      {
+        "slug": "playbook",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/playbook/photo-03-small.webp",
+        "bytes": 43208,
+        "sha256": "3656782b550162ec6823be0dad470385328d3a5dd88cdd6ea5ecd7f6d5a5c0b1",
+        "matchedSource": true
+      },
+      {
+        "slug": "playbook",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/playbook/photo-03.webp",
+        "bytes": 131980,
+        "sha256": "037aa375f1c10e57f20b8006d295a09ac03af947c3f6356102a850a9291285e6",
+        "matchedSource": true
+      },
+      {
+        "slug": "playbook",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/playbook/photo-01.webp",
+        "bytes": 115166,
+        "sha256": "249f535daab0761c4996bddad2685dc6d7b98410e401f106b58ab2d37c477bc7",
+        "matchedSource": true
+      },
+      {
+        "slug": "playbook",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/playbook/photo-02-small.webp",
+        "bytes": 28058,
+        "sha256": "85ea78a5b75e5438381e01cd7729c245a5dd2a52415f28ef400c7dfe3c74b0ec",
+        "matchedSource": true
+      },
+      {
+        "slug": "playbook",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/playbook/photo-01-small.webp",
+        "bytes": 36570,
+        "sha256": "5222f7353b34624e70d134c0144adc8f016aa9f973d10adceec10976c454bf60",
+        "matchedSource": true
+      },
+      {
+        "slug": "saffron",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/saffron/photo-02.webp",
+        "bytes": 253430,
+        "sha256": "49dd96894d8c66e1b582c2ec0aa0306e6b6d9acb776e2651e08861a362bd16a7",
+        "matchedSource": true
+      },
+      {
+        "slug": "saffron",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/saffron/photo-01-small.webp",
+        "bytes": 67210,
+        "sha256": "3b96790b28eede4449c4c2d96caebf8f6dda1304ec182cbb58d3247c79a8bab4",
+        "matchedSource": true
+      },
+      {
+        "slug": "saffron",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/saffron/photo-02-small.webp",
+        "bytes": 64012,
+        "sha256": "d605b49fe46d912125f88c6ef61b43ab0baa31820759c0e25bbb3ddd64942c1f",
+        "matchedSource": true
+      },
+      {
+        "slug": "saffron",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/saffron/photo-03.webp",
+        "bytes": 148106,
+        "sha256": "321468e06d5ad569938cc9d2115599b4d6aac9f4cb59213ad4ddd7222082a6aa",
+        "matchedSource": true
+      },
+      {
+        "slug": "saffron",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/saffron/photo-03-small.webp",
+        "bytes": 30720,
+        "sha256": "560ca716760295d84cac3133a0d9651a57bd3c291712f6bd0ac9713252e35bf1",
+        "matchedSource": true
+      },
+      {
+        "slug": "saffron",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/saffron/photo-01.webp",
+        "bytes": 272598,
+        "sha256": "234e4952f91b3e455953cb1a66d01ee6bc5fdacdc94b10db721583c8beb644db",
+        "matchedSource": true
+      },
+      {
+        "slug": "screen",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/screen/photo-01.webp",
+        "bytes": 80082,
+        "sha256": "1927a59eb23366dc3d0ac493407b465a989bfa6dd3c1ca63db2c0094666a3f33",
+        "matchedSource": true
+      },
+      {
+        "slug": "screen",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/screen/photo-02-small.webp",
+        "bytes": 16760,
+        "sha256": "5aa3819b034b85643a95ce6d10343dd2ef7f43943abaf5be8b83bde6ac933f1d",
+        "matchedSource": true
+      },
+      {
+        "slug": "screen",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/screen/photo-03.webp",
+        "bytes": 181614,
+        "sha256": "e6b75f9969e2e0cb2cf9a732ecdb57b175b9f2caa6a5508d8b2ecf45382c3619",
+        "matchedSource": true
+      },
+      {
+        "slug": "screen",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/screen/photo-02.webp",
+        "bytes": 89930,
+        "sha256": "9cff5b8eaf695769a650bf1c27fe6d6b40ec3ce59bf502c0e6aa3b6b94f3ece3",
+        "matchedSource": true
+      },
+      {
+        "slug": "screen",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/screen/photo-01-small.webp",
+        "bytes": 28474,
+        "sha256": "fe5a0ded8be0cc6a582613027fdd2511796222ef6be0c40d16e5930ba92da5bb",
+        "matchedSource": true
+      },
+      {
+        "slug": "screen",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/screen/photo-03-small.webp",
+        "bytes": 30134,
+        "sha256": "bac593ec60d9d6cd01ba26bd124741555bad74d0802822dbf9a20aaa661c43d7",
+        "matchedSource": true
+      },
+      {
+        "slug": "shelf",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/shelf/photo-03-small.webp",
+        "bytes": 46802,
+        "sha256": "35df64ab634cc5bf97ac3c059aaf31d521b9715888a9cd5a94d8203d28261cea",
+        "matchedSource": true
+      },
+      {
+        "slug": "shelf",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/shelf/photo-01.webp",
+        "bytes": 339782,
+        "sha256": "9a463246465f928fd8ffd1e2217eafba9a21ed2a3e2f97eed10098e5aa7173b8",
+        "matchedSource": true
+      },
+      {
+        "slug": "shelf",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/shelf/photo-03.webp",
+        "bytes": 286168,
+        "sha256": "dd3ccd4af4846d2d18d5ec01615e29a3bfae88166fadb811e522551585901dbc",
+        "matchedSource": true
+      },
+      {
+        "slug": "shelf",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/shelf/photo-01-small.webp",
+        "bytes": 70578,
+        "sha256": "2e8310189daf36ce8e35e4e80d2a6f6a3a65eb90eab9e96ea7a664bf9c77ae8d",
+        "matchedSource": true
+      },
+      {
+        "slug": "shelf",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/shelf/photo-02-small.webp",
+        "bytes": 45986,
+        "sha256": "388902dabcb0c72647530add7e279c7b9a54ef629357fbf866c96448aef6cd0a",
+        "matchedSource": true
+      },
+      {
+        "slug": "shelf",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/shelf/photo-02.webp",
+        "bytes": 248240,
+        "sha256": "0b1b4c1fb39f0393c76aa30fd86a1acaa1301c8bad90764fcd4a438daf6aa903",
+        "matchedSource": true
+      },
+      {
+        "slug": "soundboard",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/soundboard/photo-03.webp",
+        "bytes": 116402,
+        "sha256": "99e679f110a93809b2f8759389f200ccf10a2e8d2a92f2d39949377c4524d9d7",
+        "matchedSource": true
+      },
+      {
+        "slug": "soundboard",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/soundboard/photo-02.webp",
+        "bytes": 98646,
+        "sha256": "cf11aad36a2a6426dc4a74e5067087fbbb8576a2aa46df4928d3272d53e8f919",
+        "matchedSource": true
+      },
+      {
+        "slug": "soundboard",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/soundboard/photo-01.webp",
+        "bytes": 135992,
+        "sha256": "92c93367811bd2c117a22633bcf9492d7ea7ea20eb1d0fbddac7c93e0b64e2c2",
+        "matchedSource": true
+      },
+      {
+        "slug": "soundboard",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/soundboard/photo-02-small.webp",
+        "bytes": 26622,
+        "sha256": "6f88261706b97598b411416f5db0f435b4bc7bdf74711dc1ae52764202efab3f",
+        "matchedSource": true
+      },
+      {
+        "slug": "soundboard",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/soundboard/photo-01-small.webp",
+        "bytes": 38782,
+        "sha256": "f66a942e1cb9e8338e3192383863866c5bf94d16920332d608930d15fc80eede",
+        "matchedSource": true
+      },
+      {
+        "slug": "soundboard",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/soundboard/photo-03-small.webp",
+        "bytes": 22148,
+        "sha256": "7c952d5a000e53a057f6ea07200fb7018f9dc8040246a98e9499a0f9f4d63152",
+        "matchedSource": true
+      },
+      {
+        "slug": "studio",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/studio/photo-01.webp",
+        "bytes": 202644,
+        "sha256": "8c5fa48850eec4d04fa2746504b7742828f1994414ebfd9d938b0674463e07b6",
+        "matchedSource": true
+      },
+      {
+        "slug": "studio",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/studio/photo-02-small.webp",
+        "bytes": 21686,
+        "sha256": "15be07336141bc53316c7260187ecb8897d151e4ef6c1efdcc14f4e942b818c5",
+        "matchedSource": true
+      },
+      {
+        "slug": "studio",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/studio/photo-02.webp",
+        "bytes": 62368,
+        "sha256": "3eb417fc476e35d50e0ec5dcfedd4c59aac1937f5ea5116ca873409088a06775",
+        "matchedSource": true
+      },
+      {
+        "slug": "studio",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/studio/photo-03-small.webp",
+        "bytes": 57440,
+        "sha256": "e2e9759267590027f4a6cec3e8bd1d09a49c5d4d5c068c283b62bb4b6bc68bc0",
+        "matchedSource": true
+      },
+      {
+        "slug": "studio",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/studio/photo-03.webp",
+        "bytes": 253146,
+        "sha256": "2b4ecc5d42ff6cff98ffb9277bd43a10232d6b312d00c6e13ada92e6883a05c8",
+        "matchedSource": true
+      },
+      {
+        "slug": "studio",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/studio/photo-01-small.webp",
+        "bytes": 48230,
+        "sha256": "59513933c2eef52b7c71ac23aebc0bdc4e09fedd4f43a9e7d9f14b947b997e74",
+        "matchedSource": true
+      },
+      {
+        "slug": "verdant",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/verdant/photo-03.webp",
+        "bytes": 147186,
+        "sha256": "871b5d4f58fbd5cb297529dbfc053845c1706ee4c4729a5693b0922621088c1c",
+        "matchedSource": true
+      },
+      {
+        "slug": "verdant",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/verdant/photo-02.webp",
+        "bytes": 154554,
+        "sha256": "663d4db039de34e96581583bf5b43b937759ac0bd40aecf012fb36c6d3c94c89",
+        "matchedSource": true
+      },
+      {
+        "slug": "verdant",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/verdant/photo-01.webp",
+        "bytes": 234890,
+        "sha256": "6ecae1057ed2e4c84c951baccb375c2b0dfa1a1e4a80a79df3f8f23a42f2754c",
+        "matchedSource": true
+      },
+      {
+        "slug": "verdant",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/verdant/photo-01-small.webp",
+        "bytes": 60938,
+        "sha256": "9acc45fa861c91afb79fe14bc1aa8f1bc7af8f9ad89f047f94a14838fbd22363",
+        "matchedSource": true
+      },
+      {
+        "slug": "verdant",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/verdant/photo-03-small.webp",
+        "bytes": 44726,
+        "sha256": "9435e2af9f5fdce338c790b0213e583d31bd697ca81641967c5cd66febca3823",
+        "matchedSource": true
+      },
+      {
+        "slug": "verdant",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/verdant/photo-02-small.webp",
+        "bytes": 50954,
+        "sha256": "c296db1330c9f107591c14736f3930d16f522e478bf1d7ad5fb44958537b24a2",
+        "matchedSource": true
+      },
+      {
+        "slug": "wayfarer",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/wayfarer/photo-01.webp",
+        "bytes": 465410,
+        "sha256": "0b3439a84228d3c8fd8f0b94f95c85216197542666cc7aca346dd4327602a42d",
+        "matchedSource": true
+      },
+      {
+        "slug": "wayfarer",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/wayfarer/photo-02.webp",
+        "bytes": 292982,
+        "sha256": "7afbfc4a7a19f7b29db9fa68ac4821ca5abb4a3222a00504291316198bade8b8",
+        "matchedSource": true
+      },
+      {
+        "slug": "wayfarer",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/wayfarer/photo-01-small.webp",
+        "bytes": 89412,
+        "sha256": "d5f409375211db2c4096252c597a6ca35e2a4a47195d2d25184c47a0768e8d21",
+        "matchedSource": true
+      },
+      {
+        "slug": "wayfarer",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/wayfarer/photo-02-small.webp",
+        "bytes": 57312,
+        "sha256": "dbf65d5027a928770379a76cda771725b1679717070412125770ecd257030f53",
+        "matchedSource": true
+      },
+      {
+        "slug": "wayfarer",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/wayfarer/photo-03.webp",
+        "bytes": 325018,
+        "sha256": "bd3ddadff0504440fa45e833240bf4196480fcde33016c1a00649ec2ac6c1fd0",
+        "matchedSource": true
+      },
+      {
+        "slug": "wayfarer",
+        "url": "https://raw.githubusercontent.com/puikinsh/Colorlib-Blogger-Templates/e3e83b8b0ca5440a9e957b191ca6c6ab08056861/assets/wayfarer/photo-03-small.webp",
+        "bytes": 66134,
+        "sha256": "45d66095bb2b6f5ca0e22857cd888d342d02cadeb8841421c9a74c19309e019f",
+        "matchedSource": true
+      }
+    ]
+  },
+  "localMobileCases": [
+    {
+      "slug": "borough",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/borough/index.html",
+      "width": 375
+    },
+    {
+      "slug": "borough",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/borough/article.html",
+      "width": 375
+    },
+    {
+      "slug": "cause",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/cause/index.html",
+      "width": 375
+    },
+    {
+      "slug": "cause",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/cause/article.html",
+      "width": 375
+    },
+    {
+      "slug": "ceremony",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/ceremony/index.html",
+      "width": 375
+    },
+    {
+      "slug": "ceremony",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/ceremony/article.html",
+      "width": 375
+    },
+    {
+      "slug": "launchpad",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/launchpad/index.html",
+      "width": 375
+    },
+    {
+      "slug": "launchpad",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/launchpad/article.html",
+      "width": 375
+    },
+    {
+      "slug": "ledger",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/ledger/index.html",
+      "width": 375
+    },
+    {
+      "slug": "ledger",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/ledger/article.html",
+      "width": 375
+    },
+    {
+      "slug": "pace",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/pace/index.html",
+      "width": 375
+    },
+    {
+      "slug": "pace",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/pace/article.html",
+      "width": 375
+    },
+    {
+      "slug": "playbook",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/playbook/index.html",
+      "width": 375
+    },
+    {
+      "slug": "playbook",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/playbook/article.html",
+      "width": 375
+    },
+    {
+      "slug": "saffron",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/saffron/index.html",
+      "width": 375
+    },
+    {
+      "slug": "saffron",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/saffron/article.html",
+      "width": 375
+    },
+    {
+      "slug": "screen",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/screen/index.html",
+      "width": 375
+    },
+    {
+      "slug": "screen",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/screen/article.html",
+      "width": 375
+    },
+    {
+      "slug": "shelf",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/shelf/index.html",
+      "width": 375
+    },
+    {
+      "slug": "shelf",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/shelf/article.html",
+      "width": 375
+    },
+    {
+      "slug": "soundboard",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/soundboard/index.html",
+      "width": 375
+    },
+    {
+      "slug": "soundboard",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/soundboard/article.html",
+      "width": 375
+    },
+    {
+      "slug": "studio",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/studio/index.html",
+      "width": 375
+    },
+    {
+      "slug": "studio",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/studio/article.html",
+      "width": 375
+    },
+    {
+      "slug": "verdant",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/verdant/index.html",
+      "width": 375
+    },
+    {
+      "slug": "verdant",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/verdant/article.html",
+      "width": 375
+    },
+    {
+      "slug": "wayfarer",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/wayfarer/index.html",
+      "width": 375
+    },
+    {
+      "slug": "wayfarer",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/wayfarer/article.html",
+      "width": 375
+    },
+    {
+      "slug": "borough",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/borough/index.html",
+      "width": 320
+    },
+    {
+      "slug": "borough",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/borough/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/borough/article.html",
+      "width": 320
+    },
+    {
+      "slug": "cause",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/cause/index.html",
+      "width": 320
+    },
+    {
+      "slug": "cause",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/cause/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/cause/article.html",
+      "width": 320
+    },
+    {
+      "slug": "ceremony",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/ceremony/index.html",
+      "width": 320
+    },
+    {
+      "slug": "ceremony",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ceremony/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/ceremony/article.html",
+      "width": 320
+    },
+    {
+      "slug": "launchpad",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/launchpad/index.html",
+      "width": 320
+    },
+    {
+      "slug": "launchpad",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/launchpad/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/launchpad/article.html",
+      "width": 320
+    },
+    {
+      "slug": "ledger",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/ledger/index.html",
+      "width": 320
+    },
+    {
+      "slug": "ledger",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/ledger/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/ledger/article.html",
+      "width": 320
+    },
+    {
+      "slug": "pace",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/pace/index.html",
+      "width": 320
+    },
+    {
+      "slug": "pace",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/pace/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/pace/article.html",
+      "width": 320
+    },
+    {
+      "slug": "playbook",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/playbook/index.html",
+      "width": 320
+    },
+    {
+      "slug": "playbook",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/playbook/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/playbook/article.html",
+      "width": 320
+    },
+    {
+      "slug": "saffron",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/saffron/index.html",
+      "width": 320
+    },
+    {
+      "slug": "saffron",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/saffron/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/saffron/article.html",
+      "width": 320
+    },
+    {
+      "slug": "screen",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/screen/index.html",
+      "width": 320
+    },
+    {
+      "slug": "screen",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/screen/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/screen/article.html",
+      "width": 320
+    },
+    {
+      "slug": "shelf",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/shelf/index.html",
+      "width": 320
+    },
+    {
+      "slug": "shelf",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/shelf/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/shelf/article.html",
+      "width": 320
+    },
+    {
+      "slug": "soundboard",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/soundboard/index.html",
+      "width": 320
+    },
+    {
+      "slug": "soundboard",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/soundboard/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/soundboard/article.html",
+      "width": 320
+    },
+    {
+      "slug": "studio",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/studio/index.html",
+      "width": 320
+    },
+    {
+      "slug": "studio",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/studio/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/studio/article.html",
+      "width": 320
+    },
+    {
+      "slug": "verdant",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/verdant/index.html",
+      "width": 320
+    },
+    {
+      "slug": "verdant",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/verdant/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/verdant/article.html",
+      "width": 320
+    },
+    {
+      "slug": "wayfarer",
+      "page": "index.html",
+      "overflow": false,
+      "pairCount": 0,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/wayfarer/index.html",
+      "width": 320
+    },
+    {
+      "slug": "wayfarer",
+      "page": "article.html",
+      "overflow": false,
+      "pairCount": 1,
+      "photos": [
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-01-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-02-small.webp"
+        },
+        {
+          "loaded": true,
+          "src": "http://127.0.0.1:8765/wayfarer/assets/photo-03-small.webp"
+        }
+      ],
+      "url": "http://127.0.0.1:8765/wayfarer/article.html",
+      "width": 320
+    }
+  ],
+  "scope": "Local home/sample-article layouts and release-pinned photo bytes only. No new native import or native per-theme acceptance claimed. Existing native observations remain in photo-imports-2026-11-09.json.",
+  "remainingUpdatedImports": 14,
+  "themeDefectsReproduced": []
+}

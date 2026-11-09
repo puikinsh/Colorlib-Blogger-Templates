@@ -8,6 +8,14 @@ Blogger accepted Lesson, Bench, Maker, Muse, Kinship and Companion: **72 photo-r
 
 Shelf then returned **“Seems like you tried to import too many times. Please try again later.”** We stopped the queue. Fourteen updated exports remain unverified, including the updated Saffron/Wayfarer exports; their earlier imports do not establish acceptance of the new photo content. Do not create extra blogs or remove established fixtures to circumvent the limit.
 
+## Follow-up retry at 11:32 UTC
+
+The owner requested another pass on November 9. We retried the exact released Shelf export in a separate signed-in import tab. Blogger again returned **“Seems like you tried to import too many times. Please try again later.”** Public feed snapshots before/after remained at **101 total posts / 72 photo-rich posts**. No new posts were accepted. We stopped after that refusal; the other thirteen pending exports were not submitted again. The fourteen-export native acceptance gap remains open. No new blog, account, timestamp changes or fixture deletion was used to evade the limit.
+
+As a fallback, all **84 unique release-pinned photo URLs** referenced by those fourteen exports (168 stories, six variants per theme) were downloaded and matched source bytes. Fresh local home/sample-article checks passed for all fourteen at **320px and 375px: 56 cases**, all rendered images decoded and no horizontal overflow. Text-feed designs intentionally hide some thumbnails. These are local rendering and public-asset checks, not native Blogger import acceptance. No image/mobile defect was reproduced, and frozen preview.5 packages remain unchanged. [Retry evidence, exact asset URLs and viewport results](evidence/photo-import-retry-2026-11-09.json).
+
+The matrix below still applies: Shelf was retried and refused again; the other thirteen updated exports remain pending. Existing actual screenshot cards stay available in both Labs. Source/XML/schema validation and all 61 regressions passed again (zero failures or skips).
+
 | Template | Updated export | Native 375px layout fixture |
 | --- | --- | --- |
 | Saffron | Updated export pending; older export accepted historically | Shared photo-rich fixture |

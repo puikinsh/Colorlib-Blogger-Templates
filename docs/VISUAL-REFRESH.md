@@ -6,6 +6,8 @@ Six updated exports passed (72 posts); Blogger then limited Shelf and the queue 
 
 Updated November 9, 2026. The new development previews add sixty curated photographs, two responsive sizes per photograph, twenty niche-specific visual notebooks and photo-pair sections in all 240 demo articles. Original SVG covers remain in each package.
 
+A subsequent 11:32 UTC Shelf retry was refused by the same import limit; counts stayed at 101 total / 72 photo-rich posts. All 84 remaining release-pinned photo variants matched source bytes; 56 fresh local home/sample-article cases passed at 320px/375px. These checks do not close the fourteen native import acceptances. [Retry evidence](evidence/photo-import-retry-2026-11-09.json).
+
 ## What changed
 
 Lead stories and cards now use real editorial photography. Food notebooks, travel panoramas, fashion/portfolio lookbooks, workspace studies, magazine layouts and community journals use different compositions and niche-specific copy. A separate **Layout → Homepage visual notebook** HTML gadget lets owners edit or remove the native homepage gallery. The post list, featured story and native pagination retain their existing behavior.
