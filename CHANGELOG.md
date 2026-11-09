@@ -6,6 +6,8 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Attempted all eight remaining comment-publishing rows, completed five additional pairs and recovered Bench’s older-post root/reply without permission changes. Recorded thirteen persisted submissions, retained failed Ledger/Screen roots and Launchpad replies, and updated public status to seventeen positive paired observations. Frozen packages remain unchanged.
+
 - Recorded 60 fresh native accessibility views and nineteen persisted comment/reply checks. Completed Lesson’s reply and nine paired theme publishing checks (including Verdant’s spaced recovery), retained Pace/legacy Bench failures and eight unverified rows, and refreshed VoiceOver/performance blockers with a current source inventory. Frozen packages remain unchanged.
 
 - Retried Shelf’s preview.5 import; Blogger repeated its import-frequency refusal and accepted no new posts. Recorded 84 verified public photo variants and 56 fresh local narrow-layout cases for the fourteen pending exports; retained their native acceptance gap and all stable-release blockers.

@@ -1,5 +1,9 @@
 # Blogger import and publishing retry
 
+## Latest remaining-eight follow-up — November 9, 12:22 UTC
+
+All eight remaining themes received actual publishing attempts. Five completed root/reply pairs, and Bench’s older-post pair recovered with Reader comments already set to Allow. Seventeen themes now have positive paired observations across sessions; Ledger/Screen roots and Launchpad’s reply remain blocked. Thirteen new comments/replies persisted. [Current matrix, Bench investigation and retained failures](COMMENTS-REMAINING-EIGHT.md). Results below retain their earlier scope and counts; other release gates remain open.
+
 ## Latest November 9 follow-up
 
 All twenty themes passed 60 fresh native keyboard/DOM views. Twelve now have positive root/reply observations across sessions. Verdant’s reply passed a spaced retry; Pace’s subsequent root and Bench’s legacy-article root failed. Eight publication/reply rows remain unverified. Native Safari works; actual VoiceOver output remains unverified after its app connection timed out. Measured live performance is still unavailable. [Current matrix, evidence and release blockers](ACCESSIBILITY-COMMENTS-FOLLOWUP.md). The report below is historical.

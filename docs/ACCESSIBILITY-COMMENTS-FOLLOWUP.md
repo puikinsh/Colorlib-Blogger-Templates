@@ -1,5 +1,9 @@
 # Accessibility, comments and performance follow-up
 
+## Latest remaining-eight follow-up — November 9, 12:22 UTC
+
+All eight remaining themes received actual publishing attempts. Five completed root/reply pairs, and Bench’s older-post pair recovered with Reader comments already set to Allow. Seventeen themes now have positive paired observations across sessions; Ledger/Screen roots and Launchpad’s reply remain blocked. Thirteen new comments/replies persisted. [Current matrix, Bench investigation and retained failures](COMMENTS-REMAINING-EIGHT.md). Results below retain their earlier scope and counts; other release gates remain open.
+
 November 9, 2026 · Frozen preview.5 XMLs · [Public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/)
 
 ## Current matrix

@@ -1,0 +1,431 @@
+{
+  "date": "2026-11-09",
+  "completedAt": "2026-11-09T12:22:38Z",
+  "release": "v0.1.0-preview.5",
+  "releaseSourceCommit": "e3e83b8b0ca5440a9e957b191ca6c6ab08056861",
+  "initialAttempts": [
+    {
+      "slug": "pace",
+      "root": {
+        "id": "c337357803918490064",
+        "persisted": true,
+        "thread": "top-ra"
+      },
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html",
+      "reply": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t\t\t300 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t\t\t305 text Failed to publish comment. Please try again later."
+        ]
+      }
+    },
+    {
+      "slug": "ledger",
+      "root": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t293 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t298 text Failed to publish comment. Please try again later."
+        ]
+      },
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html"
+    },
+    {
+      "slug": "screen",
+      "root": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t294 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t299 text Failed to publish comment. Please try again later."
+        ]
+      },
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html"
+    },
+    {
+      "slug": "borough",
+      "root": {
+        "id": "c6740341152563057667",
+        "persisted": true,
+        "thread": "top-ra"
+      },
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html",
+      "reply": {
+        "id": "c77956992554627113",
+        "persisted": true,
+        "thread": "c6740341152563057667-ra"
+      }
+    },
+    {
+      "slug": "studio",
+      "root": {
+        "id": "c3077413457479789170",
+        "persisted": true,
+        "thread": "top-ra"
+      },
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html",
+      "reply": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t\t\t324 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t\t\t329 text Failed to publish comment. Please try again later."
+        ]
+      }
+    },
+    {
+      "slug": "launchpad",
+      "root": {
+        "id": "c8718585881724820323",
+        "persisted": true,
+        "thread": "top-ra"
+      },
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html",
+      "reply": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t\t\t331 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t\t\t336 text Failed to publish comment. Please try again later."
+        ]
+      }
+    },
+    {
+      "slug": "ceremony",
+      "root": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t325 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t330 text Failed to publish comment. Please try again later."
+        ]
+      },
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html"
+    },
+    {
+      "slug": "cause",
+      "root": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t324 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t329 text Failed to publish comment. Please try again later."
+        ]
+      },
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html"
+    }
+  ],
+  "boundedRetries": [
+    {
+      "slug": "pace",
+      "root": {
+        "id": "c337357803918490064",
+        "persisted": true,
+        "thread": "top-ra"
+      },
+      "reply": {
+        "id": "c7249550168782462451",
+        "persisted": true,
+        "thread": "c337357803918490064-ra"
+      }
+    },
+    {
+      "slug": "studio",
+      "root": {
+        "id": "c3077413457479789170",
+        "persisted": true,
+        "thread": "top-ra"
+      },
+      "reply": {
+        "id": "c7683523177130138092",
+        "persisted": true,
+        "thread": "c3077413457479789170-ra"
+      }
+    },
+    {
+      "slug": "launchpad",
+      "root": {
+        "id": "c8718585881724820323",
+        "persisted": true,
+        "thread": "top-ra"
+      },
+      "reply": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t\t\t351 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t\t\t356 text Failed to publish comment. Please try again later."
+        ]
+      }
+    },
+    {
+      "slug": "ledger",
+      "root": {
+        "persisted": false,
+        "error": [
+          "\t\t\t\t\t\t\t\t344 text This site is protected by reCAPTCHA and the Google ",
+          "\t\t\t\t\t\t\t349 text Failed to publish comment. Please try again later."
+        ]
+      }
+    },
+    {
+      "slug": "screen",
+      "root": {
+        "persisted": false,
+        "error": "Composer value changed before submission",
+        "submitted": false
+      }
+    },
+    {
+      "slug": "ceremony",
+      "root": {
+        "persisted": false,
+        "error": "Composer value changed before submission",
+        "submitted": false
+      }
+    },
+    {
+      "slug": "cause",
+      "root": {
+        "persisted": false,
+        "error": "Composer value changed before submission",
+        "submitted": false
+      }
+    },
+    {
+      "slug": "screen",
+      "attempt": "staged retry",
+      "root": {
+        "persisted": false,
+        "submitted": true,
+        "error": [
+          "\t\t\t\t\t\t\t349 text Failed to publish comment. Please try again later."
+        ]
+      }
+    },
+    {
+      "slug": "ceremony",
+      "attempt": "staged retry",
+      "root": {
+        "id": "c7378001654494333343",
+        "persisted": true,
+        "submitted": true,
+        "thread": "top-ra"
+      }
+    },
+    {
+      "slug": "ceremony",
+      "attempt": "staged reply",
+      "reply": {
+        "id": "c4967808623304184556",
+        "persisted": true,
+        "submitted": true,
+        "thread": "c7378001654494333343-ra"
+      }
+    },
+    {
+      "slug": "cause",
+      "attempt": "staged retry",
+      "root": {
+        "id": "c8183997637222125244",
+        "persisted": true,
+        "submitted": true,
+        "thread": "top-ra"
+      }
+    },
+    {
+      "slug": "cause",
+      "attempt": "staged reply",
+      "reply": {
+        "id": "c3095459222530580129",
+        "persisted": true,
+        "submitted": true,
+        "thread": "c8183997637222125244-ra"
+      }
+    }
+  ],
+  "benchOlderPost": {
+    "baseline": {
+      "body": "theme-bench",
+      "comments": 8,
+      "frameTitle": "Post a comment",
+      "heading": "8 comments:",
+      "postId": "5735021076936497200",
+      "replyCount": 4
+    },
+    "permissions": {
+      "readerComments": "Allow",
+      "postId": "5735021076936497200",
+      "editorUpdateDisabled": true,
+      "settingsChanged": false
+    },
+    "newRoot": {
+      "id": "c560253027949667997",
+      "persisted": true,
+      "thread": "top-ra"
+    },
+    "newReply": {
+      "comments": 10,
+      "id": "c5357426237051736954",
+      "persisted": true,
+      "thread": "c560253027949667997-ra"
+    },
+    "settingsChanged": false
+  },
+  "photoFixtureAfter": {
+    "comments": [
+      {
+        "id": "c4286656660805024900",
+        "text": "[Maker] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c7592739660759927323",
+        "text": "[Maker] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c4286656660805024900-ra"
+      },
+      {
+        "id": "c6089338000058490409",
+        "text": "[Bench] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c6036955218447568451",
+        "text": "[Bench] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c6089338000058490409-ra"
+      },
+      {
+        "id": "c3439408129905731884",
+        "text": "[Muse] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c3470036236598432806",
+        "text": "[Muse] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c3439408129905731884-ra"
+      },
+      {
+        "id": "c7905707925728400341",
+        "text": "[Kinship] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c5041691300319161218",
+        "text": "[Kinship] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c7905707925728400341-ra"
+      },
+      {
+        "id": "c2019682185963824763",
+        "text": "[Companion] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c486981325685004050",
+        "text": "[Companion] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c2019682185963824763-ra"
+      },
+      {
+        "id": "c1127284674602237645",
+        "text": "[Shelf] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c405056101855946837",
+        "text": "[Shelf] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c1127284674602237645-ra"
+      },
+      {
+        "id": "c2186614075935419932",
+        "text": "[Playbook] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c8368022122841868798",
+        "text": "[Playbook] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c2186614075935419932-ra"
+      },
+      {
+        "id": "c2656311812495544620",
+        "text": "[Soundboard] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c5203277796923715760",
+        "text": "[Soundboard] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c2656311812495544620-ra"
+      },
+      {
+        "id": "c3205165718297020009",
+        "text": "[Verdant] Release QA: top-level publication on a photo-rich fixture, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c2385865062375179131",
+        "text": "[Verdant] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "thread": "c3205165718297020009-ra"
+      },
+      {
+        "id": "c337357803918490064",
+        "text": "[Pace] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c7249550168782462451",
+        "text": "[Pace] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+        "thread": "c337357803918490064-ra"
+      },
+      {
+        "id": "c6740341152563057667",
+        "text": "[Borough] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c77956992554627113",
+        "text": "[Borough] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+        "thread": "c6740341152563057667-ra"
+      },
+      {
+        "id": "c3077413457479789170",
+        "text": "[Studio] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c7683523177130138092",
+        "text": "[Studio] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+        "thread": "c3077413457479789170-ra"
+      },
+      {
+        "id": "c8718585881724820323",
+        "text": "[Launchpad] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c7378001654494333343",
+        "text": "[Ceremony] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c4967808623304184556",
+        "text": "[Ceremony] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+        "thread": "c7378001654494333343-ra"
+      },
+      {
+        "id": "c8183997637222125244",
+        "text": "[Cause] Release QA remaining-eight pass: top-level comment, 2026-11-09.",
+        "thread": "top-ra"
+      },
+      {
+        "id": "c3095459222530580129",
+        "text": "[Cause] Release QA remaining-eight pass: threaded reply, 2026-11-09.",
+        "thread": "c8183997637222125244-ra"
+      }
+    ],
+    "count": 29
+  },
+  "photoFixtureBefore": 18,
+  "legacyFixtureBefore": 8,
+  "legacyFixtureAfter": 10,
+  "newPersistedComments": 13,
+  "pairedThemeObservationsAcrossSessions": 17,
+  "remainingPublicationChecks": {
+    "ledger": "root failed twice; reply not reached",
+    "screen": "root failed initially and in staged retry; reply not reached",
+    "launchpad": "root persisted; reply failed twice"
+  },
+  "conclusion": "No lasting post-permission or template defect reproduced. Initial failures and successful retries retained; generic Blogger errors do not establish quota, permission or theme cause. No CAPTCHA challenge appeared. No provider RPC URL or token stored."
+}
