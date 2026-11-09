@@ -6,6 +6,8 @@ Changes follow Keep a Changelog. Development previews have not been released as 
 
 ### Changed
 
+- Published preview.5 with the photo-rich demonstrations and retained testing disclosures; twenty immutable packages include responsive photographs, credits and current validation reports. Earlier releases remain unchanged.
+
 - Added sixty credited photographs with responsive WebP variants, twenty distinct visual notebooks, richer photo-pair articles and an editable Blogger homepage gallery gadget. Preserved native navigation, original vector assets and all remaining acceptance gates.
 
 - Added native Safari 27.2 provider checks for all twenty templates, retained initial pauses and successful focused retries, and updated the hub disclosure to distinguish supported-browser progress from unresolved reliability. No shared-player behavior or published release asset changed.

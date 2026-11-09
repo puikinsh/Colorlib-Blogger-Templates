@@ -52,7 +52,7 @@ Latest platform retry: Saffron/Wayfarer added all 24 demo posts; Blogger then li
 
 ## Release staging
 
-After committing a validated source revision, choose a new unpublished version, for example `python3 tools/stage_release.py --version 0.1.0-preview.5`. Never reuse a published version for changed source. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.
+After committing a validated source revision, choose a new unpublished version, for example `python3 tools/stage_release.py --version 0.1.0-preview.6`. Never reuse a published version for changed source. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.
 
 ## Release gates
 
@@ -70,4 +70,4 @@ Latest provider investigation (November 8): all twenty templates passed forty na
 
 Supported-browser follow-up: all twenty templates showed YouTube and Vimeo advancement in Safari 27.2 after recorded retries. Initial interruptions and a later standalone Vimeo pause keep reliability acceptance open. [Review the Safari matrix and remaining blockers](docs/PROVIDER-SAFARI.md). Preview.4 downloads remain frozen.
 
-Visual refresh in development: richer image-led previews, sixty credited photos and editable homepage galleries are described in [the visual refresh report](docs/VISUAL-REFRESH.md). Published preview.4 packages remain unchanged while the next preview is validated.
+The richer visual demos are now available in [v0.1.0-preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5): sixty credited photographs, responsive galleries and editable homepage notebooks across all twenty themes. See [the visual refresh report](docs/VISUAL-REFRESH.md). Earlier preview.4 assets remain unchanged; all remaining release gates still apply.

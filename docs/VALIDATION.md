@@ -93,3 +93,5 @@ All twenty templates now have positive native Safari 27.2 YouTube/Vimeo observat
 ## November 9 visual refresh
 
 Added sixty credited photographs, responsive image variants, twenty visual compositions and photo notebooks in 240 demo articles. Forty actual-image homepage checks at 1280px/375px and twenty article checks at 375px passed without overflow. All twenty complete XMLs then passed native 375px gallery rendering, theme/widget identity and sixty decoded photo checks; native Older Posts URLs remained intact. All 60 automated regressions passed. Updated demo exports were not re-imported; provider reliability, service, speech, performance, device and editorial gates remain. See [the visual report and evidence](VISUAL-REFRESH.md).
+
+Published preview.5 with twenty photo-rich packages, manifest, release notes and SHA256SUMS. All published package downloads matched the staged bytes; XML normalization matched the native-tested candidates. The live Blogger hub was restored with twenty preview.5 destinations and photographic cards, retaining the unresolved gates.

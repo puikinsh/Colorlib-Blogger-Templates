@@ -2,9 +2,9 @@
 
 Updated November 8, 2026. These packages are prepared for development testing, not production acceptance. They are not replacements for the nine separately maintained Colorlib Blogger releases.
 
-## Preview.5 visual refresh
+## Published preview.5 visual refresh
 
-Preview.5 includes sixty credited photographs, responsive WebP variants, twenty distinct visual notebooks, richer article galleries and a Layout-editable homepage gallery gadget. All twenty new gallery widgets and their sixty photos were checked natively at 375px; forty local homepage and twenty article image-rendering cases passed, along with all 60 automated tests. See [visual refresh](VISUAL-REFRESH.md).
+[Preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5) is published as a development prerelease from `e3e83b8b0ca5440a9e957b191ca6c6ab08056861`. It includes sixty credited photographs, responsive WebP variants, twenty distinct visual notebooks, richer article galleries and a Layout-editable homepage gallery gadget. All twenty new gallery widgets and their sixty photos were checked natively at 375px; forty local homepage and twenty article image-rendering cases passed, along with all 60 automated tests. See [visual refresh](VISUAL-REFRESH.md).
 
 The updated photo-rich demo exports have not been re-imported. Older import/playback evidence remains historical, and all speech, measured-performance, media reliability, service-limit, physical-device and editorial gates below remain open. Previous preview.4 packages remain unchanged.
 
@@ -22,7 +22,7 @@ Preview.4 includes the audio-error feedback and minimum player-height fixes, nat
 
 ## Blocked or outstanding acceptance
 
-- **Screen-reader speech:** VoiceOver Utility is available, but native Chrome/Safari connections timed out. Accessibility-tree/keyboard checks are completed; actual VoiceOver speech/rotor verification is blocked for every theme.
+- **Screen-reader speech:** Accessibility-tree/keyboard checks are completed. Native Safari control became available for the provider follow-up, but actual VoiceOver speech/rotor verification has not been completed for any theme.
 - **Comment publishing:** Lesson’s reply failed again during the retry; a new-comment attempt under Bench returned the same Blogger failure. Complete Lesson’s reply and publication/reply checks for the other seventeen themes. The cause remains unknown; no CAPTCHA challenge appeared.
 - **Complete demo imports:** the retry accepted all twelve Saffron posts and all twelve Wayfarer posts into the shared lab; titles, labels, timestamps, feature blocks and pinned artwork URLs were verified. Lesson then hit Blogger’s import attempt limit twice. The remaining eighteen exports are unverified. See the [retry matrix](BLOGGER-RETRY.md).
 - **Live performance:** DevTools was unavailable; the owner chose to document the gap. No measured live Core Web Vitals or Lighthouse score is claimed.
@@ -34,7 +34,7 @@ Blogger's native timestamp cursor can skip a post when identical publication tim
 
 The [published-package retry](BLOGGER-RETRY.md) records 24 accepted demo posts, the repeated import limit, the Lesson/Bench publish failures and current comment-form checks across all twenty released templates. These partial results do not close the stable-release gates above.
 
-## Published preview
+## Earlier published preview.4
 
 [v0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4) is published as a development prerelease. Its twenty ZIPs, release notes, manifest and checksums are frozen from commit `e3af8d5c6745c624d452d347e98447e921e7c0e1`. They include audio failure feedback, the minimum mobile player height, media/editorial fixes, offline documentation and native test evidence. The live Blogger hub and static catalog point to these exact packages. All twenty rendered Blogger download links and the checksum link were verified November 8, 2026. The incomplete checks remain visible before the cards; publication does not close them.
 
@@ -42,7 +42,7 @@ Preview.2 and preview.3 remain available unchanged. Embedded package status file
 
 ## Package integrity and publication
 
-The normal gallery ZIPs are mutable development previews. `tools/stage_release.py --version 0.1.0-preview.5` stages a separate set from a clean source commit, pins demo artwork URLs to that commit and writes SHA256SUMS, a manifest and release notes. Each ZIP includes this status file. Verify with `shasum -a 256 -c SHA256SUMS` (or `sha256sum -c SHA256SUMS` on Linux).
+The normal gallery ZIPs are mutable development previews. `tools/stage_release.py --version 0.1.0-preview.6` stages a separate set from a clean source commit, pins demo artwork URLs to that commit and writes SHA256SUMS, a manifest and release notes. Each ZIP includes this status file. Verify with `shasum -a 256 -c SHA256SUMS` (or `sha256sum -c SHA256SUMS` on Linux).
 
 A published preview is not a production release. Do not mark it production-ready or replace Colorlib production downloads until the outstanding acceptance checks pass. Current reports: [platform validation](https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/codex/collection-preview/docs/PLATFORM-VALIDATION.md) and [comment/screen-reader checks](https://github.com/puikinsh/Colorlib-Blogger-Templates/blob/codex/collection-preview/docs/COMMENTS-SCREEN-READER.md).
 

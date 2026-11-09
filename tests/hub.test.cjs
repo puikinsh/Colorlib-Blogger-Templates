@@ -15,7 +15,7 @@ test('owner controls expose grouped colors, named fallback links and native head
 });
 test('both hub formats link every download to the versioned preview and show open checks',()=>{
  const catalog=JSON.parse(fs.readFileSync(path.join(root,'catalog.json'),'utf8'));
- const version='0.1.0-preview.4',base='https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v'+version+'/';
+ const version='0.1.0-preview.5',base='https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v'+version+'/';
  for(const file of ['index.html','Colorlib-Lab-Blogger-Template.xml']){
   const html=fs.readFileSync(path.join(root,'build/lab',file),'utf8');
   const links=Array.from(html.matchAll(/href="(https:\/\/github.com\/puikinsh\/Colorlib-Blogger-Templates\/releases\/download\/[^"]+\.zip)"/g),m=>m[1]);
