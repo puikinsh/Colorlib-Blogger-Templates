@@ -6,6 +6,10 @@ Six updated exports passed (72 posts); Blogger then limited Shelf and the queue 
 
 A subsequent 11:32 UTC Shelf retry was refused by the same import limit; counts stayed at 101 total / 72 photo-rich posts. All 84 remaining release-pinned photo variants matched source bytes; 56 fresh local home/sample-article cases passed at 320px/375px. These checks do not close the fourteen native import acceptances. [Retry evidence](evidence/photo-import-retry-2026-11-09.json).
 
+## Accessibility and publishing follow-up — November 9
+
+Sixty fresh native 375px keyboard/DOM cases passed across all twenty released templates. Eighteen new QA comments/replies persisted: Lesson’s reply, eight root/reply pairs and Verdant’s root. Eleven themes have positive paired observations across sessions, but Verdant’s reply and Bench’s legacy root failed; eight further publication rows remain unverified. VoiceOver output and live performance remain unverified. [Current matrix and evidence](ACCESSIBILITY-COMMENTS-FOLLOWUP.md).
+
 ## Historical validation log — November 6–8
 
 Version 0.1.0 · Updated November 6, 2026

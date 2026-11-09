@@ -1,5 +1,9 @@
 # Comment publishing and screen-reader status
 
+## Latest November 9 follow-up
+
+All twenty themes passed 60 fresh native keyboard/DOM views. Eleven now have positive root/reply observations across sessions; Verdant’s root passed but its reply failed, and Bench’s legacy-article root still failed despite success on the photo-rich article. Eight publication/reply rows remain unverified. Native Safari works; actual VoiceOver output remains unverified after its app connection timed out. Measured live performance is still unavailable. [Current matrix, evidence and release blockers](ACCESSIBILITY-COMMENTS-FOLLOWUP.md). The report below is historical.
+
 November 6, 2026 · Development preview acceptance
 
 All twenty themes were installed sequentially on the dedicated [public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/). The installed body class was checked after each save; stale platform responses were refreshed before recording a result. Each theme was inspected on the native desktop article and its `?m=1` route. These route checks are not physical-device certification.

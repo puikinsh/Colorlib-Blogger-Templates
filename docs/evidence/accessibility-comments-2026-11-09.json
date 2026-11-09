@@ -1,0 +1,1637 @@
+{
+  "date": "2026-11-09",
+  "release": "v0.1.0-preview.5",
+  "releaseSourceCommit": "e3e83b8b0ca5440a9e957b191ca6c6ab08056861",
+  "nativeAccessibility": {
+    "scope": "Leaf-element contrast/control names, document landmarks, iframe titles, photo alt presence, skip-link keyboard entry and TOC targets. Not complete WCAG certification or actual screen-reader speech.",
+    "cases": [
+      {
+        "slug": "saffron",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-saffron",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-saffron",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-saffron",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "wayfarer",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-wayfarer",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-wayfarer",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-wayfarer",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "lesson",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-lesson",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-lesson",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-lesson",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "bench",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-bench",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-bench",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-bench",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "maker",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-maker",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-maker",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-maker",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "muse",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-muse",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-muse",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-muse",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "kinship",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-kinship",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-kinship",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-kinship",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "companion",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-companion",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-companion",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-companion",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "shelf",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-shelf",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-shelf",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-shelf",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "playbook",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-playbook",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-playbook",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-playbook",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "soundboard",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-soundboard",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-soundboard",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-soundboard",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "verdant",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-verdant",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-verdant",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-verdant",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "pace",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-pace",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-pace",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-pace",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "ledger",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-ledger",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-ledger",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-ledger",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "screen",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-screen",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-screen",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-screen",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "borough",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-borough",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-borough",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-borough",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "studio",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-studio",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-studio",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-studio",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "launchpad",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-launchpad",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-launchpad",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-launchpad",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "ceremony",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-ceremony",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-ceremony",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-ceremony",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      },
+      {
+        "slug": "cause",
+        "cases": [
+          {
+            "view": "home",
+            "body": "theme-cause",
+            "commentCount": 0,
+            "contrast": [],
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "skipFocus": {
+              "class": "cl-skip",
+              "outline": "solid"
+            },
+            "skipTarget": "main-content"
+          },
+          {
+            "view": "photo-article",
+            "body": "theme-cause",
+            "commentCount": 17,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          },
+          {
+            "view": "legacy-mobile-route",
+            "body": "theme-cause",
+            "commentCount": 8,
+            "commentRegion": "comments-heading",
+            "commentsHeading": "H2",
+            "contrast": [],
+            "frameTitle": "Post a comment",
+            "h1": 1,
+            "main": 1,
+            "missingAlt": 0,
+            "overflow": false,
+            "unnamed": [],
+            "unnamedFrames": 0,
+            "width": 375,
+            "toc": {
+              "allTargetsExist": true,
+              "hash": "#section-1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "comments": {
+    "newPersistedComments": 18,
+    "legacyFixtureComments": 8,
+    "photoFixtureComments": 17,
+    "observations": [
+      {
+        "slug": "lesson",
+        "root": "historical pass; persisted",
+        "reply": "passed and persisted 2026-11-09",
+        "parent": "c4000087986734100907"
+      },
+      {
+        "slug": "maker",
+        "root": {
+          "ancestor": "top-ra",
+          "id": "c4286656660805024900",
+          "persisted": true
+        },
+        "reply": {
+          "ancestor": "",
+          "id": "c7592739660759927323",
+          "persisted": true,
+          "nestedUnderRoot": true
+        },
+        "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224769697#c7592739660759927323"
+      },
+      {
+        "slug": "bench",
+        "root": {
+          "id": "c6089338000058490409",
+          "persisted": true,
+          "thread": "top-ra"
+        },
+        "reply": {
+          "id": "c6036955218447568451",
+          "persisted": true,
+          "thread": "c6089338000058490409-ra"
+        },
+        "legacyRootFailure": true,
+        "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224832416#c6036955218447568451"
+      },
+      {
+        "slug": "muse",
+        "root": {
+          "id": "c3439408129905731884",
+          "persisted": true,
+          "thread": "top-ra"
+        },
+        "reply": {
+          "id": "c3470036236598432806",
+          "persisted": true,
+          "thread": "c3439408129905731884-ra"
+        },
+        "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224892487#c3470036236598432806"
+      },
+      {
+        "slug": "kinship",
+        "root": {
+          "id": "c7905707925728400341",
+          "persisted": true,
+          "thread": "top-ra"
+        },
+        "reply": {
+          "id": "c5041691300319161218",
+          "persisted": true,
+          "thread": "c7905707925728400341-ra"
+        },
+        "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224900979#c5041691300319161218"
+      },
+      {
+        "slug": "companion",
+        "root": {
+          "id": "c2019682185963824763",
+          "persisted": true,
+          "thread": "top-ra"
+        },
+        "reply": {
+          "id": "c486981325685004050",
+          "persisted": true,
+          "thread": "c2019682185963824763-ra"
+        },
+        "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224912956#c486981325685004050"
+      },
+      {
+        "slug": "shelf",
+        "root": {
+          "id": "c1127284674602237645",
+          "persisted": true,
+          "thread": "top-ra"
+        },
+        "reply": {
+          "id": "c405056101855946837",
+          "persisted": true,
+          "thread": "c1127284674602237645-ra"
+        },
+        "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224919819#c405056101855946837"
+      },
+      {
+        "slug": "playbook",
+        "root": {
+          "id": "c2186614075935419932",
+          "persisted": true,
+          "thread": "top-ra"
+        },
+        "reply": {
+          "id": "c8368022122841868798",
+          "persisted": true,
+          "thread": "c2186614075935419932-ra"
+        },
+        "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224935456#c8368022122841868798"
+      },
+      {
+        "slug": "soundboard",
+        "root": {
+          "id": "c2656311812495544620",
+          "persisted": true,
+          "thread": "top-ra"
+        },
+        "reply": {
+          "id": "c5203277796923715760",
+          "persisted": true,
+          "thread": "c2656311812495544620-ra"
+        },
+        "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224947839#c5203277796923715760"
+      }
+    ],
+    "legacyBenchFailure": {
+      "slug": "bench",
+      "kind": "top-level",
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/09/platform-edge-case-quotes-cafe-riga.html?sc=1794224666619#c3956924533081462873",
+      "message": "Failed to publish comment. Please try again later.",
+      "draft": "[Bench] Release QA: top-level publication retry on 2026-11-09."
+    },
+    "verdantFailure": {
+      "slug": "verdant",
+      "url": "https://colorlib-blogger-theme-lab-2026.blogspot.com/2026/10/build-a-useful-entryway-shelf.html?sc=1794224951711#c3205165718297020009",
+      "body": "theme-verdant",
+      "reply": false,
+      "root": true,
+      "ui": [
+        "\t\t\t\t\t\t\t\t\t\t\t277 text entry area (settable) Description: Enter Comment, Value: [Verdant] Release QA: threaded reply on a photo-rich fixture, 2026-11-09.",
+        "\t\t\t\t\t\t\t\t\t288 text Failed to publish comment. Please try again later."
+      ]
+    },
+    "stoppedAfterVerdantReplyFailure": true
+  },
+  "screenReader": {
+    "nativeSafariAvailable": true,
+    "VoiceOverSwitchInitially": "off",
+    "VoiceOverSwitchObservedDuringTest": "on",
+    "VoiceOverAppConnection": "timed out",
+    "rotorSpeechOutputVerified": false,
+    "VoiceOverSwitchRestored": "off",
+    "utilityPreferencesChanged": false,
+    "nativeSafariAgentTabClosed": true
+  },
+  "performance": {
+    "chromeDevToolsMcpAvailable": false,
+    "liveTracesRecorded": false,
+    "lcp": null,
+    "inp": null,
+    "cls": null,
+    "lighthouseScore": null,
+    "inventoryScope": "Generated source and separate gzip illustration, not browser transfer or load-time measurements; excludes platform scripts, comments, media, networking and caching.",
+    "sourceInventory": [
+      {
+        "slug": "saffron",
+        "xmlSourceBytes": 67326,
+        "cssSourceBytes": 23174,
+        "cssSeparatelyGzippedBytes": 5655,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 836076,
+        "largestPhotoVariantBytes": 272598
+      },
+      {
+        "slug": "wayfarer",
+        "xmlSourceBytes": 67774,
+        "cssSourceBytes": 23250,
+        "cssSeparatelyGzippedBytes": 5673,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 1296268,
+        "largestPhotoVariantBytes": 465410
+      },
+      {
+        "slug": "lesson",
+        "xmlSourceBytes": 70416,
+        "cssSourceBytes": 25607,
+        "cssSeparatelyGzippedBytes": 6097,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 550932,
+        "largestPhotoVariantBytes": 243752
+      },
+      {
+        "slug": "bench",
+        "xmlSourceBytes": 69598,
+        "cssSourceBytes": 24874,
+        "cssSeparatelyGzippedBytes": 5954,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 548998,
+        "largestPhotoVariantBytes": 155160
+      },
+      {
+        "slug": "maker",
+        "xmlSourceBytes": 68685,
+        "cssSourceBytes": 24151,
+        "cssSeparatelyGzippedBytes": 5857,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 426512,
+        "largestPhotoVariantBytes": 162846
+      },
+      {
+        "slug": "muse",
+        "xmlSourceBytes": 67837,
+        "cssSourceBytes": 23703,
+        "cssSeparatelyGzippedBytes": 5743,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 516996,
+        "largestPhotoVariantBytes": 223744
+      },
+      {
+        "slug": "kinship",
+        "xmlSourceBytes": 68170,
+        "cssSourceBytes": 23815,
+        "cssSeparatelyGzippedBytes": 5798,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 1116300,
+        "largestPhotoVariantBytes": 511802
+      },
+      {
+        "slug": "companion",
+        "xmlSourceBytes": 69327,
+        "cssSourceBytes": 24184,
+        "cssSeparatelyGzippedBytes": 5821,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 1106572,
+        "largestPhotoVariantBytes": 461242
+      },
+      {
+        "slug": "shelf",
+        "xmlSourceBytes": 68317,
+        "cssSourceBytes": 24095,
+        "cssSeparatelyGzippedBytes": 5885,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 1037556,
+        "largestPhotoVariantBytes": 339782
+      },
+      {
+        "slug": "playbook",
+        "xmlSourceBytes": 68505,
+        "cssSourceBytes": 24166,
+        "cssSeparatelyGzippedBytes": 5779,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 447230,
+        "largestPhotoVariantBytes": 131980
+      },
+      {
+        "slug": "soundboard",
+        "xmlSourceBytes": 69095,
+        "cssSourceBytes": 24586,
+        "cssSeparatelyGzippedBytes": 5954,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 438592,
+        "largestPhotoVariantBytes": 135992
+      },
+      {
+        "slug": "verdant",
+        "xmlSourceBytes": 68987,
+        "cssSourceBytes": 24375,
+        "cssSeparatelyGzippedBytes": 5923,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 693248,
+        "largestPhotoVariantBytes": 234890
+      },
+      {
+        "slug": "pace",
+        "xmlSourceBytes": 68860,
+        "cssSourceBytes": 24598,
+        "cssSeparatelyGzippedBytes": 5915,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 722882,
+        "largestPhotoVariantBytes": 230862
+      },
+      {
+        "slug": "ledger",
+        "xmlSourceBytes": 69797,
+        "cssSourceBytes": 25237,
+        "cssSeparatelyGzippedBytes": 5987,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 282250,
+        "largestPhotoVariantBytes": 115766
+      },
+      {
+        "slug": "screen",
+        "xmlSourceBytes": 68421,
+        "cssSourceBytes": 24103,
+        "cssSeparatelyGzippedBytes": 5823,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 426994,
+        "largestPhotoVariantBytes": 181614
+      },
+      {
+        "slug": "borough",
+        "xmlSourceBytes": 68883,
+        "cssSourceBytes": 24348,
+        "cssSeparatelyGzippedBytes": 5855,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 949760,
+        "largestPhotoVariantBytes": 411804
+      },
+      {
+        "slug": "studio",
+        "xmlSourceBytes": 69242,
+        "cssSourceBytes": 24844,
+        "cssSeparatelyGzippedBytes": 6033,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 645514,
+        "largestPhotoVariantBytes": 253146
+      },
+      {
+        "slug": "launchpad",
+        "xmlSourceBytes": 69117,
+        "cssSourceBytes": 24698,
+        "cssSeparatelyGzippedBytes": 5956,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 456930,
+        "largestPhotoVariantBytes": 118004
+      },
+      {
+        "slug": "ceremony",
+        "xmlSourceBytes": 68700,
+        "cssSourceBytes": 24333,
+        "cssSeparatelyGzippedBytes": 5916,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 930472,
+        "largestPhotoVariantBytes": 334642
+      },
+      {
+        "slug": "cause",
+        "xmlSourceBytes": 69227,
+        "cssSourceBytes": 24440,
+        "cssSeparatelyGzippedBytes": 5819,
+        "sharedRuntimeSourceBytes": 9444,
+        "sharedRuntimeSeparatelyGzippedBytes": 2961,
+        "sixPhotoVariantsBytes": 911396,
+        "largestPhotoVariantBytes": 325584
+      }
+    ]
+  }
+}

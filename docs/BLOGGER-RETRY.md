@@ -1,5 +1,9 @@
 # Blogger import and publishing retry
 
+## Latest November 9 follow-up
+
+All twenty themes passed 60 fresh native keyboard/DOM views. Eleven now have positive root/reply observations across sessions; Verdant’s root passed but its reply failed, and Bench’s legacy-article root still failed despite success on the photo-rich article. Eight publication/reply rows remain unverified. Native Safari works; actual VoiceOver output remains unverified after its app connection timed out. Measured live performance is still unavailable. [Current matrix, evidence and release blockers](ACCESSIBILITY-COMMENTS-FOLLOWUP.md). The report below is historical.
+
 November 6, 2026 · Published release `v0.1.0-preview.2`
 
 The retry used the XML and demo exports extracted from the published, checksummed preview ZIPs. The original hub was backed up before installing the released themes; it is restored after testing. Published package assets remain frozen.
