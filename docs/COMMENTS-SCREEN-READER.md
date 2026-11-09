@@ -1,10 +1,10 @@
 # Comment publishing and screen-reader status
 
-## Latest remaining-eight follow-up — November 9, 12:22 UTC
+## Latest final-three follow-up — November 9, 12:37 UTC
 
-All eight remaining themes received actual publishing attempts. Five completed root/reply pairs, and Bench’s older-post pair recovered with Reader comments already set to Allow. Seventeen themes now have positive paired observations across sessions; Ledger/Screen roots and Launchpad’s reply remain blocked. Thirteen new comments/replies persisted. [Current matrix, Bench investigation and retained failures](COMMENTS-REMAINING-EIGHT.md). Results below retain their earlier scope and counts; other release gates remain open.
+Ledger and Screen’s root/reply pairs and Launchpad’s reply persisted, including a recorded Screen failure and successful spaced retry. All twenty themes now have positive paired observations across sessions; no basic publication row remains incomplete. Intermittent publishing reliability and all other stable-release gates remain open. [Current report and retained evidence](COMMENTS-FINAL-THREE.md). Earlier sections retain their original scope and counts.
 
-## Latest November 9 follow-up
+## Earlier November 9 follow-up
 
 All twenty themes passed 60 fresh native keyboard/DOM views. Twelve now have positive root/reply observations across sessions. Verdant’s reply passed a spaced retry; Pace’s subsequent root and Bench’s legacy-article root failed. Eight publication/reply rows remain unverified. Native Safari works; actual VoiceOver output remains unverified after its app connection timed out. Measured live performance is still unavailable. [Current matrix, evidence and release blockers](ACCESSIBILITY-COMMENTS-FOLLOWUP.md). The report below is historical.
 

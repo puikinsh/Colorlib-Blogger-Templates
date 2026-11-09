@@ -1,8 +1,13 @@
 # Remaining-eight comment publishing checks
 
+## Latest final-three follow-up — November 9, 12:37 UTC
+
+Ledger and Screen’s root/reply pairs and Launchpad’s reply persisted, including a recorded Screen failure and successful spaced retry. All twenty themes now have positive paired observations across sessions; no basic publication row remains incomplete. Intermittent publishing reliability and all other stable-release gates remain open. [Current report and retained evidence](COMMENTS-FINAL-THREE.md). Earlier sections retain their original scope and counts.
+
+
 November 9, 2026, completed 12:22 UTC · [Public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/) · Exact frozen preview.5 XMLs from `e3e83b8b0ca5440a9e957b191ca6c6ab08056861`.
 
-## Current results
+## Results at 12:22 UTC
 
 Each of the eight released themes was installed and its served body class verified. Root comments and replies were submitted through the native composer; a pass requires persistence after reload, and replies must remain under their intended root. The hub was backed up and restored. Initial failures, unsent preparation failures and bounded retries are recorded separately in the [sanitized evidence](evidence/comments-remaining-eight-2026-11-09.json).
 
@@ -17,7 +22,7 @@ Each of the eight released themes was installed and its served body class verifi
 | Ceremony | Persisted on staged retry | Persisted | Initial submitted root failed |
 | Cause | Persisted on staged retry | Persisted | Initial submitted root failed |
 
-Five of the eight now have positive root/reply observations; Launchpad remains partial, while Ledger/Screen remain blocked at root publication. Combined with previous results, **seventeen of twenty themes have positive paired observations across sessions**. These are capability observations, not a reliability guarantee. **Three complete publication rows remain open: Ledger, Screen and Launchpad.**
+Five of the eight now have positive root/reply observations; Launchpad remains partial, while Ledger/Screen remain blocked at root publication. Combined with previous results, **seventeen of twenty themes have positive paired observations across sessions**. These are capability observations, not a reliability guarantee. **Three complete publication rows remained open in that pass: Ledger, Screen and Launchpad.**
 
 ## Bench’s older-post investigation
 

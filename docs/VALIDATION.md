@@ -1,8 +1,9 @@
 # Development validation status
 
-## Latest comment publishing follow-up — November 9, 12:22 UTC
+## Latest final-three follow-up — November 9, 12:37 UTC
 
-All eight remaining themes were attempted; five completed paired publishing checks. Bench’s older-post root and reply persisted without changing permissions. Thirteen new comments/replies persisted, with seventeen themes now having positive paired observations across sessions. Ledger/Screen roots and Launchpad’s reply remain blocked; actual speech, measured performance, imports, media/device and editorial gates remain open. [Current matrix and evidence](COMMENTS-REMAINING-EIGHT.md).
+Ledger and Screen’s root/reply pairs and Launchpad’s reply persisted, including a recorded Screen failure and successful spaced retry. All twenty themes now have positive paired observations across sessions; no basic publication row remains incomplete. Intermittent publishing reliability and all other stable-release gates remain open. [Current report and retained evidence](COMMENTS-FINAL-THREE.md). Earlier sections retain their original scope and counts.
+
 
 ## Latest photo-rich follow-up — November 9
 
