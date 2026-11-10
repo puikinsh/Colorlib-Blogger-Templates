@@ -1,0 +1,207 @@
+{
+  "captured": "2026-11-10",
+  "sourceCommit": "af5a48bcd8792051e1800b016b49d249698e2047",
+  "description": "Actual GitHub Pages homepage viewport captures at 1280x800, with visible images loaded. WebP format conversion only; no visual elements added. Full desktop/mobile captures remain in manifest.json.",
+  "captures": [
+    {
+      "slug": "saffron",
+      "file": "saffron-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 45794,
+      "sha256": "b4790900abc392ce7089377dbac2eab7ffe04dcb1c5abfc1880316549e02e020"
+    },
+    {
+      "slug": "wayfarer",
+      "file": "wayfarer-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 109498,
+      "sha256": "95565f26becbd5872f9839fe31076acc8e6d4caee2451e16f43923c711da7044"
+    },
+    {
+      "slug": "lesson",
+      "file": "lesson-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 43744,
+      "sha256": "5ee0eabf8532a293f2551bcc65ed69783aac95a3f5e3f7c210cca4eb75cba0f7"
+    },
+    {
+      "slug": "bench",
+      "file": "bench-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 51172,
+      "sha256": "8d9b0e054eb3c8e35307f61c4215a34c417dea6601bc40c733db1caa618c4205"
+    },
+    {
+      "slug": "maker",
+      "file": "maker-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 39538,
+      "sha256": "e6089c60c506784ea028771bc559910e32a57f550fcf7908c03a452ddbecfc2d"
+    },
+    {
+      "slug": "muse",
+      "file": "muse-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 23324,
+      "sha256": "660d5d60db5a1a27d8099006902e8ff31cbc96c5696f02ccc45abdad3c4db75a"
+    },
+    {
+      "slug": "kinship",
+      "file": "kinship-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 31890,
+      "sha256": "49ce50302ed601bc6cfd131b1b12c5def35dc8f3a4253605ffad40b237db6b73"
+    },
+    {
+      "slug": "companion",
+      "file": "companion-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 41886,
+      "sha256": "b3428d0fa2642efb9264d6b70c02557774e6d766db5766b440cccbaa599160d6"
+    },
+    {
+      "slug": "shelf",
+      "file": "shelf-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 35786,
+      "sha256": "d15297a101091fd20806782dbb1fa610ee2d697eac2b995792eb4b180729d968"
+    },
+    {
+      "slug": "playbook",
+      "file": "playbook-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 55928,
+      "sha256": "a73f860bc8327382717f0a8bd72c594270894cc0a7acc9448be6082f122e39c6"
+    },
+    {
+      "slug": "soundboard",
+      "file": "soundboard-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 54484,
+      "sha256": "d6b4635b84b9f332fc4d146aa7de489e28b63c962320db48c31a665cb9a30837"
+    },
+    {
+      "slug": "verdant",
+      "file": "verdant-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 53296,
+      "sha256": "38bc6488d59f80939abc0bc25c46d911c8ae637d8bd6cceaa0a5f1c6a22f7dcd"
+    },
+    {
+      "slug": "pace",
+      "file": "pace-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 47586,
+      "sha256": "8554d1aea8efc5d799209ace5ad7a6840e9a346c386b64187c686fe8ae18da0b"
+    },
+    {
+      "slug": "ledger",
+      "file": "ledger-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 37536,
+      "sha256": "31c7f8f43e072c4d21a380f36e5fdafb35829820f95424f0e2a5385b26488416"
+    },
+    {
+      "slug": "screen",
+      "file": "screen-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 38982,
+      "sha256": "c049c47788ed186b58aefd99cc23ef42270b65ddf0a146234bb805a16a9764c1"
+    },
+    {
+      "slug": "borough",
+      "file": "borough-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 58922,
+      "sha256": "45e048846b214abd42063375d8fdf880395f873460167f8d3d1007d97a86d447"
+    },
+    {
+      "slug": "studio",
+      "file": "studio-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 35290,
+      "sha256": "9a056f626f30a3f633b0ccf292291e2a68b5ad10120e00a65eec2f5200f8233e"
+    },
+    {
+      "slug": "launchpad",
+      "file": "launchpad-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 36992,
+      "sha256": "8fd653ab5de01fd0761f396c81a8f23b06a21a33da34d373e96c42192c23dc09"
+    },
+    {
+      "slug": "ceremony",
+      "file": "ceremony-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 27182,
+      "sha256": "e53b19bf2c4cbba596bc6c83d3616a1fc9ffea83ebe8cec489f5e16ad8eedcd0"
+    },
+    {
+      "slug": "cause",
+      "file": "cause-card.webp",
+      "size": [
+        1280,
+        800
+      ],
+      "bytes": 56228,
+      "sha256": "90ddc516faa39559ec05bb327aa28b7318d8d503309c31e8abb19fceb6d9c6d0"
+    }
+  ]
+}

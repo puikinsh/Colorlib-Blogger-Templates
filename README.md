@@ -1,79 +1,56 @@
-# Colorlib Blogger Collection
+# Colorlib Blogger Templates
 
-Twenty original niche themes, built from one shared Blogger core. **Version 0.1.0 is a development collection, not a production-ready launch.** The [validation report](docs/VALIDATION.md) records completed checks and release gates. The nine existing Colorlib Blogger products remain independent maintained releases.
+Twenty free Blogger / Blogspot themes for recipes, travel, magazines, learning, portfolios and more. Each theme has its own layout, sample content and editable article format.
 
-## Build and review
+[Browse live previews](https://puikinsh.github.io/Colorlib-Blogger-Templates/lab/) · [Installation guide](#install-a-template) · [Release downloads](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5)
 
-Python 3.9+ and Node.js 22+ are sufficient; no npm install is needed. Install Chrome/Chromium for browser regressions; set `CHROME_BIN` if automatic detection does not find it. CI requires Chrome rather than skipping those tests.
+## Choose your template
 
-```sh
-python3 tools/build.py --packages
-python3 tools/build_lab.py
-python3 tools/check.py
-node --test tests/*.test.cjs
-python3 -m http.server 8765 --directory build
-```
+Click a screenshot or **Details & download** to open that template's guide. Every guide names the exact ZIP and XML files to use.
 
-Open `http://localhost:8765/` for the catalog. Each theme has home, article, archive, search, static, empty and error review views, plus `responsive.html` with 320/375/768px review panels; twelve distinct article titles original SVG covers and credited photography; a self-contained theme XML; a separate demo-content export; an owner-editable post-format example; setup and asset documentation. The static views demonstrate the design and do not emulate Blogger's template engine.
+<table>
+<tbody>
+<tr><td width="50%"><a href="themes/saffron/README.md"><img src="assets/previews/saffron-card.webp" alt="Saffron Blogger template homepage" width="440"></a><br><strong>Saffron</strong><br>Food and recipes<br><a href="themes/saffron/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/saffron/">Live preview</a></td><td width="50%"><a href="themes/wayfarer/README.md"><img src="assets/previews/wayfarer-card.webp" alt="Wayfarer Blogger template homepage" width="440"></a><br><strong>Wayfarer</strong><br>Destination and travel guides<br><a href="themes/wayfarer/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/wayfarer/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/lesson/README.md"><img src="assets/previews/lesson-card.webp" alt="Lesson Blogger template homepage" width="440"></a><br><strong>Lesson</strong><br>Education and tutorials<br><a href="themes/lesson/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/lesson/">Live preview</a></td><td width="50%"><a href="themes/bench/README.md"><img src="assets/previews/bench-card.webp" alt="Bench Blogger template homepage" width="440"></a><br><strong>Bench</strong><br>Technology and product reviews<br><a href="themes/bench/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/bench/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/maker/README.md"><img src="assets/previews/maker-card.webp" alt="Maker Blogger template homepage" width="440"></a><br><strong>Maker</strong><br>DIY and home projects<br><a href="themes/maker/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/maker/">Live preview</a></td><td width="50%"><a href="themes/muse/README.md"><img src="assets/previews/muse-card.webp" alt="Muse Blogger template homepage" width="440"></a><br><strong>Muse</strong><br>Fashion and beauty<br><a href="themes/muse/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/muse/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/kinship/README.md"><img src="assets/previews/kinship-card.webp" alt="Kinship Blogger template homepage" width="440"></a><br><strong>Kinship</strong><br>Parenting and family stories<br><a href="themes/kinship/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/kinship/">Live preview</a></td><td width="50%"><a href="themes/companion/README.md"><img src="assets/previews/companion-card.webp" alt="Companion Blogger template homepage" width="440"></a><br><strong>Companion</strong><br>Pets and animal enthusiasts<br><a href="themes/companion/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/companion/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/shelf/README.md"><img src="assets/previews/shelf-card.webp" alt="Shelf Blogger template homepage" width="440"></a><br><strong>Shelf</strong><br>Books, reading and authors<br><a href="themes/shelf/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/shelf/">Live preview</a></td><td width="50%"><a href="themes/playbook/README.md"><img src="assets/previews/playbook-card.webp" alt="Playbook Blogger template homepage" width="440"></a><br><strong>Playbook</strong><br>Gaming news, reviews and guides<br><a href="themes/playbook/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/playbook/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/soundboard/README.md"><img src="assets/previews/soundboard-card.webp" alt="Soundboard Blogger template homepage" width="440"></a><br><strong>Soundboard</strong><br>Podcasts and video creators<br><a href="themes/soundboard/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/soundboard/">Live preview</a></td><td width="50%"><a href="themes/verdant/README.md"><img src="assets/previews/verdant-card.webp" alt="Verdant Blogger template homepage" width="440"></a><br><strong>Verdant</strong><br>Gardening and plants<br><a href="themes/verdant/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/verdant/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/pace/README.md"><img src="assets/previews/pace-card.webp" alt="Pace Blogger template homepage" width="440"></a><br><strong>Pace</strong><br>Fitness and wellbeing publishing<br><a href="themes/pace/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/pace/">Live preview</a></td><td width="50%"><a href="themes/ledger/README.md"><img src="assets/previews/ledger-card.webp" alt="Ledger Blogger template homepage" width="440"></a><br><strong>Ledger</strong><br>Personal finance education<br><a href="themes/ledger/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/ledger/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/screen/README.md"><img src="assets/previews/screen-card.webp" alt="Screen Blogger template homepage" width="440"></a><br><strong>Screen</strong><br>Film, television and entertainment<br><a href="themes/screen/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/screen/">Live preview</a></td><td width="50%"><a href="themes/borough/README.md"><img src="assets/previews/borough-card.webp" alt="Borough Blogger template homepage" width="440"></a><br><strong>Borough</strong><br>Local news and community groups<br><a href="themes/borough/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/borough/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/studio/README.md"><img src="assets/previews/studio-card.webp" alt="Studio Blogger template homepage" width="440"></a><br><strong>Studio</strong><br>Freelancers and creative services<br><a href="themes/studio/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/studio/">Live preview</a></td><td width="50%"><a href="themes/launchpad/README.md"><img src="assets/previews/launchpad-card.webp" alt="Launchpad Blogger template homepage" width="440"></a><br><strong>Launchpad</strong><br>Startup, SaaS and consultancy content<br><a href="themes/launchpad/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/launchpad/">Live preview</a></td></tr>
+<tr><td width="50%"><a href="themes/ceremony/README.md"><img src="assets/previews/ceremony-card.webp" alt="Ceremony Blogger template homepage" width="440"></a><br><strong>Ceremony</strong><br>Weddings and event professionals<br><a href="themes/ceremony/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/ceremony/">Live preview</a></td><td width="50%"><a href="themes/cause/README.md"><img src="assets/previews/cause-card.webp" alt="Cause Blogger template homepage" width="440"></a><br><strong>Cause</strong><br>Nonprofits and volunteer groups<br><a href="themes/cause/README.md#download">Details &amp; download</a> · <a href="https://puikinsh.github.io/Colorlib-Blogger-Templates/cause/">Live preview</a></td></tr>
+</tbody>
+</table>
 
-`build/packages/` contains twenty preview ZIPs and `SHA256SUMS`. These are intentionally named preview packages. Do not replace the maintained nine templates' production downloads with them.
+## Install a template
 
-The [public development repository](https://github.com/puikinsh/Colorlib-Blogger-Templates) now hosts the original artwork on `codex/collection-preview`; default demo image URLs are live. To use another owned HTTPS host, rebuild with `BLOGGER_ASSET_BASE=https://your-host/assets python3 tools/build.py --packages`. Local previews use bundled assets.
+1. Choose a design above and open its **Details & download** guide.
+2. On the linked GitHub release, expand **Assets** and download the exact ZIP named in that guide. For Wayfarer, choose **`wayfarer-blogger-template-0.1.0-preview.5.zip`**.
+3. Extract the ZIP. In Blogger, back up your current theme, then open **Theme → menu beside Customize → Restore → Upload**.
+4. Upload the **theme XML**: for Wayfarer, **`Wayfarer-Blogger-Template.xml`** inside **`Wayfarer-Blogger-Template/`**.
+5. Sample posts are optional. Import **`Wayfarer Demo Content.xml`** separately through **Settings → Manage Blog → Import content**.
 
-All twenty themes have been installed and checked on the [public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/), which now serves a dedicated shadcn-inspired collection hub. The [platform report](docs/PLATFORM-VALIDATION.md) records 260 live view checks, fixes and outstanding import/comment checks. The lab is a shared development fixture, not twenty finished production demos. [Static design previews](https://puikinsh.github.io/Colorlib-Blogger-Templates/lab/) and preview ZIPs are published after successful validation on the development branch. See the [owner/accessibility review](docs/OWNER-ACCESSIBILITY-REVIEW.md) for the completed control checks and the explicitly unmeasured performance gate.
+| What you downloaded | What to do with it |
+| --- | --- |
+| `<slug>-blogger-template-0.1.0-preview.5.zip` | Extract it first. This is the packaged template. |
+| `<Name>-Blogger-Template.xml` | Upload through **Theme → Restore**. |
+| `<Name> Demo Content.xml` | Optional sample posts, imported through **Settings**. |
+| `post-template.html` | Optional article layout for the post HTML editor. |
 
-The [design directions](docs/DESIGN-DIRECTIONS.md) record the individual layouts, typography, artwork and article treatments for all twenty themes. Open the catalog’s design-board link to compare live desktop and mobile layouts in groups of four.
-
-## Source organization
-
-- `lab/`: the lab-only catalog design and filtering runtime; `tools/build_lab.py` creates its Blogger XML and static preview.
-- `core/`: shared XML structure, native comment includables, base/print CSS and progressive enhancements.
-- `themes/<slug>/`: independent palette/type settings, `home.html` featured-post composition, CSS, topics, content format and demo text.
-- `assets/<slug>/`: original vector artwork and optimized photographs, also copied into local previews and packages. `assets/photography.json` records photo sources and their separate Unsplash License.
-- `tools/`: build, content/art generation and validation. Normal builds do not overwrite the theme configuration, welcome HTML or CSS.
-- `tests/`: runtime/structure regressions and browser checks.
-- `docs/`: approved roadmap, owner editing, architecture and validation status.
-
-The catalog spans recipes, travel, education, technology reviews, DIY, fashion/beauty, parenting, pets, books, gaming, podcasts/video, gardening, fitness/wellbeing, finance education, film/TV, community publishing, freelance portfolios, product/company blogs, events and nonprofit publishing. See [the roadmap](docs/ROADMAP.md) for individual briefs and batch order.
-
-## Owner configuration
-
-The header title/description, logo and pages use native Blogger widgets/settings. The homepage introduction and topic links live in a Layout HTML widget; the featured article is Blogger's first rendered post. Color controls are exposed through Theme Designer. Post formats are ordinary HTML that owners can paste into a post or save as a Blogger post template.
-
-Pagination always uses Blogger's crawlable Older/Newer URLs. The base theme does not depend on feed requests, a CSS framework, an icon font or a JavaScript framework. Optional article enhancements use DOM text and native controls. Payment, bookings, donation checkout, podcast hosting and gated learning platforms remain external services chosen by the owner.
+GitHub's **Code → Download ZIP** and **Source code (zip)** downloads are for developers. Use the named template package from **Releases** to install a Blogger theme.
 
 ## Published preview
 
-[Download version 0.1.0-preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5). Both hubs and the [Colorlib Blogger roundup](https://colorlib.com/wp/free-blogger-templates/) list all twenty preview packages with screenshots, design previews and documentation. These are development prereleases, not production releases.
+Current packages: **0.1.0-preview.5**. [Release notes and all twenty packages](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5) · [Checksums](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/download/v0.1.0-preview.5/SHA256SUMS).
 
-The twenty ZIPs, manifest and checksums are frozen from `e3e83b8b0ca5440a9e957b191ca6c6ab08056861`. Later documentation records newer testing; it does not change downloaded files. Use a new preview number for changed package source.
+These packages are development previews. [Testing status](docs/RELEASE-READINESS.md) records the current validation results. Published assets are versioned and remain unchanged.
 
-November 10: all twenty in-app comment pairs passed (40/40 submissions), and nine targeted Safari pairs passed (18/18). Six more photo-rich exports were accepted; twelve now pass (144 posts), with eight pending after another import limit. [Latest results and remaining stable-release gates](docs/RELEASE-FOLLOWUP-2026-11-10.md).
+## Documentation and licensing
 
-## Release staging
+- [Customize your theme](docs/OWNER-EDITING.md): header, menus, colors, homepage widgets and article formats.
+- [Developer setup and project status](docs/DEVELOPMENT.md): builds, source layout, regression checks and validation history.
+- [Design directions](docs/DESIGN-DIRECTIONS.md): the layouts and publishing use cases behind the collection.
+- [GPL v3 license](LICENSE) for the theme code and original vector artwork; [photography credits](assets/photography.json) record separate photo licenses.
 
-After committing a validated source revision, choose a new unpublished version, for example `python3 tools/stage_release.py --version 0.1.0-preview.6`. Never reuse a published version for changed source. It builds twenty separately versioned preview ZIPs under `build/releases/`, pins artwork to that exact source commit and writes a manifest, release notes and SHA256SUMS. Every ZIP includes `RELEASE-STATUS.md`. See [release readiness](docs/RELEASE-READINESS.md) and the [comment/screen-reader matrix](docs/COMMENTS-SCREEN-READER.md) before publishing. Staging does not publish a production release.
-
-## Release gates
-
-Every theme needs XML/JS/schema checks; phone/desktop and keyboard checks; an actual Blogger import; review of native comments and mobile rendering; realistic, owner-ready demo content; and a checksummed package matching its public demo. Original demonstration identities, projects and editorial templates must not be presented as actual reporting, tests, endorsements or professional instructions. Search markup is derived only from supplied content, without invented ratings or results.
-
-Shared fixes belong in `core/`, followed by rebuilding and verifying the full catalog. Individual theme layout changes belong in that theme's source directory. GPL v3 license text is included; original vector illustrations share the package's license. Photography retains its separate Unsplash License; see each package’s `ASSETS.md`.
-
-Latest media/editorial pass: all twenty local designs passed YouTube playback and recovery; Vimeo returned a supported-browser error. All 240 samples now have distinct editing briefs. See [the media/editorial results and remaining gates](docs/MEDIA-EDITORIAL-REVIEW.md). These fixes are included in the frozen preview.4 downloads.
-
-Native media follow-up: all twenty themes passed Blogger YouTube playback and recovery on ordinary and `?m=1` post routes at a desktop viewport. Vimeo remains blocked. [Review the native matrix](docs/NATIVE-MEDIA.md) and remaining device/audio/editorial gates. Preview.4 remains a historical development prerelease; current hub downloads point to preview.5. Preview.2 and preview.3 remain available unchanged.
-
-Later development-source pass: all twenty templates passed native MP3/WAV controls and final layouts at 375px/320px. Failed-audio feedback and minimum video-frame sizing were fixed. Reliable narrow-video playback remains unresolved. See [the audio/mobile results and remaining gates](docs/AUDIO-MOBILE.md). These fixes and reports are included in preview.4; preview.3 stays unchanged.
-
-Latest provider investigation (November 8): all twenty templates passed forty native narrow-width YouTube startup checks. Earlier intermittent stalls remain open; Vimeo fails both in the templates and on its standalone player page. See [the findings, evidence and troubleshooting steps](docs/PROVIDER-RELIABILITY.md). These documentation updates are newer than the unchanged preview.4 ZIPs.
-
-Supported-browser follow-up: all twenty templates showed YouTube and Vimeo advancement in Safari 27.2 after recorded retries. Initial interruptions and a later standalone Vimeo pause keep reliability acceptance open. [Review the Safari matrix and remaining blockers](docs/PROVIDER-SAFARI.md). Preview.4 downloads remain frozen.
-
-The richer visual demos are now available in [v0.1.0-preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5): sixty credited photographs, responsive galleries and editable homepage notebooks across all twenty themes. See [the visual refresh report](docs/VISUAL-REFRESH.md). Earlier preview.4 assets remain unchanged; all remaining release gates still apply.
-
-### Photo-rich imports and actual previews
-
-Both Theme Labs show actual desktop/mobile screenshots of all twenty static demos. Twelve preview.5 imports passed (144 posts); eight updated exports remain pending after Blogger’s import-frequency limit. All twenty native themes passed photo rendering at 375px; all 144 accepted stories have own-theme 320px observations across the two passes. See [the current matrix and release blockers](docs/PHOTO-IMPORTS.md).
-
-The [publishing reliability report](docs/COMMENT-RELIABILITY.md) retains earlier 21/40 in-app and 29/40 Safari runs plus a stock-theme reply failure. November 10 passed all twenty in-app pairs (40/40) and nine targeted Safari pairs (18/18). No permanent cause/fix was established; independent-account, further-session, full Safari repeat and additional-browser checks remain open.
+The screenshots link to the actual design previews. Full desktop and mobile captures are available in each theme's guide.
