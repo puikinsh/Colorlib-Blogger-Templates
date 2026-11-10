@@ -2,7 +2,11 @@
 
 November 9, 2026, completed 13:11 UTC · [Public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/) · Exact frozen preview.5 XMLs.
 
-## Current release status
+## November 10 follow-up
+
+All twenty in-app pairs passed (40/40 submissions persisted). Targeted native Safari pairs passed for all eight previously failing Safari themes plus Soundboard (18/18). Earlier failures remain retained below; no permanent cause/fix was established. Independent-account, further-session, full Safari repeat and additional-browser reliability remain open. [New matrix, import progress and evidence](RELEASE-FOLLOWUP-2026-11-10.md).
+
+## November 9 release status
 
 Earlier basic root/reply observations remain positive for all twenty themes. **Repeat-visit and cross-browser reliability remains open.** This pass reproduced explicit publication errors in both tested browsers and Blogger’s own stock theme; no collection-specific defect or permanent fix was established. Published preview.5 files remain unchanged.
 

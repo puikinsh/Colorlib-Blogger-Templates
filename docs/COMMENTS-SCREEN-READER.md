@@ -1,5 +1,9 @@
 # Comment publishing and screen-reader status
 
+## Current follow-up — November 10
+
+All twenty in-app pairs passed (40/40 submissions); nine targeted Safari pairs passed (18/18), including all eight previously failing Safari themes. Six more photo-rich imports passed and 72 own-theme mobile cases passed. Twelve updated exports are accepted (144 photo-rich posts); eight remain pending after Screen hit Blogger’s import-frequency limit. Earlier failures and all remaining release gates are retained. [Current matrix, exact scope and evidence](RELEASE-FOLLOWUP-2026-11-10.md). Historical sections below keep their original dates and scope.
+
 ## Latest reliability follow-up — November 9, 13:11 UTC
 
 All twenty themes received fresh-tab in-app and authenticated Safari comparisons. Recorded submissions persisted in 21/40 in-app cases and 29/40 Safari cases; the stock Blogger Simple Bold control also failed on a reply. Basic positive observations remain, but publishing reliability is still a release gate. Native Chrome control was unavailable. [Current matrix and evidence](COMMENT-RELIABILITY.md). Earlier sections retain their original scope and counts.

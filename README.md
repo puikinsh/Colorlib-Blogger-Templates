@@ -44,11 +44,11 @@ Pagination always uses Blogger's crawlable Older/Newer URLs. The base theme does
 
 ## Published preview
 
-[Download version 0.1.0-preview.4](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.4). The live Blogger hub and static catalog point to its twenty versioned packages. All twenty Blogger download links and the checksum link were verified November 8, 2026. They include release-status notes, commit-pinned artwork and SHA-256 checksums. This is a prerelease for testing; the hub displays incomplete acceptance checks before its download cards.
+[Download version 0.1.0-preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5). Both hubs and the [Colorlib Blogger roundup](https://colorlib.com/wp/free-blogger-templates/) list all twenty preview packages with screenshots, design previews and documentation. These are development prereleases, not production releases.
 
-The published assets are frozen from source commit `a672d7a1bca99d776f66322deead9d7ececf80c4`. Use a new preview number when staging changed source; do not replace these published assets with a later rebuild.
+The twenty ZIPs, manifest and checksums are frozen from `e3e83b8b0ca5440a9e957b191ca6c6ab08056861`. Later documentation records newer testing; it does not change downloaded files. Use a new preview number for changed package source.
 
-Latest platform retry: Saffron/Wayfarer added all 24 demo posts; Blogger then limited imports. Lesson/Bench comment retries still fail. See the [current stable-release blockers](docs/BLOGGER-RETRY.md). Published packages remain unchanged.
+November 10: all twenty in-app comment pairs passed (40/40 submissions), and nine targeted Safari pairs passed (18/18). Six more photo-rich exports were accepted; twelve now pass (144 posts), with eight pending after another import limit. [Latest results and remaining stable-release gates](docs/RELEASE-FOLLOWUP-2026-11-10.md).
 
 ## Release staging
 
@@ -62,7 +62,7 @@ Shared fixes belong in `core/`, followed by rebuilding and verifying the full ca
 
 Latest media/editorial pass: all twenty local designs passed YouTube playback and recovery; Vimeo returned a supported-browser error. All 240 samples now have distinct editing briefs. See [the media/editorial results and remaining gates](docs/MEDIA-EDITORIAL-REVIEW.md). These fixes are included in the frozen preview.4 downloads.
 
-Native media follow-up: all twenty themes passed Blogger YouTube playback and recovery on ordinary and `?m=1` post routes at a desktop viewport. Vimeo remains blocked. [Review the native matrix](docs/NATIVE-MEDIA.md) and remaining device/audio/editorial gates. Preview.4 is published as a development prerelease; generated hub downloads point to its twenty packages. Preview.2 and preview.3 remain available unchanged.
+Native media follow-up: all twenty themes passed Blogger YouTube playback and recovery on ordinary and `?m=1` post routes at a desktop viewport. Vimeo remains blocked. [Review the native matrix](docs/NATIVE-MEDIA.md) and remaining device/audio/editorial gates. Preview.4 remains a historical development prerelease; current hub downloads point to preview.5. Preview.2 and preview.3 remain available unchanged.
 
 Later development-source pass: all twenty templates passed native MP3/WAV controls and final layouts at 375px/320px. Failed-audio feedback and minimum video-frame sizing were fixed. Reliable narrow-video playback remains unresolved. See [the audio/mobile results and remaining gates](docs/AUDIO-MOBILE.md). These fixes and reports are included in preview.4; preview.3 stays unchanged.
 
@@ -74,6 +74,6 @@ The richer visual demos are now available in [v0.1.0-preview.5](https://github.c
 
 ### Photo-rich imports and actual previews
 
-Both Theme Labs show actual desktop/mobile screenshots of all twenty static demos. Six preview.5 imports passed (72 posts); fourteen updated exports remain blocked by Blogger’s import-frequency limit. All twenty native themes passed photo rendering at 375px; the 72 accepted stories passed at 320px. See [the current matrix and release blockers](docs/PHOTO-IMPORTS.md).
+Both Theme Labs show actual desktop/mobile screenshots of all twenty static demos. Twelve preview.5 imports passed (144 posts); eight updated exports remain pending after Blogger’s import-frequency limit. All twenty native themes passed photo rendering at 375px; all 144 accepted stories have own-theme 320px observations across the two passes. See [the current matrix and release blockers](docs/PHOTO-IMPORTS.md).
 
-The [latest publishing reliability report](docs/COMMENT-RELIABILITY.md) covers all twenty themes in fresh-tab in-app and authenticated Safari comparisons: 21/40 and 29/40 recorded submissions persisted. The stock Blogger control also reproduced a reply failure. Earlier basic root/reply observations remain positive for all twenty; reliability, independent-account/Chrome checks and the other stable-release gates remain open.
+The [publishing reliability report](docs/COMMENT-RELIABILITY.md) retains earlier 21/40 in-app and 29/40 Safari runs plus a stock-theme reply failure. November 10 passed all twenty in-app pairs (40/40) and nine targeted Safari pairs (18/18). No permanent cause/fix was established; independent-account, further-session, full Safari repeat and additional-browser checks remain open.

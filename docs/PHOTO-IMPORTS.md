@@ -1,8 +1,14 @@
 # Photo-rich import and preview checks
 
-Updated November 9, 2026. Tested the exact XML/demo files extracted from frozen [preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5), source `e3e83b8b0ca5440a9e957b191ca6c6ab08056861`, on the [public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/).
+Updated November 10, 2026. Tested the exact XML/demo files extracted from frozen [preview.5](https://github.com/puikinsh/Colorlib-Blogger-Templates/releases/tag/v0.1.0-preview.5), source `e3e83b8b0ca5440a9e957b191ca6c6ab08056861`, on the [public Blogger lab](https://colorlib-blogger-theme-lab-2026.blogspot.com/).
 
-## Results and import limit
+## November 10 follow-up
+
+Six more exports passed: Shelf, Playbook, Soundboard, Verdant, Pace and Ledger (72 new posts). Twelve updated exports are now accepted, with 144 photo-rich posts among 173 public posts. All 72 new stories passed own-theme 320px image/layout checks. Screen then hit the import-frequency refusal; eight updated exports remain pending: Saffron, Wayfarer, Screen, Borough, Studio, Launchpad, Ceremony and Cause. The queue stopped. [Current results, retained 503/retries and evidence](RELEASE-FOLLOWUP-2026-11-10.md).
+
+The sections and matrix below retain their November 9 scope; use the current follow-up above for acceptance totals.
+
+## November 9 results and import limit
 
 Blogger accepted Lesson, Bench, Maker, Muse, Kinship and Companion: **72 photo-rich posts, 12 per export**. The public Atom feed was traversed through its advertised next links; every expected title/label, three responsive image elements (dimensions and srcset), photo-pair section and three credit URLs were verified. The lab now contains 101 public posts, including older fixtures.
 
